@@ -1,15 +1,27 @@
 "use client"
+"use client"
 import Link from "next/link"
-import { usePathname } from "next/navigation"
+import { usePathname, useRouter } from "next/navigation"
 import { cn } from "@/lib/utils"
 import { LayoutDashboard, Map, LogOut, MountainIcon } from "lucide-react"
+import { supabase } from "@/lib/supabaseClient"
+import { useState } from "react"
 
 export function AdminSidebar() {
   const pathname = usePathname()
+  const router = useRouter()
+  const [loading, setLoading] = useState(false)
   const navItems = [
     { href: "/admin", label: "Dashboard", icon: LayoutDashboard },
     { href: "/admin/tours", label: "Tours", icon: Map },
   ]
+
+  const handleLogout = async () => {
+    setLoading(true)
+    await supabase.auth.signOut()
+    setLoading(false)
+    router.push("/admin/login")
+  }
 
   return (
     <div className="hidden border-r bg-muted/40 lg:block">
@@ -38,13 +50,14 @@ export function AdminSidebar() {
           </nav>
         </div>
         <div className="mt-auto p-4">
-          <Link
-            href="/admin/login"
+          <button
+            onClick={handleLogout}
             className="flex items-center gap-3 rounded-lg px-3 py-2 text-muted-foreground transition-all hover:text-primary"
+            disabled={loading}
           >
             <LogOut className="h-4 w-4" />
-            Logout
-          </Link>
+            {loading ? "Logging out..." : "Logout"}
+          </button>
         </div>
       </div>
     </div>

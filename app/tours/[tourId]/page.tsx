@@ -6,7 +6,7 @@ import { Star } from "lucide-react"
 
 export default async function TourDetailPage({ params }: { params: { tourId: string } }) {
   // In Next.js 15+, params is now async and must be awaited
-  const { tourId } = params
+  const { tourId } = await params
   const tour = tours.find((t) => t.id === tourId)
   if (!tour) notFound()
 

@@ -1,3 +1,4 @@
+"use client"
 import Link from "next/link"
 import { MountainIcon, Facebook, Twitter, Instagram } from "lucide-react"
 
@@ -13,7 +14,7 @@ export function Footer() {
           <p className="text-sm text-slate-400">Your adventure starts here.</p>
         </div>
         <div>
-          <h3 className="font-montserrat mb-4 font-bold uppercase tracking-wider">Company</h3>
+          <h3 className="font-montserrat mb-4 font-bold uppercase tracking-wider" suppressHydrationWarning={true}>Company</h3>
           <ul className="space-y-2">
             <li>
               <Link href="#" className="hover:text-white">
@@ -28,7 +29,7 @@ export function Footer() {
           </ul>
         </div>
         <div>
-          <h3 className="font-montserrat mb-4 font-bold uppercase tracking-wider">Resources</h3>
+          <h3 className="font-montserrat mb-4 font-bold uppercase tracking-wider" suppressHydrationWarning={true}>Resources</h3>
           <ul className="space-y-2">
             <li>
               <Link href="/tours" className="hover:text-white">
@@ -43,7 +44,7 @@ export function Footer() {
           </ul>
         </div>
         <div>
-          <h3 className="font-montserrat mb-4 font-bold uppercase tracking-wider">Legal</h3>
+          <h3 className="font-montserrat mb-4 font-bold uppercase tracking-wider" suppressHydrationWarning={true}>Legal</h3>
           <ul className="space-y-2">
             <li>
               <Link href="#" className="hover:text-white">
