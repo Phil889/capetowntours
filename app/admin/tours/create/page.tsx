@@ -3,14 +3,14 @@
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import * as z from "zod";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { useRouter } from "next/navigation";
-import { Card, CardTitle } from "@/components/ui/card";
-import { Label } from "@/components/ui/label";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Button } from "@/components/ui/button";
 import { useToast } from "@/components/ui/use-toast";
+import { Card } from "@/components/ui/card";
+import { Label } from "@/components/ui/label";
 
 const tourSchema = z.object({
   title: z.string().min(1, "Title is required"),
@@ -18,44 +18,13 @@ const tourSchema = z.object({
   price: z.coerce.number().min(0, "Price must be at least 0"),
   category: z.string().min(1, "Category is required"),
   duration_days: z.coerce.number().min(1, "Duration must be at least 1 day"),
-  image_url: z.string().optional(),
+  image: z.any().optional(),
   availability: z.boolean().optional(),
 });
 
 type TourFormValues = z.infer<typeof tourSchema>;
 
-export default function EditTourPage({ params }: { params: { tourId: string } }) {
-  const router = useRouter();
-  const { toast } = useToast();
-  const [loading, setLoading] = useState(false);
-  const [initialData, setInitialData] = useState<TourFormValues | null>(null);
-
-  // Fetch tour data on mount
-  useEffect(() => {
-    async function fetchTour() {
-      setLoading(true);
-      try {
-        const res = await fetch(`/api/admin/tours/${params.tourId}`);
-        if (!res.ok) throw new Error("Failed to fetch tour");
-        const data = await res.json();
-        setInitialData({
-          title: data.title || "",
-          description: data.description || "",
-          price: data.price || 0,
-          category: data.category || "",
-          duration_days: data.duration_days || 1,
-          image_url: data.image_url || "",
-          availability: data.availability ?? true,
-        });
-      } catch {
-        toast({ title: "Error", description: "Could not load tour data", variant: "destructive" });
-      }
-      setLoading(false);
-    }
-    fetchTour();
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [params.tourId]);
-
+export default function CreateTourPage() {
   const {
     register,
     handleSubmit,
@@ -63,38 +32,50 @@ export default function EditTourPage({ params }: { params: { tourId: string } })
     formState: { errors, isSubmitting },
   } = useForm<TourFormValues>({
     resolver: zodResolver(tourSchema),
-    defaultValues: initialData || {
+    defaultValues: {
       title: "",
       description: "",
       price: 0,
       category: "",
       duration_days: 1,
-      image_url: "",
       availability: true,
     },
   });
 
-  // Reset form when initialData loads
-  useEffect(() => {
-    if (initialData) {
-      reset(initialData);
-    }
-  }, [initialData, reset]);
+  const [loading, setLoading] = useState(false);
+  const { toast } = useToast();
+  const router = useRouter();
+
+  // Optional: check for admin session (client-side fallback)
+  // In production, use server-side checks or middleware for true security
+  // Here, we just show the form; backend will enforce auth
 
   const onSubmit = async (data: TourFormValues) => {
     setLoading(true);
+    let image_url = "";
+    // Handle image upload if provided
+    if (data.image && data.image[0]) {
+      // TODO: Implement image upload to storage and get URL
+      // For now, skip and use placeholder
+      image_url = "/placeholder.jpg";
+    }
+    const payload = {
+      ...data,
+      image_url,
+    };
     try {
-      const res = await fetch(`/api/admin/tours/${params.tourId}`, {
-        method: "PUT",
+      const res = await fetch("/api/admin/tours", {
+        method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(data),
+        body: JSON.stringify(payload),
       });
       if (res.ok) {
-        toast({ title: "Success", description: "Tour updated successfully!" });
+        toast({ title: "Success", description: "Tour created successfully!" });
+        reset();
         router.push("/admin/tours");
       } else {
         const err = await res.json();
-        toast({ title: "Error", description: err.error || "Failed to update tour", variant: "destructive" });
+        toast({ title: "Error", description: err.error || "Failed to create tour", variant: "destructive" });
       }
     } catch {
       toast({ title: "Error", description: "Network error", variant: "destructive" });
@@ -102,18 +83,10 @@ export default function EditTourPage({ params }: { params: { tourId: string } })
     setLoading(false);
   };
 
-  if (loading && !initialData) {
-    return <div className="p-8 text-center">Loading...</div>;
-  }
-
-  if (!initialData) {
-    return <div className="p-8 text-center text-red-500">Tour not found.</div>;
-  }
-
   return (
     <div className="max-w-xl mx-auto py-8">
       <Card className="p-6">
-        <CardTitle className="mb-4">Edit Tour</CardTitle>
+        <h2 className="text-2xl font-bold mb-4">Create Tour</h2>
         <form onSubmit={handleSubmit(onSubmit)} className="space-y-4">
           <div>
             <Label htmlFor="title">Title</Label>
@@ -141,22 +114,17 @@ export default function EditTourPage({ params }: { params: { tourId: string } })
             {errors.duration_days && <p className="text-red-500 text-sm">{errors.duration_days.message}</p>}
           </div>
           <div>
-            <Label htmlFor="image_url">Image URL</Label>
-            <Input id="image_url" {...register("image_url")} />
-            {/* For simplicity, just allow editing the URL */}
+            <Label htmlFor="image">Image</Label>
+            <Input id="image" type="file" {...register("image")} />
+            {/* No validation for image */}
           </div>
           <div>
             <Label htmlFor="availability">Available</Label>
             <Input id="availability" type="checkbox" {...register("availability")} />
           </div>
-          <div className="flex justify-end gap-2">
-            <Button type="button" variant="outline" onClick={() => router.push("/admin/tours")}>
-              Cancel
-            </Button>
-            <Button type="submit" disabled={isSubmitting || loading}>
-              {loading ? "Saving..." : "Save Tour"}
-            </Button>
-          </div>
+          <Button type="submit" disabled={isSubmitting || loading} className="w-full">
+            {loading ? "Creating..." : "Create Tour"}
+          </Button>
         </form>
       </Card>
     </div>

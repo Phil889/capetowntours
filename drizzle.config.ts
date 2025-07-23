@@ -4,5 +4,5 @@ export default {
   schema: "./drizzle/schema.ts",
   out: "./drizzle/migrations",
   dialect: "postgresql",
-  connectionString: process.env.DATABASE_URL || "",
+  url: "postgresql://postgres:[YOUR-PASSWORD]@db.zbgpiqhxrynjllcxqjre.supabase.co:5432/postgres",
 } as Config

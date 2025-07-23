@@ -1,4 +1,4 @@
-import { pgTable, uuid, varchar, text, numeric, integer, timestamp } from "drizzle-orm/pg-core"
+import { pgTable, uuid, varchar, text, numeric, integer, timestamp, date } from "drizzle-orm/pg-core"
 
 export const tours = pgTable("tours", {
   id: uuid("id").primaryKey().defaultRandom(),
@@ -10,4 +10,13 @@ export const tours = pgTable("tours", {
   image_url: varchar("image_url", { length: 255 }),
   created_at: timestamp("created_at").defaultNow(),
   updated_at: timestamp("updated_at").defaultNow(),
-})
+});
+
+export const tour_availability = pgTable("tour_availability", {
+  id: uuid("id").primaryKey().defaultRandom(),
+  tour_id: uuid("tour_id").notNull(),
+  date: date("date").notNull(),
+  available_slots: integer("available_slots").notNull(),
+  created_at: timestamp("created_at").defaultNow(),
+  updated_at: timestamp("updated_at").defaultNow(),
+});
