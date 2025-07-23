@@ -1,0 +1,17 @@
+{
+  "TypeScript": "https://www.typescriptlang.org/docs",
+  "Turborepo": "https://turbo.build/docs",
+  "Next.js": "https://nextjs.org/docs",
+  "React": "https://react.dev/",
+  "Tailwind CSS": "https://tailwindcss.com/docs",
+  "shadcn/ui": "https://ui.shadcn.com/docs",
+  "Zustand": "https://zustand.docs.pmnd.rs/",
+  "Vercel": "https://vercel.com/docs",
+  "Supabase": "https://supabase.com/docs",
+  "@supabase/ssr": "https://supabase.com/docs/guides/auth/server-side",
+  "PostgreSQL": "https://www.postgresql.org/docs",
+  "Drizzle ORM": "https://orm.drizzle.team/docs",
+  "Stripe": "https://docs.stripe.com/",
+  "Vitest": "https://vitest.dev/guide",
+  "Playwright": "https://playwright.dev/"
+}
