@@ -1,0 +1,202 @@
+[
+  {
+    "id": "615d6121-5166-4da5-ae67-030f38bb3e8d",
+    "slug": "inverdoorn-safari-tour",
+    "title": "Inverdoorn Exclusive Day Safari",
+    "description": "Escape the crowds on a reserve dedicated to conservation and intimate wildlife encounters.",
+    "category": "safari",
+    "existing_faqs": "Q:How far is the reserve? A:2.5 h scenic drive.&#124;&#124;Q:Is there a minimum age? A:Children 4+ welcome."
+  },
+  {
+    "id": "97c5a0e4-4394-4793-b9dc-7a7cbab64d58",
+    "slug": "cape-town-skydive",
+    "title": "Cape Town Tandem Skydive",
+    "description": "Jump from 10 000 ft with some of SA’s most experienced skydivers and capture every scream on camera.",
+    "category": "safari",
+    "existing_faqs": "Q:Weight limit? A:Max 100 kg; extra 90–100 kg surcharge.&#124;&#124;Q:Can glasses be worn? A:Goggles fit over specs."
+  },
+  {
+    "id": "aead8f8a-5393-4f2e-95ae-62ec66d934d9",
+    "slug": "simon-s-town",
+    "title": "Simon's Town",
+    "description": "Uncover 200 years of maritime history, meet the famous Just Nuisance dog statue and browse quirky harbour shops in Cape Town's oldest naval base town.",
+    "category": "safari",
+    "existing_faqs": "Q:Is the naval museum included? A:Yes, free entry is guided.&#124;&#124;Q:Can we add a penguin visit? A:Combine with Boulders stop on request."
+  },
+  {
+    "id": "8f79f1f8-6c3d-46a1-b310-74ae3b73fdca",
+    "slug": "chapman-s-peak-drive",
+    "title": "Chapman's Peak Drive",
+    "description": "Hug sandstone cliffs high above the Atlantic, thrill at hair‑pin bends and capture postcard‑worthy panoramas every kilometre.",
+    "category": "safari",
+    "existing_faqs": "Q:Is the road safe? A:Yes, regularly inspected & speed limited.&#124;&#124;Q:Can we stop for drone shots? A:Drone use needs a permit; ask beforehand."
+  },
+  {
+    "id": "32123247-3434-4e88-aad0-8e09361c96dd",
+    "slug": "maiden-s-cove",
+    "title": "Maiden's Cove",
+    "description": "Discover Cape Town’s postcard viewpoint—granite boulders, crystal pools and sweeping vistas over Camps Bay.",
+    "category": "safari",
+    "existing_faqs": "Q:Is swimming supervised? A:No lifeguards—swim at own risk.&#124;&#124;Q:Will we see dolphins? A:Occasional sightings May–Aug."
+  },
+  {
+    "id": "148e2183-4491-4983-a282-317633846448",
+    "slug": "table-mountain-cableway",
+    "title": "Table Mountain Cableway",
+    "description": "Ascend 1 000 m in the rotating cableway and witness mind‑blowing city and ocean vistas from the natural wonder of Table Mountain.",
+    "category": "mountain",
+    "existing_faqs": "Q:What if the cableway closes? A:Full refund or alternative tour.&#124;&#124;Q:Is hiking down an option? A:Yes, guide can arrange pick‑up."
+  },
+  {
+    "id": "1aa3d2a7-f978-4c0f-a524-7487a80d7a68",
+    "slug": "babylonstoren-wine-estate",
+    "title": "Babylonstoren Wine Estate",
+    "description": "Stroll storybook gardens, peek inside the gravity‑fed cellar and savour estate‑grown wines paired with artisanal cheese.",
+    "category": "winelands",
+    "existing_faqs": "Q:Is tasting included? A:Yes, five wines.&#124;&#124;Q:Non‑alcoholic option? A:Garden herbal tea flight available."
+  },
+  {
+    "id": "1a0c0d09-9483-4a26-8d85-9dd4a32285d4",
+    "slug": "aquila-safari-tour",
+    "title": "Aquila Big 5 Day Safari",
+    "description": "Swap the city for roaring lions and towering elephants on Cape Town’s closest Big 5 adventure.",
+    "category": "safari",
+    "existing_faqs": "Q:Is this tour suitable for kids? A:Yes, 3+; half price under 11.&#124;&#124;Q:What animals can we see? A:Big 5 plus giraffe, hippo & more."
+  },
+  {
+    "id": "6d3b0168-e054-4b8f-9dae-99881e5599c0",
+    "slug": "cape-town-paragliding",
+    "title": "Signal Hill Tandem Paragliding",
+    "description": "Launch from Signal Hill or Lion’s Head and glide over Camps Bay, landing on the soft sand near the ocean.",
+    "category": "safari",
+    "existing_faqs": "Q:Can we choose flight time? A:We confirm best wind slot on booking day.&#124;&#124;Q:Is it scary? A:Take‑off is a gentle run; pilots control everything."
+  },
+  {
+    "id": "2c749afc-cfd3-4a86-808c-7378c34f844e",
+    "slug": "muizenberg-beach",
+    "title": "Muizenberg Beach",
+    "description": "Ride Cape Town’s warm‑water break, snap the iconic pastel bathing boxes and hear shark‑spotter stories from your local guide.",
+    "category": "safari",
+    "existing_faqs": "Q:Is swimming safe? A:Yes, lifeguards & shark spotters on duty.&#124;&#124;Q:Do we need to bring towels? A:Lightweight travel towels available on request."
+  },
+  {
+    "id": "a51c4880-2cbf-4ae0-a1da-830c36d248ab",
+    "slug": "cape-point-lighthouse",
+    "title": "Cape Point Lighthouse",
+    "description": "Ascend to the 1859 lighthouse by cliff‑hugging railway or scenic trail and gaze across the Atlantic meeting the Indian Ocean.",
+    "category": "mountain",
+    "existing_faqs": "Q:Is hiking necessary? A:No, funicular gives easy access.&#124;&#124;Q:Are there restrooms? A:Yes, at upper station."
+  },
+  {
+    "id": "46fa086c-8873-48be-9142-6645bb7ccf6a",
+    "slug": "camps-bay-beach",
+    "title": "Camps Bay Beach",
+    "description": "Bask on fine white sand under the Twelve Apostles, then join the promenade buzz of cafés and cocktail bars.",
+    "category": "safari",
+    "existing_faqs": "Q:Is alcohol allowed on beach? A:No, but bars are metres away.&#124;&#124;Q:Are showers available? A:Yes, public facilities nearby."
+  },
+  {
+    "id": "c85a8cca-2363-404e-9168-ef7f1aa5ca4f",
+    "slug": "boschendal-wine-estate",
+    "title": "Boschendal Wine Estate",
+    "description": "Sip award‑winning vintages where French Huguenots first planted vines in 1685 and savour a farm‑box picnic on lush lawns.",
+    "category": "winelands",
+    "existing_faqs": "Q:Vegetarian picnic available? A:Yes, advise dietary needs.&#124;&#124;Q:Kids menu? A:Child picnic basket offered."
+  },
+  {
+    "id": "20a975c7-2678-4895-948d-9f61ee20a01b",
+    "slug": "atlantis-sand-dunes-adventure",
+    "title": "Atlantis Dunes Sandboard & ATV",
+    "description": "Carve 50‑m dunes by board then rev an ATV across the Atlantis wilderness – eco‑permits sorted.",
+    "category": "safari",
+    "existing_faqs": "Q:Do I need experience? A:No, full tutorial given.&#124;&#124;Q:Weight limit? A:120 kg for boards, 100 kg for quads."
+  },
+  {
+    "id": "f37b6c9b-3349-4734-9c9c-0919b9960954",
+    "slug": "winelands-hot-air-balloon",
+    "title": "Winelands Sunrise Balloon Flight",
+    "description": "A bucket‑list dawn lift‑off revealing the Cape Winelands in golden light, followed by gourmet farm breakfast.",
+    "category": "winelands",
+    "existing_faqs": "Q:How high do we fly? A:300‑900 m above ground.&#124;&#124;Q:What if weather cancels? A:Full refund or reschedule."
+  },
+  {
+    "id": "78d372fc-e262-4a1a-836e-2611aac9266c",
+    "slug": "cape-of-good-hope",
+    "title": "Cape of Good Hope",
+    "description": "Trek windswept headlands, snap the iconic signpost and watch for ostrich and baboons on Africa’s southwestern tip.",
+    "category": "safari",
+    "existing_faqs": "Q:How much walking is involved? A:≈1 km; hike optional.&#124;&#124;Q:Are bathrooms available? A:Yes, at visitor centre."
+  },
+  {
+    "id": "ccacb0a5-6fab-4f5e-bbd2-1dd2b38b32ef",
+    "slug": "v-a-waterfront",
+    "title": "V&A Waterfront",
+    "description": "From the 1860 Clock Tower to modern mega‑yachts, experience the evolution of Cape Town’s working waterfront with insider commentary and shopping tips.",
+    "category": "safari",
+    "existing_faqs": "Q:How much free time is included? A:≈1 h for shopping/eating.&#124;&#124;Q:Can we stay longer? A:Yes, arrange drop‑off time with guide."
+  },
+  {
+    "id": "2e160acd-0c89-4dfc-aa5a-9729a29ffe85",
+    "slug": "sea-point-promenade",
+    "title": "Sea Point Promenade",
+    "description": "Soak up Atlantic breezes, jogger energy and urban art on the city’s favourite 7‑km seaside boardwalk.",
+    "category": "safari",
+    "existing_faqs": "Q:How far is the walk? A:≈3 km easy stroll.&#124;&#124;Q:Can we bike instead? A:Bike rental can be arranged."
+  },
+  {
+    "id": "dce3f9b4-a333-4c4b-beb6-5097174f07fe",
+    "slug": "delaire-graff-estate",
+    "title": "Delaire Graff Estate",
+    "description": "Experience the pinnacle of Cape hospitality—ultra‑premium wines, world‑class sculpture garden and dazzling valley views.",
+    "category": "safari",
+    "existing_faqs": "Q:Is dress code smart casual? A:Yes, no beachwear.&#124;&#124;Q:Can we buy diamonds? A:Yes, Graff jewellery boutique on site."
+  },
+  {
+    "id": "02ebefdf-270c-4647-b9bf-42dc3f3b5fe2",
+    "slug": "hermanus-whale-watching-tour",
+    "title": "Hermanus Whale Watching Cruise",
+    "description": "Experience the world capital of land & boat‑based whale watching with added local flavours.",
+    "category": "marine",
+    "existing_faqs": "Q:When is peak whale season? A:Sep & Oct for mating & calving.&#124;&#124;Q:Are life jackets provided? A:Yes, mandatory on boat."
+  },
+  {
+    "id": "e4f3f3fa-1d43-4189-81f6-5c621e635279",
+    "slug": "shark-cage-diving-gansbaai",
+    "title": "Gansbaai Shark Cage Diving",
+    "description": "Dive into the world of sharks on South Africa’s leading conservation‑focused operator.",
+    "category": "marine",
+    "existing_faqs": "Q:Do I need scuba cert? A:No, breath‑hold surface cage.&#124;&#124;Q:Water temp? A:13–17 °C; wetsuit provided."
+  },
+  {
+    "id": "b0246aa7-ff9b-4642-ac00-03f9abfe8505",
+    "slug": "boulders-beach-penguin-colony",
+    "title": "Boulders Beach Penguin Colony",
+    "description": "Stand metres from tuxedo‑clad African penguins as your guide shares quirky behaviour insights and expert photo tricks.",
+    "category": "marine",
+    "existing_faqs": "Q:Can we swim with penguins? A:Possible at adjacent public beach (tide‑dependent).&#124;&#124;Q:Is it wheelchair accessible? A:Boardwalk is ramp‑friendly; sand is not."
+  },
+  {
+    "id": "91fd8c6a-f94b-462f-a80c-7fa965558289",
+    "slug": "hout-bay-harbour",
+    "title": "Hout Bay Harbour",
+    "description": "Dive into local harbour life, sample fresh fish‑and‑chips and photograph Cape fur seals lounging on the docks.",
+    "category": "safari",
+    "existing_faqs": "Q:Is the boat trip guaranteed? A:Weather permitting; refund on site if cancelled.&#124;&#124;Q:Do market stalls take cards? A:Most do, but carry some cash."
+  },
+  {
+    "id": "f781c029-1ece-4526-97c3-4abf8100778d",
+    "slug": "bo-kaap-heritage-quarter",
+    "title": "Bo-Kaap Heritage Quarter",
+    "description": "Explore rainbow‑painted façades, call‑to‑prayer echoes and spice‑laden aromas in Cape Town’s most photogenic neighbourhood.",
+    "category": "safari",
+    "existing_faqs": "Q:Are photos of residents okay? A:Ask permission; guide assists.&#124;&#124;Q:Is mosque entry compulsory? A:No, exterior only unless you wish to enter respectfully."
+  },
+  {
+    "id": "d312ffbf-33b8-4576-9d83-d31ddec4dc26",
+    "slug": "tokara-wine-estate",
+    "title": "Tokara Wine Estate",
+    "description": "Elevate your palate with comparative tastings of cool‑climate wines and premium extra‑virgin olive oil amid architect‑designed surrounds.",
+    "category": "winelands",
+    "existing_faqs": "Q:Can we add lunch? A:Yes, reserve at Tokara Restaurant.&#124;&#124;Q:Is there a chocolate pairing? A:Seasonal artisan pairing available."
+  }
+]

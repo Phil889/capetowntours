@@ -1,0 +1,52 @@
+/* Hero Slider Animations */
+@keyframes fadeIn1 {
+  0%, 100% { opacity: 1; }
+  33% { opacity: 0; }
+  66% { opacity: 0; }
+}
+
+@keyframes fadeIn2 {
+  0%, 33% { opacity: 0; }
+  34%, 66% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+@keyframes fadeIn3 {
+  0%, 66% { opacity: 0; }
+  67%, 100% { opacity: 1; }
+}
+
+/* Skeleton Loading Animation */
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+.skeleton-shimmer {
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0.05) 25%,
+    rgba(0, 0, 0, 0.1) 50%,
+    rgba(0, 0, 0, 0.05) 75%
+  );
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+}
+
+/* Smooth fade-in for lazy loaded images */
+@keyframes imageFadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.image-fade-in {
+  animation: imageFadeIn 0.3s ease-in;
+}

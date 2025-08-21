@@ -8,6 +8,13 @@
       "when": 1753290684759,
       "tag": "0000_high_tomas",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1753307853883,
+      "tag": "0001_ordinary_ma_gnuci",
+      "breakpoints": true
     }
   ]
 }

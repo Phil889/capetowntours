@@ -1,164 +1,121 @@
 "use client";
 
-import { useForm } from "react-hook-form";
-import { zodResolver } from "@hookform/resolvers/zod";
-import * as z from "zod";
-import { useEffect, useState } from "react";
-import { useRouter } from "next/navigation";
-import { Card, CardTitle } from "@/components/ui/card";
-import { Label } from "@/components/ui/label";
-import { Input } from "@/components/ui/input";
-import { Textarea } from "@/components/ui/textarea";
-import { Button } from "@/components/ui/button";
-import { useToast } from "@/components/ui/use-toast";
+import { useState, useEffect, use } from 'react';
+import { useRouter } from 'next/navigation';
+import { TourEditor } from '@/components/admin/TourEditor';
+import { TourFormData, EnhancedTour } from '@/types/tour-management';
+import { useToast } from '@/hooks/use-toast';
+import { Loader2 } from 'lucide-react';
 
-const tourSchema = z.object({
-  title: z.string().min(1, "Title is required"),
-  description: z.string().min(1, "Description is required"),
-  price: z.coerce.number().min(0, "Price must be at least 0"),
-  category: z.string().min(1, "Category is required"),
-  duration_days: z.coerce.number().min(1, "Duration must be at least 1 day"),
-  image_url: z.string().optional(),
-  availability: z.boolean().optional(),
-});
+interface EditTourPageProps {
+  params: Promise<{
+    tourId: string;
+  }>;
+}
 
-type TourFormValues = z.infer<typeof tourSchema>;
-
-export default function EditTourPage({ params }: { params: { tourId: string } }) {
+export default function EditTourPage({ params }: EditTourPageProps) {
   const router = useRouter();
   const { toast } = useToast();
-  const [loading, setLoading] = useState(false);
-  const [initialData, setInitialData] = useState<TourFormValues | null>(null);
+  const [tour, setTour] = useState<EnhancedTour | null>(null);
+  const [isLoading, setIsLoading] = useState(true);
+  const [isSaving, setIsSaving] = useState(false);
+  
+  // Unwrap params using React.use()
+  const { tourId } = use(params);
 
-  // Fetch tour data on mount
+  // Fetch tour data
   useEffect(() => {
-    async function fetchTour() {
-      setLoading(true);
+    const fetchTour = async () => {
       try {
-        const res = await fetch(`/api/admin/tours/${params.tourId}`);
-        if (!res.ok) throw new Error("Failed to fetch tour");
-        const data = await res.json();
-        setInitialData({
-          title: data.title || "",
-          description: data.description || "",
-          price: data.price || 0,
-          category: data.category || "",
-          duration_days: data.duration_days || 1,
-          image_url: data.image_url || "",
-          availability: data.availability ?? true,
+        const response = await fetch(`/api/admin/tours/${tourId}`);
+        if (!response.ok) {
+          throw new Error('Failed to fetch tour');
+        }
+        const data = await response.json();
+        setTour(data.tour);
+      } catch (error: any) {
+        toast({
+          title: "Error",
+          description: error.message || "Failed to load tour",
+          variant: "destructive",
         });
-      } catch {
-        toast({ title: "Error", description: "Could not load tour data", variant: "destructive" });
+        router.push('/admin/tours');
+      } finally {
+        setIsLoading(false);
       }
-      setLoading(false);
-    }
+    };
+
     fetchTour();
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [params.tourId]);
+  }, [tourId, router, toast]);
 
-  const {
-    register,
-    handleSubmit,
-    reset,
-    formState: { errors, isSubmitting },
-  } = useForm<TourFormValues>({
-    resolver: zodResolver(tourSchema),
-    defaultValues: initialData || {
-      title: "",
-      description: "",
-      price: 0,
-      category: "",
-      duration_days: 1,
-      image_url: "",
-      availability: true,
-    },
-  });
-
-  // Reset form when initialData loads
-  useEffect(() => {
-    if (initialData) {
-      reset(initialData);
-    }
-  }, [initialData, reset]);
-
-  const onSubmit = async (data: TourFormValues) => {
-    setLoading(true);
+  const handleSave = async (data: TourFormData) => {
+    setIsSaving(true);
     try {
-      const res = await fetch(`/api/admin/tours/${params.tourId}`, {
-        method: "PUT",
-        headers: { "Content-Type": "application/json" },
+      const response = await fetch(`/api/admin/tours/crud?id=${tourId}`, {
+        method: 'PUT',
+        headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(data),
       });
-      if (res.ok) {
-        toast({ title: "Success", description: "Tour updated successfully!" });
-        router.push("/admin/tours");
-      } else {
-        const err = await res.json();
-        toast({ title: "Error", description: err.error || "Failed to update tour", variant: "destructive" });
+
+      if (!response.ok) {
+        const error = await response.json();
+        throw new Error(error.error || 'Failed to update tour');
       }
-    } catch {
-      toast({ title: "Error", description: "Network error", variant: "destructive" });
+
+      const result = await response.json();
+      setTour(result.tour);
+      
+      toast({
+        title: "Success",
+        description: "Tour updated successfully",
+      });
+    } catch (error: any) {
+      toast({
+        title: "Error",
+        description: error.message || "Failed to update tour",
+        variant: "destructive",
+      });
+      throw error; // Re-throw to let TourEditor handle it
+    } finally {
+      setIsSaving(false);
     }
-    setLoading(false);
   };
 
-  if (loading && !initialData) {
-    return <div className="p-8 text-center">Loading...</div>;
+  const handlePublish = async (data: TourFormData) => {
+    // Set status to published before saving
+    const publishData = { ...data, status: 'published' as const };
+    return handleSave(publishData);
+  };
+
+  if (isLoading) {
+    return (
+      <div className="container mx-auto py-6">
+        <div className="flex items-center justify-center h-96">
+          <Loader2 className="h-8 w-8 animate-spin" />
+        </div>
+      </div>
+    );
   }
 
-  if (!initialData) {
-    return <div className="p-8 text-center text-red-500">Tour not found.</div>;
+  if (!tour) {
+    return (
+      <div className="container mx-auto py-6">
+        <div className="text-center">
+          <h2 className="text-2xl font-bold">Tour not found</h2>
+          <p className="text-muted-foreground mt-2">The tour you're looking for doesn't exist.</p>
+        </div>
+      </div>
+    );
   }
 
   return (
-    <div className="max-w-xl mx-auto py-8">
-      <Card className="p-6">
-        <CardTitle className="mb-4">Edit Tour</CardTitle>
-        <form onSubmit={handleSubmit(onSubmit)} className="space-y-4">
-          <div>
-            <Label htmlFor="title">Title</Label>
-            <Input id="title" {...register("title")} />
-            {errors.title && <p className="text-red-500 text-sm">{errors.title.message}</p>}
-          </div>
-          <div>
-            <Label htmlFor="description">Description</Label>
-            <Textarea id="description" {...register("description")} />
-            {errors.description && <p className="text-red-500 text-sm">{errors.description.message}</p>}
-          </div>
-          <div>
-            <Label htmlFor="price">Price</Label>
-            <Input id="price" type="number" step="0.01" {...register("price")} />
-            {errors.price && <p className="text-red-500 text-sm">{errors.price.message}</p>}
-          </div>
-          <div>
-            <Label htmlFor="category">Category</Label>
-            <Input id="category" {...register("category")} />
-            {errors.category && <p className="text-red-500 text-sm">{errors.category.message}</p>}
-          </div>
-          <div>
-            <Label htmlFor="duration_days">Duration (days)</Label>
-            <Input id="duration_days" type="number" {...register("duration_days")} />
-            {errors.duration_days && <p className="text-red-500 text-sm">{errors.duration_days.message}</p>}
-          </div>
-          <div>
-            <Label htmlFor="image_url">Image URL</Label>
-            <Input id="image_url" {...register("image_url")} />
-            {/* For simplicity, just allow editing the URL */}
-          </div>
-          <div>
-            <Label htmlFor="availability">Available</Label>
-            <Input id="availability" type="checkbox" {...register("availability")} />
-          </div>
-          <div className="flex justify-end gap-2">
-            <Button type="button" variant="outline" onClick={() => router.push("/admin/tours")}>
-              Cancel
-            </Button>
-            <Button type="submit" disabled={isSubmitting || loading}>
-              {loading ? "Saving..." : "Save Tour"}
-            </Button>
-          </div>
-        </form>
-      </Card>
+    <div className="container mx-auto py-6">
+      <TourEditor 
+        tour={tour}
+        mode="edit" 
+        onSave={handleSave}
+        onPublish={handlePublish}
+      />
     </div>
   );
 }

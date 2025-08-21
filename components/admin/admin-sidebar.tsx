@@ -14,6 +14,7 @@ export function AdminSidebar() {
   const navItems = [
     { href: "/admin", label: "Dashboard", icon: LayoutDashboard },
     { href: "/admin/tours", label: "Tours", icon: Map },
+    { href: "/admin/custom-bookings", label: "Custom Bookings", icon: LayoutDashboard },
   ]
 
   const handleLogout = async () => {

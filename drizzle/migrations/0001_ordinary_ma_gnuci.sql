@@ -1,0 +1,1 @@
+ALTER TABLE "tours" ADD COLUMN "slug" varchar(255) NOT NULL;

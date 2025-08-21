@@ -1,0 +1,103 @@
+# Page snapshot
+
+```yaml
+- banner:
+  - link "Cape Town Safari Tours":
+    - /url: /
+    - img
+    - text: Cape Town Safari Tours
+  - navigation:
+    - link "Tours":
+      - /url: /tours
+  - link "Admin":
+    - /url: /admin
+    - img
+    - text: Admin
+- main:
+  - link "Admin Panel":
+    - /url: /
+    - img
+    - text: Admin Panel
+  - navigation:
+    - link "Dashboard":
+      - /url: /admin
+      - img
+      - text: Dashboard
+    - link "Tours":
+      - /url: /admin/tours
+      - img
+      - text: Tours
+  - button "Logout":
+    - img
+    - text: Logout
+  - main:
+    - text: Admin Login Enter your credentials to access the admin panel. Email
+    - textbox "Email"
+    - text: Password
+    - textbox "Password"
+    - button "Login"
+- contentinfo:
+  - link "Cape Town Safari Tours":
+    - /url: /
+    - img
+    - text: Cape Town Safari Tours
+  - paragraph: Your adventure, perfectly crafted. Experience the wild heart of Africa with local experts you can trust.
+  - heading "Get Exclusive Offers" [level=3]
+  - textbox "Enter your email"
+  - button "Subscribe"
+  - heading "Navigate" [level=3]
+  - list:
+    - listitem:
+      - link "Home":
+        - /url: /
+    - listitem:
+      - link "About Us":
+        - /url: /about
+    - listitem:
+      - link "All Tours":
+        - /url: /tours
+    - listitem:
+      - link "FAQ":
+        - /url: /faq
+    - listitem:
+      - link "Contact":
+        - /url: /contact
+  - heading "Top Experiences" [level=3]
+  - list:
+    - listitem:
+      - link "Big 5 Safaris":
+        - /url: /tours/safari
+    - listitem:
+      - link "Private Wine Tours":
+        - /url: /tours/winelands
+    - listitem:
+      - link "Shark Cage Diving":
+        - /url: /tours/coastal
+    - listitem:
+      - link "Garden Route":
+        - /url: /tours/garden-route
+  - heading "Connect With Us" [level=3]
+  - list:
+    - listitem:
+      - link "WhatsApp":
+        - /url: https://wa.me/27818775110
+    - listitem:
+      - link "Email Us":
+        - /url: mailto:info@capetownsafaritours.com
+  - link "Facebook":
+    - /url: "#"
+    - img
+  - link "Instagram":
+    - /url: "#"
+    - img
+  - link "YouTube":
+    - /url: "#"
+    - img
+  - paragraph: © 2025 Cape Town Safari Tours. All rights reserved.
+  - link "Privacy Policy":
+    - /url: /privacy-policy
+  - link "Terms of Service":
+    - /url: /terms-of-service
+- region "Notifications (F8)":
+  - list
+```

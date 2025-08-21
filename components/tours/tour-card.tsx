@@ -4,7 +4,9 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { ArrowRight } from "lucide-react"
 import { cn } from "@/lib/utils"
-import type { Tour } from "@/lib/placeholder-data"
+import type { Tour as BaseTour } from "@/lib/placeholder-data"
+
+type Tour = BaseTour & { slug: string }
 
 interface TourCardProps {
   tour: Tour
@@ -20,23 +22,23 @@ const categoryStyles: Record<Tour["category"], string> = {
 }
 
 export function TourCard({ tour, className }: TourCardProps) {
-  const formatPrice = (priceInCents: number) =>
-    new Intl.NumberFormat("en-US", {
-      style: "currency",
-      currency: "USD",
-      minimumFractionDigits: 0,
-      maximumFractionDigits: 0,
-    }).format(priceInCents / 100)
+  // Format price as ZAR
+  const formatPriceZAR = (priceInCents: number) =>
+    "ZAR " +
+    (priceInCents / 100).toLocaleString("en-ZA", {
+      minimumFractionDigits: 2,
+      maximumFractionDigits: 2,
+    })
 
   return (
-<Card
+    <Card
       className={cn(
         "w-full max-w-sm overflow-hidden rounded-lg shadow-md transition-all duration-300 lg:hover:shadow-xl lg:hover:scale-105",
         className,
       )}
     >
-      <Link href={`/tours/${tour.id}`} className="block">
-        <div className="relative aspect-[4/3] w-full">
+      <Link href={`/tours/${tour.slug}`} className="block">
+        <div className="relative aspect-[16/9] w-full">
           <Image
             src={tour.main_image_url || "/placeholder.svg"}
             alt={tour.main_image_alt}
@@ -44,30 +46,44 @@ export function TourCard({ tour, className }: TourCardProps) {
             className="object-cover"
             sizes="(max-width: 640px) 100vw, 33vw"
           />
+          {/* Duration Badge - top right over image */}
+          <span className="absolute top-3 right-3 z-10 rounded-full bg-brand-primary/90 text-white px-3 py-1 text-xs font-semibold shadow-md">
+            {tour.duration_days} Day{tour.duration_days > 1 ? "s" : ""}
+          </span>
         </div>
       </Link>
       <CardContent className="flex flex-col space-y-4 p-6">
-        <span
-          className={cn(
-            "self-start rounded-full px-3 py-1 text-xs font-semibold uppercase tracking-wider",
-            categoryStyles[tour.category],
-          )}
-        >
-          {tour.category}
-        </span>
-        <h2 className="font-montserrat text-xl font-bold leading-tight">
-          <Link href={`/tours/${tour.id}`} className="hover:text-brand-primary">
+        {/* Badges Row: Best Sightseeing Tour + Category */}
+        <div className="flex flex-row gap-2 items-center justify-end mb-1">
+          <span className="rounded-full bg-slate-100 text-brand-primary px-3 py-1 text-xs font-semibold">
+            Best Sightseeing Tour
+          </span>
+          <span
+            className={cn(
+              "rounded-full px-3 py-1 text-xs font-semibold uppercase tracking-wider",
+              categoryStyles[tour.category],
+            )}
+          >
+            {tour.category}
+          </span>
+        </div>
+        {/* Title */}
+        <h2 className="text-xl font-semibold leading-tight">
+          <Link href={`/tours/${tour.slug}`} className="hover:text-brand-primary">
             {tour.name}
           </Link>
         </h2>
-        <div className="flex items-baseline justify-between text-slate-600">
-          <p>
-            {tour.duration_days} Day{tour.duration_days > 1 ? "s" : ""}
+        {/* Subtitle/Description */}
+        <p className="text-sm text-slate-700">{tour.description}</p>
+        {/* Price row */}
+        <div className="flex items-baseline justify-end text-slate-600">
+          <p className="text-lg font-semibold text-slate-900">
+            Price from: {formatPriceZAR(tour.price_per_person_cents)}
           </p>
-          <p className="text-lg font-semibold text-slate-900">{formatPrice(tour.price_per_person_cents)}</p>
         </div>
+        {/* View Details Button */}
         <Button asChild className="w-full bg-brand-primary text-white hover:bg-brand-primary/90">
-          <Link href={`/tours/${tour.id}`}>
+          <Link href={`/tours/${tour.slug}`}>
             View Details
             <ArrowRight className="ml-2 h-4 w-4" />
           </Link>

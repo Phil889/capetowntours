@@ -1,0 +1,203 @@
+============================================================
+FAQ Update Report - 2025-08-11 23:24:15
+============================================================
+
+Inverdoorn Exclusive Day Safari (inverdoorn-safari-tour)
+  Category: safari
+  FAQ Count: 12
+  Sample Questions:
+    • How far is Inverdoorn Safari from Cape Town?
+    • Can I see the Big 5 at Inverdoorn?
+    • What makes Inverdoorn Safari exclusive?
+
+Cape Town Tandem Skydive (cape-town-skydive)
+  Category: safari
+  FAQ Count: 12
+  Sample Questions:
+    • What is the jump altitude for Cape Town tandem skydiving?
+    • Is Cape Town skydiving safe for first-timers?
+    • What is the weight limit for tandem skydiving in Cape Town?
+
+Simon's Town (simon-s-town)
+  Category: safari
+  FAQ Count: 12
+  Sample Questions:
+    • How do I get to Simon's Town from Cape Town?
+    • Can I see penguins at Simon's Town?
+    • What is the entrance fee for Boulders Beach?
+
+Chapman's Peak Drive (chapman-s-peak-drive)
+  Category: safari
+  FAQ Count: 12
+  Sample Questions:
+    • How long is Chapman's Peak Drive?
+    • What is the toll fee for Chapman's Peak Drive?
+    • Is Chapman's Peak Drive safe to drive?
+
+Maiden's Cove (maiden-s-cove)
+  Category: safari
+  FAQ Count: 12
+  Sample Questions:
+    • Where exactly is Maiden's Cove located?
+    • Can you swim at Maiden's Cove?
+    • Is there parking at Maiden's Cove?
+
+Table Mountain Cableway (table-mountain-cableway)
+  Category: mountain
+  FAQ Count: 12
+  Sample Questions:
+    • How much does the Table Mountain cable car cost?
+    • How long is the cable car ride up Table Mountain?
+    • What happens if it's cloudy at Table Mountain?
+
+Babylonstoren Wine Estate (babylonstoren-wine-estate)
+  Category: winelands
+  FAQ Count: 12
+  Sample Questions:
+    • How long is the Babylonstoren Wine Estate experience?
+    • What is included in the Babylonstoren Wine Estate package?
+    • Is the Babylonstoren Wine Estate worth the price?
+
+Aquila Big 5 Day Safari (aquila-safari-tour)
+  Category: safari
+  FAQ Count: 12
+  Sample Questions:
+    • How long is the Aquila Big 5 Day Safari experience?
+    • What is included in the Aquila Big 5 Day Safari package?
+    • Is the Aquila Big 5 Day Safari worth the price?
+
+Signal Hill Tandem Paragliding (cape-town-paragliding)
+  Category: safari
+  FAQ Count: 12
+  Sample Questions:
+    • How long is the Signal Hill Tandem Paragliding experience?
+    • What is included in the Signal Hill Tandem Paragliding package?
+    • Is the Signal Hill Tandem Paragliding worth the price?
+
+Muizenberg Beach (muizenberg-beach)
+  Category: safari
+  FAQ Count: 12
+  Sample Questions:
+    • How long is the Muizenberg Beach experience?
+    • What is included in the Muizenberg Beach package?
+    • Is the Muizenberg Beach worth the price?
+
+Cape Point Lighthouse (cape-point-lighthouse)
+  Category: mountain
+  FAQ Count: 10
+  Sample Questions:
+    • How long is the Cape Point Lighthouse experience?
+    • What is included in the Cape Point Lighthouse package?
+    • Is the Cape Point Lighthouse worth the price?
+
+Camps Bay Beach (camps-bay-beach)
+  Category: safari
+  FAQ Count: 12
+  Sample Questions:
+    • How long is the Camps Bay Beach experience?
+    • What is included in the Camps Bay Beach package?
+    • Is the Camps Bay Beach worth the price?
+
+Boschendal Wine Estate (boschendal-wine-estate)
+  Category: winelands
+  FAQ Count: 12
+  Sample Questions:
+    • How long is the Boschendal Wine Estate experience?
+    • What is included in the Boschendal Wine Estate package?
+    • Is the Boschendal Wine Estate worth the price?
+
+Atlantis Dunes Sandboard & ATV (atlantis-sand-dunes-adventure)
+  Category: safari
+  FAQ Count: 12
+  Sample Questions:
+    • How long is the Atlantis Dunes Sandboard & ATV experience?
+    • What is included in the Atlantis Dunes Sandboard & ATV package?
+    • Is the Atlantis Dunes Sandboard & ATV worth the price?
+
+Winelands Sunrise Balloon Flight (winelands-hot-air-balloon)
+  Category: winelands
+  FAQ Count: 12
+  Sample Questions:
+    • How long is the Winelands Sunrise Balloon Flight experience?
+    • What is included in the Winelands Sunrise Balloon Flight package?
+    • Is the Winelands Sunrise Balloon Flight worth the price?
+
+Cape of Good Hope (cape-of-good-hope)
+  Category: safari
+  FAQ Count: 12
+  Sample Questions:
+    • How long is the Cape of Good Hope experience?
+    • What is included in the Cape of Good Hope package?
+    • Is the Cape of Good Hope worth the price?
+
+V&A Waterfront (v-a-waterfront)
+  Category: safari
+  FAQ Count: 12
+  Sample Questions:
+    • How long is the V&A Waterfront experience?
+    • What is included in the V&A Waterfront package?
+    • Is the V&A Waterfront worth the price?
+
+Sea Point Promenade (sea-point-promenade)
+  Category: safari
+  FAQ Count: 12
+  Sample Questions:
+    • How long is the Sea Point Promenade experience?
+    • What is included in the Sea Point Promenade package?
+    • Is the Sea Point Promenade worth the price?
+
+Delaire Graff Estate (delaire-graff-estate)
+  Category: safari
+  FAQ Count: 12
+  Sample Questions:
+    • How long is the Delaire Graff Estate experience?
+    • What is included in the Delaire Graff Estate package?
+    • Is the Delaire Graff Estate worth the price?
+
+Hermanus Whale Watching Cruise (hermanus-whale-watching-tour)
+  Category: marine
+  FAQ Count: 12
+  Sample Questions:
+    • How long is the Hermanus Whale Watching Cruise experience?
+    • What is included in the Hermanus Whale Watching Cruise package?
+    • Is the Hermanus Whale Watching Cruise worth the price?
+
+Gansbaai Shark Cage Diving (shark-cage-diving-gansbaai)
+  Category: marine
+  FAQ Count: 12
+  Sample Questions:
+    • How long is the Gansbaai Shark Cage Diving experience?
+    • What is included in the Gansbaai Shark Cage Diving package?
+    • Is the Gansbaai Shark Cage Diving worth the price?
+
+Boulders Beach Penguin Colony (boulders-beach-penguin-colony)
+  Category: marine
+  FAQ Count: 12
+  Sample Questions:
+    • How long is the Boulders Beach Penguin Colony experience?
+    • What is included in the Boulders Beach Penguin Colony package?
+    • Is the Boulders Beach Penguin Colony worth the price?
+
+Hout Bay Harbour (hout-bay-harbour)
+  Category: safari
+  FAQ Count: 12
+  Sample Questions:
+    • How long is the Hout Bay Harbour experience?
+    • What is included in the Hout Bay Harbour package?
+    • Is the Hout Bay Harbour worth the price?
+
+Bo-Kaap Heritage Quarter (bo-kaap-heritage-quarter)
+  Category: safari
+  FAQ Count: 12
+  Sample Questions:
+    • How long is the Bo-Kaap Heritage Quarter experience?
+    • What is included in the Bo-Kaap Heritage Quarter package?
+    • Is the Bo-Kaap Heritage Quarter worth the price?
+
+Tokara Wine Estate (tokara-wine-estate)
+  Category: winelands
+  FAQ Count: 12
+  Sample Questions:
+    • How long is the Tokara Wine Estate experience?
+    • What is included in the Tokara Wine Estate package?
+    • Is the Tokara Wine Estate worth the price?

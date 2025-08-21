@@ -9,9 +9,16 @@ const config = {
   theme: {
     container: { center: true, padding: "2rem", screens: { "2xl": "1400px" } },
     extend: {
-      fontFamily: { sans: ["var(--font-lato)", ...fontFamily.sans], montserrat: ["var(--font-montserrat)"] },
+      fontFamily: {
+        sans: ["var(--font-lato)", ...fontFamily.sans],
+        montserrat: ["Montserrat", ...fontFamily.sans],
+        playfair: ["var(--font-playfair)", "serif"],
+      },
       colors: {
-        "brand-primary": "#2C5282",
+        "brand-primary": "#4A4238",
+        "brand-secondary": "#D4B796",
+        "brand-accent": "#E59A59",
+        "brand-light": "#F5F1E9",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
