@@ -16,7 +16,7 @@ import BreadcrumbSchema from "@/components/tours/BreadcrumbSchema";
 import FAQSchema from "@/components/tours/FAQSchema";
 
 // Cache page for 1 hour, revalidate in background
-export const revalidate = TOUR_PAGE_CONFIG.cacheRevalidate;
+export const revalidate = 3600;
 
 // Generate metadata for SEO
 export async function generateMetadata({
