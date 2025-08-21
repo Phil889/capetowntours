@@ -1,4 +1,22 @@
 User-agent: *
 Allow: /
 
-Sitemap: /sitemap.xml
+# Disallow admin and private areas
+Disallow: /admin/
+Disallow: /api/
+Disallow: /_next/
+Disallow: /private/
+
+# Allow important crawling
+Allow: /api/tours/
+Allow: /api/sitemap
+
+# Crawl delay for respectful crawling
+Crawl-delay: 1
+
+# Sitemap location
+Sitemap: https://capetownsafaritours.com/sitemap.xml
+
+# Additional sitemaps for comprehensive indexing
+Sitemap: https://capetownsafaritours.com/image-sitemap.xml
+Sitemap: https://capetownsafaritours.com/blog-sitemap.xml

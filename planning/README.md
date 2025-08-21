@@ -88,7 +88,6 @@ Our technical implementation focuses on 5 primary personas:
 - **Analytics**: Real-time persona tracking and optimization
 
 ### **Key Integrations**
-- Load shedding monitoring (EskomSePush API)
 - Weather and traffic optimization
 - Multi-language support (German, French, Dutch)
 - Payment processing (Stripe)

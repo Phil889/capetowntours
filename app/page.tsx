@@ -6,6 +6,8 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { ShieldCheck, Users, Wallet, Car, Star } from "lucide-react";
+import LocalBusinessSchema from "@/components/schema/LocalBusinessSchema";
+import OrganizationSchema from "@/components/schema/OrganizationSchema";
 
 import type { Tour } from "@/lib/placeholder-data";
 
@@ -64,6 +66,10 @@ export default function HomePage() {
 
   return (
     <>
+      {/* Schema Markup for SEO */}
+      <LocalBusinessSchema />
+      <OrganizationSchema />
+      
       {/* HERO SECTION */}
       <section className="w-full relative min-h-screen py-0 px-0">
         {/* Background slider */}
@@ -102,7 +108,7 @@ export default function HomePage() {
         </div>
         <div className="relative z-20 max-w-6xl mx-auto flex flex-col items-center text-center min-h-screen justify-center">
 <h1 className="font-playfair text-5xl md:text-6xl font-extrabold mb-6 bg-gradient-to-r from-[#D4B796] via-[#E59A59] to-[#BFA76A] bg-clip-text text-transparent drop-shadow-lg tracking-tight">
-            Cape Town's #1 <br></br>Private Tours & Luxury Safaris
+            Cape Town Safari Tours: #1 Private Wildlife & Luxury Safari Experiences
           </h1>
           <p className="text-2xl md:text-3xl text-white/90 mb-8 max-w-3xl font-medium">
             Unforgettable adventures, handpicked by local experts. Experience the best safaris, wine tours, and cultural journeys in South Africa—guaranteed.

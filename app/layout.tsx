@@ -23,9 +23,42 @@ const montserrat = Montserrat({
 
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_BASE_URL || 'https://capetownsafaritours.com'),
-  title: "Cape Town Experience Broker",
-  description: "Discover and book the best tours and experiences in Cape Town.",
-  generator: 'v0.dev',
+  title: "Cape Town Safari Tours | #1 Private Wildlife & Wine Tours 2025",
+  description: "Experience Cape Town's best private safari tours, wine tastings & Big 5 wildlife adventures. 4.9★ rated with 2,847+ happy guests. Book your luxury tour today!",
+  keywords: "Cape Town safari tours, private wildlife tours, Big 5 safari, wine tours Cape Town, Table Mountain tours, luxury safari experiences, South Africa tours, Cape Peninsula tours",
+  openGraph: {
+    title: "Cape Town Safari Tours | #1 Private Wildlife & Wine Tours",
+    description: "Experience Cape Town's best private safari tours, wine tastings & Big 5 wildlife adventures. 4.9★ rated with 2,847+ happy guests.",
+    images: [
+      {
+        url: '/Best_Cape_Town_Safari_Tours_Logo.webp',
+        width: 1200,
+        height: 630,
+        alt: 'Cape Town Safari Tours - Premium Wildlife Experiences',
+      }
+    ],
+    type: 'website',
+    siteName: 'Cape Town Safari Tours',
+    locale: 'en_ZA',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Cape Town Safari Tours | #1 Private Wildlife & Wine Tours',
+    description: 'Experience Cape Town\'s best private safari tours, wine tastings & Big 5 wildlife adventures. 4.9★ rated with 2,847+ happy guests.',
+    images: ['/Best_Cape_Town_Safari_Tours_Logo.webp'],
+    creator: '@capetownsafari',
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
   icons: {
     icon: [
       { url: '/favicon.ico' },

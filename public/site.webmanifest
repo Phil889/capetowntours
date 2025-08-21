@@ -1,1 +1,39 @@
-{"name":"","short_name":"","icons":[{"src":"/android-chrome-192x192.png","sizes":"192x192","type":"image/png"},{"src":"/android-chrome-512x512.png","sizes":"512x512","type":"image/png"}],"theme_color":"#ffffff","background_color":"#ffffff","display":"standalone"}
+{
+  "name": "Cape Town Safari Tours - Premium Wildlife & Wine Experiences",
+  "short_name": "Cape Town Safari Tours",
+  "description": "Experience Cape Town's best private safari tours, wine tastings & Big 5 wildlife adventures. 4.9★ rated with 2,847+ happy guests.",
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/Best_Cape_Town_Safari_Tours_Logo.webp",
+      "sizes": "512x512",
+      "type": "image/webp",
+      "purpose": "any maskable"
+    }
+  ],
+  "theme_color": "#4A4238",
+  "background_color": "#F5F1E9",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "start_url": "/",
+  "scope": "/",
+  "lang": "en-ZA",
+  "categories": ["travel", "tourism", "safari", "wildlife"],
+  "screenshots": [
+    {
+      "src": "/safari-elephants-river.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide"
+    }
+  ]
+}

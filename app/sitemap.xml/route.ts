@@ -20,6 +20,8 @@ export async function GET() {
     "privacy-policy",
     "terms-of-service",
     "tours",
+    "safari-tours",
+    "cape-town-tours/table-mountain-tours",
   ];
 
   let urls = staticPages.map(
