@@ -1,0 +1,24 @@
+[2025-08-24T17:23:30.822Z] INFO: Processed english-guest-reviews.json: 10 valid, 0 invalid reviews
+[2025-08-24T17:23:30.824Z] INFO: Processed german-guest-reviews.json: 15 valid, 0 invalid reviews
+[2025-08-24T17:23:30.825Z] INFO: Processed french-guest-reviews.json: 10 valid, 0 invalid reviews
+[2025-08-24T17:23:30.826Z] INFO: Processed spanish-guest-reviews.json: 10 valid, 0 invalid reviews
+[2025-08-24T17:23:30.827Z] INFO: Processed arabic-guest-reviews.json: 105 valid, 0 invalid reviews
+[2025-08-24T17:36:34.498Z] INFO: Processed english-guest-reviews.json: 10 valid, 0 invalid reviews
+[2025-08-24T17:36:34.499Z] INFO: Processed german-guest-reviews.json: 15 valid, 0 invalid reviews
+[2025-08-24T17:36:34.500Z] INFO: Processed french-guest-reviews.json: 10 valid, 0 invalid reviews
+[2025-08-24T17:36:34.502Z] INFO: Processed spanish-guest-reviews.json: 10 valid, 0 invalid reviews
+[2025-08-24T17:36:34.504Z] INFO: Processed arabic-guest-reviews.json: 105 valid, 0 invalid reviews
+[2025-08-24T17:36:58.162Z] INFO: Processed complete-english-reviews.json: 56 valid, 0 invalid reviews
+[2025-08-24T17:36:58.163Z] INFO: Processed complete-german-reviews.json: 24 valid, 0 invalid reviews
+[2025-08-24T17:36:58.164Z] INFO: Processed complete-french-reviews.json: 24 valid, 0 invalid reviews
+[2025-08-24T17:36:58.165Z] INFO: Processed complete-spanish-reviews.json: 10 valid, 0 invalid reviews
+[2025-08-24T17:36:58.166Z] INFO: Processed complete-arabic-reviews.json: 8 valid, 0 invalid reviews
+[2025-08-24T17:37:23.958Z] INFO: Processed complete-english-reviews.json: 56 valid, 0 invalid reviews
+[2025-08-24T17:37:23.960Z] INFO: Processed complete-german-reviews.json: 24 valid, 0 invalid reviews
+[2025-08-24T17:37:23.961Z] INFO: Processed complete-french-reviews.json: 24 valid, 0 invalid reviews
+[2025-08-24T17:37:23.962Z] INFO: Processed complete-spanish-reviews.json: 10 valid, 0 invalid reviews
+[2025-08-24T17:37:23.963Z] INFO: Processed complete-arabic-reviews.json: 8 valid, 0 invalid reviews
+[2025-08-24T17:37:24.968Z] ERROR: Batch insert error: invalid input syntax for type uuid: "en-bb-001"
+[2025-08-24T17:37:25.301Z] ERROR: Batch insert error: invalid input syntax for type uuid: "en-st-003"
+[2025-08-24T17:37:25.577Z] ERROR: Batch insert error: invalid input syntax for type uuid: "fr-bk-005"
+[2025-08-24T17:37:25.577Z] INFO: Successfully inserted 0 reviews

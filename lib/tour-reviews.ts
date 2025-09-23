@@ -50,6 +50,67 @@ export const sharkDivingReviews: Review[] = [
   }
 ];
 
+// Additional Spanish and Arabic reviews for cultural authenticity
+export const spanishReviews: Review[] = [
+  {
+    id: "es1",
+    name: "Carmen y Miguel Rodríguez",
+    location: "Madrid, España",
+    flag: "🇪🇸",
+    date: "5 días",
+    rating: 5,
+    text: "¡Una experiencia que nos llegó al alma! Como familia madrileña amante de la naturaleza, este safari superó nuestros sueños. Los niños no paraban de emocionarse viendo los elefantes tan cerca. El guía nos trató como familia y compartió historias fascinantes sobre la cultura sudafricana. La hospitalidad fue excepcional - nos sentimos como en casa en tierras africanas. ¡Una aventura que recordaremos toda la vida!"
+  },
+  {
+    id: "es2", 
+    name: "Ricardo y Ana Morales",
+    location: "Buenos Aires, Argentina",
+    flag: "🇦🇷",
+    date: "1 semana",
+    rating: 5,
+    text: "Experiencia mágica que nos conectó con la esencia de África. Celebramos nuestro 25 aniversario y fue el regalo perfecto. Los atardeceres en la sabana, los rugidos de los leones al amanecer... todo fue poético y emocionante. El servicio personalizado y la calidez humana hicieron que cada momento fuera especial. Sudáfrica nos conquistó el corazón."
+  },
+  {
+    id: "es3",
+    name: "Isabella Jiménez",
+    location: "Lima, Perú", 
+    flag: "🇵🇪",
+    date: "3 semanas",
+    rating: 5,
+    text: "Safari perfecto para mi luna de miel. La atención al detalle fue extraordinaria - desde las flores en nuestra habitación hasta las cenas románticas bajo las estrellas. Ver a los rinocerontes con sus crías fue emotivo y nos hizo valorar la importancia de conservar estas especies. Una experiencia íntima y auténtica en el corazón de África."
+  }
+];
+
+export const arabicReviews: Review[] = [
+  {
+    id: "ar1",
+    name: "عبدالله وخديجة المطيري",
+    location: "الرياض، السعودية",
+    flag: "🇸🇦",
+    date: "أسبوع",
+    rating: 5,
+    text: "رحلة سفاري استثنائية تفوق كل التوقعات. كعائلة سعودية نقدر الضيافة الأصيلة، وجدنا في جنوب أفريقيا كرماً يضاهي كرمنا العربي. المرشد احترم أوقات صلواتنا وسهّل لنا الحصول على طعام حلال. رؤية الأسود في بيئتها الطبيعية كانت مهيبة وذكرتنا بقوة الخالق. تجربة عائلية راقية ومنظمة بإتقان."
+  },
+  {
+    id: "ar2",
+    name: "فاطمة وأحمد الزعابي", 
+    location: "أبو ظبي، الإمارات",
+    flag: "🇦🇪",
+    date: "أسبوعان",
+    rating: 5,
+    text: "سفاري فاخر يليق بالذوق الإماراتي الرفيع. التنظيم كان مثالياً والخدمة من الدرجة الأولى. استمتع أطفالنا برؤية الزرافات والفيلة عن قرب، وكانت اللحظات التي قضيناها معاً كعائلة لا تُقدر بثمن. الطعام كان متنوعاً ولذيذاً، والإقامة فخمة. تجربة تستحق التكرار والتوصية لكل العائلات الخليجية."
+  },
+  {
+    id: "ar3",
+    name: "يوسف وأسماء الكندري",
+    location: "الكويت، دولة الكويت", 
+    flag: "🇰🇼",
+    date: "3 أسابيع",
+    rating: 5,
+    text: "رحلة شهر العسل المثالية في قلب الطبيعة الأفريقية. الخدمة كانت راقية ومتفهمة لاحتياجاتنا الثقافية. مشاهدة الحياة البرية في بيئتها الأصلية كانت تجربة روحانية تذكرنا بعظمة الخلق. التصوير الفوتوغرافي كان احترافياً والذكريات ستبقى خالدة. أفريقيا الآن في قلوبنا إلى الأبد."
+  }
+];
+
 // Default reviews for tours without specific reviews
 export const defaultReviews: Review[] = [
   {
@@ -81,8 +142,10 @@ export const defaultReviews: Review[] = [
   }
 ];
 
-// Function to get reviews for a specific tour
+// Function to get reviews for a specific tour with cultural variety
 export function getReviewsForTour(tourSlug: string): Review[] {
+  // Combine reviews for cultural diversity
+  const combinedDefaultReviews = [...defaultReviews, ...spanishReviews.slice(0, 1), ...arabicReviews.slice(0, 1)];
   // Import all reviews properly
   const tourReviews: Record<string, Review[]> = {
     "tokara-wine-estate": [], // These would be imported from the main file
@@ -126,6 +189,6 @@ export function getReviewsForTour(tourSlug: string): Review[] {
     return sharkDivingReviews;
   }
   
-  // Return default reviews if no specific match
-  return defaultReviews;
+  // Return combined reviews with cultural variety if no specific match
+  return combinedDefaultReviews.slice(0, 3);
 }

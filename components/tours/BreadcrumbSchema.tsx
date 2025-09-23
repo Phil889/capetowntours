@@ -1,11 +1,17 @@
 "use client";
 
+import { Locale } from '@/lib/i18n/config';
+
 interface BreadcrumbSchemaProps {
   tourTitle: string;
   tourSlug: string;
+  locale?: Locale;
 }
 
-export default function BreadcrumbSchema({ tourTitle, tourSlug }: BreadcrumbSchemaProps) {
+export default function BreadcrumbSchema({ tourTitle, tourSlug, locale = 'en' }: BreadcrumbSchemaProps) {
+  const baseUrl = "https://capetownsafaritours.com";
+  const localePath = locale === 'en' ? '' : `/${locale}`;
+  
   const schemaData = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
@@ -14,19 +20,19 @@ export default function BreadcrumbSchema({ tourTitle, tourSlug }: BreadcrumbSche
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://capetownsafaritours.com"
+        "item": `${baseUrl}${localePath}`
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "Tours",
-        "item": "https://capetownsafaritours.com/tours"
+        "item": `${baseUrl}${localePath}/tours`
       },
       {
         "@type": "ListItem",
         "position": 3,
         "name": tourTitle,
-        "item": `https://capetownsafaritours.com/tours/${tourSlug}`
+        "item": `${baseUrl}${localePath}/tours/${tourSlug}`
       }
     ]
   };

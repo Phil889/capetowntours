@@ -75,6 +75,7 @@ import {
 import { format, startOfMonth, endOfMonth, subDays, subMonths, addDays } from "date-fns";
 import { DateRange } from "react-day-picker";
 import { cn } from "@/lib/utils";
+import { logError } from "@/lib/error-logger";
 
 interface ReportData {
   revenue: {
@@ -166,7 +167,11 @@ export default function ReportsAnalytics() {
       );
       setReportData(processedData);
     } catch (error) {
-      console.error("Failed to fetch report data:", error);
+      logError('Failed to fetch report data', error as Error, {
+        component: 'ReportsAnalytics',
+        function: 'fetchReportData',
+        dateRange
+      });
     } finally {
       setLoading(false);
       setRefreshing(false);
@@ -391,7 +396,11 @@ export default function ReportsAnalytics() {
 
   const exportReport = (format: "pdf" | "excel" | "csv") => {
     // Implement export functionality
-    console.log(`Exporting report as ${format}`);
+    logError('Export functionality not implemented', new Error('Feature not available'), {
+      component: 'ReportsAnalytics',
+      function: 'exportReport',
+      format
+    });
   };
 
   const getTrendIcon = (value: number) => {

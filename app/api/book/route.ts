@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { createClient } from "@supabase/supabase-js";
+import { logError, logInfo } from "@/lib/error-logger";
 
 const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL!;
 const supabaseAnonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!;
@@ -47,7 +48,12 @@ export async function POST(req: NextRequest) {
     .single();
 
   if (error) {
-    console.error("Booking API error:", error.message);
+    logError("Failed to create booking", error, {
+      component: "BookingAPI",
+      function: "POST",
+      tourId,
+      metadata: { guests, guest_email }
+    });
     return NextResponse.json({ error: error.message }, { status: 500 });
   }
 
@@ -70,10 +76,20 @@ export async function POST(req: NextRequest) {
     });
 
     if (!emailResponse.ok) {
-      console.error('Failed to send confirmation email, but booking was successful');
+      logError('Failed to send confirmation email, but booking was successful', undefined, {
+        component: "BookingAPI",
+        function: "POST",
+        bookingId: data.id,
+        action: "send_confirmation_email"
+      });
     }
   } catch (emailError) {
-    console.error('Error sending confirmation email:', emailError);
+    logError('Error sending confirmation email', emailError, {
+      component: "BookingAPI",
+      function: "POST",
+      bookingId: data.id,
+      action: "send_confirmation_email"
+    });
     // Don't fail the booking if email fails
   }
 

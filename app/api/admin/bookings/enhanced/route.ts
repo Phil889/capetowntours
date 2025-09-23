@@ -188,13 +188,22 @@ export async function PUT(req: NextRequest) {
       .single();
 
     if (error) {
-      console.error("Error updating booking:", error);
+      logError('Error updating booking in database', error, {
+        component: 'EnhancedBookingsAPI',
+        function: 'PUT',
+        bookingId: id,
+        action: 'update_booking'
+      });
       return NextResponse.json({ success: false, error: error.message }, { status: 500 });
     }
 
     return NextResponse.json({ success: true, data });
   } catch (error) {
-    console.error("Error updating booking:", error);
+    logError('Error in booking update API handler', error, {
+      component: 'EnhancedBookingsAPI',
+      function: 'PUT',
+      action: 'api_handler'
+    });
     return NextResponse.json({ success: false, error: (error as Error).message }, { status: 500 });
   }
 }
@@ -227,13 +236,21 @@ export async function POST(req: NextRequest) {
       .single();
 
     if (error) {
-      console.error("Error creating booking:", error);
+      logError('Error creating booking in database', error, {
+        component: 'EnhancedBookingsAPI',
+        function: 'POST',
+        action: 'create_booking'
+      });
       return NextResponse.json({ success: false, error: error.message }, { status: 500 });
     }
 
     return NextResponse.json({ success: true, data });
   } catch (error) {
-    console.error("Error creating booking:", error);
+    logError('Error in booking creation API handler', error, {
+      component: 'EnhancedBookingsAPI',
+      function: 'POST',
+      action: 'api_handler'
+    });
     return NextResponse.json({ success: false, error: (error as Error).message }, { status: 500 });
   }
 }
@@ -254,13 +271,22 @@ export async function DELETE(req: NextRequest) {
       .eq("id", id);
 
     if (error) {
-      console.error("Error deleting booking:", error);
+      logError('Error deleting booking from database', error, {
+        component: 'EnhancedBookingsAPI',
+        function: 'DELETE',
+        bookingId: id,
+        action: 'delete_booking'
+      });
       return NextResponse.json({ success: false, error: error.message }, { status: 500 });
     }
 
     return NextResponse.json({ success: true, message: "Booking deleted successfully" });
   } catch (error) {
-    console.error("Error deleting booking:", error);
+    logError('Error in booking deletion API handler', error, {
+      component: 'EnhancedBookingsAPI',
+      function: 'DELETE',
+      action: 'api_handler'
+    });
     return NextResponse.json({ success: false, error: (error as Error).message }, { status: 500 });
   }
 }

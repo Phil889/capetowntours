@@ -1,0 +1,620 @@
+{
+  "navigation": {
+    "tours": "Tours",
+    "customTours": "Tours Personalizados",
+    "about": "Acerca de",
+    "contact": "Contacto",
+    "bookNow": "Reservar Ahora",
+    "home": "Inicio",
+    "allTours": "Todos los Tours",
+    "faq": "Preguntas Frecuentes"
+  },
+  "header": {
+    "logoAlt": "Logo de Cape Town Safari Tours",
+    "siteName": "Cape Town Safari Tours",
+    "tagline": "Experiencias de Safari Premium",
+    "nav": {
+      "tours": "Tours",
+      "customTours": "Tours Personalizados",
+      "about": "Acerca de",
+      "contact": "Contacto",
+      "customToursMobile": "Personalizado"
+    },
+    "trustBadges": {
+      "bestChoice": "Mejor Opción de Safari",
+      "ecoCertified": "Certificado Ecológico",
+      "trustedSeller": "Vendedor de Confianza"
+    },
+    "bookNow": "Reservar Ahora",
+    "callUsTitle": "Llámanos para reservar tu safari"
+  },
+  "homepage": {
+    "hero": {
+      "title": "Cape Town Safari Tours: #1 Experiencias de Safari Privado y Vida Silvestre de Lujo",
+      "subtitle": "Aventuras inolvidables, seleccionadas por expertos locales. Experimenta los mejores safaris, tours de vino y viajes culturales en Sudáfrica—garantizado.",
+      "cta": "Explorar Tours y Safaris Mejor Valorados"
+    },
+    "signatureSafaris": {
+      "title": "Nuestros Safaris Exclusivos",
+      "subtitle": "Comienza tu aventura con uno de nuestros tours más populares, hechos a mano. Cada uno es una experiencia privada, diseñada para crear recuerdos que duran toda la vida."
+    },
+    "whyChooseUs": {
+      "title": "La Diferencia de Cape Town Safari Tours",
+      "subtitle": "No somos solo otra compañía de tours. Somos expertos locales dedicados a crear tu aventura privada perfecta.",
+      "tagline": "Por Qué Elegirnos",
+      "features": {
+        "private": {
+          "title": "Verdaderamente Privado y Personalizable",
+          "description": "Tu tour, tu ritmo. Sin extraños, solo tu grupo. Adaptamos cada detalle a tus intereses."
+        },
+        "expert": {
+          "title": "Guías Locales Expertos",
+          "description": "Nuestros guías son tus narradores personales y expertos en vida silvestre, nacidos y criados en Ciudad del Cabo."
+        },
+        "pricing": {
+          "title": "Precios Todo Incluido y Transparentes",
+          "description": "Sin tarifas ocultas o sorpresas. El precio que ves es el precio que pagas por tu experiencia completa."
+        },
+        "comfort": {
+          "title": "Comodidad y Seguridad Moderna",
+          "description": "Viaja en nuestra flota moderna, con aire acondicionado y mantenida impecablemente para tu comodidad y seguridad."
+        }
+      },
+      "trustBadge": "Confiado por más de 10,000 viajeros"
+    },
+    "testimonials": {
+      "title": "No Solo Tomes Nuestra Palabra",
+      "reviews": {
+        "sarah": {
+          "text": "¡El mejor tour que hemos hecho jamás! Nuestro guía James fue increíblemente conocedor e hizo que toda la experiencia fuera inolvidable. El tour privado valió cada centavo.",
+          "author": "Sarah y Tom, Reino Unido"
+        },
+        "michael": {
+          "text": "Desde el proceso de reserva fácil hasta la entrega final, todo transcurrió sin problemas. Vimos los Big 5 y mucho más. ¡Recomiendo altamente esta empresa!",
+          "author": "Michael B, EE.UU."
+        },
+        "anika": {
+          "text": "Una experiencia verdaderamente mágica. La atención al detalle y los toques personales hicieron que nuestro safari de luna de miel fuera muy especial. ¡Volveremos!",
+          "author": "Anika y Rohan, India"
+        }
+      }
+    },
+    "howItWorks": {
+      "title": "Tu Aventura en 3 Simples Pasos",
+      "tagline": "Cómo Funciona",
+      "steps": {
+        "choose": {
+          "title": "Elige Tu Aventura",
+          "description": "Navega nuestros tours exclusivos curados o cuéntanos tu viaje soñado."
+        },
+        "customize": {
+          "title": "Personaliza Tu Viaje",
+          "description": "Trabajaremos contigo para adaptar el itinerario, actividades y ritmo a tu gusto."
+        },
+        "book": {
+          "title": "Reserva y Emociónate",
+          "description": "¡Asegura tus fechas y prepárate para la aventura privada de Ciudad del Cabo de tu vida!"
+        }
+      }
+    },
+    "categories": {
+      "title": "Encuentra Tu Escape Perfecto",
+      "big5": "Safaris de los Grandes 5",
+      "coastal": "Costero y Marino",
+      "winelands": "Tierras de Vino y Culinario"
+    },
+    "cta": {
+      "title": "¿Abrumado por las opciones?",
+      "subtitle": "Deja que nuestros expertos en safari creen un itinerario personalizado solo para ti. Cuéntanos tu sueño, y lo haremos realidad.",
+      "button": "Obtener un Itinerario Personalizado Gratis"
+    }
+  },
+  "footer": {
+    "tagline": "Tu aventura, perfectamente creada. Experimenta el corazón salvaje de África con expertos locales en los que puedes confiar.",
+    "newsletter": {
+      "title": "Obtener Ofertas Exclusivas",
+      "placeholder": "Ingresa tu email",
+      "button": "Suscribirse"
+    },
+    "nav": {
+      "home": "Inicio",
+      "about": "Acerca de",
+      "allTours": "Todos los Tours",
+      "faq": "Preguntas Frecuentes",
+      "contact": "Contacto"
+    },
+    "sections": {
+      "navigate": "Navegar",
+      "topExperiences": "Mejores Experiencias",
+      "connect": "Conéctate Con Nosotros"
+    },
+    "experiences": {
+      "big5Safaris": "Safaris de los Grandes 5",
+      "privateWineTours": "Tours Privados de Vino",
+      "sharkCageDiving": "Buceo en Jaula con Tiburones",
+      "gardenRoute": "Ruta Jardín"
+    },
+    "connect": {
+      "whatsapp": "WhatsApp",
+      "email": "Envíanos un Email"
+    },
+    "legal": {
+      "logoAlt": "Logo de Cape Town Safari Tours",
+      "copyright": "Cape Town Safari Tours. Todos los derechos reservados.",
+      "privacyPolicy": "Política de Privacidad",
+      "termsOfService": "Términos de Servicio"
+    }
+  },
+  "meta": {
+    "default": {
+      "title": "Cape Town Safari Tours | #1 Tours Privados de Vida Silvestre y Vino 2025",
+      "description": "Experimenta los mejores tours privados de safari de Ciudad del Cabo, degustaciones de vino y aventuras de vida silvestre de los Grandes 5. Calificado 4.9★ con más de 2,847 huéspedes felices. ¡Reserva tu tour de lujo hoy!"
+    }
+  },
+  "tours": {
+    "meta": {
+      "title": "Cape Town Safari Tours | Mejores Tours Privados y Safaris de Lujo 2025",
+      "description": "Experimenta los tours privados y safaris de lujo #1 de Ciudad del Cabo. Ganador del Certificado de Excelencia de TripAdvisor. Grupos pequeños, guías expertos, garantía del mejor precio."
+    },
+    "hero": {
+      "title": "Tours Privados y Safaris de Lujo #1 de Ciudad del Cabo",
+      "subtitle": "Aventuras inolvidables, seleccionadas por expertos locales. Experimenta los mejores safaris, tours de vino y viajes culturales en Sudáfrica—garantizado.",
+      "cta": "Explorar Tours y Safaris Mejor Valorados"
+    },
+    "valueProposition": {
+      "title": "¿Por Qué Elegir Cape Town Safari Tours?",
+      "subtitle": "Experimenta la cúspide del lujo y la aventura con nuestra selección cuidadosamente elegida de tours y safaris premium.",
+      "cards": {
+        "licensed": {
+          "title": "Completamente Licenciado y Asegurado",
+          "description": "Viaja con tranquilidad sabiendo que todos nuestros tours están completamente licenciados y asegurados para tu seguridad y protección."
+        },
+        "flexible": {
+          "title": "Reserva y Cancelación Flexible",
+          "description": "Cancelación gratuita hasta 24 horas antes de tu tour. Opciones de reservar ahora y pagar después disponibles."
+        },
+        "guides": {
+          "title": "Guías Expertos Locales",
+          "description": "Nuestros guías locales apasionados comparten conocimiento interno e historias que dan vida a la historia y cultura de Ciudad del Cabo."
+        },
+        "rated": {
+          "title": "Experiencias Calificadas con 5 Estrellas",
+          "description": "Consistentemente calificadas con 5 estrellas en TripAdvisor y Google Reviews por miles de viajeros satisfechos."
+        },
+        "private": {
+          "title": "Tours en Grupos Pequeños y Privados",
+          "description": "Disfruta experiencias íntimas con grupos pequeños o tours completamente privados adaptados a tus preferencias."
+        },
+        "guarantee": {
+          "title": "Garantía del Mejor Precio",
+          "description": "¿Encontraste un precio más bajo? Lo igualaremos y te daremos 10% de descuento. Esa es nuestra promesa para ti."
+        }
+      }
+    },
+    "tourCard": {
+      "day": "día",
+      "days": "días",
+      "max": "Máx",
+      "perPerson": "por persona",
+      "viewDetails": "Ver Detalles"
+    },
+    "featuredTitle": "Tours y Safaris Destacados Mejor Valorados",
+    "noTours": {
+      "title": "No hay tours disponibles",
+      "description": "Actualmente estamos actualizando nuestro catálogo de tours. Vuelve pronto o contáctanos para arreglos de tours personalizados."
+    },
+    "cta": {
+      "title": "¿No puedes encontrar lo que buscas?",
+      "subtitle": "Crea tu aventura perfecta en Ciudad del Cabo con nuestro servicio de planificación de tours personalizado",
+      "customTour": "Planificar Tour Personalizado"
+    },
+    "safety": {
+      "title": "Tu Seguridad y Satisfacción Garantizadas",
+      "licensed": {
+        "title": "Completamente Licenciado y Asegurado",
+        "description": "Todos los tours cumplen con las regulaciones de turismo de Sudáfrica"
+      },
+      "guarantee": {
+        "title": "100% Garantía de Satisfacción",
+        "description": "¿No estás contento? Obtén un reembolso completo, sin preguntas"
+      },
+      "award": {
+        "title": "Servicio Galardonado",
+        "description": "Certificado de Excelencia de TripAdvisor 5 años consecutivos"
+      }
+    }
+  },
+  "site": {
+    "name": "Cape Town Safari Tours"
+  },
+  "about": {
+    "meta": {
+      "title": "Acerca de Cape Town Safari Tours",
+      "description": "Conoce Cape Town Safari Tours - una empresa local dedicada a crear aventuras privadas inolvidables en Sudáfrica."
+    },
+    "title": "Acerca de Cape Town Safari Tours",
+    "intro": {
+      "companyName": "Cape Town Safari Tours",
+      "description": "es una empresa local dedicada a crear aventuras privadas inolvidables en Sudáfrica. Nuestra misión es conectar a los viajeros con la magia de África a través de experiencias de lujo expertamente diseñadas."
+    },
+    "story": {
+      "title": "Nuestra Historia",
+      "content": "Fundada por locales apasionados con décadas de experiencia en turismo y vida silvestre, creemos que cada viaje debe ser tan único como el viajero. Comenzamos con una idea simple: ofrecer tours verdaderamente privados y personalizables que van más allá de lo ordinario."
+    },
+    "values": {
+      "title": "Nuestros Valores",
+      "authenticity": {
+        "title": "Autenticidad:",
+        "description": "Mostramos la verdadera Sudáfrica, desde su belleza salvaje hasta sus culturas vibrantes."
+      },
+      "exclusivity": {
+        "title": "Exclusividad:",
+        "description": "Cada tour es privado, personalizado y nunca compartido con extraños."
+      },
+      "sustainability": {
+        "title": "Sostenibilidad:",
+        "description": "Apoyamos prácticas ecológicas y comunidades locales."
+      },
+      "excellence": {
+        "title": "Excelencia:",
+        "description": "Nuestros guías son expertos, narradores y anfitriones apasionados."
+      }
+    },
+    "team": {
+      "title": "Conoce Nuestro Equipo",
+      "description": "Nuestro equipo está compuesto por especialistas en vida silvestre, conocedores de vinos, buscadores de aventuras y embajadores culturales—todos unidos por el amor a África y un compromiso con el servicio excepcional.",
+      "members": {
+        "james": {
+          "name": "James:",
+          "role": "Guía de safari y experto en vida silvestre"
+        },
+        "lindiwe": {
+          "name": "Lindiwe:",
+          "role": "Líder de tours culturales e historiadora"
+        },
+        "michael": {
+          "name": "Michael:",
+          "role": "Especialista en vinos y culinaria"
+        },
+        "sarah": {
+          "name": "Sarah:",
+          "role": "Gerente de experiencia del huésped"
+        }
+      }
+    },
+    "whyChoose": {
+      "title": "¿Por Qué Elegirnos?",
+      "reasons": {
+        "private": "Tours de lujo 100% privados—sin extraños, nunca.",
+        "handpicked": "Experiencias seleccionadas, desde safaris de los Grandes 5 hasta tours gastronómicos de vinos.",
+        "transparent": "Precios transparentes, sin tarifas ocultas.",
+        "trusted": "Confiado por miles de viajeros en todo el mundo."
+      }
+    },
+    "closing": {
+      "joinUs": "Únete a nosotros",
+      "description": "para la aventura de tu vida. Descubre África a tu manera—con Cape Town Safari Tours."
+    }
+  },
+  "contact": {
+    "meta": {
+      "title": "Contáctanos - Cape Town Safari Tours",
+      "description": "Ponte en contacto con Cape Town Safari Tours. Planifica tu safari soñado, haz preguntas o solicita una cotización personalizada. ¡Nuestro equipo está aquí para ayudar!"
+    },
+    "title": "Contáctanos",
+    "subtitle": "¿Tienes una pregunta, necesitas una cotización personalizada o quieres planificar tu safari soñado? ¡Nuestro equipo está aquí para ayudar!",
+    "form": {
+      "name": "Nombre",
+      "namePlaceholder": "Tu Nombre",
+      "email": "Email",
+      "emailPlaceholder": "tu@email.com",
+      "message": "Mensaje",
+      "messagePlaceholder": "¿Cómo podemos ayudarte?",
+      "submit": "Enviar Mensaje"
+    },
+    "info": {
+      "email": "Email",
+      "phone": "Teléfono",
+      "address": "Dirección"
+    }
+  },
+  "customTour": {
+    "meta": {
+      "title": "Planificador de Tours Personalizados - Cape Town Safari Tours",
+      "description": "Crea tu aventura perfecta en Ciudad del Cabo con nuestro servicio de planificación de tours personalizados. Selecciona tours, personaliza tu horario y reserva tu itinerario personalizado."
+    },
+    "title": "Crea Tu Paquete de Tours Personalizado",
+    "subtitle": "Construye tu aventura perfecta en Ciudad del Cabo seleccionando y programando tours a lo largo de varios días",
+    "error": "Error al cargar los tours",
+    "toolbar": {
+      "searchPlaceholder": "Buscar tours...",
+      "list": "Lista",
+      "calendar": "Calendario",
+      "addDay": "Agregar Día",
+      "groupByDate": "Agrupar por fecha",
+      "share": "Compartir",
+      "export": "Exportar",
+      "import": "Importar",
+      "print": "Imprimir",
+      "bookNow": "Reservar Ahora - Pago en Recogida"
+    },
+    "dragAndDrop": {
+      "dragToStart": "Arrastra tours aquí para comenzar a construir tu itinerario.",
+      "dragToReorder": "Arrastra para reordenar"
+    },
+    "dayCard": {
+      "setDate": "Establecer fecha",
+      "autoSchedule": "Programación automática",
+      "conflicts": "conflicto",
+      "conflictsPlural": "conflictos"
+    },
+    "tourItem": {
+      "perPerson": "por persona",
+      "date": "Fecha",
+      "time": "Hora",
+      "pickDate": "Elegir una fecha",
+      "guests": "Huéspedes",
+      "adults": "Adultos",
+      "children": "Niños",
+      "infants": "Bebés <3",
+      "infantsFree": "Los bebés menores de 3 años son gratis.",
+      "notes": "Notas",
+      "notesPlaceholder": "Recogida, idioma, dieta...",
+      "remove": "Eliminar"
+    },
+    "guestCounts": {
+      "applyToAll": "Aplicar número de huéspedes a todos los artículos.",
+      "applyButton": "Aplicar a Todos"
+    },
+    "calendar": {
+      "more": "más"
+    },
+    "booking": {
+      "title": "Completar Tu Reserva",
+      "guestInfo": "Información de Huéspedes",
+      "fullName": "Nombre Completo",
+      "fullNamePlaceholder": "Juan Pérez",
+      "email": "Dirección de Email",
+      "emailRequired": "*",
+      "emailPlaceholder": "tu@email.com",
+      "phone": "Número de Teléfono",
+      "phonePlaceholder": "+34 91 123 45 67",
+      "phoneNote": "Incluir código de país para números internacionales",
+      "pickup": "Lugar de Recogida",
+      "pickupPlaceholder": "Nombre de tu hotel o dirección",
+      "pickupNote": "Ofrecemos recogida gratuita desde la mayoría de hoteles de Ciudad del Cabo",
+      "requirements": "Requisitos Especiales",
+      "requirementsPlaceholder": "¿Restricciones dietéticas, necesidades de accesibilidad o solicitudes especiales?",
+      "paymentInfo": "Información de Pago",
+      "totalPackage": "Paquete Total:",
+      "paymentNote": "💰 Pago en recogida - ¡No se requiere pago por adelantado!",
+      "trustBadges": "✓ Confirmación instantánea • ✓ Cancelación gratuita • ✓ Garantía del mejor precio",
+      "securityNote": "🔒 Tu información está segura y nunca será compartida",
+      "cancel": "Cancelar",
+      "confirm": "Confirmar Reserva",
+      "processing": "Procesando..."
+    },
+    "summary": {
+      "total": "Total:",
+      "allClear": "Todo claro — sin superposiciones.",
+      "conflictsWarning": "conflicto total",
+      "conflictsWarningPlural": "conflictos totales",
+      "adjustTimes": "Ajusta los horarios para resolver."
+    },
+    "messages": {
+      "planRestored": "Plan restaurado desde enlace",
+      "linkCopied": "Enlace compartible copiado",
+      "linkError": "No se pudo copiar el enlace",
+      "autoScheduled": "Programado automáticamente",
+      "addedTo": "Agregado a",
+      "groupedByDates": "Agrupado por fechas",
+      "guestsApplied": "Número de huéspedes aplicado a todos los artículos",
+      "exportedClipboard": "JSON del itinerario copiado al portapapeles",
+      "exportedICS": "ICS exportado",
+      "imported": "Itinerario importado",
+      "importError": "JSON inválido:",
+      "bookingConfirmed": "¡Reserva confirmada! Redirigiendo a la página de confirmación...",
+      "bookingFailed": "Reserva fallida. Por favor intenta de nuevo."
+    },
+    "noTours": "No se encontraron tours."
+  },
+  "tour_detail": {
+    "about_this_experience": "Acerca de Esta Experiencia",
+    "your_journey": "Tu Viaje",
+    "stop_number": "Parada {{number}}",
+    "inclusions_exclusions": "Incluido y Exclusiones",
+    "whats_included": "Qué Está Incluido",
+    "not_included": "No Incluido",
+    "important_information": "Información Importante",
+    "seasonal_notes": "Notas de Temporada",
+    "child_policy": "Política de Niños",
+    "accessibility": "Accesibilidad",
+    "cancellation_policy": "Política de Cancelación",
+    "tour_highlights": "Aspectos Destacados del Tour",
+    "tour_location": "Ubicación del Tour",
+    "getting_there": "Cómo Llegar",
+    "duration": "Duración",
+    "meeting_point": "Punto de Encuentro",
+    "pickup_included": "Recogida gratuita en el hotel incluida",
+    "self_drive": "Conducir por cuenta propia o organizar transporte",
+    "details_after_booking": "Detalles proporcionados después de la reserva",
+    "departure": "Salida",
+    "pickup": "Recogida",
+    "frequently_asked_questions": "Preguntas Frecuentes",
+    "view_on_google_maps": "Ver en Google Maps",
+    "tour_meeting_point": "Punto de Encuentro del Tour",
+    "city_atlantic_hotels": "Hoteles Ciudad y Atlántico",
+    "dec_feb_only": "Solo Dic - Feb; reservar temprano",
+    "children_75_percent": "Niños 4-11 años al 75%",
+    "step_up_vehicle": "Vehículo con escalón; pendientes limitadas",
+    "refund_7_days": "Reembolso antes de 7 días"
+  },
+  "badges": {
+    "best_seller": "Más Vendido",
+    "verified_tour": "Tour Verificado",
+    "rating": "Calificación",
+    "guest_favorite": "Favorito de Huéspedes"
+  },
+  "trust_indicators": {
+    "guest_rating": "Calificación de Huéspedes",
+    "verified_reviews": "Reseñas Verificadas",
+    "happy_guests": "Huéspedes Felices",
+    "tour_operator": "Operador de Tours"
+  },
+  "accessibility": {
+    "skip_to_content": "Saltar al contenido principal",
+    "home": "Inicio",
+    "tours": "Tours",
+    "javascript_required": "JavaScript es requerido para la reserva en línea.",
+    "call_to_book": "Llama para reservar: +27 21 424 5215"
+  },
+  "faq": {
+    "meta": {
+      "title": "Preguntas Frecuentes - Cape Town Safari Tours",
+      "description": "Encuentra respuestas a preguntas comunes sobre Cape Town Safari Tours. Aprende sobre nuestros tours privados, proceso de reserva, precios y más."
+    },
+    "title": "Preguntas Frecuentes",
+    "questions": [
+      {
+        "question": "¿Qué tipos de tours ofrecen?",
+        "answer": "Ofrecemos safaris privados, tours de vinos, aventuras costeras, experiencias culturales e itinerarios completamente personalizados en toda Sudáfrica."
+      },
+      {
+        "question": "¿Sus tours son privados o grupales?",
+        "answer": "Todos nuestros tours son 100% privados—solo tú y tu grupo, sin extraños."
+      },
+      {
+        "question": "¿Cómo reservo un tour?",
+        "answer": "Puedes reservar directamente en nuestro sitio web, por email o por teléfono. Nuestro equipo está feliz de ayudar con solicitudes personalizadas."
+      },
+      {
+        "question": "¿Puedo personalizar mi itinerario?",
+        "answer": "¡Absolutamente! Cada tour se adapta a tus intereses, ritmo y preferencias. Cuéntanos tu viaje soñado y lo haremos realidad."
+      },
+      {
+        "question": "¿Qué está incluido en el precio del tour?",
+        "answer": "Nuestros precios son todo incluido: guía privado, transporte, tarifas de entrada y la mayoría de las comidas. Cualquier exclusión será claramente listada."
+      },
+      {
+        "question": "¿Hay tarifas ocultas?",
+        "answer": "No. Creemos en precios transparentes. El precio que ves es el precio que pagas."
+      },
+      {
+        "question": "¿Qué métodos de pago aceptan?",
+        "answer": "Aceptamos tarjetas de crédito, EFT y otras opciones de pago seguras. Todos los pagos se procesan de forma segura."
+      },
+      {
+        "question": "¿Se requiere un depósito?",
+        "answer": "Generalmente se requiere el pago completo para confirmar tu reserva. Para tours personalizados o de grupos grandes, se puede arreglar un depósito."
+      },
+      {
+        "question": "¿Cuál es su política de cancelación?",
+        "answer": "Las cancelaciones hechas 30+ días antes del tour reciben un reembolso completo. Ver nuestros Términos de Servicio para detalles."
+      },
+      {
+        "question": "¿Qué pasa si el clima está malo?",
+        "answer": "Monitoreamos las condiciones de cerca y ajustaremos el itinerario para tu seguridad y disfrute. Se pueden ofrecer actividades alternativas o reprogramación."
+      },
+      {
+        "question": "¿Sus guías están certificados?",
+        "answer": "Sí. Todos los guías son experimentados, certificados y expertos locales apasionados."
+      },
+      {
+        "question": "¿Se requiere seguro de viaje?",
+        "answer": "Recomendamos encarecidamente un seguro de viaje integral para todos los huéspedes."
+      },
+      {
+        "question": "¿Pueden acomodar restricciones dietéticas?",
+        "answer": "Sí, por favor háznos saber tus necesidades dietéticas con anticipación y nos aseguraremos de que estés bien atendido."
+      },
+      {
+        "question": "¿Ofrecen traslados al aeropuerto?",
+        "answer": "Sí, los traslados privados al aeropuerto pueden ser arreglados como parte de tu paquete de tour."
+      },
+      {
+        "question": "¿Sus vehículos son seguros y cómodos?",
+        "answer": "Nuestra flota es moderna, con aire acondicionado y meticulosamente mantenida para tu comodidad y seguridad."
+      },
+      {
+        "question": "¿La empresa es ecológica?",
+        "answer": "Estamos comprometidos con el turismo sostenible y apoyamos socios certificados ecológicos y comunidades locales."
+      },
+      {
+        "question": "¿Puedo reservar de último minuto?",
+        "answer": "Hacemos nuestro mejor esfuerzo para acomodar reservas de último minuto, sujeto a disponibilidad. Contáctanos para solicitudes urgentes."
+      },
+      {
+        "question": "¿Cómo los contacto en una emergencia?",
+        "answer": "Recibirás un número de contacto de emergencia 24/7 con tu confirmación de reserva."
+      },
+      {
+        "question": "¿Ofrecen tours para familias con niños?",
+        "answer": "¡Sí! Damos la bienvenida a las familias y podemos adaptar actividades para todas las edades."
+      },
+      {
+        "question": "¿Qué idiomas hablan sus guías?",
+        "answer": "Nuestros guías hablan inglés y varios otros idiomas. Déjanos saber tu preferencia al reservar."
+      },
+      {
+        "question": "¿Pueden ayudar con ocasiones especiales (lunas de miel, cumpleaños)?",
+        "answer": "¡Absolutamente! Nos encanta hacer tus momentos especiales inolvidables—solo déjanos saber tus planes."
+      },
+      {
+        "question": "¿Con cuánta anticipación debo reservar?",
+        "answer": "Recomendamos reservar lo más temprano posible, especialmente para temporadas altas, pero también estamos felices de ayudar con solicitudes de último minuto."
+      }
+    ],
+    "contactPrompt": "¿Aún tienes preguntas?",
+    "contactLink": "Contáctanos",
+    "contactSuffix": "¡y nuestro equipo estará feliz de ayudar!"
+  },
+  "book_your_tour": "Reserva Tu Tour",
+  "reserve_spot_for_tour": "Reserva Tu Lugar",
+  "booking": {
+    "book_your_tour": "Reserva Tu Tour",
+    "reserve_spot_for_tour": "Reserva tu lugar para {{tourName}}",
+    "reserve_spot_today": "Reserva tu lugar hoy",
+    "tour_date": "Fecha del Tour",
+    "guests": "Huéspedes",
+    "full_name": "Nombre Completo",
+    "name_placeholder": "Tu nombre completo",
+    "email_address": "Dirección de Email",
+    "email_placeholder": "tu@email.com",
+    "phone_number": "Número de Teléfono",
+    "phone_placeholder": "+34 91 123 45 67",
+    "phone_help_text": "Incluir código de país para números internacionales",
+    "pickup_location": "Lugar de Recogida",
+    "pickup_placeholder": "Nombre de tu hotel o dirección",
+    "pickup_help_text": "Ofrecemos recogida gratuita desde la mayoría de hoteles de Ciudad del Cabo",
+    "special_requirements": "Requisitos Especiales",
+    "special_requirements_placeholder": "¿Restricciones dietéticas, necesidades de accesibilidad o solicitudes especiales?",
+    "price_per_person": "Precio por persona",
+    "total_amount": "Cantidad Total",
+    "payment_on_pickup": "Pago en recogida",
+    "no_advance_payment": "No se requiere pago por adelantado",
+    "processing_booking": "Procesando reserva",
+    "book_now_pay_pickup": "Reservar Ahora - Pagar en Recogida",
+    "instant_confirmation": "Confirmación instantánea",
+    "free_cancellation": "Cancelación gratuita",
+    "best_price_guarantee": "Garantía del mejor precio",
+    "people_viewing_now": "personas viendo ahora",
+    "booked_today": "reservado hoy",
+    "max_group_size": "Tamaño máx del grupo",
+    "top_rated": "Mejor valorado",
+    "verified_operator": "Verificado",
+    "operator": "Operador",
+    "rating": "Calificación",
+    "chat_with_us": "Chatea con nosotros",
+    "call_us": "Llámanos",
+    "free_cancellation_24h": "Cancelación gratuita hasta 24 horas",
+    "recent_guest_review": "Reseña reciente de huésped",
+    "secure_information": "Tu información está segura y nunca será compartida",
+    "please_fill_required_fields": "Por favor completa todos los campos obligatorios",
+    "booking_confirmed_redirecting": "¡Reserva confirmada! Redirigiendo a la página de confirmación...",
+    "from": "Desde",
+    "per_person": "por persona",
+    "check_availability": "Verificar Disponibilidad",
+    "max": "Máx",
+    "confirm": "Confirmar Reserva"
+  }
+}

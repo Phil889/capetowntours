@@ -1,0 +1,1929 @@
+{
+  "metadata": {
+    "generated_at": "2024-08-24T12:00:00Z",
+    "purpose": "Comprehensive tour data structure for authentic multi-language review generation",
+    "total_tours": 21,
+    "categories": ["safari", "marine", "cultural", "mountain", "vineyard", "adventure"],
+    "languages_supported": ["en", "de", "fr", "es", "ar"],
+    "rating_scale": "1-5 stars",
+    "experience_types": ["wildlife", "family", "couple", "photography", "educational", "adventure", "cultural", "luxury"]
+  },
+
+  "tours": {
+    "boulders-beach-penguin-colony": {
+      "basic_info": {
+        "name": "Boulders Beach Penguin Colony",
+        "category": "marine",
+        "duration_hours": 4,
+        "price_range": "R120-200",
+        "max_group_size": 15,
+        "difficulty_level": "easy",
+        "age_suitability": "all_ages",
+        "season": "year_round"
+      },
+      "unique_selling_points": [
+        "Home to over 3,000 endangered African penguins",
+        "Protected boardwalk system for close viewing without disturbance",
+        "Stunning granite boulder formations dating back 540 million years",
+        "One of only two land-based penguin colonies in Africa accessible to public",
+        "Conservation success story - colony has grown from 2 breeding pairs in 1982",
+        "Pristine white sand beaches with crystal-clear waters",
+        "Year-round penguin breeding and nesting activity"
+      ],
+      "typical_experiences": {
+        "wildlife_encounters": [
+          "Watching penguins waddle on the beach and rocks",
+          "Observing penguin swimming and diving behavior",
+          "Seeing penguin chicks during breeding season (February-August)",
+          "Witnessing penguin social interactions and grooming",
+          "Spotting other seabirds like cormorants and ibis"
+        ],
+        "photography_opportunities": [
+          "Close-up shots of penguins against granite boulders",
+          "Action shots of penguins entering/exiting water",
+          "Scenic compositions with turquoise water backdrop",
+          "Family penguin portraits during nesting season",
+          "Sunset/sunrise shots with penguin silhouettes"
+        ],
+        "educational_moments": [
+          "Learning about African penguin conservation efforts",
+          "Understanding threats to penguin populations",
+          "Discovering the unique ecosystem of False Bay",
+          "Appreciating the geological significance of granite boulders"
+        ]
+      },
+      "visitor_emotions": [
+        "Wonder and delight at seeing penguins in wild",
+        "Peaceful contemplation in natural setting",
+        "Joy and laughter at penguin antics",
+        "Educational satisfaction from conservation learning",
+        "Photographic excitement and achievement",
+        "Connection with endangered species conservation"
+      ],
+      "cultural_significance": {
+        "conservation_importance": "Symbol of successful marine wildlife protection",
+        "local_heritage": "Part of Table Mountain National Park",
+        "scientific_value": "Important research site for penguin behavior studies",
+        "tourism_impact": "Major contributor to Simon's Town economy"
+      },
+      "best_times_to_visit": {
+        "time_of_day": ["early_morning", "late_afternoon"],
+        "seasons": {
+          "breeding_season": "February-August (best for chick viewing)",
+          "molting_season": "November-January (penguins less active)",
+          "year_round": "Always accessible with different seasonal behaviors"
+        },
+        "weather_considerations": "Avoid very windy days, sunny weather best for photography"
+      },
+      "key_attractions": [
+        "Main penguin viewing boardwalk",
+        "Foxy Beach alternative viewing area",
+        "Boulders Beach swimming area",
+        "Simon's Town Naval Museum nearby",
+        "Penguin interpretation center",
+        "Historic Simon's Town Victorian architecture"
+      ],
+      "adventure_level": "low",
+      "physical_requirements": "minimal_walking",
+      "accessibility": "wheelchair_friendly_boardwalk",
+      "common_combinations": ["simon-s-town", "cape-point-lighthouse", "chapman-s-peak-drive"],
+      "seo_keywords": {
+        "primary": ["African penguins", "Boulders Beach", "penguin colony", "Simon's Town", "Cape Town penguins"],
+        "secondary": ["wildlife viewing", "conservation", "family attraction", "marine life", "False Bay"],
+        "long_tail": ["where to see penguins in Cape Town", "African penguin conservation", "Boulders Beach boardwalk", "penguin watching South Africa"],
+        "emotional": ["adorable penguins", "magical wildlife experience", "unforgettable penguin encounter", "family-friendly penguin viewing"]
+      }
+    },
+
+    "sea-point-promenade": {
+      "basic_info": {
+        "name": "Sea Point Promenade",
+        "category": "cultural",
+        "duration_hours": 3,
+        "price_range": "Free-R50",
+        "max_group_size": "unlimited",
+        "difficulty_level": "easy",
+        "age_suitability": "all_ages",
+        "season": "year_round"
+      },
+      "unique_selling_points": [
+        "2.2km oceanfront promenade with uninterrupted Atlantic views",
+        "Iconic tidal pools perfect for safe swimming",
+        "Vibrant mix of local Cape Town culture and international visitors",
+        "Year-round outdoor fitness destination with equipment",
+        "Historic Art Deco apartment buildings backdrop",
+        "Stunning sunset viewing location",
+        "Free public amenity with world-class facilities"
+      ],
+      "typical_experiences": {
+        "cultural_encounters": [
+          "Observing diverse Cape Town demographics exercising together",
+          "Street performers and musicians during weekends",
+          "Local families enjoying picnics and braais",
+          "International tourists mixing with locals",
+          "Elderly residents playing chess at pavilions"
+        ],
+        "activities": [
+          "Walking or jogging the full 2.2km length",
+          "Swimming in protected tidal pools",
+          "Outdoor gym equipment workouts",
+          "Sunset photography sessions",
+          "People watching from benches",
+          "Children's playground activities"
+        ],
+        "scenic_highlights": [
+          "Panoramic Atlantic Ocean views",
+          "Robben Island visible on clear days",
+          "Lion's Head mountain backdrop",
+          "Waves crashing against sea wall",
+          "Historic Sea Point architecture"
+        ]
+      },
+      "visitor_emotions": [
+        "Relaxation and stress relief from ocean views",
+        "Energy and motivation from fitness atmosphere",
+        "Social connection with diverse community",
+        "Peaceful contemplation during sunset",
+        "Joy from family-friendly environment",
+        "Inspiration from natural beauty"
+      ],
+      "cultural_significance": {
+        "social_hub": "Meeting place for diverse Cape Town communities",
+        "historical_importance": "Development of Cape Town's Atlantic seaboard",
+        "architectural_heritage": "Preservation of Art Deco buildings",
+        "wellness_culture": "Symbol of South African outdoor lifestyle"
+      },
+      "best_times_to_visit": {
+        "time_of_day": ["early_morning", "late_afternoon", "sunset"],
+        "seasons": {
+          "summer": "December-February (warmest swimming)",
+          "winter": "June-August (fewer crowds, dramatic storms)",
+          "year_round": "Always accessible with different seasonal moods"
+        },
+        "weather_considerations": "Windy conditions can be challenging, calm days best for families"
+      },
+      "key_attractions": [
+        "Sea Point tidal pool complex",
+        "Outdoor fitness equipment stations",
+        "Children's playground areas",
+        "Chess pavilions",
+        "Sunset viewing spots",
+        "Historic apartment buildings",
+        "Restaurant strip across road"
+      ],
+      "adventure_level": "minimal",
+      "physical_requirements": "easy_walking",
+      "accessibility": "fully_wheelchair_accessible",
+      "common_combinations": ["v-a-waterfront", "bo-kaap-heritage-quarter", "cape-town-city-bowl"],
+      "seo_keywords": {
+        "primary": ["Sea Point Promenade", "Cape Town waterfront", "Atlantic seaboard", "tidal pools", "Sea Point"],
+        "secondary": ["ocean views", "outdoor fitness", "family activities", "sunset viewing", "promenade walking"],
+        "long_tail": ["best promenade walks Cape Town", "Sea Point tidal pool swimming", "Atlantic Ocean views Cape Town", "free activities Cape Town"],
+        "emotional": ["relaxing ocean walk", "stunning sunset views", "family-friendly promenade", "energizing waterfront exercise"]
+      }
+    },
+
+    "bo-kaap-heritage-quarter": {
+      "basic_info": {
+        "name": "Bo-Kaap Heritage Quarter",
+        "category": "cultural",
+        "duration_hours": 4,
+        "price_range": "R150-400",
+        "max_group_size": 12,
+        "difficulty_level": "moderate",
+        "age_suitability": "12+",
+        "season": "year_round"
+      },
+      "unique_selling_points": [
+        "Historic Cape Malay community dating back to 1760s",
+        "Iconic brightly colored Victorian and Georgian houses",
+        "Living heritage with active Muslim community",
+        "Traditional Cape Malay cuisine and cooking experiences",
+        "Significant anti-apartheid resistance history",
+        "Unique architectural preservation success story",
+        "UNESCO World Heritage Site candidate"
+      ],
+      "typical_experiences": {
+        "cultural_immersion": [
+          "Guided walks through cobblestone streets",
+          "Visits to historic Auwal Mosque (oldest in South Africa)",
+          "Traditional Cape Malay cooking demonstrations",
+          "Meeting with local community elders",
+          "Learning about Islamic heritage in Cape Town",
+          "Understanding apartheid-era forced removals"
+        ],
+        "architectural_appreciation": [
+          "Photography of colorful house facades",
+          "Victorian and Georgian architectural details",
+          "Traditional 'stoep' (front porch) culture",
+          "Historic building restoration examples",
+          "Contrast with modern Cape Town developments"
+        ],
+        "culinary_experiences": [
+          "Tasting traditional koeksisters and other sweets",
+          "Learning about Malaysian spice traditions",
+          "Sampling Cape Malay curry dishes",
+          "Understanding halal food culture",
+          "Traditional rooibos tea ceremonies"
+        ]
+      },
+      "visitor_emotions": [
+        "Cultural respect and appreciation",
+        "Historical awareness and education",
+        "Visual delight from colorful architecture",
+        "Spiritual connection in sacred spaces",
+        "Culinary excitement and discovery",
+        "Social justice understanding and empathy"
+      ],
+      "cultural_significance": {
+        "heritage_preservation": "Oldest surviving residential area in Cape Town",
+        "religious_importance": "Center of Islamic culture in South Africa",
+        "resistance_history": "Symbol of community survival and resilience",
+        "culinary_legacy": "Origin of Cape Malay cuisine traditions",
+        "architectural_value": "Unique blend of European and Eastern influences"
+      },
+      "best_times_to_visit": {
+        "time_of_day": ["mid_morning", "early_afternoon"],
+        "seasons": {
+          "autumn": "March-May (best photography light)",
+          "spring": "September-November (comfortable temperatures)",
+          "year_round": "Cultural experiences available throughout year"
+        },
+        "weather_considerations": "Avoid during strong south-easter winds, morning light best for photos"
+      },
+      "key_attractions": [
+        "Auwal Mosque (1794)",
+        "Bo-Kaap Museum",
+        "Colorful Wale Street houses",
+        "Traditional spice shops",
+        "Chiappini Street photography spots",
+        "Historic madrassas (religious schools)",
+        "Traditional craftsmen workshops"
+      ],
+      "adventure_level": "low",
+      "physical_requirements": "moderate_walking_hills",
+      "accessibility": "limited_wheelchair_access",
+      "common_combinations": ["cape-town-city-bowl", "table-mountain-cableway", "v-a-waterfront"],
+      "seo_keywords": {
+        "primary": ["Bo-Kaap", "Cape Malay quarter", "colorful houses Cape Town", "Muslim heritage", "Bo-Kaap museum"],
+        "secondary": ["cultural heritage", "Islamic history", "Cape Malay cuisine", "historic neighborhood", "apartheid history"],
+        "long_tail": ["Bo-Kaap guided cultural tours", "Cape Malay cooking experiences", "colorful houses photography Cape Town", "Islamic heritage South Africa"],
+        "emotional": ["vibrant cultural experience", "authentic heritage tour", "inspiring community story", "colorful architectural beauty"]
+      }
+    },
+
+    "cape-town-skydive": {
+      "basic_info": {
+        "name": "Cape Town Skydive",
+        "category": "adventure",
+        "duration_hours": 6,
+        "price_range": "R2800-3500",
+        "max_group_size": 8,
+        "difficulty_level": "extreme",
+        "age_suitability": "18+",
+        "season": "year_round"
+      },
+      "unique_selling_points": [
+        "Tandem skydive over one of world's most scenic drop zones",
+        "Panoramic views of Table Mountain, city, and coastlines",
+        "Professional instructors with international certifications",
+        "State-of-the-art safety equipment and procedures",
+        "HD video and photography packages available",
+        "Landing on pristine beach or designated drop zone",
+        "Life-changing adrenaline experience"
+      ],
+      "typical_experiences": {
+        "pre_jump": [
+          "Comprehensive safety briefing and training",
+          "Meeting certified tandem instructor",
+          "Equipment fitting and safety checks",
+          "Flight to 10,000+ feet altitude",
+          "Final preparations and mental preparation"
+        ],
+        "the_jump": [
+          "60-second freefall at 200km/h",
+          "Panoramic views during 5-7 minute parachute descent",
+          "Professional guidance throughout experience",
+          "HD video and photo capture of entire jump",
+          "Safe landing with instructor"
+        ],
+        "scenic_highlights": [
+          "Aerial view of Table Mountain and Lion's Head",
+          "Peninsula coastline from Camps Bay to Muizenberg",
+          "False Bay and Atlantic Ocean meeting point",
+          "Cape Town city bowl from above",
+          "Winelands and mountain ranges in distance"
+        ]
+      },
+      "visitor_emotions": [
+        "Intense adrenaline rush and excitement",
+        "Fear transformation into empowerment",
+        "Life achievement and personal milestone",
+        "Overwhelming natural beauty appreciation",
+        "Confidence boost and courage building",
+        "Unforgettable memory creation"
+      ],
+      "cultural_significance": {
+        "adventure_tourism": "Premier extreme sport destination",
+        "scenic_value": "Showcase of Cape Town's natural beauty from unique perspective",
+        "personal_development": "Metaphor for overcoming fears and limitations",
+        "tourism_economy": "Significant contributor to adventure tourism sector"
+      },
+      "best_times_to_visit": {
+        "time_of_day": ["mid_morning", "early_afternoon"],
+        "seasons": {
+          "summer": "December-February (clearest skies and best visibility)",
+          "autumn": "March-May (stable weather conditions)",
+          "winter": "June-August (fewer wind delays)",
+          "spring": "September-November (excellent visibility after winter rains)"
+        },
+        "weather_considerations": "Wind speed critical factor, clear skies essential for safety and views"
+      },
+      "key_attractions": [
+        "Aircraft flight experience",
+        "Freefall adrenaline rush",
+        "Panoramic Cape Peninsula views",
+        "Professional video/photo documentation",
+        "Beach or field landing experience",
+        "Certificate of completion",
+        "Post-jump celebration"
+      ],
+      "adventure_level": "extreme",
+      "physical_requirements": "good_health_required",
+      "accessibility": "limited_medical_restrictions",
+      "common_combinations": ["cape-point-lighthouse", "chapman-s-peak-drive", "table-mountain-cableway"],
+      "seo_keywords": {
+        "primary": ["Cape Town skydiving", "tandem skydive", "Table Mountain skydive", "extreme sports Cape Town", "skydiving South Africa"],
+        "secondary": ["adrenaline activities", "adventure tourism", "aerial views", "bucket list experience", "extreme adventure"],
+        "long_tail": ["best skydiving Cape Town Table Mountain views", "tandem skydive Cape Town safety", "skydiving over Cape Peninsula", "extreme sports adventure Cape Town"],
+        "emotional": ["life-changing skydive experience", "ultimate adrenaline rush", "breathtaking aerial adventure", "conquering fears skydiving"]
+      }
+    },
+
+    "aquila-safari-tour": {
+      "basic_info": {
+        "name": "Aquila Safari Tour",
+        "category": "safari",
+        "duration_hours": 10,
+        "price_range": "R2200-2800",
+        "max_group_size": 16,
+        "difficulty_level": "easy",
+        "age_suitability": "all_ages",
+        "season": "year_round"
+      },
+      "unique_selling_points": [
+        "Big 5 safari within 2 hours drive from Cape Town",
+        "Malaria-free private game reserve in Greater Karoo",
+        "Over 170 bird species and diverse wildlife",
+        "Luxury safari vehicles with professional guides",
+        "Conservation success story with rescued animals",
+        "Traditional South African lunch included",
+        "Closest Big 5 experience to Cape Town"
+      ],
+      "typical_experiences": {
+        "wildlife_encounters": [
+          "Spotting Big 5: lion, leopard, elephant, rhino, buffalo",
+          "Observing antelope species: springbok, kudu, eland",
+          "Bird watching with expert guide commentary",
+          "Learning about animal behavior and conservation",
+          "Photography opportunities with professional guidance"
+        ],
+        "safari_activities": [
+          "3-hour game drive in open safari vehicles",
+          "Bush walk with experienced ranger",
+          "Visit to animal rehabilitation center",
+          "Traditional boma dinner option (evening safaris)",
+          "Educational talks about conservation efforts"
+        ],
+        "cultural_elements": [
+          "Learning about Karoo ecosystem and history",
+          "Traditional South African cuisine experience",
+          "Understanding local conservation initiatives",
+          "Meeting passionate conservation staff",
+          "Discovering indigenous plant species"
+        ]
+      },
+      "visitor_emotions": [
+        "Excitement of first Big 5 animal sightings",
+        "Awe at wildlife in natural habitat",
+        "Connection with African wilderness",
+        "Educational satisfaction about conservation",
+        "Adventure thrill without danger",
+        "Peaceful appreciation of natural beauty"
+      ],
+      "cultural_significance": {
+        "conservation_model": "Example of successful private wildlife conservation",
+        "educational_value": "Introduction to African wildlife for many visitors",
+        "economic_impact": "Sustainable tourism supporting local communities",
+        "ecological_importance": "Preservation of Karoo biome and species"
+      },
+      "best_times_to_visit": {
+        "time_of_day": ["early_morning", "late_afternoon"],
+        "seasons": {
+          "winter": "June-August (animals more active, clearer skies)",
+          "spring": "September-November (wildflowers and newborn animals)",
+          "summer": "December-February (lush vegetation after rains)",
+          "autumn": "March-May (comfortable temperatures, good visibility)"
+        },
+        "weather_considerations": "Early morning best for animal activity, avoid midday heat in summer"
+      },
+      "key_attractions": [
+        "Big 5 game viewing",
+        "Luxury safari lodge facilities",
+        "Professional guided game drives",
+        "Traditional South African lunch",
+        "Conservation education center",
+        "Scenic Karoo landscape",
+        "Photography opportunities"
+      ],
+      "adventure_level": "moderate",
+      "physical_requirements": "minimal_walking",
+      "accessibility": "suitable_for_elderly",
+      "common_combinations": ["cape-winelands", "stellenbosch-wine-tours", "hermanus-whale-watching-tour"],
+      "seo_keywords": {
+        "primary": ["Aquila Safari", "Big 5 safari Cape Town", "game reserve", "African wildlife", "safari day trip"],
+        "secondary": ["malaria-free safari", "private game reserve", "wildlife photography", "conservation tourism", "Karoo safari"],
+        "long_tail": ["Big 5 safari day trip from Cape Town", "malaria-free game reserve South Africa", "Aquila private safari experience", "closest Big 5 to Cape Town"],
+        "emotional": ["thrilling Big 5 encounter", "authentic African safari", "unforgettable wildlife experience", "magical animal sightings"]
+      }
+    },
+
+    "hout-bay-harbour": {
+      "basic_info": {
+        "name": "Hout Bay Harbour",
+        "category": "marine",
+        "duration_hours": 5,
+        "price_range": "R180-350",
+        "max_group_size": 20,
+        "difficulty_level": "easy",
+        "age_suitability": "all_ages",
+        "season": "year_round"
+      },
+      "unique_selling_points": [
+        "Historic fishing village atmosphere in scenic bay",
+        "Active working harbor with colorful fishing boats",
+        "Gateway to Seal Island boat trips",
+        "Fresh seafood market and restaurants",
+        "Stunning mountain backdrop with Sentinel Peak",
+        "World of Birds wildlife sanctuary nearby",
+        "Traditional fish and chips by the harbor"
+      ],
+      "typical_experiences": {
+        "marine_activities": [
+          "Boat trips to Seal Island with 75,000 fur seals",
+          "Whale watching during season (June-November)",
+          "Dolphin spotting opportunities",
+          "Deep sea fishing charters",
+          "Sunset harbor cruises"
+        ],
+        "harbor_culture": [
+          "Watching fishing boats return with daily catch",
+          "Fresh seafood purchasing from local vendors",
+          "Traditional fish and chips dining experience",
+          "Local musicians and street performers",
+          "Craft market browsing on weekends"
+        ],
+        "scenic_appreciation": [
+          "Photography of colorful harbor scene",
+          "Mountain backdrop with Twelve Apostles",
+          "Sunset views over Hout Bay",
+          "Historic Chapman's Peak views",
+          "World of Birds wildlife encounters"
+        ]
+      },
+      "visitor_emotions": [
+        "Nostalgic charm of traditional fishing village",
+        "Excitement from marine wildlife encounters",
+        "Relaxation from scenic harbor setting",
+        "Culinary satisfaction from fresh seafood",
+        "Adventure anticipation for boat trips",
+        "Cultural appreciation of local community"
+      ],
+      "cultural_significance": {
+        "fishing_heritage": "Historic center of Cape Town's fishing industry",
+        "community_hub": "Traditional working-class harbor community",
+        "tourism_development": "Evolution from fishing village to tourist destination",
+        "maritime_history": "Important harbor for Cape Peninsula region"
+      },
+      "best_times_to_visit": {
+        "time_of_day": ["mid_morning", "early_afternoon", "sunset"],
+        "seasons": {
+          "whale_season": "June-November (humpback and southern right whales)",
+          "summer": "December-February (calm seas, best for boat trips)",
+          "winter": "June-August (dramatic seas, fewer crowds)",
+          "year_round": "Harbor activities and dining available throughout year"
+        },
+        "weather_considerations": "Calm seas essential for boat trips, wind can affect harbor activities"
+      },
+      "key_attractions": [
+        "Seal Island boat trips",
+        "Fresh seafood market",
+        "World of Birds wildlife sanctuary",
+        "Harbor-front restaurants",
+        "Weekend craft markets",
+        "Chapman's Peak Drive access",
+        "Historic fishing fleet"
+      ],
+      "adventure_level": "low",
+      "physical_requirements": "minimal_walking",
+      "accessibility": "mostly_wheelchair_accessible",
+      "common_combinations": ["chapman-s-peak-drive", "cape-point-lighthouse", "camps-bay"],
+      "seo_keywords": {
+        "primary": ["Hout Bay", "seal island", "fishing harbor", "Hout Bay harbor", "marine wildlife"],
+        "secondary": ["boat trips", "seal watching", "fresh seafood", "fishing village", "harbor cruises"],
+        "long_tail": ["Hout Bay seal island boat trips", "fresh seafood Hout Bay harbor", "whale watching Hout Bay", "traditional fishing village Cape Town"],
+        "emotional": ["charming fishing village", "exciting seal encounters", "authentic harbor experience", "scenic coastal adventure"]
+      }
+    },
+
+    "simon-s-town": {
+      "basic_info": {
+        "name": "Simon's Town",
+        "category": "cultural",
+        "duration_hours": 6,
+        "price_range": "R200-450",
+        "max_group_size": 15,
+        "difficulty_level": "easy",
+        "age_suitability": "all_ages",
+        "season": "year_round"
+      },
+      "unique_selling_points": [
+        "Historic naval town with Victorian architecture",
+        "Home to South African Navy headquarters",
+        "Gateway to Boulders Beach penguin colony",
+        "Rich maritime and military history",
+        "Charming Main Road with antique shops and cafes",
+        "Naval Museum with fascinating exhibits",
+        "Just Nuisance statue (only dog enlisted in Royal Navy)"
+      ],
+      "typical_experiences": {
+        "historical_exploration": [
+          "Guided walking tour of Victorian buildings",
+          "Visit to Naval Museum with maritime artifacts",
+          "Learning about apartheid-era forced removals",
+          "Exploring historic St. Francis Church",
+          "Understanding naval significance during wars"
+        ],
+        "cultural_immersion": [
+          "Browsing antique shops and local crafts",
+          "Traditional fish and chips at local restaurants",
+          "Meeting local historians and storytellers",
+          "Discovering local art galleries",
+          "Learning about Just Nuisance dog legend"
+        ],
+        "scenic_activities": [
+          "Penguin viewing at nearby Boulders Beach",
+          "False Bay coastal walks",
+          "Photography of historic architecture",
+          "Harbor and marina exploration",
+          "Sunset viewing from scenic spots"
+        ]
+      },
+      "visitor_emotions": [
+        "Historical fascination and learning",
+        "Nostalgic appreciation of preserved architecture",
+        "Cultural respect for naval heritage",
+        "Peaceful enjoyment of small-town atmosphere",
+        "Educational satisfaction from museum visits",
+        "Connection with maritime traditions"
+      ],
+      "cultural_significance": {
+        "naval_importance": "Home to South African Navy since 1957",
+        "architectural_heritage": "Best-preserved Victorian naval town in South Africa",
+        "apartheid_history": "Site of significant forced removals and community displacement",
+        "maritime_legacy": "Strategic harbor for centuries of shipping",
+        "conservation_gateway": "Access point to penguin conservation area"
+      },
+      "best_times_to_visit": {
+        "time_of_day": ["mid_morning", "early_afternoon"],
+        "seasons": {
+          "spring": "September-November (perfect weather, fewer crowds)",
+          "autumn": "March-May (comfortable temperatures, good light for photography)",
+          "summer": "December-February (warmest but busiest)",
+          "winter": "June-August (dramatic weather, cozy indoor attractions)"
+        },
+        "weather_considerations": "South-easter wind can be strong in summer, calm days best for harbor walks"
+      },
+      "key_attractions": [
+        "South African Naval Museum",
+        "Historic Main Road shopping and dining",
+        "Just Nuisance statue and memorial",
+        "Boulders Beach penguin colony (nearby)",
+        "Simon's Town Museum",
+        "Victorian architecture walking trail",
+        "False Bay harbor and marina"
+      ],
+      "adventure_level": "minimal",
+      "physical_requirements": "easy_walking",
+      "accessibility": "mostly_wheelchair_accessible",
+      "common_combinations": ["boulders-beach-penguin-colony", "cape-point-lighthouse", "muizenberg-beach"],
+      "seo_keywords": {
+        "primary": ["Simon's Town", "naval museum", "Victorian architecture", "False Bay", "historic town"],
+        "secondary": ["maritime history", "Just Nuisance dog", "naval heritage", "penguin gateway", "antique shopping"],
+        "long_tail": ["Simon's Town naval museum South Africa", "historic Victorian town Cape Town", "Just Nuisance dog story Simon's Town", "False Bay heritage tour"],
+        "emotional": ["charming historic naval town", "fascinating maritime heritage", "authentic Victorian atmosphere", "peaceful coastal village"]
+      }
+    },
+
+    "maiden-s-cove": {
+      "basic_info": {
+        "name": "Maiden's Cove",
+        "category": "cultural",
+        "duration_hours": 3,
+        "price_range": "Free-R100",
+        "max_group_size": "unlimited",
+        "difficulty_level": "easy",
+        "age_suitability": "all_ages",
+        "season": "year_round"
+      },
+      "unique_selling_points": [
+        "Pristine tidal pools perfect for swimming",
+        "Stunning views of Twelve Apostles mountain range",
+        "Protected cove with calm, clear waters",
+        "Popular sunset viewing and photography location",
+        "Natural granite formations and rock pools",
+        "Family-friendly beach alternative to crowded Camps Bay",
+        "Accessible via scenic coastal walk"
+      ],
+      "typical_experiences": {
+        "natural_activities": [
+          "Swimming in protected tidal pools",
+          "Snorkeling in clear rock pools",
+          "Exploring marine life in tidal zones",
+          "Sunbathing on granite rocks",
+          "Rock pool exploration with children"
+        ],
+        "scenic_appreciation": [
+          "Sunset photography with mountain backdrop",
+          "Panoramic views of Camps Bay and Lion's Head",
+          "Watching waves crash against granite formations",
+          "Ocean horizon contemplation",
+          "Natural rock formation photography"
+        ],
+        "relaxation_activities": [
+          "Peaceful reading in secluded cove",
+          "Meditation and mindfulness practice",
+          "Romantic sunset watching",
+          "Picnicking on rocks",
+          "Family bonding time in nature"
+        ]
+      },
+      "visitor_emotions": [
+        "Peaceful tranquility away from crowds",
+        "Natural beauty appreciation",
+        "Refreshing connection with ocean",
+        "Romantic intimacy in scenic setting",
+        "Adventure discovery of hidden gem",
+        "Family joy in safe natural environment"
+      ],
+      "cultural_significance": {
+        "natural_heritage": "Protected coastal environment within national park",
+        "accessibility_success": "Wheelchair-accessible natural area",
+        "photography_destination": "Iconic Cape Town Instagram location",
+        "community_space": "Local gathering place for sunset viewing"
+      },
+      "best_times_to_visit": {
+        "time_of_day": ["late_afternoon", "sunset", "early_morning"],
+        "seasons": {
+          "summer": "December-February (warmest water temperatures)",
+          "autumn": "March-May (perfect weather, fewer crowds)",
+          "winter": "June-August (dramatic wave action, fewer swimmers)",
+          "spring": "September-November (excellent visibility, comfortable temperatures)"
+        },
+        "weather_considerations": "Calm seas best for swimming, wind can create challenging conditions"
+      },
+      "key_attractions": [
+        "Natural tidal pool swimming areas",
+        "Granite rock formations",
+        "Sunset viewing spots",
+        "Marine life observation pools",
+        "Mountain backdrop photography",
+        "Secluded beach alternative",
+        "Accessible coastal pathway"
+      ],
+      "adventure_level": "minimal",
+      "physical_requirements": "easy_access",
+      "accessibility": "wheelchair_accessible_path",
+      "common_combinations": ["camps-bay", "lion-s-head-hike", "twelve-apostles"],
+      "seo_keywords": {
+        "primary": ["Maiden's Cove", "tidal pools Cape Town", "Camps Bay", "Twelve Apostles", "sunset viewing"],
+        "secondary": ["natural swimming", "rock pools", "family beach", "scenic cove", "granite formations"],
+        "long_tail": ["best tidal pools Cape Town swimming", "Maiden's Cove sunset photography", "hidden beaches Camps Bay area", "wheelchair accessible beach Cape Town"],
+        "emotional": ["peaceful tidal pool paradise", "hidden gem sunset spot", "family-friendly natural swimming", "romantic secluded cove"]
+      }
+    },
+
+    "muizenberg-beach": {
+      "basic_info": {
+        "name": "Muizenberg Beach",
+        "category": "marine",
+        "duration_hours": 6,
+        "price_range": "Free-R300",
+        "max_group_size": "unlimited",
+        "difficulty_level": "easy",
+        "age_suitability": "all_ages",
+        "season": "year_round"
+      },
+      "unique_selling_points": [
+        "Historic colorful Victorian beach huts",
+        "Warmest and safest swimming beach in Cape Town",
+        "Birthplace of surfing in South Africa",
+        "21km of uninterrupted white sand beach",
+        "Family-friendly with lifeguards and facilities",
+        "Rich cultural and historical significance",
+        "Gateway to False Bay coastal experiences"
+      ],
+      "typical_experiences": {
+        "beach_activities": [
+          "Swimming in warm, calm waters",
+          "Surfing lessons for beginners",
+          "Beach walks along 21km coastline",
+          "Building sandcastles with children",
+          "Beach volleyball and sports",
+          "Sunbathing and relaxation"
+        ],
+        "cultural_exploration": [
+          "Photography of iconic colorful beach huts",
+          "Learning about surfing history in South Africa",
+          "Exploring historic Muizenberg pavilion",
+          "Understanding the area's diverse cultural heritage",
+          "Visiting local surf shops and cafes"
+        ],
+        "recreational_pursuits": [
+          "Kite surfing and wind sports",
+          "Stand-up paddleboarding",
+          "Horse riding on the beach",
+          "Shark spotting plane observations",
+          "Local restaurant and cafe experiences"
+        ]
+      },
+      "visitor_emotions": [
+        "Nostalgic charm from vintage beach culture",
+        "Joy and freedom from safe beach environment",
+        "Learning excitement from surf lessons",
+        "Family bonding through beach activities",
+        "Cultural appreciation of historical significance",
+        "Peaceful relaxation from long beach walks"
+      ],
+      "cultural_significance": {
+        "surfing_birthplace": "Where surfing was introduced to South Africa in 1919",
+        "apartheid_history": "Former whites-only beach with complex historical legacy",
+        "architectural_heritage": "Victorian beach huts dating back to 1920s",
+        "community_development": "Ongoing urban renewal and cultural preservation efforts"
+      },
+      "best_times_to_visit": {
+        "time_of_day": ["morning", "late_afternoon"],
+        "seasons": {
+          "summer": "December-February (warmest water, peak beach season)",
+          "autumn": "March-May (perfect weather, fewer crowds)",
+          "winter": "June-August (still swimmable, dramatic whale watching)",
+          "spring": "September-November (excellent conditions, wildflower season)"
+        },
+        "weather_considerations": "South-easter wind can be strong in summer afternoons, mornings generally calmer"
+      },
+      "key_attractions": [
+        "Colorful Victorian beach huts",
+        "Surfer's Corner for wave watching",
+        "Historic Muizenberg Pavilion",
+        "21km continuous beach walk",
+        "Local surf schools and shops",
+        "Whale watching opportunities (winter)",
+        "Family-friendly facilities and lifeguards"
+      ],
+      "adventure_level": "low",
+      "physical_requirements": "easy_beach_access",
+      "accessibility": "wheelchair_accessible_facilities",
+      "common_combinations": ["simon-s-town", "boulders-beach-penguin-colony", "cape-point-lighthouse"],
+      "seo_keywords": {
+        "primary": ["Muizenberg Beach", "colorful beach huts", "False Bay", "surfing Cape Town", "family beach"],
+        "secondary": ["warm water swimming", "surf lessons", "Victorian beach huts", "safe swimming", "beach walks"],
+        "long_tail": ["best family beach Cape Town False Bay", "Muizenberg surf lessons beginners", "colorful beach huts photography Cape Town", "warmest swimming beach Cape Town"],
+        "emotional": ["nostalgic beach hut charm", "family-friendly beach paradise", "beginner-friendly surfing haven", "warm water swimming delight"]
+      }
+    },
+
+    "hermanus-whale-watching-tour": {
+      "basic_info": {
+        "name": "Hermanus Whale Watching Tour",
+        "category": "marine",
+        "duration_hours": 8,
+        "price_range": "R450-800",
+        "max_group_size": 12,
+        "difficulty_level": "easy",
+        "age_suitability": "all_ages",
+        "season": "June-November",
+        "peak_season": "September-October"
+      },
+      "unique_selling_points": [
+        "World's best land-based whale watching destination",
+        "Southern right whales calving and breeding grounds",
+        "Historic fishing village with cliff-top whale watching",
+        "Official whale crier announcing whale sightings",
+        "Boat-based whale watching for close encounters",
+        "Annual Whale Festival (September/October)",
+        "Marine Big 5 viewing opportunities"
+      ],
+      "typical_experiences": {
+        "whale_encounters": [
+          "Southern right whale close-up sightings",
+          "Whale breaching and tail fluking displays",
+          "Mother and calf interactions observation",
+          "Humpback whale migration viewing",
+          "Bryde's whale year-round spotting opportunities"
+        ],
+        "marine_wildlife": [
+          "Dolphin pod encounters",
+          "Seal colony visits",
+          "Penguin sightings from boats",
+          "Seabird identification and photography",
+          "Marine Big 5 complete viewing"
+        ],
+        "cultural_activities": [
+          "Historic Hermanus village exploration",
+          "Local wine tasting in nearby Hemel-en-Aarde Valley",
+          "Cliff path whale watching walks",
+          "Traditional fishing harbor visits",
+          "Local seafood restaurant experiences"
+        ]
+      },
+      "visitor_emotions": [
+        "Awe and wonder at whale encounters",
+        "Excitement from close marine wildlife interactions",
+        "Peaceful contemplation of ocean vastness",
+        "Educational satisfaction about marine conservation",
+        "Adventure thrill from boat-based viewing",
+        "Cultural appreciation of coastal community"
+      ],
+      "cultural_significance": {
+        "conservation_importance": "Critical calving grounds for southern right whales",
+        "scientific_value": "Important research site for whale behavior studies",
+        "tourism_economy": "Major economic driver for Overberg region",
+        "cultural_heritage": "Traditional fishing community adapted to eco-tourism"
+      },
+      "best_times_to_visit": {
+        "time_of_day": ["morning", "late_afternoon"],
+        "seasons": {
+          "peak_whale_season": "September-October (highest whale numbers)",
+          "early_season": "June-August (fewer crowds, first arrivals)",
+          "late_season": "November (mothers with calves departing)",
+          "weather_optimal": "Calm sea days best for boat trips"
+        },
+        "weather_considerations": "Wind and sea conditions critical for boat trips, land-based viewing less weather dependent"
+      },
+      "key_attractions": [
+        "Boat-based whale watching excursions",
+        "Cliff Path land-based whale viewing",
+        "Old Harbour historic area",
+        "Hermanus Whale Museum",
+        "Annual Whale Festival events",
+        "Hemel-en-Aarde Valley wine estates",
+        "Marine wildlife photography opportunities"
+      ],
+      "adventure_level": "moderate",
+      "physical_requirements": "moderate_boat_stability_required",
+      "accessibility": "boat_dependent_limited_mobility",
+      "common_combinations": ["cape-point-lighthouse", "stellenbosch-wine-tours", "betty-s-bay-penguins"],
+      "seo_keywords": {
+        "primary": ["Hermanus whale watching", "southern right whales", "whale watching South Africa", "Marine Big 5", "whale season"],
+        "secondary": ["boat whale watching", "land-based whale viewing", "whale festival", "marine wildlife", "conservation tourism"],
+        "long_tail": ["best whale watching Hermanus South Africa", "southern right whale calving grounds", "Hermanus whale watching boat trips", "when to see whales Hermanus"],
+        "emotional": ["magnificent whale encounters", "life-changing marine experience", "breathtaking whale watching", "unforgettable ocean adventure"]
+      }
+    },
+
+    "v-a-waterfront": {
+      "basic_info": {
+        "name": "V&A Waterfront",
+        "category": "cultural",
+        "duration_hours": 8,
+        "price_range": "R100-500",
+        "max_group_size": "unlimited",
+        "difficulty_level": "easy",
+        "age_suitability": "all_ages",
+        "season": "year_round"
+      },
+      "unique_selling_points": [
+        "Africa's most visited destination with 24 million annual visitors",
+        "Working harbor integrated with luxury shopping and dining",
+        "Gateway to Robben Island and Table Mountain",
+        "Historic Clock Tower Centre and Victorian architecture",
+        "World-class Two Oceans Aquarium",
+        "Zeitz Museum of Contemporary African Art",
+        "Nobel Square with statues of peace prize winners"
+      ],
+      "typical_experiences": {
+        "shopping_dining": [
+          "Luxury shopping at Victoria Wharf Centre",
+          "Gourmet dining with harbor views",
+          "African craft markets and local artisan goods",
+          "Wine tasting at waterfront wine bars",
+          "Street performers and live entertainment"
+        ],
+        "cultural_attractions": [
+          "Two Oceans Aquarium marine exhibits",
+          "Zeitz Museum contemporary African art",
+          "Cape Town Diamond Museum",
+          "Nelson Mandela Gateway to Robben Island",
+          "Historic working harbor tours"
+        ],
+        "scenic_activities": [
+          "Waterfront harbor walks and promenades",
+          "Sunset viewing from restaurants and bars",
+          "Photography of Table Mountain backdrop",
+          "Boat trips and harbor cruises",
+          "Helicopter flights over city"
+        ]
+      },
+      "visitor_emotions": [
+        "Wonder at integration of history and modernity",
+        "Excitement from diverse activities and attractions",
+        "Cultural appreciation of African art and heritage",
+        "Culinary satisfaction from world-class dining",
+        "Shopping enjoyment in scenic setting",
+        "Educational fascination with marine life"
+      ],
+      "cultural_significance": {
+        "historical_importance": "Site of original Cape Town harbor since 1654",
+        "economic_impact": "Major tourism and retail economic hub",
+        "cultural_showcase": "Platform for contemporary African art and culture",
+        "architectural_preservation": "Successful blend of historic and modern development"
+      },
+      "best_times_to_visit": {
+        "time_of_day": ["morning", "afternoon", "evening"],
+        "seasons": {
+          "summer": "December-February (warmest weather, outdoor dining)",
+          "autumn": "March-May (perfect temperatures, fewer crowds)",
+          "winter": "June-August (cozy indoor attractions, restaurant season)",
+          "spring": "September-November (excellent weather, cultural events)"
+        },
+        "weather_considerations": "Indoor/outdoor options available regardless of weather conditions"
+      },
+      "key_attractions": [
+        "Two Oceans Aquarium",
+        "Zeitz Museum of Contemporary African Art",
+        "Victoria Wharf shopping center",
+        "Nobel Square historical monuments",
+        "Robben Island ferry departure point",
+        "Clock Tower Centre",
+        "Harbor cruise departure points"
+      ],
+      "adventure_level": "minimal",
+      "physical_requirements": "easy_walking",
+      "accessibility": "fully_wheelchair_accessible",
+      "common_combinations": ["table-mountain-cableway", "robben-island", "cape-town-city-bowl"],
+      "seo_keywords": {
+        "primary": ["V&A Waterfront", "Cape Town shopping", "Two Oceans Aquarium", "Zeitz Museum", "waterfront dining"],
+        "secondary": ["Robben Island gateway", "harbor shopping", "African art museum", "luxury waterfront", "Nobel Square"],
+        "long_tail": ["V&A Waterfront shopping dining Cape Town", "Two Oceans Aquarium family activities", "Zeitz Museum contemporary African art", "best waterfront experiences Cape Town"],
+        "emotional": ["vibrant waterfront experience", "world-class shopping dining", "cultural art discovery", "family-friendly attractions paradise"]
+      }
+    },
+
+    "tokara-wine-estate": {
+      "basic_info": {
+        "name": "Tokara Wine Estate",
+        "category": "vineyard",
+        "duration_hours": 5,
+        "price_range": "R200-600",
+        "max_group_size": 12,
+        "difficulty_level": "easy",
+        "age_suitability": "21+",
+        "season": "year_round"
+      },
+      "unique_selling_points": [
+        "Spectacular mountain and valley views from tasting room",
+        "Award-winning Sauvignon Blanc and red wine blends",
+        "Contemporary architecture with floor-to-ceiling windows",
+        "Gourmet restaurant with Mediterranean-inspired cuisine",
+        "Olive oil production and tasting experiences",
+        "Sculpture garden with contemporary art installations",
+        "Sustainable farming practices and environmental focus"
+      ],
+      "typical_experiences": {
+        "wine_experiences": [
+          "Guided wine tastings with sommelier expertise",
+          "Vineyard walks through estate grounds",
+          "Learning about sustainable winemaking practices",
+          "Food and wine pairing experiences",
+          "Private cellar tours and barrel tastings"
+        ],
+        "culinary_activities": [
+          "Gourmet lunch at Tokara Restaurant",
+          "Olive oil tasting and production tours",
+          "Chef's table experiences with wine pairings",
+          "Seasonal menu featuring local ingredients",
+          "Cooking demonstrations with wine matching"
+        ],
+        "aesthetic_appreciation": [
+          "Photography of mountain and vineyard vistas",
+          "Contemporary art sculpture garden exploration",
+          "Architecture appreciation of modern winery design",
+          "Sunset viewing from restaurant terrace",
+          "Landscape painting or sketching opportunities"
+        ]
+      },
+      "visitor_emotions": [
+        "Sophisticated pleasure from premium wine tasting",
+        "Visual delight from spectacular scenery",
+        "Culinary satisfaction from gourmet dining",
+        "Cultural appreciation of art and architecture",
+        "Peaceful relaxation in vineyard setting",
+        "Educational interest in winemaking processes"
+      ],
+      "cultural_significance": {
+        "winemaking_excellence": "Representative of new-generation South African wineries",
+        "architectural_achievement": "Modern design integrated with natural landscape",
+        "agricultural_heritage": "Part of Stellenbosch wine region legacy",
+        "artistic_contribution": "Platform for contemporary South African art"
+      },
+      "best_times_to_visit": {
+        "time_of_day": ["late_morning", "early_afternoon", "sunset"],
+        "seasons": {
+          "harvest_season": "February-April (grape harvest activities, festive atmosphere)",
+          "summer": "December-February (warm weather, outdoor dining)",
+          "autumn": "March-May (perfect weather, beautiful vineyard colors)",
+          "winter": "June-August (cozy indoor tastings, fewer crowds)",
+          "spring": "September-November (new growth, excellent visibility)"
+        },
+        "weather_considerations": "Clear days best for mountain views, indoor facilities available for all weather"
+      },
+      "key_attractions": [
+        "Premium wine tasting experiences",
+        "Tokara Restaurant gourmet dining",
+        "Contemporary sculpture garden",
+        "Panoramic mountain and valley views",
+        "Olive oil production facility",
+        "Modern winery architecture",
+        "Vineyard walking trails"
+      ],
+      "adventure_level": "minimal",
+      "physical_requirements": "easy_walking",
+      "accessibility": "wheelchair_accessible_facilities",
+      "common_combinations": ["stellenbosch-wine-route", "franschhoek-wine-tram", "babylonstoren-wine-estate"],
+      "seo_keywords": {
+        "primary": ["Tokara Wine Estate", "Stellenbosch wine tasting", "wine estate restaurant", "South African wine", "vineyard views"],
+        "secondary": ["premium wine experience", "gourmet wine dining", "contemporary winery", "sculpture garden", "sustainable winemaking"],
+        "long_tail": ["Tokara Wine Estate mountain views tasting", "best wine estate restaurant Stellenbosch", "contemporary art sculpture garden winery", "premium Sauvignon Blanc tasting South Africa"],
+        "emotional": ["sophisticated wine experience", "breathtaking vineyard views", "gourmet culinary journey", "elegant winery atmosphere"]
+      }
+    },
+
+    "chapman-s-peak-drive": {
+      "basic_info": {
+        "name": "Chapman's Peak Drive",
+        "category": "scenic",
+        "duration_hours": 3,
+        "price_range": "R50-150",
+        "max_group_size": "unlimited",
+        "difficulty_level": "easy",
+        "age_suitability": "all_ages",
+        "season": "year_round"
+      },
+      "unique_selling_points": [
+        "One of the world's most spectacular coastal drives",
+        "9km route carved into Chapman's Peak cliffside",
+        "114 curves with breathtaking ocean and mountain views",
+        "Engineering marvel completed in 1922",
+        "Gateway between Hout Bay and Noordhoek",
+        "Popular filming location for international productions",
+        "Numerous scenic stops and photography viewpoints"
+      ],
+      "typical_experiences": {
+        "scenic_driving": [
+          "Navigating 114 curves with ocean views",
+          "Multiple scenic stops for photography",
+          "Views of Hout Bay, Noordhoek Beach, and Sentinel",
+          "Atlantic Ocean panoramas from cliff-edge road",
+          "Mountain and coastal landscape appreciation"
+        ],
+        "photography_opportunities": [
+          "Iconic road-hugging-cliff compositions",
+          "Panoramic ocean and bay views",
+          "Dramatic sunset and sunrise lighting",
+          "Vintage car photography on historic road",
+          "Wedding and fashion photography shoots"
+        ],
+        "recreational_activities": [
+          "Picnicking at scenic viewpoints",
+          "Short hiking trails from parking areas",
+          "Whale watching from elevated viewpoints",
+          "Rock climbing access points",
+          "Motorcycle touring experiences"
+        ]
+      },
+      "visitor_emotions": [
+        "Awe from spectacular coastal scenery",
+        "Adventure excitement from dramatic cliff road",
+        "Engineering appreciation for road construction achievement",
+        "Photographic satisfaction from iconic shots",
+        "Peaceful contemplation at scenic stops",
+        "Romantic atmosphere during sunset drives"
+      ],
+      "cultural_significance": {
+        "engineering_achievement": "Historic feat of road engineering and construction",
+        "tourism_icon": "International symbol of Cape Town's scenic beauty",
+        "filming_location": "Featured in numerous international movies and commercials",
+        "economic_importance": "Major tourism route connecting coastal areas"
+      },
+      "best_times_to_visit": {
+        "time_of_day": ["late_afternoon", "sunset", "early_morning"],
+        "seasons": {
+          "autumn": "March-May (excellent visibility, perfect temperatures)",
+          "spring": "September-November (clear skies after winter)",
+          "summer": "December-February (longest daylight, but can be windy)",
+          "winter": "June-August (dramatic weather, fewer tourists)"
+        },
+        "weather_considerations": "Road can close during severe weather, wind affects convertible comfort"
+      },
+      "key_attractions": [
+        "Multiple scenic viewpoints and pull-offs",
+        "Historic toll gates and information boards",
+        "Access to Noordhoek Beach",
+        "Connection to Hout Bay harbor",
+        "Rock climbing and hiking trail access",
+        "Wedding and photography locations",
+        "Motorcycle touring route"
+      ],
+      "adventure_level": "moderate",
+      "physical_requirements": "driving_experience_helpful",
+      "accessibility": "limited_mobility_vehicle_dependent",
+      "common_combinations": ["hout-bay-harbour", "cape-point-lighthouse", "noordhoek-beach"],
+      "seo_keywords": {
+        "primary": ["Chapman's Peak Drive", "scenic coastal drive", "Chapman's Peak", "Hout Bay to Noordhoek", "cliff road"],
+        "secondary": ["ocean views", "scenic route", "photography drive", "coastal road", "mountain drive"],
+        "long_tail": ["Chapman's Peak Drive scenic coastal route Cape Town", "most beautiful drive South Africa", "cliff road ocean views Chapman's Peak", "scenic photography stops Chapman's Peak Drive"],
+        "emotional": ["breathtaking coastal drive", "spectacular cliff road adventure", "world's most scenic drive", "unforgettable ocean views journey"]
+      }
+    },
+
+    "cape-point-lighthouse": {
+      "basic_info": {
+        "name": "Cape Point Lighthouse",
+        "category": "cultural",
+        "duration_hours": 6,
+        "price_range": "R320-500",
+        "max_group_size": 15,
+        "difficulty_level": "moderate",
+        "age_suitability": "8+",
+        "season": "year_round"
+      },
+      "unique_selling_points": [
+        "Iconic lighthouse at the southwestern tip of Africa",
+        "Meeting point of Atlantic and Indian Oceans",
+        "Historic Cape Point within Table Mountain National Park",
+        "Funicular railway to lighthouse or hiking trail option",
+        "Spectacular 360-degree coastal and ocean views",
+        "Rich maritime history and shipwreck stories",
+        "Diverse fynbos vegetation and wildlife viewing"
+      ],
+      "typical_experiences": {
+        "scenic_exploration": [
+          "Funicular ride or hike to lighthouse summit",
+          "360-degree panoramic ocean and coastal views",
+          "Photography of dramatic cliff and ocean meeting",
+          "Sunset and sunrise viewing from elevated position",
+          "Whale and dolphin spotting from viewpoints"
+        ],
+        "historical_discovery": [
+          "Learning about maritime history and shipwrecks",
+          "Understanding lighthouse navigation importance",
+          "Exploring Cape Point's role in Age of Exploration",
+          "Discovering stories of Portuguese and Dutch explorers",
+          "Naval history and strategic coastal importance"
+        ],
+        "nature_activities": [
+          "Fynbos vegetation identification and photography",
+          "Baboon and other wildlife observation",
+          "Bird watching with endemic and migratory species",
+          "Hiking trails with varying difficulty levels",
+          "Marine wildlife spotting from cliff edges"
+        ]
+      },
+      "visitor_emotions": [
+        "Awe from dramatic natural beauty and vastness",
+        "Achievement satisfaction from reaching Africa's end",
+        "Historical fascination with maritime stories",
+        "Adventure excitement from cliff-top exploration",
+        "Peaceful contemplation at ocean's edge",
+        "Wonder at meeting of two ocean systems"
+      ],
+      "cultural_significance": {
+        "geographical_importance": "Symbolic southwestern tip of African continent",
+        "maritime_heritage": "Critical navigation point for centuries of shipping",
+        "conservation_value": "Protected area within Table Mountain National Park",
+        "exploration_history": "Landmark for Age of Exploration sea routes"
+      },
+      "best_times_to_visit": {
+        "time_of_day": ["mid_morning", "late_afternoon", "sunset"],
+        "seasons": {
+          "whale_season": "June-November (southern right and humpback whales)",
+          "spring": "September-November (wildflowers, excellent visibility)",
+          "summer": "December-February (warmest weather, can be windy)",
+          "autumn": "March-May (stable weather, fewer crowds)",
+          "winter": "June-August (dramatic seas, clear air)"
+        },
+        "weather_considerations": "Wind is constant factor, early morning often calmest, afternoon winds can be extreme"
+      },
+      "key_attractions": [
+        "Historic Cape Point Lighthouse (1859)",
+        "Flying Dutchman Funicular railway",
+        "Cape Point viewpoint and signpost",
+        "Two Oceans Restaurant with panoramic views",
+        "Hiking trails of varying difficulty",
+        "Wildlife and baboon viewing opportunities",
+        "Cape of Good Hope nearby"
+      ],
+      "adventure_level": "moderate",
+      "physical_requirements": "moderate_hiking_optional",
+      "accessibility": "funicular_available_limited_mobility",
+      "common_combinations": ["cape-of-good-hope", "boulders-beach-penguin-colony", "chapman-s-peak-drive"],
+      "seo_keywords": {
+        "primary": ["Cape Point", "Cape Point Lighthouse", "Table Mountain National Park", "Cape Peninsula", "two oceans meet"],
+        "secondary": ["funicular railway", "lighthouse views", "maritime history", "Africa southernmost", "whale watching"],
+        "long_tail": ["Cape Point Lighthouse funicular railway experience", "where Atlantic Indian Oceans meet", "Cape Point hiking trails Table Mountain", "lighthouse views Cape Peninsula"],
+        "emotional": ["dramatic lighthouse adventure", "breathtaking ocean views", "historic maritime experience", "edge of Africa journey"]
+      }
+    },
+
+    "shark-cage-diving-gansbaai": {
+      "basic_info": {
+        "name": "Shark Cage Diving Gansbaai",
+        "category": "adventure",
+        "duration_hours": 8,
+        "price_range": "R1800-2500",
+        "max_group_size": 12,
+        "difficulty_level": "extreme",
+        "age_suitability": "16+",
+        "season": "year_round",
+        "peak_season": "April-September"
+      },
+      "unique_selling_points": [
+        "World's premier great white shark diving destination",
+        "Dyer Island marine ecosystem with Shark Alley",
+        "Close encounters with apex predators in natural habitat",
+        "Professional marine biologist guides and safety protocols",
+        "Marine Big 5 viewing opportunities from boat",
+        "Conservation education about shark protection",
+        "Adrenaline experience with comprehensive safety measures"
+      ],
+      "typical_experiences": {
+        "shark_encounters": [
+          "Great white shark close-up viewing from cage",
+          "Observing natural shark hunting and feeding behavior",
+          "Multiple shark species identification",
+          "Understanding shark behavior and conservation needs",
+          "Underwater photography opportunities through cage bars"
+        ],
+        "marine_wildlife": [
+          "Cape fur seal colony at Geyser Rock",
+          "African penguin colonies on Dyer Island",
+          "Whale watching during migration seasons",
+          "Dolphin encounters during boat trips",
+          "Seabird diversity including albatross and petrels"
+        ],
+        "adventure_elements": [
+          "Boat trip through rough Atlantic waters",
+          "Adrenaline rush from shark proximity",
+          "Professional diving briefing and safety preparation",
+          "Conservation education from marine biologists",
+          "Traditional South African breakfast on boat"
+        ]
+      },
+      "visitor_emotions": [
+        "Intense adrenaline and excitement from shark encounters",
+        "Fear transformation into respect and understanding",
+        "Awe at apex predator power and grace",
+        "Educational satisfaction about marine conservation",
+        "Personal achievement and courage building",
+        "Deep appreciation for ocean ecosystem complexity"
+      ],
+      "cultural_significance": {
+        "conservation_importance": "Critical research and protection site for great white sharks",
+        "scientific_value": "Important study location for shark behavior research",
+        "economic_impact": "Sustainable tourism supporting coastal communities",
+        "educational_platform": "Changing public perception about shark conservation"
+      },
+      "best_times_to_visit": {
+        "time_of_day": ["early_morning"],
+        "seasons": {
+          "peak_shark_season": "April-September (highest shark activity)",
+          "calm_seas": "March-May and September-November (better sea conditions)",
+          "whale_bonus": "June-November (additional whale watching opportunities)",
+          "year_round": "Sharks present throughout year with seasonal variations"
+        },
+        "weather_considerations": "Sea conditions critical for safety, trips weather dependent"
+      },
+      "key_attractions": [
+        "Great white shark cage diving experience",
+        "Dyer Island and Geyser Rock boat tour",
+        "Marine Big 5 wildlife viewing",
+        "Professional marine biologist education",
+        "Conservation awareness programs",
+        "Traditional South African boat breakfast",
+        "Dramatic Gansbaai coastal scenery"
+      ],
+      "adventure_level": "extreme",
+      "physical_requirements": "good_health_swimming_ability",
+      "accessibility": "physical_limitations_may_restrict",
+      "common_combinations": ["hermanus-whale-watching-tour", "cape-point-lighthouse", "stellenbosch-wine-tours"],
+      "seo_keywords": {
+        "primary": ["shark cage diving", "great white sharks", "Gansbaai", "Marine Big 5", "shark diving South Africa"],
+        "secondary": ["cage diving experience", "shark conservation", "Dyer Island", "adventure tourism", "marine wildlife"],
+        "long_tail": ["great white shark cage diving Gansbaai South Africa", "best shark diving experience Cape Town", "Marine Big 5 shark cage diving", "Dyer Island great white sharks"],
+        "emotional": ["ultimate shark adventure", "life-changing shark encounter", "thrilling cage diving experience", "face-to-face with great whites"]
+      }
+    },
+
+    "cape-town-paragliding": {
+      "basic_info": {
+        "name": "Cape Town Paragliding",
+        "category": "adventure",
+        "duration_hours": 4,
+        "price_range": "R1200-1800",
+        "max_group_size": 6,
+        "difficulty_level": "extreme",
+        "age_suitability": "16+",
+        "season": "year_round"
+      },
+      "unique_selling_points": [
+        "Tandem paragliding over world's most scenic city",
+        "Launch sites from Signal Hill, Lion's Head, or Table Mountain",
+        "Panoramic aerial views of Peninsula, ocean, and city",
+        "Professional tandem pilots with international certification",
+        "Various flight durations and routes available",
+        "HD video and photography documentation included",
+        "Weather-dependent but year-round flying opportunities"
+      ],
+      "typical_experiences": {
+        "aerial_adventure": [
+          "Tandem paragliding launch from mountain sites",
+          "15-30 minute flights over Cape Town",
+          "Aerial photography of city and coastline",
+          "Thermal flying and soaring experiences",
+          "Professional pilot instruction and safety briefing"
+        ],
+        "scenic_highlights": [
+          "Bird's eye view of Table Mountain and city bowl",
+          "Coastline panoramas from Camps Bay to False Bay",
+          "Harbor and Waterfront aerial perspectives",
+          "Mountain range and valley vistas",
+          "Ocean, city, and mountain integration views"
+        ],
+        "adrenaline_elements": [
+          "Running launch from mountain cliff edges",
+          "Free-flight sensation without enclosed aircraft",
+          "Height and exposure management",
+          "Landing technique with professional pilot",
+          "Weather and thermal condition reading"
+        ]
+      },
+      "visitor_emotions": [
+        "Intense excitement and adrenaline rush",
+        "Fear conquered through professional guidance",
+        "Wonder at aerial perspective of familiar landscape",
+        "Achievement satisfaction from extreme sport participation",
+        "Freedom sensation from unenclosed flight",
+        "Photographic joy from unique aerial shots"
+      ],
+      "cultural_significance": {
+        "adventure_tourism": "Premium extreme sport offering in adventure capital",
+        "scenic_showcase": "Unique perspective on Cape Town's natural beauty",
+        "sports_development": "Growing paragliding community and sport development",
+        "tourism_economy": "High-value adventure tourism contribution"
+      },
+      "best_times_to_visit": {
+        "time_of_day": ["morning", "late_afternoon"],
+        "seasons": {
+          "summer": "December-February (thermal conditions, longer days)",
+          "autumn": "March-May (stable conditions, excellent visibility)",
+          "winter": "June-August (fewer thermals but flyable)",
+          "spring": "September-November (good conditions, clear air)"
+        },
+        "weather_considerations": "Wind speed and direction critical, thermals important for longer flights"
+      },
+      "key_attractions": [
+        "Multiple mountain launch sites",
+        "Tandem flight experiences with certified pilots",
+        "Aerial photography and videography services",
+        "Various flight duration options",
+        "Professional safety equipment and briefing",
+        "Landing beach or designated areas",
+        "Post-flight celebration and certificate"
+      ],
+      "adventure_level": "extreme",
+      "physical_requirements": "basic_fitness_no_fear_heights",
+      "accessibility": "physical_limitations_may_prevent",
+      "common_combinations": ["table-mountain-cableway", "lion-s-head-hike", "cape-town-skydive"],
+      "seo_keywords": {
+        "primary": ["Cape Town paragliding", "tandem paragliding", "Signal Hill paragliding", "aerial adventure", "paragliding Table Mountain"],
+        "secondary": ["extreme sports", "adventure activities", "aerial views", "mountain flying", "adrenaline sports"],
+        "long_tail": ["tandem paragliding Cape Town Table Mountain views", "best paragliding experience South Africa", "aerial adventure Cape Town city views", "paragliding Signal Hill Lion's Head"],
+        "emotional": ["soaring aerial adventure", "breathtaking flight experience", "ultimate flying freedom", "spectacular aerial views"]
+      }
+    },
+
+    "delaire-graff-estate": {
+      "basic_info": {
+        "name": "Delaire Graff Estate",
+        "category": "vineyard",
+        "duration_hours": 6,
+        "price_range": "R400-1200",
+        "max_group_size": 10,
+        "difficulty_level": "easy",
+        "age_suitability": "21+",
+        "season": "year_round"
+      },
+      "unique_selling_points": [
+        "Ultra-luxury wine estate with diamond heritage",
+        "Spectacular mountain and valley views from elevated position",
+        "Award-winning wines with premium positioning",
+        "World-class spa and luxury accommodation",
+        "Fine dining restaurants with celebrity chef credentials",
+        "Contemporary art collection and sculpture garden",
+        "Exclusive experiences with ultra-premium pricing"
+      ],
+      "typical_experiences": {
+        "luxury_wine_experiences": [
+          "Private wine tastings with sommelier guidance",
+          "Premium wine and food pairing experiences",
+          "Exclusive cellar tours and vintage tastings",
+          "Helicopter arrival options for VIP experiences",
+          "Personalized wine blending sessions"
+        ],
+        "culinary_excellence": [
+          "Fine dining at multiple on-site restaurants",
+          "Chef's table experiences with wine pairings",
+          "Gourmet picnic experiences in vineyard",
+          "Cooking classes with celebrity chefs",
+          "Exclusive wine harvest participation"
+        ],
+        "luxury_amenities": [
+          "World-class spa treatments with vineyard views",
+          "Contemporary art appreciation and tours",
+          "Luxury accommodation in vineyard setting",
+          "Private events and wedding venue experiences",
+          "Helicopter and luxury transport arrangements"
+        ]
+      },
+      "visitor_emotions": [
+        "Luxury indulgence and premium experience satisfaction",
+        "Sophisticated pleasure from exceptional wine quality",
+        "Visual delight from spectacular mountain views",
+        "Cultural appreciation of fine art and architecture",
+        "Relaxation and pampering in spa environment",
+        "Exclusivity and prestige from ultra-premium positioning"
+      ],
+      "cultural_significance": {
+        "luxury_tourism": "Premier ultra-luxury destination in South African wine industry",
+        "artistic_contribution": "Platform for contemporary African and international art",
+        "winemaking_excellence": "Representation of highest quality South African wine production",
+        "architectural_achievement": "Modern luxury integrated with natural landscape"
+      },
+      "best_times_to_visit": {
+        "time_of_day": ["late_morning", "lunch", "sunset"],
+        "seasons": {
+          "harvest_season": "February-April (wine harvest activities and events)",
+          "summer": "December-February (outdoor dining, longest days)",
+          "autumn": "March-May (perfect weather, beautiful vineyard colors)",
+          "winter": "June-August (cozy indoor luxury, fewer crowds)",
+          "spring": "September-November (excellent weather, new growth)"
+        },
+        "weather_considerations": "Mountain location can be windy, indoor luxury facilities available year-round"
+      },
+      "key_attractions": [
+        "Premium wine tasting experiences",
+        "Multiple fine dining restaurants",
+        "World-class spa facilities",
+        "Contemporary art collection and sculpture garden",
+        "Luxury accommodation and venues",
+        "Panoramic mountain and vineyard views",
+        "Exclusive VIP experiences"
+      ],
+      "adventure_level": "minimal",
+      "physical_requirements": "easy_access",
+      "accessibility": "luxury_facilities_accessible",
+      "common_combinations": ["stellenbosch-wine-route", "franschhoek-wine-tram", "cape-town-helicopter-tours"],
+      "seo_keywords": {
+        "primary": ["Delaire Graff Estate", "luxury wine estate", "Stellenbosch luxury", "premium wine tasting", "wine estate spa"],
+        "secondary": ["ultra-luxury winery", "fine dining wine estate", "luxury accommodation vineyard", "contemporary art winery", "exclusive wine experiences"],
+        "long_tail": ["Delaire Graff Estate luxury wine tasting experience", "ultra-premium winery Stellenbosch South Africa", "luxury spa wine estate mountain views", "exclusive fine dining wine estate"],
+        "emotional": ["ultimate luxury wine experience", "sophisticated vineyard indulgence", "exclusive ultra-premium winery", "world-class luxury destination"]
+      }
+    },
+
+    "inverdoorn-safari-tour": {
+      "basic_info": {
+        "name": "Inverdoorn Safari Tour",
+        "category": "safari",
+        "duration_hours": 10,
+        "price_range": "R2000-2600",
+        "max_group_size": 14,
+        "difficulty_level": "easy",
+        "age_suitability": "all_ages",
+        "season": "year_round"
+      },
+      "unique_selling_points": [
+        "Luxury safari experience in malaria-free Karoo",
+        "Big 5 viewing in exclusive private game reserve",
+        "Cheetah conservation project and interaction opportunities",
+        "Premium safari lodge with gourmet dining",
+        "Professional guides with extensive wildlife knowledge",
+        "Photography-focused game drives",
+        "Authentic African bush experience near Cape Town"
+      ],
+      "typical_experiences": {
+        "wildlife_encounters": [
+          "Big 5 game viewing: lion, leopard, elephant, rhino, buffalo",
+          "Cheetah conservation project visits and interactions",
+          "Antelope species diversity: springbok, kudu, gemsbok",
+          "Bird watching with over 200 species recorded",
+          "Predator feeding demonstrations and education"
+        ],
+        "safari_activities": [
+          "Morning and afternoon game drives",
+          "Bush walks with experienced rangers",
+          "Cheetah conservation education programs",
+          "Traditional boma dinner experiences",
+          "Star gazing in unpolluted Karoo skies"
+        ],
+        "luxury_elements": [
+          "Premium safari vehicles with excellent visibility",
+          "Gourmet meals at luxury safari lodge",
+          "Professional photography guidance",
+          "Comfortable luxury accommodation options",
+          "Spa treatments in bushveld setting"
+        ]
+      },
+      "visitor_emotions": [
+        "Excitement from Big 5 animal encounters",
+        "Wonder at cheetah speed and conservation efforts",
+        "Peaceful appreciation of Karoo landscape",
+        "Educational satisfaction about wildlife conservation",
+        "Luxury satisfaction from premium service",
+        "Adventure fulfillment in authentic African setting"
+      ],
+      "cultural_significance": {
+        "conservation_leadership": "Important cheetah conservation and breeding program",
+        "sustainable_tourism": "Model for responsible wildlife tourism",
+        "educational_impact": "Raising awareness about endangered species protection",
+        "economic_contribution": "Supporting local Karoo communities through tourism"
+      },
+      "best_times_to_visit": {
+        "time_of_day": ["early_morning", "late_afternoon"],
+        "seasons": {
+          "winter": "June-August (animals most active, excellent visibility)",
+          "spring": "September-November (wildflowers, newborn animals)",
+          "summer": "December-February (lush after rains, hot midday)",
+          "autumn": "March-May (comfortable temperatures, good game viewing)"
+        },
+        "weather_considerations": "Karoo climate can be extreme, early morning and late afternoon best for wildlife activity"
+      },
+      "key_attractions": [
+        "Big 5 game viewing experiences",
+        "Cheetah conservation project",
+        "Luxury safari lodge facilities",
+        "Professional guided game drives",
+        "Gourmet African cuisine",
+        "Star gazing experiences",
+        "Conservation education programs"
+      ],
+      "adventure_level": "moderate",
+      "physical_requirements": "minimal_walking",
+      "accessibility": "suitable_for_most_ages",
+      "common_combinations": ["cape-winelands", "hermanus-whale-watching-tour", "stellenbosch-wine-tours"],
+      "seo_keywords": {
+        "primary": ["Inverdoorn Safari", "cheetah conservation", "luxury safari", "Big 5 Karoo", "malaria-free safari"],
+        "secondary": ["private game reserve", "safari lodge", "wildlife photography", "conservation tourism", "Karoo wildlife"],
+        "long_tail": ["Inverdoorn cheetah conservation safari experience", "luxury Big 5 safari Cape Town day trip", "malaria-free game reserve Western Cape", "cheetah interaction safari South Africa"],
+        "emotional": ["exclusive luxury safari", "thrilling cheetah encounters", "authentic African wilderness", "conservation-focused wildlife experience"]
+      }
+    },
+
+    "atlantis-sand-dunes-adventure": {
+      "basic_info": {
+        "name": "Atlantis Sand Dunes Adventure",
+        "category": "adventure",
+        "duration_hours": 5,
+        "price_range": "R300-600",
+        "max_group_size": 12,
+        "difficulty_level": "moderate",
+        "age_suitability": "12+",
+        "season": "year_round"
+      },
+      "unique_selling_points": [
+        "Massive white sand dunes reminiscent of desert landscapes",
+        "Sandboarding and quad biking adventure activities",
+        "Unique coastal desert ecosystem near Cape Town",
+        "Photography paradise with pristine white sand",
+        "Adventure sports in easily accessible location",
+        "Dramatic contrast between ocean and desert landscapes",
+        "Sunset and sunrise photography opportunities"
+      ],
+      "typical_experiences": {
+        "adventure_activities": [
+          "Sandboarding down massive white sand dunes",
+          "Quad biking through dune landscapes",
+          "Dune hiking and exploration",
+          "Sand surfing and sledding experiences",
+          "ATV tours through coastal dune systems"
+        ],
+        "scenic_experiences": [
+          "Photography of pristine white sand formations",
+          "Sunset and sunrise viewing from dune peaks",
+          "Atlantic Ocean views from elevated dune positions",
+          "Desert-like landscape photography",
+          "Contrast between industrial area and natural dunes"
+        ],
+        "recreational_pursuits": [
+          "Beach access from dune systems",
+          "Picnicking in sheltered dune valleys",
+          "Nature walks exploring dune vegetation",
+          "Adventure sports instruction and guidance",
+          "Group activities and team building exercises"
+        ]
+      },
+      "visitor_emotions": [
+        "Excitement from adrenaline adventure activities",
+        "Wonder at unexpected desert landscape near city",
+        "Achievement satisfaction from dune climbing",
+        "Joy from sandboarding and adventure sports",
+        "Peaceful appreciation of pristine natural environment",
+        "Photographic satisfaction from unique landscape"
+      ],
+      "cultural_significance": {
+        "ecological_importance": "Unique coastal dune ecosystem preservation",
+        "adventure_tourism": "Accessible extreme sports destination",
+        "landscape_diversity": "Demonstration of Cape region's varied ecosystems",
+        "recreational_value": "Important outdoor adventure space for locals"
+      },
+      "best_times_to_visit": {
+        "time_of_day": ["morning", "late_afternoon", "sunset"],
+        "seasons": {
+          "summer": "December-February (warmest weather, longest days)",
+          "autumn": "March-May (excellent weather, fewer crowds)",
+          "winter": "June-August (cooler but still suitable for activities)",
+          "spring": "September-November (perfect weather, wildflower season)"
+        },
+        "weather_considerations": "Wind can affect activities, early morning often calmest, avoid extreme heat in summer midday"
+      },
+      "key_attractions": [
+        "Massive white sand dune formations",
+        "Sandboarding and adventure sports facilities",
+        "Quad biking trails and tours",
+        "Photography viewpoints and locations",
+        "Beach access and coastal walks",
+        "Adventure sports equipment rental",
+        "Sunset viewing locations"
+      ],
+      "adventure_level": "moderate",
+      "physical_requirements": "moderate_fitness_required",
+      "accessibility": "limited_mobility_restrictions",
+      "common_combinations": ["west-coast-national-park", "langebaan-lagoon", "cape-town-city-bowl"],
+      "seo_keywords": {
+        "primary": ["Atlantis sand dunes", "sandboarding Cape Town", "quad biking", "sand dunes adventure", "Western Cape dunes"],
+        "secondary": ["adventure sports", "desert landscape", "white sand dunes", "outdoor activities", "extreme sports"],
+        "long_tail": ["Atlantis sand dunes sandboarding adventure Cape Town", "quad biking white sand dunes Western Cape", "desert adventure activities near Cape Town", "sandboarding lessons Atlantis dunes"],
+        "emotional": ["thrilling sandboarding adventure", "desert oasis near Cape Town", "adrenaline sand dune experience", "unique white dune landscape"]
+      }
+    },
+
+    "cape-of-good-hope": {
+      "basic_info": {
+        "name": "Cape of Good Hope",
+        "category": "cultural",
+        "duration_hours": 4,
+        "price_range": "R320-450",
+        "max_group_size": "unlimited",
+        "difficulty_level": "moderate",
+        "age_suitability": "all_ages",
+        "season": "year_round"
+      },
+      "unique_selling_points": [
+        "Historic 'Cape of Storms' with maritime legend",
+        "Southwesternmost point of African continent",
+        "Part of Cape Floral Kingdom UNESCO World Heritage Site",
+        "Dramatic cliff-top views and pristine beaches",
+        "Rich biodiversity with endemic fynbos vegetation",
+        "Historical significance in Age of Exploration",
+        "Ostrich and baboon wildlife viewing opportunities"
+      ],
+      "typical_experiences": {
+        "historical_exploration": [
+          "Learning about Portuguese and Dutch exploration history",
+          "Understanding maritime navigation importance",
+          "Discovering shipwreck stories and legends",
+          "Exploring Vasco da Gama's historical route",
+          "Photography at famous Cape of Good Hope signpost"
+        ],
+        "natural_experiences": [
+          "Hiking through pristine fynbos vegetation",
+          "Wildlife viewing including baboons and ostriches",
+          "Bird watching with endemic and migratory species",
+          "Dramatic ocean and cliff viewing",
+          "Beach exploration and tide pool discovery"
+        ],
+        "scenic_activities": [
+          "Photography of rugged coastline and cliffs",
+          "Sunset and sunrise viewing from elevated positions",
+          "Ocean horizon contemplation",
+          "Lighthouse and rocky outcrop exploration",
+          "Panoramic views of False Bay and Atlantic Ocean"
+        ]
+      },
+      "visitor_emotions": [
+        "Awe from dramatic natural beauty and historical significance",
+        "Achievement satisfaction from reaching continent's end",
+        "Wonder at maritime history and exploration stories",
+        "Peaceful contemplation at ocean's edge",
+        "Adventure excitement from rugged coastal exploration",
+        "Educational fascination with Age of Exploration"
+      ],
+      "cultural_significance": {
+        "historical_importance": "Critical waypoint in maritime exploration history",
+        "geographical_significance": "Symbolic meeting point of Atlantic and Indian Ocean systems",
+        "conservation_value": "Core area of Cape Floral Kingdom",
+        "maritime_heritage": "Legendary location in naval and shipping history"
+      },
+      "best_times_to_visit": {
+        "time_of_day": ["mid_morning", "late_afternoon", "sunset"],
+        "seasons": {
+          "spring": "September-November (wildflower season, excellent weather)",
+          "summer": "December-February (warmest but windiest)",
+          "autumn": "March-May (stable weather, fewer crowds)",
+          "winter": "June-August (dramatic seas, whale watching)",
+          "wildflower_peak": "August-October (fynbos flowering season)"
+        },
+        "weather_considerations": "Wind is constant factor, especially strong in summer, early morning often calmest"
+      },
+      "key_attractions": [
+        "Cape of Good Hope signpost and viewpoint",
+        "Historic lighthouse and maritime exhibits",
+        "Fynbos walking trails and botanical diversity",
+        "Wildlife viewing areas for baboons and ostriches",
+        "Pristine beaches and cliff-top viewpoints",
+        "Historical interpretation centers",
+        "Photography locations and scenic drives"
+      ],
+      "adventure_level": "moderate",
+      "physical_requirements": "moderate_walking",
+      "accessibility": "some_wheelchair_access_limited",
+      "common_combinations": ["cape-point-lighthouse", "boulders-beach-penguin-colony", "simon-s-town"],
+      "seo_keywords": {
+        "primary": ["Cape of Good Hope", "Cape Peninsula", "southwesternmost Africa", "Table Mountain National Park", "maritime history"],
+        "secondary": ["fynbos", "wildlife viewing", "historical landmark", "Age of Exploration", "dramatic coastline"],
+        "long_tail": ["Cape of Good Hope historical significance", "southwesternmost point African continent", "Cape of Good Hope wildlife fynbos", "maritime exploration Cape Peninsula"],
+        "emotional": ["legendary Cape of Good Hope", "historic maritime adventure", "dramatic end of Africa", "breathtaking coastal wilderness"]
+      }
+    },
+
+    "babylonstoren-wine-estate": {
+      "basic_info": {
+        "name": "Babylonstoren Wine Estate",
+        "category": "vineyard",
+        "duration_hours": 6,
+        "price_range": "R300-800",
+        "max_group_size": 15,
+        "difficulty_level": "easy",
+        "age_suitability": "all_ages",
+        "season": "year_round"
+      },
+      "unique_selling_points": [
+        "Historic Cape Dutch wine estate dating to 1692",
+        "Award-winning formal garden with 300+ plant varieties",
+        "Biodynamic and organic farming practices",
+        "Premium wines with terroir-driven approach",
+        "Michelin-recognized restaurants and culinary experiences",
+        "Historic Cape Dutch architecture preservation",
+        "Seasonal garden-to-table dining experiences"
+      ],
+      "typical_experiences": {
+        "garden_exploration": [
+          "Guided walks through formal geometric gardens",
+          "Seasonal plant and flower identification",
+          "Organic and biodynamic farming education",
+          "Herb and vegetable garden tours",
+          "Historical landscape architecture appreciation"
+        ],
+        "wine_experiences": [
+          "Premium wine tastings with terroir focus",
+          "Vineyard tours explaining biodynamic practices",
+          "Harvest participation during February-April",
+          "Wine and food pairing experiences",
+          "Cellar tours and winemaking education"
+        ],
+        "culinary_adventures": [
+          "Garden-to-table dining at award-winning restaurants",
+          "Seasonal menus featuring estate-grown produce",
+          "Cooking classes using fresh garden ingredients",
+          "Traditional Cape cuisine with modern interpretation",
+          "Wine pairing dinners with estate wines"
+        ]
+      },
+      "visitor_emotions": [
+        "Wonder at formal garden beauty and design",
+        "Educational satisfaction from sustainable farming learning",
+        "Culinary delight from fresh garden-to-table dining",
+        "Historical appreciation for Cape Dutch heritage",
+        "Peaceful relaxation in pristine garden settings",
+        "Sophisticated pleasure from premium wine experiences"
+      ],
+      "cultural_significance": {
+        "historical_preservation": "Outstanding example of Cape Dutch architecture and landscape",
+        "agricultural_heritage": "Demonstration of traditional and modern farming integration",
+        "culinary_innovation": "Pioneer in garden-to-table dining movement",
+        "sustainable_tourism": "Model for biodynamic and organic wine production"
+      },
+      "best_times_to_visit": {
+        "time_of_day": ["morning", "lunch", "late_afternoon"],
+        "seasons": {
+          "spring": "September-November (garden peak flowering, perfect weather)",
+          "summer": "December-February (harvest season, lush gardens)",
+          "autumn": "March-May (harvest completion, comfortable temperatures)",
+          "winter": "June-August (pruning season, cozy indoor dining)"
+        },
+        "weather_considerations": "Gardens beautiful year-round, indoor dining available for all weather"
+      },
+      "key_attractions": [
+        "Historic formal gardens with geometric design",
+        "Award-winning restaurants and culinary experiences",
+        "Premium wine tasting and cellar tours",
+        "Historic Cape Dutch architecture",
+        "Biodynamic and organic farming demonstrations",
+        "Seasonal garden workshops and events",
+        "Art gallery and cultural exhibitions"
+      ],
+      "adventure_level": "minimal",
+      "physical_requirements": "easy_garden_walking",
+      "accessibility": "mostly_wheelchair_accessible",
+      "common_combinations": ["stellenbosch-wine-route", "franschhoek-wine-tram", "paarl-wine-estates"],
+      "seo_keywords": {
+        "primary": ["Babylonstoren", "garden wine estate", "Cape Dutch architecture", "biodynamic wine", "garden-to-table dining"],
+        "secondary": ["formal gardens", "organic wine estate", "historic wine farm", "sustainable agriculture", "culinary experiences"],
+        "long_tail": ["Babylonstoren historic garden wine estate", "biodynamic organic wine farming South Africa", "garden-to-table dining Babylonstoren", "Cape Dutch architecture wine estate"],
+        "emotional": ["enchanting historic garden estate", "sustainable wine paradise", "garden-to-table culinary journey", "authentic Cape Dutch heritage"]
+      }
+    }
+  },
+
+  "review_generation_framework": {
+    "experience_categories": {
+      "wildlife": {
+        "emotions": ["wonder", "excitement", "educational_satisfaction", "conservation_awareness"],
+        "key_phrases": ["amazing animals", "incredible sightings", "conservation efforts", "natural behavior"]
+      },
+      "family": {
+        "emotions": ["joy", "bonding", "discovery", "safety_comfort"],
+        "key_phrases": ["kids loved it", "family-friendly", "educational for children", "safe environment"]
+      },
+      "couple": {
+        "emotions": ["romance", "intimacy", "shared_discovery", "peaceful_connection"],
+        "key_phrases": ["romantic setting", "perfect for couples", "sunset views", "intimate experience"]
+      },
+      "photography": {
+        "emotions": ["creative_satisfaction", "technical_achievement", "artistic_inspiration", "documentation_joy"],
+        "key_phrases": ["perfect lighting", "incredible shots", "photography paradise", "stunning compositions"]
+      },
+      "educational": {
+        "emotions": ["learning_satisfaction", "cultural_appreciation", "historical_connection", "awareness_building"],
+        "key_phrases": ["learned so much", "fascinating history", "knowledgeable guide", "eye-opening experience"]
+      },
+      "adventure": {
+        "emotions": ["adrenaline_rush", "achievement", "fear_conquered", "empowerment"],
+        "key_phrases": ["thrilling experience", "adrenaline pumping", "conquered fears", "life-changing adventure"]
+      },
+      "cultural": {
+        "emotions": ["respect", "appreciation", "understanding", "connection"],
+        "key_phrases": ["rich culture", "authentic experience", "local traditions", "cultural immersion"]
+      },
+      "luxury": {
+        "emotions": ["indulgence", "sophistication", "exclusivity", "premium_satisfaction"],
+        "key_phrases": ["world-class service", "luxury experience", "premium quality", "sophisticated atmosphere"]
+      }
+    },
+    
+    "rating_distribution": {
+      "5_star": 70,
+      "4_star": 20,
+      "3_star": 7,
+      "2_star": 2,
+      "1_star": 1
+    },
+    
+    "review_length_distribution": {
+      "short": 15,
+      "medium": 60,
+      "long": 25
+    },
+    
+    "authenticity_factors": [
+      "Specific details about tour experience",
+      "Weather conditions mentioned",
+      "Guide names or characteristics",
+      "Time of day or season references",
+      "Comparison to other destinations",
+      "Personal circumstances or travel context",
+      "Practical tips for future visitors",
+      "Minor criticisms or suggestions for improvement"
+    ]
+  }
+}

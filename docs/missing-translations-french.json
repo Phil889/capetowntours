@@ -1,0 +1,53 @@
+{
+  "homepage": {
+    "testimonials": {
+      "title": "Ne Prenez Pas Seulement Notre Parole",
+      "reviews": {
+        "sarah": {
+          "text": "Le meilleur tour que nous ayons jamais fait ! Notre guide, James, était incroyablement compétent et a rendu toute l'expérience inoubliable. Le tour privé valait chaque centime.",
+          "author": "Sarah & Tom, Royaume-Uni"
+        },
+        "michael": {
+          "text": "Du processus de réservation facile à la livraison finale, tout était parfait. Nous avons vu les Big 5 et bien plus encore. Je recommande vivement cette entreprise !",
+          "author": "Michael B, États-Unis"
+        },
+        "anika": {
+          "text": "Une expérience vraiment magique. L'attention aux détails et les touches personnelles ont rendu notre safari de lune de miel si spécial. Nous reviendrons !",
+          "author": "Anika & Rohan, Inde"
+        }
+      }
+    },
+    "howItWorks": {
+      "title": "Votre Aventure en 3 Étapes Simples",
+      "tagline": "Comment Ça Marche",
+      "steps": {
+        "choose": {
+          "title": "Choisissez Votre Aventure",
+          "description": "Parcourez nos tours signature curatés ou dites-nous votre voyage de rêve."
+        },
+        "customize": {
+          "title": "Personnalisez Votre Voyage",
+          "description": "Nous travaillerons avec vous pour adapter l'itinéraire, les activités et le rythme à votre goût."
+        },
+        "book": {
+          "title": "Réservez & Préparez-vous à l'Excitation",
+          "description": "Sécurisez vos dates et préparez-vous pour l'aventure privée du Cap de votre vie !"
+        }
+      }
+    },
+    "categories": {
+      "title": "Trouvez Votre Évasion Parfaite",
+      "big5": "Safaris Big 5",
+      "coastal": "Côtier & Maritime",
+      "winelands": "Vignobles & Culinaire"
+    }
+  },
+  "tour_detail": {
+    "tour_meeting_point": "Point de Rencontre du Tour",
+    "city_atlantic_hotels": "Hôtels Ville & Atlantique",
+    "dec_feb_only": "Déc - Fév seulement ; réservez tôt",
+    "children_75_percent": "Enfants 4-11 ans à 75%",
+    "step_up_vehicle": "Véhicule à marche ; pentes limitées",
+    "refund_7_days": "Remboursement avant 7 jours"
+  }
+}

@@ -10,6 +10,7 @@ import { Badge } from "@/components/ui/badge";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { EnhancedBooking } from "@/types/booking-management";
 import { format } from "date-fns";
+import { logError, logInfo } from "@/lib/error-logger";
 import { 
   Calendar, 
   User, 
@@ -66,8 +67,12 @@ export default function BookingDetailModal({
   const handleSave = async () => {
     setSaving(true);
     try {
-      console.log("Saving booking with data:", editedData);
-      console.log("Booking ID:", booking.id);
+      logInfo('Saving booking', {
+        component: 'BookingDetailModal',
+        function: 'handleSave',
+        bookingId: booking.id,
+        editedData
+      });
       
       const response = await fetch("/api/admin/bookings/operations", {
         method: "POST",
@@ -78,21 +83,36 @@ export default function BookingDetailModal({
           data: editedData
         })
       });
-      
-      console.log("Response status:", response.status);
+
       const data = await response.json();
-      console.log("Response data:", data);
+      
+      logInfo('Save booking response received', {
+        component: 'BookingDetailModal',
+        function: 'handleSave',
+        responseStatus: response.status,
+        responseData: data
+      });
       
       if (data.success) {
         setIsEditing(false);
         onRefresh();
         alert("Booking updated successfully!");
       } else {
-        console.error("Update failed:", data.error);
+        logError('Booking update failed', new Error(data.error || 'Unknown error'), {
+          component: 'BookingDetailModal',
+          function: 'handleSave',
+          bookingId: booking.id,
+          responseData: data
+        });
         alert(`Error: ${data.error || "Failed to update booking"}`);
       }
     } catch (error: any) {
-      console.error("Save error:", error);
+      logError('Save booking error', error, {
+        component: 'BookingDetailModal',
+        function: 'handleSave',
+        bookingId: booking.id,
+        editedData
+      });
       alert(`Failed to update booking: ${error.message || "Unknown error"}`);
     } finally {
       setSaving(false);

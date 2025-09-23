@@ -3,9 +3,9 @@ import type { Metadata } from "next"
 import { Lato, Montserrat } from "next/font/google"
 import "./globals.css"
 import { cn } from "@/lib/utils"
-import { Header } from "@/components/layout/header"
-import { Footer } from "@/components/layout/footer"
 import { Toaster } from "@/components/ui/toaster"
+import Script from "next/script"
+import SimpleAnalytics from "@/components/analytics/SimpleAnalytics"
 
 const lato = Lato({
   subsets: ["latin"],
@@ -59,6 +59,9 @@ export const metadata: Metadata = {
       'max-snippet': -1,
     },
   },
+  verification: {
+    google: 'Yf5NW8zB4l5R0tULIyBoKoapCQZ1qvINkZmP1b4qE38',
+  },
   icons: {
     icon: [
       { url: '/favicon.ico' },
@@ -86,8 +89,31 @@ export default function RootLayout({
 }: {
   children: React.ReactNode
 }) {
+  const GA_TRACKING_ID = process.env.NEXT_PUBLIC_GA_ID
+
   return (
     <html lang="en" suppressHydrationWarning>
+      <head>
+        {/* Google Analytics */}
+        {GA_TRACKING_ID && (
+          <>
+            <Script
+              src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`}
+              strategy="afterInteractive"
+            />
+            <Script id="google-analytics" strategy="afterInteractive">
+              {`
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', '${GA_TRACKING_ID}', {
+                  page_path: window.location.pathname,
+                });
+              `}
+            </Script>
+          </>
+        )}
+      </head>
       <body
         className={cn(
           "min-h-screen bg-slate-50 font-sans text-slate-900 antialiased",
@@ -95,12 +121,9 @@ export default function RootLayout({
           montserrat.variable,
         )}
       >
-        <div className="relative flex min-h-screen flex-col">
-          <Header />
-          <main className="flex-grow">{children}</main>
-          <Footer />
-        </div>
+        {children}
         <Toaster />
+        <SimpleAnalytics />
       </body>
     </html>
   )

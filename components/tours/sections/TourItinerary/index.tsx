@@ -3,12 +3,19 @@
 import { Tour } from '@/types/tour-detail';
 import { Navigation } from 'lucide-react';
 import styles from '@/styles/tour-detail.module.css';
+import { useTranslations } from '@/lib/i18n/hooks';
 
 interface TourItineraryProps {
   tour: Tour;
+  translations?: {
+    your_journey?: string;
+    stop_number?: string;
+  };
 }
 
-export default function TourItinerary({ tour }: TourItineraryProps) {
+export default function TourItinerary({ tour, translations }: TourItineraryProps) {
+  const { t } = useTranslations('tour_detail');
+
   if (!tour.itinerary || tour.itinerary.length === 0) {
     return null;
   }
@@ -19,7 +26,7 @@ export default function TourItinerary({ tour }: TourItineraryProps) {
         <div className={styles.sectionIcon} aria-hidden="true">
           <Navigation className="w-4 h-4" />
         </div>
-        Your Journey
+        {translations?.your_journey || t('your_journey')}
       </h2>
       <ol className={styles.itineraryTimeline} role="list">
         {tour.itinerary.map((step, idx) => (
@@ -28,7 +35,7 @@ export default function TourItinerary({ tour }: TourItineraryProps) {
               {idx + 1}
             </div>
             <div className={styles.itineraryContent}>
-              <h3 className={styles.itineraryTitle}>Stop {idx + 1}</h3>
+              <h3 className={styles.itineraryTitle}>{translations?.stop_number ? translations.stop_number.replace('{{number}}', (idx + 1).toString()) : t('stop_number', { number: (idx + 1).toString() })}</h3>
               <p className={styles.itineraryDescription}>{step}</p>
             </div>
           </li>

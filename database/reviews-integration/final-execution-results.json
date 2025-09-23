@@ -1,0 +1,51 @@
+{
+  "timestamp": "2025-08-24T21:04:30.644Z",
+  "summary": {
+    "totalInserted": 0,
+    "totalErrors": 0,
+    "totalDuration": 2901
+  },
+  "results": [
+    {
+      "language": "en",
+      "inserted": 0,
+      "errors": [],
+      "duration": 806
+    },
+    {
+      "language": "de",
+      "inserted": 0,
+      "errors": [],
+      "duration": 566
+    },
+    {
+      "language": "fr",
+      "inserted": 0,
+      "errors": [],
+      "duration": 512
+    },
+    {
+      "language": "es",
+      "inserted": 0,
+      "errors": [],
+      "duration": 507
+    },
+    {
+      "language": "ar",
+      "inserted": 0,
+      "errors": [],
+      "duration": 510
+    }
+  ],
+  "validation": {
+    "validationResults": {
+      "en": 72,
+      "de": 25,
+      "fr": 25,
+      "es": 11,
+      "ar": 8
+    },
+    "hasIntegrityIssues": false,
+    "integrityIssues": []
+  }
+}

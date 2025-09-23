@@ -1,0 +1,53 @@
+{
+  "homepage": {
+    "categories": {
+      "big5": "[TRANSLATE FROM ES: Safaris de los Grandes 5]",
+      "coastal": "[TRANSLATE FROM ES: Costero y Marino]",
+      "title": "[TRANSLATE FROM ES: Encuentra Tu Escape Perfecto]",
+      "winelands": "[TRANSLATE FROM ES: Tierras de Vino y Culinario]"
+    },
+    "howItWorks": {
+      "steps": {
+        "book": {
+          "description": "[TRANSLATE FROM ES: ¡Asegura tus fechas y prepárate para la aventura privada de Ciudad del Cabo de tu vida!]",
+          "title": "[TRANSLATE FROM ES: Reserva y Emociónate]"
+        },
+        "choose": {
+          "description": "[TRANSLATE FROM ES: Navega nuestros tours exclusivos curados o cuéntanos tu viaje soñado.]",
+          "title": "[TRANSLATE FROM ES: Elige Tu Aventura]"
+        },
+        "customize": {
+          "description": "[TRANSLATE FROM ES: Trabajaremos contigo para adaptar el itinerario, actividades y ritmo a tu gusto.]",
+          "title": "[TRANSLATE FROM ES: Personaliza Tu Viaje]"
+        }
+      },
+      "tagline": "[TRANSLATE FROM ES: Cómo Funciona]",
+      "title": "[TRANSLATE FROM ES: Tu Aventura en 3 Simples Pasos]"
+    },
+    "testimonials": {
+      "reviews": {
+        "anika": {
+          "author": "[TRANSLATE FROM ES: Anika y Rohan, India]",
+          "text": "[TRANSLATE FROM ES: Una experiencia verdaderamente mágica. La atención al detalle y los toques personales hicieron nuestro safari de luna de miel tan especial. ¡Volveremos!]"
+        },
+        "michael": {
+          "author": "[TRANSLATE FROM ES: Michael B, EE.UU.]",
+          "text": "[TRANSLATE FROM ES: Desde el proceso de reserva fácil hasta la entrega final, todo fue perfecto. Vimos los Grandes 5 y mucho más. ¡Recomiendo altamente esta compañía!]"
+        },
+        "sarah": {
+          "author": "[TRANSLATE FROM ES: Sarah y Tom, Reino Unido]",
+          "text": "[TRANSLATE FROM ES: ¡El mejor tour en el que hemos estado! Nuestro guía, James, era increíblemente conocedor e hizo toda la experiencia inolvidable. El tour privado valió cada centavo.]"
+        }
+      },
+      "title": "[TRANSLATE FROM ES: No Solo Tomes Nuestra Palabra]"
+    }
+  },
+  "tour_detail": {
+    "children_75_percent": "[TRANSLATE FROM ES: Kinder 4-11 Jahre zu 75%]",
+    "city_atlantic_hotels": "[TRANSLATE FROM ES: Stadt- & Atlantikhotels]",
+    "dec_feb_only": "[TRANSLATE FROM ES: Nur Dez - Feb; früh buchen]",
+    "refund_7_days": "[TRANSLATE FROM ES: Erstattung vor 7 Tagen]",
+    "step_up_vehicle": "[TRANSLATE FROM ES: Stufenfahrzeug; begrenzte Steigungen]",
+    "tour_meeting_point": "[TRANSLATE FROM ES: Tour-Treffpunkt]"
+  }
+}

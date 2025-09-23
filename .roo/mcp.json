@@ -1,32 +1,185 @@
 {
   "mcpServers": {
     "supabase": {
+      "command": "cmd",
+      "args": [
+        "/c",
+        "npx",
+        "-y",
+        "@supabase/mcp-server-supabase@latest",
+        "--project-ref=orogsbgpdvpzraujtekx"
+      ],
+      "env": {
+        "SUPABASE_ACCESS_TOKEN": "${env:SUPABASE_ACCESS_TOKEN}"
+      },
+      "autoApprove": [
+        "list_tables",
+        "execute_sql",
+        "list_branches",
+        "create_branch",
+        "apply_migration",
+        "get_logs",
+        "get_advisors",
+        "search_docs",
+        "get_project_url"
+      ],
+      "disabled": false,
+      "timeout": 60,
+      "type": "stdio",
+      "alwaysAllow": [
+        "list_tables",
+        "execute_sql"
+      ]
+    },
+    "fetch-mcp": {
+      "command": "node",
+      "args": [
+        "C:\\Users\\USER-PC\\Documents\\Cline\\MCP\\fetch-mcp\\dist\\index.js"
+      ],
+      "env": {},
+      "autoApprove": [
+        "fetch_html",
+        "fetch_markdown",
+        "fetch_json",
+        "fetch_txt"
+      ],
+      "disabled": true,
+      "timeout": 60,
+      "type": "stdio"
+    },
+    "perplexity-mcp": {
+      "command": "node",
+      "args": [
+        "C:\\Users\\USER-PC\\Documents\\Cline\\MCP\\perplexity-mcp\\build\\index.js"
+      ],
+      "env": {
+        "PERPLEXITY_API_KEY": "${env:PERPLEXITY_API_KEY}"
+      },
+      "autoApprove": [
+        "search",
+        "get_documentation"
+      ],
+      "disabled": true,
+      "timeout": 60,
+      "type": "stdio"
+    },
+    "pydantic-ai-rag": {
+      "url": "http://localhost:8051/sse",
+      "autoApprove": [
+        "perform_rag_query",
+        "search_code_examples",
+        "smart_crawl_url",
+        "parse_github_repository",
+        "get_available_sources",
+        "search",
+        "crawl_single_page",
+        "query_knowledge_graph"
+      ],
+      "disabled": true,
+      "timeout": 120,
+      "type": "sse"
+    },
+    "playwright-mcp": {
       "command": "npx",
       "args": [
         "-y",
-        "@supabase/mcp-server-supabase@latest",
-        "--access-token",
-        "${env:SUPABASE_ACCESS_TOKEN}"
+        "@executeautomation/playwright-mcp-server"
       ],
-      "alwaysAllow": [
-        "list_tables",
-        "execute_sql",
-        "listTables",
-        "list_projects",
-        "list_organizations",
-        "get_organization",
-        "apply_migration",
-        "get_project",
+      "env": {},
+      "autoApprove": [
+        "screenshot",
+        "playwright_get_visible_text",
+        "playwright_console_logs",
+        "playwright_get_visible_html",
+        "playwright_click",
+        "playwright_save_as_pdf",
+        "playwright_scroll_down",
+        "playwright_scroll",
+        "playwright_close",
+        "playwright_evaluate",
+        "playwright_screenshot",
+        "playwright_fill",
+        "playwright_press_key",
+        "playwright_navigate"
+      ],
+      "disabled": false,
+      "timeout": 60,
+      "type": "stdio"
+    },
+    "jina-mcp-tools": {
+      "command": "npx",
+      "args": [
+        "jina-mcp-tools"
+      ],
+      "env": {
+        "JINA_API_KEY": "${env:JINA_API_KEY}"
+      },
+      "autoApprove": [
+        "jina_reader",
+        "jina_search"
+      ],
+      "disabled": true,
+      "timeout": 60,
+      "type": "stdio"
+    },
+    "shadcn-ui": {
+      "command": "npx",
+      "args": [
+        "@jpisnice/shadcn-ui-mcp-server"
+      ],
+      "env": {},
+      "autoApprove": [
+        "list_components",
+        "add_component",
+        "get_component_info"
+      ],
+      "disabled": true,
+      "timeout": 60,
+      "type": "stdio"
+    },
+    "postgres-mcp": {
+      "command": "uvx",
+      "args": [
+        "postgres-mcp",
+        "--access-mode=unrestricted"
+      ],
+      "env": {
+        "DATABASE_URI": "${env:DATABASE_URI}"
+      },
+      "autoApprove": [
         "execute_query",
-        "generate_typescript_types",
-        "listProjects"
+        "list_tables",
+        "describe_table",
+        "list_schemas"
+      ],
+      "disabled": false,
+      "timeout": 60,
+      "type": "stdio",
+      "alwaysAllow": [
+        "list_tables"
       ]
+    },
+    "archon": {
+      "command": "npx",
+      "args": [
+        "mcp-remote",
+        "http://localhost:8051/mcp"
+      ],
+      "disabled": true,
+      "timeout": 60,
+      "type": "stdio"
     },
     "mem0": {
       "url": "https://mcp.composio.dev/mem0/abandoned-creamy-horse-Y39-hm?agent=cursor"
     },
     "perplexityai": {
       "url": "https://mcp.composio.dev/perplexityai/abandoned-creamy-horse-Y39-hm?agent=cursor"
+    },
+    "composio_search": {
+      "url": "https://mcp.composio.dev/composio_search/abandoned-creamy-horse-Y39-hm?agent=cursor"
+    },
+    "codeinterpreter": {
+      "url": "https://mcp.composio.dev/codeinterpreter/abandoned-creamy-horse-Y39-hm?agent=cursor"
     }
   }
 }

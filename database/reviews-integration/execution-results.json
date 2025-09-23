@@ -1,0 +1,91 @@
+{
+  "timestamp": "2025-08-24T21:00:50.089Z",
+  "summary": {
+    "totalInserted": 0,
+    "totalErrors": 6,
+    "totalDuration": 27217
+  },
+  "results": [
+    {
+      "language": "en",
+      "inserted": 0,
+      "errors": [
+        {
+          "batchNumber": 1,
+          "error": "invalid input syntax for type uuid: \"en-bb-001\"",
+          "reviewsInBatch": 50
+        },
+        {
+          "batchNumber": 2,
+          "error": "invalid input syntax for type uuid: \"en-st-003\"",
+          "reviewsInBatch": 6
+        }
+      ],
+      "duration": 9462,
+      "total": 56
+    },
+    {
+      "language": "de",
+      "inserted": 0,
+      "errors": [
+        {
+          "batchNumber": 1,
+          "error": "invalid input syntax for type uuid: \"de-bb-001\"",
+          "reviewsInBatch": 24
+        }
+      ],
+      "duration": 4613,
+      "total": 24
+    },
+    {
+      "language": "fr",
+      "inserted": 0,
+      "errors": [
+        {
+          "batchNumber": 1,
+          "error": "invalid input syntax for type uuid: \"fr-bb-001\"",
+          "reviewsInBatch": 24
+        }
+      ],
+      "duration": 4240,
+      "total": 24
+    },
+    {
+      "language": "es",
+      "inserted": 0,
+      "errors": [
+        {
+          "batchNumber": 1,
+          "error": "invalid input syntax for type uuid: \"es-bb-001\"",
+          "reviewsInBatch": 10
+        }
+      ],
+      "duration": 4312,
+      "total": 10
+    },
+    {
+      "language": "ar",
+      "inserted": 0,
+      "errors": [
+        {
+          "batchNumber": 1,
+          "error": "invalid input syntax for type uuid: \"ar-bb-001\"",
+          "reviewsInBatch": 8
+        }
+      ],
+      "duration": 4590,
+      "total": 8
+    }
+  ],
+  "validation": {
+    "validationResults": {
+      "en": 72,
+      "de": 25,
+      "fr": 25,
+      "es": 11,
+      "ar": 8
+    },
+    "hasIntegrityIssues": false,
+    "integrityIssues": []
+  }
+}

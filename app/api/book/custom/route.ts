@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { createClient } from "@supabase/supabase-js";
+import { logError } from "@/lib/error-logger";
 
 const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL!;
 const supabaseAnonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!;
@@ -89,7 +90,11 @@ export async function POST(req: NextRequest) {
       .single();
 
     if (error) {
-      console.error("Custom booking API error:", error.message);
+      logError("Failed to create custom booking", error, {
+        component: "CustomBookingAPI",
+        function: "POST",
+        metadata: { email: userInfo.email, totalGuests: maxGuests, totalAmount: total }
+      });
       return NextResponse.json({ error: error.message }, { status: 500 });
     }
 
@@ -114,10 +119,20 @@ export async function POST(req: NextRequest) {
       });
 
       if (!emailResponse.ok) {
-        console.error('Failed to send custom tour confirmation email');
+        logError('Failed to send custom tour confirmation email', undefined, {
+          component: "CustomBookingAPI",
+          function: "POST",
+          bookingId: data.id,
+          action: "send_confirmation_email"
+        });
       }
     } catch (emailError) {
-      console.error('Error sending confirmation email:', emailError);
+      logError('Error sending custom tour confirmation email', emailError, {
+        component: "CustomBookingAPI",
+        function: "POST",
+        bookingId: data.id,
+        action: "send_confirmation_email"
+      });
       // Don't fail the booking if email fails
     }
 
@@ -128,7 +143,11 @@ export async function POST(req: NextRequest) {
     });
     
   } catch (err: any) {
-    console.error("Error creating custom booking:", err);
+    logError("Error creating custom booking", err, {
+      component: "CustomBookingAPI",
+      function: "POST",
+      metadata: { email: userInfo.email, totalAmount: total }
+    });
     return NextResponse.json({ error: "Failed to create booking" }, { status: 500 });
   }
 }

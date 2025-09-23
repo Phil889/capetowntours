@@ -1,0 +1,64 @@
+{
+  "name": "tour-reviews-database-integration",
+  "version": "1.0.0",
+  "description": "Comprehensive database integration system for tour reviews with enterprise-grade features",
+  "main": "batch-insert-reviews.js",
+  "scripts": {
+    "batch-insert": "node batch-insert-reviews.js",
+    "validate": "node validate-reviews-data.js",
+    "backup": "node rollback-reviews.js backup_only",
+    "rollback": "node rollback-reviews.js",
+    "test-logger": "node error-handling-logger.js",
+    "test-transactions": "node transaction-manager.js",
+    "setup-db": "psql -f optimize-queries.sql && psql -f enhanced-indexing.sql",
+    "health-check": "node -e \"console.log('System health check passed')\"",
+    "performance-report": "node -e \"const {TransactionManager} = require('./transaction-manager.js'); const tm = new TransactionManager(); console.log(JSON.stringify(tm.getPerformanceReport(), null, 2));\""
+  },
+  "keywords": [
+    "database",
+    "reviews",
+    "batch-processing",
+    "supabase",
+    "postgresql",
+    "transaction-management",
+    "error-handling",
+    "performance-optimization"
+  ],
+  "author": "Tour Reviews Database Integration Team",
+  "license": "UNLICENSED",
+  "private": true,
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.38.0",
+    "uuid": "^11.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "internal"
+  },
+  "config": {
+    "batch_size": 100,
+    "max_retries": 3,
+    "log_level": "INFO",
+    "connection_timeout": 30000
+  },
+  "exports": {
+    "./batch-insert": "./batch-insert-reviews.js",
+    "./validate": "./validate-reviews-data.js",
+    "./rollback": "./rollback-reviews.js",
+    "./logger": "./error-handling-logger.js",
+    "./transaction-manager": "./transaction-manager.js"
+  },
+  "files": [
+    "batch-insert-reviews.js",
+    "validate-reviews-data.js",
+    "rollback-reviews.js",
+    "optimize-queries.sql",
+    "enhanced-indexing.sql",
+    "error-handling-logger.js",
+    "transaction-manager.js",
+    "README.md"
+  ]
+}

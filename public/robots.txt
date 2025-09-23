@@ -14,9 +14,9 @@ Allow: /api/sitemap
 # Crawl delay for respectful crawling
 Crawl-delay: 1
 
-# Sitemap location
+# Sitemap location (Next.js dynamic route)
 Sitemap: https://capetownsafaritours.com/sitemap.xml
 
-# Additional sitemaps for comprehensive indexing
-Sitemap: https://capetownsafaritours.com/image-sitemap.xml
-Sitemap: https://capetownsafaritours.com/blog-sitemap.xml
+# Additional sitemaps for comprehensive indexing (future implementation)
+# Sitemap: https://capetownsafaritours.com/image-sitemap.xml
+# Sitemap: https://capetownsafaritours.com/blog-sitemap.xml

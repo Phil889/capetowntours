@@ -71,6 +71,7 @@ import {
   DialogTrigger,
 } from "@/components/ui/dialog";
 import { toast } from "sonner";
+import { logError, logWarn } from "@/lib/error-logger";
 
 // -------------------- Types --------------------
 export type Tour = {
@@ -106,6 +107,7 @@ export type PremiumTourBuilderProps = {
   availableTours?: Tour[];
   currency?: string;                          // e.g. "ZAR"
   unavailableDates?: Record<string, string[]>;// tourId -> ["yyyy-mm-dd"]
+  translations?: any;                         // Translation object
 };
 
 // -------------------- Config --------------------
@@ -316,6 +318,7 @@ function SortableItineraryRow({
   onRemove,
   onPaxChange,
   disabledDates,
+  t,
 }: {
   item: ItineraryItem;
   currency: string;
@@ -325,6 +328,7 @@ function SortableItineraryRow({
   onRemove: (id: string) => void;
   onPaxChange: (id: string, pax: Pax) => void;
   disabledDates?: string[]; // yyyy-mm-dd
+  t: (key: string, fallback?: string) => string;
 }) {
   const { attributes, listeners, setNodeRef, transform, transition, isDragging } = useSortable({
     id: idFor.item(item.id),
@@ -377,12 +381,12 @@ function SortableItineraryRow({
             <div className="flex flex-col gap-3">
               {/* Date */}
               <div className="flex flex-col gap-2">
-                <Label className="text-xs">Date</Label>
+                <Label className="text-xs">{t('customTour.tourItem.date', 'Date')}</Label>
                 <Popover>
                   <PopoverTrigger asChild>
                     <Button variant="outline" className="justify-start text-left font-normal">
                       <CalendarIcon className="mr-2 h-4 w-4" />
-                      {item.date ? format(item.date, "PPP") : <span>Pick a date</span>}
+                      {item.date ? format(item.date, "PPP") : <span>{t('customTour.tourItem.pickDate', 'Pick a date')}</span>}
                     </Button>
                   </PopoverTrigger>
                   <PopoverContent align="start" className="p-0">
@@ -399,7 +403,7 @@ function SortableItineraryRow({
 
               {/* Time */}
               <div className="flex flex-col gap-2">
-                <Label className="text-xs">Time</Label>
+                <Label className="text-xs">{t('customTour.tourItem.time', 'Time')}</Label>
                 <div className="flex items-center gap-2">
                   <div className="relative w-full">
                     <Clock className="absolute left-2 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground" />
@@ -421,31 +425,31 @@ function SortableItineraryRow({
 
             {/* Pax */}
             <div className="flex flex-col gap-2">
-              <Label className="text-xs flex items-center gap-1"><Users className="h-3 w-3" /> Guests</Label>
+              <Label className="text-xs flex items-center gap-1"><Users className="h-3 w-3" /> {t('customTour.tourItem.guests', 'Guests')}</Label>
               <div className="grid grid-cols-3 gap-2">
                 <div className="flex flex-col gap-1">
-                  <span className="text-[11px] text-muted-foreground">Adults</span>
+                  <span className="text-[11px] text-muted-foreground">{t('customTour.tourItem.adults', 'Adults')}</span>
                   <NumberInput value={item.pax.adults} onChange={(n) => onPaxChange(item.id, { ...item.pax, adults: n })} />
                 </div>
                 <div className="flex flex-col gap-1">
-                  <span className="text-[11px] text-muted-foreground">Children</span>
+                  <span className="text-[11px] text-muted-foreground">{t('customTour.tourItem.children', 'Children')}</span>
                   <NumberInput value={item.pax.children} onChange={(n) => onPaxChange(item.id, { ...item.pax, children: n })} />
                 </div>
                 <div className="flex flex-col gap-1">
-                  <span className="text-[11px] text-muted-foreground">Infants &lt;3</span>
+                  <span className="text-[11px] text-muted-foreground">{t('customTour.tourItem.infants', 'Infants <3')}</span>
                   <NumberInput value={item.pax.infants} onChange={(n) => onPaxChange(item.id, { ...item.pax, infants: n })} />
                 </div>
               </div>
-              <div className="text-[11px] text-muted-foreground">Infants under 3 are free.</div>
+              <div className="text-[11px] text-muted-foreground">{t('customTour.tourItem.infantsFree', 'Infants under 3 are free.')}</div>
             </div>
 
             {/* Notes */}
             <div className="flex flex-col gap-2">
-              <Label className="text-xs">Notes</Label>
+              <Label className="text-xs">{t('customTour.tourItem.notes', 'Notes')}</Label>
               <Textarea
                 value={item.notes ?? ""}
                 onChange={(e) => onNotesChange(item.id, e.target.value)}
-                placeholder="Pickup, language, dietary..."
+                placeholder={t('customTour.tourItem.notesPlaceholder', 'Pickup, language, dietary...')}
                 className="min-h-[42px]"
               />
             </div>
@@ -472,6 +476,7 @@ function SortableDayCard({
   renderItems,
   onAutoSchedule,
   conflictsCount,
+  t,
 }: {
   day: DayGroup;
   index: number;
@@ -482,6 +487,7 @@ function SortableDayCard({
   renderItems: (day: DayGroup) => React.ReactNode;
   onAutoSchedule: (dayId: string) => void;
   conflictsCount: number;
+  t: (key: string, fallback?: string) => string;
 }) {
   const { attributes, listeners, setNodeRef, transform, transition, isDragging } = useSortable({ id: idFor.day(day.id) });
   const { setNodeRef: setDropRef, isOver } = useDroppable({ id: idFor.dayDrop(day.id) });
@@ -502,7 +508,7 @@ function SortableDayCard({
               <PopoverTrigger asChild>
                 <Button variant="outline" className="justify-start text-left font-normal">
                   <CalendarIcon className="mr-2 h-4 w-4" />
-                  {day.date ? format(day.date, "PPP") : <span>Set date</span>}
+                  {day.date ? format(day.date, "PPP") : <span>{t('customTour.dayCard.setDate', 'Set date')}</span>}
                 </Button>
               </PopoverTrigger>
               <PopoverContent align="start" className="p-0">
@@ -511,7 +517,7 @@ function SortableDayCard({
             </Popover>
             {conflictsCount > 0 && (
               <Badge variant="destructive" className="gap-1">
-                <TriangleAlert className="h-3 w-3" /> {conflictsCount} conflict{conflictsCount > 1 ? "s" : ""}
+                <TriangleAlert className="h-3 w-3" /> {conflictsCount} {conflictsCount > 1 ? t('customTour.dayCard.conflictsPlural', 'conflicts') : t('customTour.dayCard.conflicts', 'conflict')}
               </Badge>
             )}
           </div>
@@ -520,7 +526,7 @@ function SortableDayCard({
               {currencyFmt(currency).format(dayTotal)}
             </Badge>
             <Button variant="outline" size="sm" onClick={() => onAutoSchedule(day.id)}>
-              <Wand2 className="h-4 w-4 mr-1" /> Auto-schedule
+              <Wand2 className="h-4 w-4 mr-1" /> {t('customTour.dayCard.autoSchedule', 'Auto-schedule')}
             </Button>
             <Button variant="ghost" size="icon" onClick={() => onRemoveDay(day.id)} aria-label="Remove day">
               <Trash2 className="h-5 w-5" />
@@ -537,7 +543,7 @@ function SortableDayCard({
   );
 }
 
-function CalendarCell({ dayDate, items, isCurrentMonth }: { dayDate: Date; items: ItineraryItem[]; isCurrentMonth: boolean }) {
+function CalendarCell({ dayDate, items, isCurrentMonth, t }: { dayDate: Date; items: ItineraryItem[]; isCurrentMonth: boolean; t: (key: string, fallback?: string) => string }) {
   const key = dateKey(dayDate);
   const { setNodeRef, isOver } = useDroppable({ id: idFor.cal(key) });
   return (
@@ -553,7 +559,7 @@ function CalendarCell({ dayDate, items, isCurrentMonth }: { dayDate: Date; items
             {it.time ? ` • ${it.time}` : ""}
           </div>
         ))}
-        {items && items.length > 3 && <div className="text-[10px] text-muted-foreground">+{items.length - 3} more</div>}
+        {items && items.length > 3 && <div className="text-[10px] text-muted-foreground">+{items.length - 3} {t('customTour.calendar.more', 'more')}</div>}
       </div>
     </div>
   );
@@ -564,7 +570,18 @@ export default function PremiumTourBuilder({
   availableTours = [],
   currency = "ZAR",
   unavailableDates = {},
+  translations = {},
 }: PremiumTourBuilderProps) {
+  // Helper function to get translation with fallback
+  const t = (key: string, fallback: string = '') => {
+    const keys = key.split('.');
+    let value = translations;
+    for (const k of keys) {
+      value = value?.[k];
+      if (value === undefined) return fallback;
+    }
+    return value || fallback;
+  };
   const sensors = useSensors(
     useSensor(PointerSensor, { activationConstraint: { distance: 6 } }),
     useSensor(KeyboardSensor)
@@ -599,10 +616,14 @@ export default function PremiumTourBuilder({
       const restored = fromSerializable(decoded, availableTours);
       if (restored.length) {
         setDays(restored);
-        toast.success("Plan restored from link");
+        toast.success(t('customTour.messages.planRestored', 'Plan restored from link'));
       }
     } catch (e) {
-      console.warn("Failed to parse shared plan", e);
+      logWarn('Failed to parse shared plan from URL', {
+        component: 'CustomTourPlanner',
+        function: 'parseSharedPlan',
+        error: e
+      });
     }
   }, [availableTours]);
 
@@ -612,9 +633,9 @@ export default function PremiumTourBuilder({
       const enc = btoa(encodeURIComponent(JSON.stringify(json)));
       const url = `${location.origin}${location.pathname}#plan=${enc}`;
       navigator.clipboard.writeText(url);
-      toast.success("Shareable link copied");
+      toast.success(t('customTour.messages.linkCopied', 'Shareable link copied'));
     } catch {
-      toast.error("Could not copy link");
+      toast.error(t('customTour.messages.linkError', 'Could not copy link'));
     }
   }
 
@@ -625,7 +646,11 @@ export default function PremiumTourBuilder({
       const raw = localStorage.getItem(STORAGE_KEY);
       if (raw) setDays(fromSerializable(JSON.parse(raw), availableTours));
     } catch (e) {
-      console.warn("Failed to restore itinerary groups", e);
+      logWarn('Failed to restore itinerary groups from localStorage', {
+        component: 'CustomTourPlanner',
+        function: 'restoreFromStorage',
+        error: e
+      });
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
@@ -676,7 +701,7 @@ export default function PremiumTourBuilder({
         it.time = `${String(Math.floor(cursor / 60)).padStart(2, "0")}:${String(cursor % 60).padStart(2, "0")}`;
         cursor += getDurationMins(it) + TRAVEL_BUFFER_MINS;
       }
-      toast.success(`Auto-scheduled ${day.label}`);
+      toast.success(`${t('customTour.messages.autoScheduled', 'Auto-scheduled')} ${day.label}`);
       return draft;
     });
   }
@@ -736,7 +761,7 @@ export default function PremiumTourBuilder({
             notes: "",
             pax: { adults: 1, children: 0, infants: 0 },
           });
-          toast.success(`Added to ${target.label}`);
+          toast.success(`${t('customTour.messages.addedTo', 'Added to')} ${target.label}`);
           return next;
         });
         return setActiveDrag(null);
@@ -773,7 +798,7 @@ export default function PremiumTourBuilder({
             pax: { adults: 1, children: 0, infants: 0 },
           };
           next[dIdx].items.splice(target.index, 0, newItem);
-          toast.success("Added to " + next[dIdx].label);
+          toast.success(`${t('customTour.messages.addedTo', 'Added to')} ${next[dIdx].label}`);
         }
         return next;
       });
@@ -885,7 +910,7 @@ export default function PremiumTourBuilder({
   }
   function applyPaxToAll(pax: Pax) {
     setDays((prev) => prev.map((d) => ({ ...d, items: d.items.map((i) => ({ ...i, pax })) })));
-    toast.success("Applied guest counts to all items");
+    toast.success(t('customTour.messages.guestsApplied', 'Applied guest counts to all items'));
   }
   function clearAll() {
     setDays([]);
@@ -913,7 +938,7 @@ export default function PremiumTourBuilder({
       }
     }
     setDays(grouped);
-    toast.success("Grouped by dates");
+    toast.success(t('customTour.messages.groupedByDates', 'Grouped by dates'));
   }
 
   // ---------- Derived ----------
@@ -963,7 +988,7 @@ export default function PremiumTourBuilder({
     const data = JSON.stringify(toSerializable(days), null, 2);
     try {
       await navigator.clipboard.writeText(data);
-      toast.success("Itinerary JSON copied to clipboard");
+      toast.success(t('customTour.messages.exportedClipboard', 'Itinerary JSON copied to clipboard'));
     } catch {
       const blob = new Blob([data], { type: "application/json" });
       const url = URL.createObjectURL(blob);
@@ -1003,7 +1028,7 @@ export default function PremiumTourBuilder({
     a.download = "itinerary.ics";
     a.click();
     URL.revokeObjectURL(url);
-    toast.success("ICS exported");
+    toast.success(t('customTour.messages.exportedICS', 'ICS exported'));
   }
 
   function exportPrint() {
@@ -1038,9 +1063,14 @@ export default function PremiumTourBuilder({
       try {
         const json = JSON.parse(String(reader.result));
         setDays(fromSerializable(json, availableTours || []));
-        toast.success("Itinerary imported");
+        toast.success(t('customTour.messages.imported', 'Itinerary imported'));
       } catch (e: any) {
-        toast.error("Invalid JSON: " + e?.message);
+        logError('Failed to import itinerary', e, {
+          component: 'CustomTourPlanner',
+          function: 'importItinerary',
+          fileName: file.name
+        });
+        toast.error(`${t('customTour.messages.importError', 'Invalid JSON:')} ${e?.message}`);
       }
     };
     reader.readAsText(file);
@@ -1097,17 +1127,23 @@ export default function PremiumTourBuilder({
       }
       const data = await res.json();
       if (data.success && data.booking) {
-        toast.success("Booking confirmed! Redirecting to confirmation page...");
+        toast.success(t('customTour.messages.bookingConfirmed', 'Booking confirmed! Redirecting to confirmation page...'));
         setBookingOpen(false);
         // Redirect to confirmation page
         setTimeout(() => {
           window.location.href = `/booking/confirmed/${data.booking.id}`;
         }, 1500);
       } else {
-        toast.error(data.error || "Booking failed. Please try again.");
+        toast.error(data.error || t('customTour.messages.bookingFailed', 'Booking failed. Please try again.'));
       }
     } catch (err: any) {
-      toast.error(err?.message || "Booking failed. Please try again.");
+      logError('Custom tour booking failed', err, {
+        component: 'CustomTourPlanner',
+        function: 'submitBooking',
+        payload,
+        userInfo: user
+      });
+      toast.error(err?.message || t('customTour.messages.bookingFailed', 'Booking failed. Please try again.'));
     } finally {
       setBookingLoading(false);
     }
@@ -1148,7 +1184,10 @@ export default function PremiumTourBuilder({
 
       // console.info("Dev tests passed");
     } catch (e) {
-      console.error("Dev quick tests failed:", e);
+      logError('Dev quick tests failed', e as Error, {
+        component: 'CustomTourPlanner',
+        function: 'devTests'
+      });
     }
   }, []);
 
@@ -1168,6 +1207,7 @@ export default function PremiumTourBuilder({
               onRemove={(id) => removeItem(day.id, id)}
               onPaxChange={(id, pax) => updateItemPax(id, pax)}
               disabledDates={unavailableDates[it.tourId] || []}
+              t={t}
             />
           ))}
         </ol>
@@ -1181,91 +1221,91 @@ export default function PremiumTourBuilder({
       <div className="sticky top-0 z-10 bg-white/95 backdrop-blur-sm border-b shadow-sm mb-6">
         <div className="container mx-auto px-4 md:px-6 lg:px-8 xl:px-12 py-4">
           <div className="flex flex-col lg:flex-row flex-wrap items-start lg:items-center gap-3">
-            <div className="relative w-full sm:w-auto">
-              <Input placeholder="Search tours..." value={query} onChange={(e) => setQuery(e.target.value)} className="w-full sm:w-[260px] pl-9" />
-              <span className="absolute left-2 top-1/2 -translate-y-1/2 text-muted-foreground">🔎</span>
-            </div>
-            <Separator orientation="vertical" className="h-6 hidden sm:block" />
-            <div className="flex items-center gap-2">
-              <Button variant={view === "days" ? "default" : "outline"} size="sm" onClick={() => setView("days")}>List</Button>
-              <Button variant={view === "calendar" ? "default" : "outline"} size="sm" onClick={() => setView("calendar")}>Calendar</Button>
-            </div>
-            <Separator orientation="vertical" className="h-6 hidden lg:block" />
-            <Button size="sm" onClick={addDay}><Plus className="h-4 w-4 mr-1" /> <span className="hidden sm:inline">Add Day</span></Button>
-            <Button variant="outline" size="sm" onClick={splitDaysByItemDates}><span className="hidden sm:inline">Group by date</span><span className="sm:hidden">Group</span></Button>
-            <div className="flex flex-wrap items-center gap-2 ml-auto">
-              <Button variant="outline" size="icon" className="sm:hidden" onClick={copyShareLink}><Share2 className="h-4 w-4" /></Button>
-              <Button variant="outline" size="sm" className="hidden sm:flex" onClick={copyShareLink}><Share2 className="h-4 w-4 mr-1" /> Share</Button>
-              <Button variant="outline" size="icon" className="sm:hidden" onClick={exportItinerary}><DownloadCloud className="h-4 w-4" /></Button>
-              <Button variant="outline" size="sm" className="hidden sm:flex" onClick={exportItinerary}><DownloadCloud className="h-4 w-4 mr-1" /> Export</Button>
-              <label className="inline-flex">
-                <input type="file" className="hidden" accept="application/json" onChange={(e) => e.target.files && importItinerary(e.target.files[0])} />
-                <Button variant="outline" size="icon" className="sm:hidden"><UploadCloud className="h-4 w-4" /></Button>
-                <Button variant="outline" size="sm" className="hidden sm:flex"><UploadCloud className="h-4 w-4 mr-1" /> Import</Button>
-              </label>
-              <Button variant="outline" size="sm" className="hidden md:inline-flex" onClick={exportICS}>.ics</Button>
-              <Button variant="outline" size="sm" className="hidden md:inline-flex" onClick={exportPrint}><Printer className="h-4 w-4 mr-1" /> Print</Button>
-              <Dialog open={isBookingOpen} onOpenChange={setBookingOpen}>
-                <DialogTrigger asChild>
-                  <Button disabled={allItems.length === 0}><Send className="h-4 w-4 mr-1" /> Book Now - Pay on Pickup</Button>
-                </DialogTrigger>
+          <div className="relative w-full sm:w-auto">
+            <Input placeholder={t('customTour.toolbar.searchPlaceholder', 'Search tours...')} value={query} onChange={(e) => setQuery(e.target.value)} className="w-full sm:w-[260px] pl-9" />
+            <span className="absolute left-2 top-1/2 -translate-y-1/2 text-muted-foreground">🔎</span>
+          </div>
+          <Separator orientation="vertical" className="h-6 hidden sm:block" />
+          <div className="flex items-center gap-2">
+            <Button variant={view === "days" ? "default" : "outline"} size="sm" onClick={() => setView("days")}>{t('customTour.toolbar.list', 'List')}</Button>
+            <Button variant={view === "calendar" ? "default" : "outline"} size="sm" onClick={() => setView("calendar")}>{t('customTour.toolbar.calendar', 'Calendar')}</Button>
+          </div>
+          <Separator orientation="vertical" className="h-6 hidden lg:block" />
+          <Button size="sm" onClick={addDay}><Plus className="h-4 w-4 mr-1" /> <span className="hidden sm:inline">{t('customTour.toolbar.addDay', 'Add Day')}</span></Button>
+          <Button variant="outline" size="sm" onClick={splitDaysByItemDates}><span className="hidden sm:inline">{t('customTour.toolbar.groupByDate', 'Group by date')}</span><span className="sm:hidden">Group</span></Button>
+          <div className="flex flex-wrap items-center gap-2 ml-auto">
+            <Button variant="outline" size="icon" className="sm:hidden" onClick={copyShareLink}><Share2 className="h-4 w-4" /></Button>
+            <Button variant="outline" size="sm" className="hidden sm:flex" onClick={copyShareLink}><Share2 className="h-4 w-4 mr-1" /> {t('customTour.toolbar.share', 'Share')}</Button>
+            <Button variant="outline" size="icon" className="sm:hidden" onClick={exportItinerary}><DownloadCloud className="h-4 w-4" /></Button>
+            <Button variant="outline" size="sm" className="hidden sm:flex" onClick={exportItinerary}><DownloadCloud className="h-4 w-4 mr-1" /> {t('customTour.toolbar.export', 'Export')}</Button>
+            <label className="inline-flex">
+              <input type="file" className="hidden" accept="application/json" onChange={(e) => e.target.files && importItinerary(e.target.files[0])} />
+              <Button variant="outline" size="icon" className="sm:hidden"><UploadCloud className="h-4 w-4" /></Button>
+              <Button variant="outline" size="sm" className="hidden sm:flex"><UploadCloud className="h-4 w-4 mr-1" /> {t('customTour.toolbar.import', 'Import')}</Button>
+            </label>
+            <Button variant="outline" size="sm" className="hidden md:inline-flex" onClick={exportICS}>.ics</Button>
+            <Button variant="outline" size="sm" className="hidden md:inline-flex" onClick={exportPrint}><Printer className="h-4 w-4 mr-1" /> {t('customTour.toolbar.print', 'Print')}</Button>
+            <Dialog open={isBookingOpen} onOpenChange={setBookingOpen}>
+              <DialogTrigger asChild>
+                <Button disabled={allItems.length === 0}><Send className="h-4 w-4 mr-1" /> {t('customTour.toolbar.bookNow', 'Book Now - Pay on Pickup')}</Button>
+              </DialogTrigger>
                 <DialogContent className="max-w-md">
                   <DialogHeader>
-                    <DialogTitle>Complete Your Booking</DialogTitle>
+                    <DialogTitle>{t('customTour.booking.title', 'Complete Your Booking')}</DialogTitle>
                   </DialogHeader>
                   <div className="space-y-4">
                     {/* Guest Information */}
                     <div className="space-y-3">
                       <div>
-                        <Label htmlFor="name">Full Name</Label>
-                        <Input 
+                        <Label htmlFor="name">{t('customTour.booking.fullName', 'Full Name')}</Label>
+                        <Input
                           id="name"
-                          placeholder="John Doe"
-                          value={user.name} 
-                          onChange={(e) => setUser((u) => ({ ...u, name: e.target.value }))} 
+                          placeholder={t('customTour.booking.fullNamePlaceholder', 'John Doe')}
+                          value={user.name}
+                          onChange={(e) => setUser((u) => ({ ...u, name: e.target.value }))}
                         />
                       </div>
                       <div>
                         <Label htmlFor="email">
-                          Email Address <span className="text-red-500">*</span>
+                          {t('customTour.booking.email', 'Email Address')} <span className="text-red-500">{t('customTour.booking.emailRequired', '*')}</span>
                         </Label>
-                        <Input 
+                        <Input
                           id="email"
-                          type="email" 
-                          placeholder="your@email.com"
-                          value={user.email} 
-                          onChange={(e) => setUser((u) => ({ ...u, email: e.target.value }))} 
+                          type="email"
+                          placeholder={t('customTour.booking.emailPlaceholder', 'your@email.com')}
+                          value={user.email}
+                          onChange={(e) => setUser((u) => ({ ...u, email: e.target.value }))}
                           required
                         />
                       </div>
                       <div>
-                        <Label htmlFor="phone">Phone Number</Label>
-                        <Input 
+                        <Label htmlFor="phone">{t('customTour.booking.phone', 'Phone Number')}</Label>
+                        <Input
                           id="phone"
                           type="tel"
-                          placeholder="+27 12 345 6789"
-                          value={user.phone} 
-                          onChange={(e) => setUser((u) => ({ ...u, phone: e.target.value }))} 
+                          placeholder={t('customTour.booking.phonePlaceholder', '+27 12 345 6789')}
+                          value={user.phone}
+                          onChange={(e) => setUser((u) => ({ ...u, phone: e.target.value }))}
                         />
-                        <p className="text-xs text-muted-foreground mt-1">Include country code for international numbers</p>
+                        <p className="text-xs text-muted-foreground mt-1">{t('customTour.booking.phoneNote', 'Include country code for international numbers')}</p>
                       </div>
                       <div>
-                        <Label htmlFor="pickup">Pickup Location</Label>
-                        <Input 
+                        <Label htmlFor="pickup">{t('customTour.booking.pickup', 'Pickup Location')}</Label>
+                        <Input
                           id="pickup"
-                          placeholder="Your hotel name or address"
-                          value={user.pickup_location} 
-                          onChange={(e) => setUser((u) => ({ ...u, pickup_location: e.target.value }))} 
+                          placeholder={t('customTour.booking.pickupPlaceholder', 'Your hotel name or address')}
+                          value={user.pickup_location}
+                          onChange={(e) => setUser((u) => ({ ...u, pickup_location: e.target.value }))}
                         />
-                        <p className="text-xs text-muted-foreground mt-1">We offer free pickup from most Cape Town hotels</p>
+                        <p className="text-xs text-muted-foreground mt-1">{t('customTour.booking.pickupNote', 'We offer free pickup from most Cape Town hotels')}</p>
                       </div>
                       <div>
-                        <Label htmlFor="requirements">Special Requirements</Label>
-                        <Textarea 
+                        <Label htmlFor="requirements">{t('customTour.booking.requirements', 'Special Requirements')}</Label>
+                        <Textarea
                           id="requirements"
-                          placeholder="Any dietary restrictions, accessibility needs, or special requests?"
-                          value={user.special_requirements} 
-                          onChange={(e) => setUser((u) => ({ ...u, special_requirements: e.target.value }))} 
+                          placeholder={t('customTour.booking.requirementsPlaceholder', 'Any dietary restrictions, accessibility needs, or special requests?')}
+                          value={user.special_requirements}
+                          onChange={(e) => setUser((u) => ({ ...u, special_requirements: e.target.value }))}
                           rows={3}
                         />
                       </div>
@@ -1275,32 +1315,32 @@ export default function PremiumTourBuilder({
                     <div className="bg-blue-50 border border-blue-200 rounded-lg p-3">
                       <div className="space-y-2">
                         <div className="flex justify-between items-center">
-                          <span className="text-sm font-medium">Total Package:</span>
+                          <span className="text-sm font-medium">{t('customTour.booking.totalPackage', 'Total Package:')}</span>
                           <span className="font-bold text-lg">{currencyFmt(currency).format(total)}</span>
                         </div>
                         <div className="text-xs text-blue-700">
-                          💰 <strong>Payment on pickup</strong> - No advance payment required!
+                          {t('customTour.booking.paymentNote', '💰 Payment on pickup - No advance payment required!')}
                         </div>
                       </div>
                     </div>
 
                     {/* Trust Badges */}
                     <div className="text-center text-xs text-muted-foreground">
-                      ✓ Instant confirmation • ✓ Free cancellation • ✓ Best price guarantee
+                      {t('customTour.booking.trustBadges', '✓ Instant confirmation • ✓ Free cancellation • ✓ Best price guarantee')}
                       <br />
-                      🔒 Your information is secure and will never be shared
+                      {t('customTour.booking.securityNote', '🔒 Your information is secure and will never be shared')}
                     </div>
                   </div>
                   <DialogFooter>
                     <Button variant="outline" onClick={() => setBookingOpen(false)}>
-                      Cancel
+                      {t('customTour.booking.cancel', 'Cancel')}
                     </Button>
-                    <Button 
-                      onClick={submitBooking} 
+                    <Button
+                      onClick={submitBooking}
                       disabled={bookingLoading || allItems.length === 0 || !user.email}
                       className="bg-green-600 hover:bg-green-700"
                     >
-                      {bookingLoading ? "Processing..." : "Confirm Booking"}
+                      {bookingLoading ? t('customTour.booking.processing', 'Processing...') : t('customTour.booking.confirm', 'Confirm Booking')}
                     </Button>
                   </DialogFooter>
                 </DialogContent>
@@ -1322,7 +1362,7 @@ export default function PremiumTourBuilder({
           <div className="grid grid-cols-1 xl:grid-cols-4 gap-6 lg:gap-8">
             {/* Catalog Sidebar */}
             <div className="xl:col-span-1 space-y-3 order-2 xl:order-1">
-              {(filtered || []).length === 0 && <div className="text-sm text-muted-foreground">No tours found.</div>}
+              {(filtered || []).length === 0 && <div className="text-sm text-muted-foreground">{t('customTour.noTours', 'No tours found.')}</div>}
               <SortableContext
                 items={(filtered || []).map((t) => idFor.sourceTour(t.id))}
                 strategy={verticalListSortingStrategy}
@@ -1340,7 +1380,7 @@ export default function PremiumTourBuilder({
                   <SortableContext items={(days || []).map((d) => idFor.day(d.id))} strategy={verticalListSortingStrategy}>
                     {(days || []).length === 0 ? (
                       <div className="rounded-2xl border-2 border-dashed p-10 text-center text-muted-foreground">
-                        Drag tours here to start building your itinerary.
+                        {t('customTour.dragAndDrop.dragToStart', 'Drag tours here to start building your itinerary.')}
                       </div>
                     ) : (
                       (days || []).map((day, idx) => (
@@ -1355,6 +1395,7 @@ export default function PremiumTourBuilder({
                           renderItems={renderDayItems}
                           onAutoSchedule={autoScheduleDay}
                           conflictsCount={conflictsPerDay.get(day.id) || 0}
+                          t={t}
                         />
                       ))
                     )}
@@ -1364,35 +1405,35 @@ export default function PremiumTourBuilder({
                     <div className="rounded-xl border p-3 flex items-end gap-3">
                       <div className="grid grid-cols-3 gap-2 flex-1">
                         <div>
-                          <Label className="text-xs">Adults</Label>
-                          <NumberInput 
-                            value={bulkPax.adults} 
-                            onChange={(n) => setBulkPax(prev => ({ ...prev, adults: n }))} 
+                          <Label className="text-xs">{t('customTour.tourItem.adults', 'Adults')}</Label>
+                          <NumberInput
+                            value={bulkPax.adults}
+                            onChange={(n) => setBulkPax(prev => ({ ...prev, adults: n }))}
                           />
                         </div>
                         <div>
-                          <Label className="text-xs">Children</Label>
-                          <NumberInput 
-                            value={bulkPax.children} 
-                            onChange={(n) => setBulkPax(prev => ({ ...prev, children: n }))} 
+                          <Label className="text-xs">{t('customTour.tourItem.children', 'Children')}</Label>
+                          <NumberInput
+                            value={bulkPax.children}
+                            onChange={(n) => setBulkPax(prev => ({ ...prev, children: n }))}
                           />
                         </div>
                         <div>
-                          <Label className="text-xs">Infants &lt;3</Label>
-                          <NumberInput 
-                            value={bulkPax.infants} 
-                            onChange={(n) => setBulkPax(prev => ({ ...prev, infants: n }))} 
+                          <Label className="text-xs">{t('customTour.tourItem.infants', 'Infants <3')}</Label>
+                          <NumberInput
+                            value={bulkPax.infants}
+                            onChange={(n) => setBulkPax(prev => ({ ...prev, infants: n }))}
                           />
                         </div>
                       </div>
                       <div className="flex flex-col gap-2">
-                        <div className="text-sm text-muted-foreground">Apply guests across all items.</div>
-                        <Button 
-                          variant="outline" 
+                        <div className="text-sm text-muted-foreground">{t('customTour.guestCounts.applyToAll', 'Apply guests across all items.')}</div>
+                        <Button
+                          variant="outline"
                           size="sm"
                           onClick={() => applyPaxToAll(bulkPax)}
                         >
-                          Apply to All
+                          {t('customTour.guestCounts.applyButton', 'Apply to All')}
                         </Button>
                       </div>
                     </div>
@@ -1413,6 +1454,7 @@ export default function PremiumTourBuilder({
                         dayDate={d}
                         items={calendarGrid.itemsByKey.get(dateKey(d)) || []}
                         isCurrentMonth={isSameMonth(d, monthCursor)}
+                        t={t}
                       />
                     ))}
                   </div>
@@ -1439,13 +1481,16 @@ export default function PremiumTourBuilder({
       <div className="flex items-center justify-between rounded-xl border p-3">
         <div className="text-sm text-muted-foreground">
           {conflicts.length > 0 ? (
-            <span className="text-destructive flex items-center gap-1"><TriangleAlert className="h-4 w-4" /> {conflicts.length} total conflict{conflicts.length > 1 ? "s" : ""}. Adjust times to resolve.</span>
+            <span className="text-destructive flex items-center gap-1">
+              <TriangleAlert className="h-4 w-4" />
+              {conflicts.length} {conflicts.length > 1 ? t('customTour.summary.conflictsWarningPlural', 'total conflicts') : t('customTour.summary.conflictsWarning', 'total conflict')}. {t('customTour.summary.adjustTimes', 'Adjust times to resolve.')}
+            </span>
           ) : (
-            <span>All clear — no overlaps.</span>
+            <span>{t('customTour.summary.allClear', 'All clear — no overlaps.')}</span>
           )}
         </div>
         <div className="font-semibold">
-          Total: {currencyFmt(currency).format(total)}
+          {t('customTour.summary.total', 'Total:')}: {currencyFmt(currency).format(total)}
         </div>
       </div>
     </div>

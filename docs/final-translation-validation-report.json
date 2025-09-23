@@ -1,0 +1,87 @@
+{
+  "timestamp": "2025-08-24T12:57:21.593Z",
+  "languages": {
+    "en": {
+      "success": true,
+      "keyCount": 343,
+      "missing": [],
+      "empty": [],
+      "todos": [],
+      "missingKeys": [],
+      "extraKeys": [],
+      "specialCharIssues": [],
+      "completionRate": "100.00",
+      "hasIssues": false
+    },
+    "de": {
+      "success": true,
+      "keyCount": 343,
+      "missing": [],
+      "empty": [],
+      "todos": [],
+      "missingKeys": [],
+      "extraKeys": [],
+      "specialCharIssues": [],
+      "completionRate": "100.00",
+      "hasIssues": false
+    },
+    "fr": {
+      "success": true,
+      "keyCount": 343,
+      "missing": [],
+      "empty": [],
+      "todos": [],
+      "missingKeys": [],
+      "extraKeys": [],
+      "specialCharIssues": [],
+      "completionRate": "100.00",
+      "hasIssues": false
+    },
+    "es": {
+      "success": true,
+      "keyCount": 343,
+      "missing": [],
+      "empty": [],
+      "todos": [],
+      "missingKeys": [],
+      "extraKeys": [],
+      "specialCharIssues": [],
+      "completionRate": "100.00",
+      "hasIssues": false
+    },
+    "ar": {
+      "success": true,
+      "keyCount": 343,
+      "missing": [],
+      "empty": [],
+      "todos": [],
+      "missingKeys": [],
+      "extraKeys": [],
+      "specialCharIssues": [],
+      "completionRate": "100.00",
+      "hasIssues": false
+    }
+  },
+  "summary": {
+    "totalLanguages": 5,
+    "successful": 5,
+    "failed": 0,
+    "totalKeys": 343,
+    "consistency": true,
+    "overallCompletion": "100.00"
+  },
+  "issues": [],
+  "finalStatus": {
+    "readyForProduction": true,
+    "criticalIssues": 0,
+    "overallCompletion": "100.00",
+    "summary": {
+      "totalLanguages": 5,
+      "successful": 5,
+      "failed": 0,
+      "totalKeys": 343,
+      "consistency": true,
+      "overallCompletion": "100.00"
+    }
+  }
+}

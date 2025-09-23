@@ -13,6 +13,7 @@ import QuickActions from "@/components/admin/bookings/QuickActions";
 import BookingDetailModal from "@/components/admin/bookings/BookingDetailModal";
 import { EnhancedBooking, BookingStats as Stats, BookingFilter } from "@/types/booking-management";
 import { format } from "date-fns";
+import { logError, logInfo } from "@/lib/error-logger";
 
 export default function BookingsDashboard() {
   const [bookings, setBookings] = useState<EnhancedBooking[]>([]);
@@ -68,7 +69,10 @@ export default function BookingsDashboard() {
         setStats(data.data);
       }
     } catch (err) {
-      console.error("Failed to fetch stats:", err);
+      logError('Failed to fetch booking stats', err as Error, {
+        component: 'BookingsDashboard',
+        function: 'fetchStats'
+      });
     }
   };
 
@@ -139,7 +143,12 @@ export default function BookingsDashboard() {
       <QuickActions 
         selectedBookings={[]} 
         onAction={async (action: string, data?: any) => {
-          console.log('Quick action:', action, data);
+          logInfo('Quick action triggered', {
+            component: 'BookingsDashboard',
+            function: 'onAction',
+            action,
+            data
+          });
           
           try {
             switch (action) {
@@ -204,10 +213,20 @@ export default function BookingsDashboard() {
                 break;
                 
               default:
-                console.log('Unhandled action:', action);
+                logError('Unhandled quick action', new Error('Action not implemented'), {
+                  component: 'BookingsDashboard',
+                  function: 'onAction',
+                  action,
+                  data
+                });
             }
           } catch (error) {
-            console.error('Error handling quick action:', error);
+            logError('Error handling quick action', error as Error, {
+              component: 'BookingsDashboard',
+              function: 'onAction',
+              action,
+              data
+            });
             alert('An error occurred while processing the action');
           }
           

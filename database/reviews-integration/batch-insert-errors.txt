@@ -1,0 +1,50 @@
+[2025-08-24T17:22:12.798Z] ERROR: Could not determine tour slug for file: C:\Users\USER-PC\Documents\Cape-Town-Safari-Tours-Website\database\reviews-integration\arabic-guest-reviews.json
+
+[2025-08-24T17:22:12.799Z] ERROR: Could not determine tour slug for file: C:\Users\USER-PC\Documents\Cape-Town-Safari-Tours-Website\database\reviews-integration\english-guest-reviews.json
+
+[2025-08-24T17:22:12.800Z] ERROR: Could not determine tour slug for file: C:\Users\USER-PC\Documents\Cape-Town-Safari-Tours-Website\database\reviews-integration\french-guest-reviews.json
+
+[2025-08-24T17:22:12.800Z] ERROR: Could not determine tour slug for file: C:\Users\USER-PC\Documents\Cape-Town-Safari-Tours-Website\database\reviews-integration\german-guest-reviews.json
+
+[2025-08-24T17:22:12.801Z] ERROR: Could not determine tour slug for file: C:\Users\USER-PC\Documents\Cape-Town-Safari-Tours-Website\database\reviews-integration\spanish-guest-reviews.json
+
+[2025-08-24T20:57:32.927Z] ERROR: Could not determine tour slug for file: C:\Users\USER-PC\Documents\Cape-Town-Safari-Tours-Website\database\reviews-integration\arabic-guest-reviews.json
+
+[2025-08-24T20:57:32.928Z] ERROR: Could not determine tour slug for file: C:\Users\USER-PC\Documents\Cape-Town-Safari-Tours-Website\database\reviews-integration\complete-arabic-reviews.json
+
+[2025-08-24T20:57:32.928Z] ERROR: Could not determine tour slug for file: C:\Users\USER-PC\Documents\Cape-Town-Safari-Tours-Website\database\reviews-integration\complete-english-reviews.json
+
+[2025-08-24T20:57:32.929Z] ERROR: Could not determine tour slug for file: C:\Users\USER-PC\Documents\Cape-Town-Safari-Tours-Website\database\reviews-integration\complete-french-reviews.json
+
+[2025-08-24T20:57:32.929Z] ERROR: Could not determine tour slug for file: C:\Users\USER-PC\Documents\Cape-Town-Safari-Tours-Website\database\reviews-integration\complete-german-reviews.json
+
+[2025-08-24T20:57:32.929Z] ERROR: Could not determine tour slug for file: C:\Users\USER-PC\Documents\Cape-Town-Safari-Tours-Website\database\reviews-integration\complete-spanish-reviews.json
+
+[2025-08-24T20:57:32.930Z] ERROR: Could not determine tour slug for file: C:\Users\USER-PC\Documents\Cape-Town-Safari-Tours-Website\database\reviews-integration\english-guest-reviews.json
+
+[2025-08-24T20:57:32.931Z] ERROR: Could not determine tour slug for file: C:\Users\USER-PC\Documents\Cape-Town-Safari-Tours-Website\database\reviews-integration\french-guest-reviews.json
+
+[2025-08-24T20:57:32.931Z] ERROR: Could not determine tour slug for file: C:\Users\USER-PC\Documents\Cape-Town-Safari-Tours-Website\database\reviews-integration\german-guest-reviews.json
+
+[2025-08-24T20:57:32.932Z] ERROR: Could not determine tour slug for file: C:\Users\USER-PC\Documents\Cape-Town-Safari-Tours-Website\database\reviews-integration\spanish-guest-reviews.json
+
+[2025-08-24T20:57:34.807Z] ERROR: Could not determine tour slug for file: C:\Users\USER-PC\Documents\Cape-Town-Safari-Tours-Website\database\reviews-integration\arabic-guest-reviews.json
+
+[2025-08-24T20:57:34.807Z] ERROR: Could not determine tour slug for file: C:\Users\USER-PC\Documents\Cape-Town-Safari-Tours-Website\database\reviews-integration\complete-arabic-reviews.json
+
+[2025-08-24T20:57:34.807Z] ERROR: Could not determine tour slug for file: C:\Users\USER-PC\Documents\Cape-Town-Safari-Tours-Website\database\reviews-integration\complete-english-reviews.json
+
+[2025-08-24T20:57:34.808Z] ERROR: Could not determine tour slug for file: C:\Users\USER-PC\Documents\Cape-Town-Safari-Tours-Website\database\reviews-integration\complete-french-reviews.json
+
+[2025-08-24T20:57:34.808Z] ERROR: Could not determine tour slug for file: C:\Users\USER-PC\Documents\Cape-Town-Safari-Tours-Website\database\reviews-integration\complete-german-reviews.json
+
+[2025-08-24T20:57:34.809Z] ERROR: Could not determine tour slug for file: C:\Users\USER-PC\Documents\Cape-Town-Safari-Tours-Website\database\reviews-integration\complete-spanish-reviews.json
+
+[2025-08-24T20:57:34.809Z] ERROR: Could not determine tour slug for file: C:\Users\USER-PC\Documents\Cape-Town-Safari-Tours-Website\database\reviews-integration\english-guest-reviews.json
+
+[2025-08-24T20:57:34.810Z] ERROR: Could not determine tour slug for file: C:\Users\USER-PC\Documents\Cape-Town-Safari-Tours-Website\database\reviews-integration\french-guest-reviews.json
+
+[2025-08-24T20:57:34.810Z] ERROR: Could not determine tour slug for file: C:\Users\USER-PC\Documents\Cape-Town-Safari-Tours-Website\database\reviews-integration\german-guest-reviews.json
+
+[2025-08-24T20:57:34.811Z] ERROR: Could not determine tour slug for file: C:\Users\USER-PC\Documents\Cape-Town-Safari-Tours-Website\database\reviews-integration\spanish-guest-reviews.json
+

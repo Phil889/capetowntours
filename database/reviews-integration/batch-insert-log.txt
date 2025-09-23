@@ -1,0 +1,17 @@
+[2025-08-24T17:21:40.117Z] INFO: Starting Tour Reviews Batch Insert System
+[2025-08-24T17:21:40.121Z] INFO: Found 0 potential review files
+[2025-08-24T17:21:40.121Z] INFO: Successfully processed 0 reviews from 0 files
+[2025-08-24T17:21:40.122Z] INFO: No valid reviews found to insert
+[2025-08-24T17:22:12.791Z] INFO: Starting Tour Reviews Batch Insert System
+[2025-08-24T17:22:12.794Z] INFO: Found 5 potential review files
+[2025-08-24T17:22:12.797Z] INFO: Found 5 validation errors
+[2025-08-24T17:22:12.802Z] INFO: Successfully processed 0 reviews from 5 files
+[2025-08-24T17:22:12.803Z] INFO: No valid reviews found to insert
+[2025-08-24T20:57:32.916Z] INFO: Starting Tour Reviews Batch Insert System
+[2025-08-24T20:57:32.922Z] INFO: Found 10 potential review files
+[2025-08-24T20:57:32.927Z] INFO: Found 10 validation errors
+[2025-08-24T20:57:32.932Z] INFO: Successfully processed 0 reviews from 10 files
+[2025-08-24T20:57:32.933Z] INFO: No valid reviews found to insert
+[2025-08-24T20:57:34.802Z] INFO: Found 10 potential review files
+[2025-08-24T20:57:34.806Z] INFO: Found 10 validation errors
+[2025-08-24T20:57:34.811Z] INFO: Successfully processed 0 reviews from 10 files

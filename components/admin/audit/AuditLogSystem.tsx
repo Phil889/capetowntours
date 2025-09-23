@@ -97,6 +97,7 @@ import {
 import { format, formatDistanceToNow, subDays, subHours } from "date-fns";
 import { DateRange } from "react-day-picker";
 import { cn } from "@/lib/utils";
+import { logError } from "@/lib/error-logger";
 
 interface AuditLogEntry {
   id: string;
@@ -182,7 +183,11 @@ export default function AuditLogSystem() {
         setStats(calculatedStats);
       }
     } catch (error) {
-      console.error("Failed to fetch audit data:", error);
+      logError('Failed to fetch audit data', error as Error, {
+        component: 'AuditLogSystem',
+        function: 'fetchAuditData',
+        dateRange
+      });
       // If API fails, use some fallback data or leave empty
       setEntries([]);
     } finally {

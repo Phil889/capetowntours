@@ -1,0 +1,620 @@
+{
+  "navigation": {
+    "tours": "Touren",
+    "customTours": "Individuelle Touren",
+    "about": "Über uns",
+    "contact": "Kontakt",
+    "bookNow": "Jetzt buchen",
+    "home": "Startseite",
+    "allTours": "Alle Touren",
+    "faq": "FAQ"
+  },
+  "header": {
+    "logoAlt": "Kapstadt Safari Touren Logo",
+    "siteName": "Kapstadt Safari Touren",
+    "tagline": "Premium Safari Erlebnisse",
+    "nav": {
+      "tours": "Touren",
+      "customTours": "Individuelle Touren",
+      "about": "Über uns",
+      "contact": "Kontakt",
+      "customToursMobile": "Individuell"
+    },
+    "trustBadges": {
+      "bestChoice": "Beste Safari Wahl",
+      "ecoCertified": "Öko-zertifiziert",
+      "trustedSeller": "Vertrauenswürdiger Verkäufer"
+    },
+    "bookNow": "Jetzt buchen",
+    "callUsTitle": "Rufen Sie uns an, um Ihre Safari zu buchen"
+  },
+  "homepage": {
+    "hero": {
+      "title": "Kapstadt Safari Touren: #1 Private Wildlife & Luxus Safari Erlebnisse",
+      "subtitle": "Unvergessliche Abenteuer, handverlesen von lokalen Experten. Erleben Sie die besten Safaris, Weintouren und kulturellen Reisen in Südafrika—garantiert.",
+      "cta": "Top bewertete Touren & Safaris entdecken"
+    },
+    "signatureSafaris": {
+      "title": "Unsere Signature Safaris",
+      "subtitle": "Beginnen Sie Ihr Abenteuer mit einer unserer beliebtesten, handgefertigten Touren. Jede ist ein privates Erlebnis, das darauf ausgelegt ist, Erinnerungen fürs Leben zu schaffen."
+    },
+    "whyChooseUs": {
+      "title": "Der Kapstadt Safari Touren Unterschied",
+      "subtitle": "Wir sind nicht nur ein weiteres Tourunternehmen. Wir sind lokale Experten, die sich der Gestaltung Ihres perfekten, privaten Abenteuers widmen.",
+      "tagline": "Warum uns wählen",
+      "features": {
+        "private": {
+          "title": "Wirklich privat & anpassbar",
+          "description": "Ihre Tour, Ihr Tempo. Keine Fremden, nur Ihre Gruppe. Wir passen jedes Detail an Ihre Interessen an."
+        },
+        "expert": {
+          "title": "Erfahrene lokale Guides",
+          "description": "Unsere Guides sind Ihre persönlichen Geschichtenerzähler und Wildtierexperten, geboren und aufgewachsen in Kapstadt."
+        },
+        "pricing": {
+          "title": "All-inclusive, transparente Preise",
+          "description": "Keine versteckten Gebühren oder Überraschungen. Der Preis, den Sie sehen, ist der Preis, den Sie für Ihr komplettes Erlebnis zahlen."
+        },
+        "comfort": {
+          "title": "Moderner Komfort & Sicherheit",
+          "description": "Reisen Sie in unserer modernen, klimatisierten und tadellos gewarteten Flotte für Ihren Komfort und Ihre Sicherheit."
+        }
+      },
+      "trustBadge": "Vertraut von 10.000+ Reisenden"
+    },
+    "testimonials": {
+      "title": "Nehmen Sie nicht nur unser Wort",
+      "reviews": {
+        "sarah": {
+          "text": "Die beste Tour, die wir je unternommen haben! Unser Guide James war unglaublich sachkundig und machte das ganze Erlebnis unvergesslich. Die private Tour war jeden Cent wert.",
+          "author": "Sarah & Tom, Großbritannien"
+        },
+        "michael": {
+          "text": "Vom einfachen Buchungsvorgang bis zur endgültigen Durchführung verlief alles reibungslos. Wir haben die Big 5 und so viel mehr gesehen. Kann dieses Unternehmen sehr empfehlen!",
+          "author": "Michael B, USA"
+        },
+        "anika": {
+          "text": "Ein wahrhaft magisches Erlebnis. Die Liebe zum Detail und die persönlichen Akzente machten unsere Flitterwochen-Safari so besonders. Wir kommen wieder!",
+          "author": "Anika & Rohan, Indien"
+        }
+      }
+    },
+    "howItWorks": {
+      "title": "Ihr Abenteuer in 3 einfachen Schritten",
+      "tagline": "So funktioniert es",
+      "steps": {
+        "choose": {
+          "title": "Wählen Sie Ihr Abenteuer",
+          "description": "Durchstöbern Sie unsere kuratierten Signature-Touren oder erzählen Sie uns von Ihrer Traumreise."
+        },
+        "customize": {
+          "title": "Passen Sie Ihre Reise an",
+          "description": "Wir arbeiten mit Ihnen zusammen, um die Reiseroute, Aktivitäten und das Tempo nach Ihrem Geschmack zu gestalten."
+        },
+        "book": {
+          "title": "Buchen & Freuen Sie sich",
+          "description": "Sichern Sie sich Ihre Termine und machen Sie sich bereit für das private Kapstadt-Abenteuer Ihres Lebens!"
+        }
+      }
+    },
+    "categories": {
+      "title": "Finden Sie Ihren perfekten Rückzugsort",
+      "big5": "Big 5 Safaris",
+      "coastal": "Küsten- & Meerestouren",
+      "winelands": "Weinland & Kulinarisches"
+    },
+    "cta": {
+      "title": "Von den Optionen überwältigt?",
+      "subtitle": "Lassen Sie unsere Safari-Experten eine maßgeschneiderte Reiseroute nur für Sie erstellen. Erzählen Sie uns Ihren Traum, und wir machen ihn zur Realität.",
+      "button": "Kostenlose individuelle Reiseroute erhalten"
+    }
+  },
+  "footer": {
+    "tagline": "Ihr Abenteuer, perfekt gestaltet. Erleben Sie das wilde Herz Afrikas mit lokalen Experten, denen Sie vertrauen können.",
+    "newsletter": {
+      "title": "Exklusive Angebote erhalten",
+      "placeholder": "E-Mail eingeben",
+      "button": "Abonnieren"
+    },
+    "nav": {
+      "home": "Startseite",
+      "about": "Über uns",
+      "allTours": "Alle Touren",
+      "faq": "FAQ",
+      "contact": "Kontakt"
+    },
+    "sections": {
+      "navigate": "Navigation",
+      "topExperiences": "Top Erlebnisse",
+      "connect": "Verbinden Sie sich mit uns"
+    },
+    "experiences": {
+      "big5Safaris": "Big 5 Safaris",
+      "privateWineTours": "Private Weintouren",
+      "sharkCageDiving": "Hai-Käfig-Tauchen",
+      "gardenRoute": "Garden Route"
+    },
+    "connect": {
+      "whatsapp": "WhatsApp",
+      "email": "E-Mail senden"
+    },
+    "legal": {
+      "logoAlt": "Kapstadt Safari Touren Logo",
+      "copyright": "Kapstadt Safari Touren. Alle Rechte vorbehalten.",
+      "privacyPolicy": "Datenschutzrichtlinie",
+      "termsOfService": "Nutzungsbedingungen"
+    }
+  },
+  "meta": {
+    "default": {
+      "title": "Kapstadt Safari Touren | #1 Private Wildlife & Wein Touren 2025",
+      "description": "Erleben Sie Kapstadts beste private Safari-Touren, Weinverkostungen und Big 5 Wildlife-Abenteuer. 4,9★ bewertet mit 2.847+ zufriedenen Gästen. Buchen Sie heute Ihre Luxustour!"
+    }
+  },
+  "tours": {
+    "meta": {
+      "title": "Cape Town Safari Tours | Beste Private Touren & Luxus-Safaris 2025",
+      "description": "Erleben Sie Kapstadts #1 bewertete private Touren und Luxus-Safaris. TripAdvisor Certificate of Excellence Gewinner. Kleine Gruppen, Expertenführer, beste Preisgarantie."
+    },
+    "hero": {
+      "title": "Kapstadts #1 Private Touren & Luxus-Safaris",
+      "subtitle": "Unvergessliche Abenteuer, handverlesen von lokalen Experten. Erleben Sie die besten Safaris, Weintouren und kulturellen Reisen in Südafrika—garantiert.",
+      "cta": "Top bewertete Touren & Safaris entdecken"
+    },
+    "valueProposition": {
+      "title": "Warum Kapstadt Safari Touren wählen?",
+      "subtitle": "Erleben Sie den Gipfel von Luxus und Abenteuer mit unserer handverlesenen Auswahl an Premium-Touren und Safaris.",
+      "cards": {
+        "licensed": {
+          "title": "Vollständig lizenziert & versichert",
+          "description": "Reisen Sie beruhigt, da alle unsere Touren vollständig lizenziert und für Ihre Sicherheit und Ihren Schutz versichert sind."
+        },
+        "flexible": {
+          "title": "Flexible Buchung & Stornierung",
+          "description": "Kostenlose Stornierung bis zu 24 Stunden vor Ihrer Tour. Jetzt buchen und später zahlen Optionen verfügbar."
+        },
+        "guides": {
+          "title": "Lokale Expertenführer",
+          "description": "Unsere leidenschaftlichen lokalen Guides teilen Insider-Wissen und Geschichten, die Kapstadts Geschichte und Kultur zum Leben erwecken."
+        },
+        "rated": {
+          "title": "5-Sterne bewertete Erlebnisse",
+          "description": "Durchgehend 5 Sterne bewertet auf TripAdvisor und Google Reviews von Tausenden zufriedener Reisender."
+        },
+        "private": {
+          "title": "Kleine Gruppen & Private Touren",
+          "description": "Genießen Sie intime Erlebnisse mit kleinen Gruppen oder völlig private Touren, die auf Ihre Vorlieben zugeschnitten sind."
+        },
+        "guarantee": {
+          "title": "Beste Preisgarantie",
+          "description": "Einen niedrigeren Preis gefunden? Wir gleichen ihn aus und geben Ihnen 10% Rabatt. Das ist unser Versprechen an Sie."
+        }
+      }
+    },
+    "tourCard": {
+      "day": "Tag",
+      "days": "Tage",
+      "max": "Max",
+      "perPerson": "pro Person",
+      "viewDetails": "Details anzeigen"
+    },
+    "featuredTitle": "Ausgewählte Top-bewertete Touren & Safaris",
+    "noTours": {
+      "title": "Keine Touren verfügbar",
+      "description": "Wir aktualisieren derzeit unseren Tourenkatalog. Schauen Sie bald wieder vorbei oder kontaktieren Sie uns für individuelle Tourarrangements."
+    },
+    "cta": {
+      "title": "Können Sie nicht finden, was Sie suchen?",
+      "subtitle": "Erstellen Sie Ihr perfektes Kapstadt-Abenteuer mit unserem individuellen Tourenplanungsservice",
+      "customTour": "Individuelle Tour planen"
+    },
+    "safety": {
+      "title": "Ihre Sicherheit & Zufriedenheit garantiert",
+      "licensed": {
+        "title": "Vollständig lizenziert & versichert",
+        "description": "Alle Touren entsprechen den südafrikanischen Tourismusvorschriften"
+      },
+      "guarantee": {
+        "title": "100% Zufriedenheitsgarantie",
+        "description": "Nicht zufrieden? Erhalten Sie eine vollständige Rückerstattung, ohne Fragen"
+      },
+      "award": {
+        "title": "Preisgekrönter Service",
+        "description": "TripAdvisor Certificate of Excellence 5 Jahre in Folge"
+      }
+    }
+  },
+  "site": {
+    "name": "Kapstadt Safari Touren"
+  },
+  "about": {
+    "meta": {
+      "title": "Über Kapstadt Safari Touren",
+      "description": "Erfahren Sie mehr über Kapstadt Safari Touren - ein lokal geführtes Unternehmen, das sich der Schaffung unvergesslicher, privater Abenteuer in Südafrika widmet."
+    },
+    "title": "Über Kapstadt Safari Touren",
+    "intro": {
+      "companyName": "Kapstadt Safari Touren",
+      "description": "ist ein lokal geführtes Unternehmen, das sich der Schaffung unvergesslicher, privater Abenteuer in Südafrika widmet. Unsere Mission ist es, Reisende mit der Magie Afrikas durch fachmännisch gestaltete Luxuserlebnisse zu verbinden."
+    },
+    "story": {
+      "title": "Unsere Geschichte",
+      "content": "Gegründet von leidenschaftlichen Einheimischen mit jahrzehntelanger Erfahrung in Tourismus und Wildtieren, glauben wir, dass jede Reise so einzigartig sein sollte wie der Reisende. Wir begannen mit einer einfachen Idee: wirklich private, anpassbare Touren anzubieten, die über das Gewöhnliche hinausgehen."
+    },
+    "values": {
+      "title": "Unsere Werte",
+      "authenticity": {
+        "title": "Authentizität:",
+        "description": "Wir zeigen das wahre Südafrika, von seiner wilden Schönheit bis zu seinen lebendigen Kulturen."
+      },
+      "exclusivity": {
+        "title": "Exklusivität:",
+        "description": "Jede Tour ist privat, maßgeschneidert und wird niemals mit Fremden geteilt."
+      },
+      "sustainability": {
+        "title": "Nachhaltigkeit:",
+        "description": "Wir unterstützen umweltfreundliche Praktiken und lokale Gemeinschaften."
+      },
+      "excellence": {
+        "title": "Exzellenz:",
+        "description": "Unsere Guides sind Experten, Geschichtenerzähler und leidenschaftliche Gastgeber."
+      }
+    },
+    "team": {
+      "title": "Lernen Sie unser Team kennen",
+      "description": "Unser Team besteht aus Wildtierspezialisten, Weinkennern, Abenteuersuchenden und Kulturbotschaftern—alle vereint durch die Liebe zu Afrika und das Engagement für außergewöhnlichen Service.",
+      "members": {
+        "james": {
+          "name": "James:",
+          "role": "Safari-Guide & Wildtierexperte"
+        },
+        "lindiwe": {
+          "name": "Lindiwe:",
+          "role": "Kulturelle Tourleiterin & Historikerin"
+        },
+        "michael": {
+          "name": "Michael:",
+          "role": "Wein- & Kulinarikexperte"
+        },
+        "sarah": {
+          "name": "Sarah:",
+          "role": "Gästeerfahrungsmanagerin"
+        }
+      }
+    },
+    "whyChoose": {
+      "title": "Warum uns wählen?",
+      "reasons": {
+        "private": "100% private Luxustouren—niemals Fremde.",
+        "handpicked": "Handverlesene Erlebnisse, von Big 5 Safaris bis zu Gourmet-Weintouren.",
+        "transparent": "Transparente Preise, keine versteckten Gebühren.",
+        "trusted": "Vertraut von Tausenden von Reisenden weltweit."
+      }
+    },
+    "closing": {
+      "joinUs": "Begleiten Sie uns",
+      "description": "auf das Abenteuer Ihres Lebens. Entdecken Sie Afrika auf Ihre Weise—mit Kapstadt Safari Touren."
+    }
+  },
+  "contact": {
+    "meta": {
+      "title": "Kontaktieren Sie uns - Kapstadt Safari Touren",
+      "description": "Nehmen Sie Kontakt mit Kapstadt Safari Touren auf. Planen Sie Ihre Traumsafari, stellen Sie Fragen oder fordern Sie ein individuelles Angebot an. Unser Team ist hier, um zu helfen!"
+    },
+    "title": "Kontaktieren Sie uns",
+    "subtitle": "Haben Sie eine Frage, benötigen ein individuelles Angebot oder möchten Ihre Traumsafari planen? Unser Team ist hier, um zu helfen!",
+    "form": {
+      "name": "Name",
+      "namePlaceholder": "Ihr Name",
+      "email": "E-Mail",
+      "emailPlaceholder": "ihre@email.com",
+      "message": "Nachricht",
+      "messagePlaceholder": "Wie können wir Ihnen helfen?",
+      "submit": "Nachricht senden"
+    },
+    "info": {
+      "email": "E-Mail",
+      "phone": "Telefon",
+      "address": "Adresse"
+    }
+  },
+  "customTour": {
+    "meta": {
+      "title": "Individuelle Tourenplanung - Kapstadt Safari Touren",
+      "description": "Erstellen Sie Ihr perfektes Kapstadt-Abenteuer mit unserem individuellen Tourenplanungsservice. Wählen Sie Touren aus, passen Sie Ihren Zeitplan an und buchen Sie Ihre personalisierte Reiseroute."
+    },
+    "title": "Erstellen Sie Ihr individuelles Tourenpaket",
+    "subtitle": "Gestalten Sie Ihr perfektes Kapstadt-Abenteuer, indem Sie Touren auswählen und über mehrere Tage planen",
+    "error": "Fehler beim Laden der Touren",
+    "toolbar": {
+      "searchPlaceholder": "Touren suchen...",
+      "list": "Liste",
+      "calendar": "Kalender",
+      "addDay": "Tag hinzufügen",
+      "groupByDate": "Nach Datum gruppieren",
+      "share": "Teilen",
+      "export": "Exportieren",
+      "import": "Importieren",
+      "print": "Drucken",
+      "bookNow": "Jetzt buchen - Zahlung bei Abholung"
+    },
+    "dragAndDrop": {
+      "dragToStart": "Ziehen Sie Touren hierher, um Ihr Reiseprogramm zu erstellen.",
+      "dragToReorder": "Zum Neuordnen ziehen"
+    },
+    "dayCard": {
+      "setDate": "Datum festlegen",
+      "autoSchedule": "Automatisch planen",
+      "conflicts": "Konflikt",
+      "conflictsPlural": "Konflikte"
+    },
+    "tourItem": {
+      "perPerson": "pro Person",
+      "date": "Datum",
+      "time": "Zeit",
+      "pickDate": "Datum wählen",
+      "guests": "Gäste",
+      "adults": "Erwachsene",
+      "children": "Kinder",
+      "infants": "Kleinkinder <3",
+      "infantsFree": "Kleinkinder unter 3 Jahren sind kostenlos.",
+      "notes": "Notizen",
+      "notesPlaceholder": "Abholung, Sprache, Ernährung...",
+      "remove": "Entfernen"
+    },
+    "guestCounts": {
+      "applyToAll": "Gästeanzahl auf alle Artikel anwenden.",
+      "applyButton": "Auf alle anwenden"
+    },
+    "calendar": {
+      "more": "weitere"
+    },
+    "booking": {
+      "title": "Buchung abschließen",
+      "guestInfo": "Gästeinformationen",
+      "fullName": "Vollständiger Name",
+      "fullNamePlaceholder": "Max Mustermann",
+      "email": "E-Mail-Adresse",
+      "emailRequired": "*",
+      "emailPlaceholder": "ihre@email.com",
+      "phone": "Telefonnummer",
+      "phonePlaceholder": "+49 30 12345678",
+      "phoneNote": "Ländervorwahl für internationale Nummern angeben",
+      "pickup": "Abholort",
+      "pickupPlaceholder": "Ihr Hotelname oder Adresse",
+      "pickupNote": "Wir bieten kostenlose Abholung von den meisten Hotels in Kapstadt",
+      "requirements": "Besondere Anforderungen",
+      "requirementsPlaceholder": "Diätbeschränkungen, Barrierefreiheit oder besondere Wünsche?",
+      "paymentInfo": "Zahlungsinformationen",
+      "totalPackage": "Gesamtpaket:",
+      "paymentNote": "💰 Zahlung bei Abholung - Keine Vorauszahlung erforderlich!",
+      "trustBadges": "✓ Sofortige Bestätigung • ✓ Kostenlose Stornierung • ✓ Bestpreisgarantie",
+      "securityNote": "🔒 Ihre Daten sind sicher und werden niemals weitergegeben",
+      "cancel": "Abbrechen",
+      "confirm": "Buchung bestätigen",
+      "processing": "Wird verarbeitet..."
+    },
+    "summary": {
+      "total": "Gesamt:",
+      "allClear": "Alles klar — keine Überschneidungen.",
+      "conflictsWarning": "Konflikt insgesamt",
+      "conflictsWarningPlural": "Konflikte insgesamt",
+      "adjustTimes": "Zeiten anpassen, um zu lösen."
+    },
+    "messages": {
+      "planRestored": "Plan aus Link wiederhergestellt",
+      "linkCopied": "Teilbarer Link kopiert",
+      "linkError": "Link konnte nicht kopiert werden",
+      "autoScheduled": "Automatisch geplant",
+      "addedTo": "Hinzugefügt zu",
+      "groupedByDates": "Nach Daten gruppiert",
+      "guestsApplied": "Gästeanzahl auf alle Artikel angewendet",
+      "exportedClipboard": "Reiseprogramm-JSON in Zwischenablage kopiert",
+      "exportedICS": "ICS exportiert",
+      "imported": "Reiseprogramm importiert",
+      "importError": "Ungültiges JSON:",
+      "bookingConfirmed": "Buchung bestätigt! Weiterleitung zur Bestätigungsseite...",
+      "bookingFailed": "Buchung fehlgeschlagen. Bitte versuchen Sie es erneut."
+    },
+    "noTours": "Keine Touren gefunden."
+  },
+  "badges": {
+    "best_seller": "Bestseller",
+    "verified_tour": "Verifizierte Tour",
+    "rating": "Bewertung",
+    "guest_favorite": "Gästeliebling"
+  },
+  "trust_indicators": {
+    "guest_rating": "Gästebewertung",
+    "verified_reviews": "Verifizierte Bewertungen",
+    "happy_guests": "Zufriedene Gäste",
+    "tour_operator": "Reiseveranstalter"
+  },
+  "accessibility": {
+    "skip_to_content": "Zum Hauptinhalt springen",
+    "home": "Startseite",
+    "tours": "Touren",
+    "javascript_required": "JavaScript ist für die Online-Buchung erforderlich.",
+    "call_to_book": "Anrufen zum Buchen: +27 21 424 5215"
+  },
+  "faq": {
+    "meta": {
+      "title": "Häufig gestellte Fragen - Kapstadt Safari Touren",
+      "description": "Finden Sie Antworten auf häufige Fragen zu Kapstadt Safari Touren. Erfahren Sie mehr über unsere privaten Touren, den Buchungsprozess, Preise und mehr."
+    },
+    "title": "Häufig gestellte Fragen",
+    "questions": [
+      {
+        "question": "Welche Arten von Touren bieten Sie an?",
+        "answer": "Wir bieten private Safaris, Weintouren, Küstenabenteuer, kulturelle Erlebnisse und vollständig angepasste Reiserouten in ganz Südafrika an."
+      },
+      {
+        "question": "Sind Ihre Touren privat oder gruppenbasiert?",
+        "answer": "Alle unsere Touren sind 100% privat—nur Sie und Ihre Gruppe, keine Fremden."
+      },
+      {
+        "question": "Wie buche ich eine Tour?",
+        "answer": "Sie können direkt auf unserer Website, per E-Mail oder telefonisch buchen. Unser Team hilft gerne bei individuellen Anfragen."
+      },
+      {
+        "question": "Kann ich meine Reiseroute anpassen?",
+        "answer": "Absolut! Jede Tour wird auf Ihre Interessen, Ihr Tempo und Ihre Vorlieben zugeschnitten. Teilen Sie uns Ihre Traumreise mit und wir machen sie wahr."
+      },
+      {
+        "question": "Was ist im Tourpreis enthalten?",
+        "answer": "Unsere Preise sind all-inclusive: privater Guide, Transport, Eintrittsgelder und die meisten Mahlzeiten. Alle Ausschlüsse werden klar aufgelistet."
+      },
+      {
+        "question": "Gibt es versteckte Gebühren?",
+        "answer": "Nein. Wir glauben an transparente Preise. Der Preis, den Sie sehen, ist der Preis, den Sie zahlen."
+      },
+      {
+        "question": "Welche Zahlungsmethoden akzeptieren Sie?",
+        "answer": "Wir akzeptieren Kreditkarten, EFT und andere sichere Zahlungsoptionen. Alle Zahlungen werden sicher verarbeitet."
+      },
+      {
+        "question": "Ist eine Anzahlung erforderlich?",
+        "answer": "Normalerweise ist die vollständige Zahlung erforderlich, um Ihre Buchung zu bestätigen. Für individuelle oder große Gruppentouren kann eine Anzahlung vereinbart werden."
+      },
+      {
+        "question": "Wie lautet Ihre Stornierungsrichtlinie?",
+        "answer": "Stornierungen, die 30+ Tage vor der Tour erfolgen, erhalten eine vollständige Rückerstattung. Siehe unsere Nutzungsbedingungen für Details."
+      },
+      {
+        "question": "Was passiert bei schlechtem Wetter?",
+        "answer": "Wir überwachen die Bedingungen genau und passen die Reiseroute für Ihre Sicherheit und Ihr Vergnügen an. Alternative Aktivitäten oder Umplanung können angeboten werden."
+      },
+      {
+        "question": "Sind Ihre Guides zertifiziert?",
+        "answer": "Ja. Alle Guides sind erfahren, zertifiziert und leidenschaftliche lokale Experten."
+      },
+      {
+        "question": "Ist eine Reiseversicherung erforderlich?",
+        "answer": "Wir empfehlen dringend eine umfassende Reiseversicherung für alle Gäste."
+      },
+      {
+        "question": "Können Sie Ernährungseinschränkungen berücksichtigen?",
+        "answer": "Ja, bitte teilen Sie uns Ihre Ernährungsbedürfnisse im Voraus mit und wir sorgen dafür, dass Sie gut versorgt werden."
+      },
+      {
+        "question": "Bieten Sie Flughafentransfers an?",
+        "answer": "Ja, private Flughafentransfers können als Teil Ihres Tourpakets arrangiert werden."
+      },
+      {
+        "question": "Sind Ihre Fahrzeuge sicher und komfortabel?",
+        "answer": "Unsere Flotte ist modern, klimatisiert und sorgfältig gewartet für Ihren Komfort und Ihre Sicherheit."
+      },
+      {
+        "question": "Ist das Unternehmen umweltfreundlich?",
+        "answer": "Wir sind dem nachhaltigen Tourismus verpflichtet und unterstützen zertifizierte umweltfreundliche Partner und lokale Gemeinschaften."
+      },
+      {
+        "question": "Kann ich kurzfristig buchen?",
+        "answer": "Wir tun unser Bestes, um kurzfristige Buchungen zu ermöglichen, je nach Verfügbarkeit. Kontaktieren Sie uns für dringende Anfragen."
+      },
+      {
+        "question": "Wie kontaktiere ich Sie im Notfall?",
+        "answer": "Sie erhalten eine 24/7-Notfallkontaktnummer mit Ihrer Buchungsbestätigung."
+      },
+      {
+        "question": "Bieten Sie Touren für Familien mit Kindern an?",
+        "answer": "Ja! Wir heißen Familien willkommen und können Aktivitäten für alle Altersgruppen anpassen."
+      },
+      {
+        "question": "Welche Sprachen sprechen Ihre Guides?",
+        "answer": "Unsere Guides sprechen Englisch und mehrere andere Sprachen. Teilen Sie uns Ihre Präferenz bei der Buchung mit."
+      },
+      {
+        "question": "Können Sie bei besonderen Anlässen helfen (Flitterwochen, Geburtstage)?",
+        "answer": "Absolut! Wir lieben es, Ihre besonderen Momente unvergesslich zu machen—teilen Sie uns einfach Ihre Pläne mit."
+      },
+      {
+        "question": "Wie weit im Voraus sollte ich buchen?",
+        "answer": "Wir empfehlen, so früh wie möglich zu buchen, besonders für die Hochsaison, aber wir helfen auch gerne bei kurzfristigen Anfragen."
+      }
+    ],
+    "contactPrompt": "Haben Sie noch Fragen?",
+    "contactLink": "Kontaktieren Sie uns",
+    "contactSuffix": "und unser Team hilft Ihnen gerne weiter!"
+  },
+  "book_your_tour": "Ihre Tour buchen",
+  "reserve_spot_for_tour": "Platz reservieren",
+  "booking": {
+    "book_your_tour": "Buchen Sie Ihre Tour",
+    "reserve_spot_for_tour": "Reservieren Sie Ihren Platz für {{tourName}}",
+    "reserve_spot_today": "Reservieren Sie heute Ihren Platz",
+    "tour_date": "Tour Datum",
+    "guests": "Gäste",
+    "full_name": "Vollständiger Name",
+    "name_placeholder": "Ihr vollständiger Name",
+    "email_address": "E-Mail-Adresse",
+    "email_placeholder": "ihre@email.com",
+    "phone_number": "Telefonnummer",
+    "phone_placeholder": "+49 30 12345678",
+    "phone_help_text": "Ländervorwahl für internationale Nummern angeben",
+    "pickup_location": "Abholort",
+    "pickup_placeholder": "Ihr Hotelname oder Adresse",
+    "pickup_help_text": "Wir bieten kostenlose Abholung von den meisten Hotels in Kapstadt",
+    "special_requirements": "Besondere Anforderungen",
+    "special_requirements_placeholder": "Diätbeschränkungen, Barrierefreiheit oder besondere Wünsche?",
+    "price_per_person": "Preis pro Person",
+    "total_amount": "Gesamtbetrag",
+    "payment_on_pickup": "Zahlung bei Abholung",
+    "no_advance_payment": "Keine Vorauszahlung erforderlich",
+    "processing_booking": "Buchung wird bearbeitet",
+    "book_now_pay_pickup": "Jetzt buchen - Bei Abholung bezahlen",
+    "instant_confirmation": "Sofortige Bestätigung",
+    "free_cancellation": "Kostenlose Stornierung",
+    "best_price_guarantee": "Bestpreisgarantie",
+    "people_viewing_now": "Personen schauen gerade",
+    "booked_today": "heute gebucht",
+    "max_group_size": "Max. Gruppengröße",
+    "top_rated": "Bestbewertet",
+    "verified_operator": "Verifiziert",
+    "operator": "Anbieter",
+    "rating": "Bewertung",
+    "chat_with_us": "Mit uns chatten",
+    "call_us": "Anrufen",
+    "free_cancellation_24h": "Kostenlose Stornierung bis 24 Stunden",
+    "recent_guest_review": "Aktuelle Gästebewertung",
+    "secure_information": "Ihre Daten sind sicher und werden niemals weitergegeben",
+    "please_fill_required_fields": "Bitte füllen Sie alle Pflichtfelder aus",
+    "booking_confirmed_redirecting": "Buchung bestätigt! Weiterleitung zur Bestätigungsseite...",
+    "from": "Ab",
+    "per_person": "pro Person",
+    "check_availability": "Verfügbarkeit prüfen",
+    "max": "Max",
+    "confirm": "Buchung bestätigen"
+  },
+  "tour_detail": {
+    "about_this_experience": "Über Dieses Erlebnis",
+    "your_journey": "Ihre Reise",
+    "stop_number": "Stopp {{number}}",
+    "inclusions_exclusions": "Leistungen & Ausschlüsse",
+    "whats_included": "Was Ist Enthalten",
+    "not_included": "Nicht Enthalten",
+    "important_information": "Wichtige Informationen",
+    "seasonal_notes": "Saisonale Hinweise",
+    "child_policy": "Kinderrichtlinie",
+    "accessibility": "Barrierefreiheit",
+    "cancellation_policy": "Stornierungsbedingungen",
+    "tour_highlights": "Tour-Höhepunkte",
+    "tour_location": "Tour-Standort",
+    "getting_there": "Anreise",
+    "duration": "Dauer",
+    "meeting_point": "Treffpunkt",
+    "pickup_included": "Kostenlose Hotelabholung inklusive",
+    "self_drive": "Selbstfahrer oder Transport arrangieren",
+    "details_after_booking": "Details nach Buchung bereitgestellt",
+    "departure": "Abfahrt",
+    "pickup": "Abholung",
+    "frequently_asked_questions": "Häufig gestellte Fragen",
+    "view_on_google_maps": "Auf Google Maps anzeigen",
+    "tour_meeting_point": "Tour-Treffpunkt",
+    "city_atlantic_hotels": "Stadt- & Atlantikhotels",
+    "dec_feb_only": "Nur Dez - Feb; früh buchen",
+    "children_75_percent": "Kinder 4-11 Jahre zu 75%",
+    "step_up_vehicle": "Stufenfahrzeug; begrenzte Steigungen",
+    "refund_7_days": "Erstattung vor 7 Tagen"
+  }
+}

@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 import { Tour } from '@/types/tour-detail';
 import { TOUR_SEO_CONFIG, DEFAULT_TOUR_IMAGES } from './tour-constants';
+import { Locale, localeConfig } from '@/lib/i18n/config';
 
 export class TourMetadataGenerator {
   /**
@@ -45,6 +46,78 @@ export class TourMetadataGenerator {
       },
       robots: TOUR_SEO_CONFIG.robots,
     };
+  }
+
+  /**
+   * Generate localized metadata for a tour page
+   */
+  static generateLocalized(tour: Tour | null, slug: string, locale: Locale): Metadata {
+    if (!tour) {
+      return this.generateNotFoundMetadata();
+    }
+
+    const imageUrl = tour.imageUrl || DEFAULT_TOUR_IMAGES.logo;
+    const localePath = locale === 'en' ? '' : `/${locale}`;
+    const canonicalUrl = `${TOUR_SEO_CONFIG.siteUrl}${localePath}/tours/${slug}`;
+    
+    // Get locale-specific configuration
+    const localeInfo = localeConfig[locale];
+    const ogLocale = this.getOpenGraphLocale(locale);
+
+    // Generate alternate language links
+    const alternateLanguages: Record<string, string> = {};
+    Object.keys(localeConfig).forEach(loc => {
+      const localeKey = loc as Locale;
+      const path = localeKey === 'en' ? '' : `/${localeKey}`;
+      alternateLanguages[localeKey] = `${TOUR_SEO_CONFIG.siteUrl}${path}/tours/${slug}`;
+    });
+
+    return {
+      title: `${tour.title} | ${TOUR_SEO_CONFIG.siteName}`,
+      description: tour.description,
+      keywords: this.generateKeywords(tour),
+      openGraph: {
+        title: tour.title,
+        description: tour.description,
+        images: [
+          {
+            url: imageUrl,
+            width: DEFAULT_TOUR_IMAGES.mainImageSize.width,
+            height: DEFAULT_TOUR_IMAGES.mainImageSize.height,
+            alt: tour.title,
+          }
+        ],
+        type: "website",
+        siteName: TOUR_SEO_CONFIG.siteName,
+        locale: ogLocale,
+      },
+      twitter: {
+        card: "summary_large_image",
+        title: tour.title,
+        description: tour.description,
+        images: [imageUrl],
+        creator: TOUR_SEO_CONFIG.twitterHandle,
+      },
+      alternates: {
+        canonical: canonicalUrl,
+        languages: alternateLanguages,
+      },
+      robots: TOUR_SEO_CONFIG.robots,
+    };
+  }
+
+  /**
+   * Convert locale to OpenGraph locale format
+   */
+  private static getOpenGraphLocale(locale: Locale): string {
+    const localeMap: Record<Locale, string> = {
+      'en': 'en_US',
+      'de': 'de_DE',
+      'fr': 'fr_FR',
+      'es': 'es_ES',
+      'ar': 'ar_SA',
+    };
+    return localeMap[locale] || 'en_US';
   }
 
   /**

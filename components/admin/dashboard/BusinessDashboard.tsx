@@ -55,6 +55,7 @@ import {
 } from "lucide-react";
 import { format, startOfMonth, endOfMonth, subDays, subMonths } from "date-fns";
 import { cn } from "@/lib/utils";
+import { logError } from "@/lib/error-logger";
 
 interface DashboardData {
   revenue: {
@@ -141,7 +142,10 @@ export default function BusinessDashboard() {
       const processedData = processDashboardData(bookingsData.data, statsData.data, toursData.data);
       setDashboardData(processedData);
     } catch (error) {
-      console.error("Failed to fetch dashboard data:", error);
+      logError('Failed to fetch dashboard data', error as Error, {
+        component: 'BusinessDashboard',
+        function: 'fetchDashboardData'
+      });
     } finally {
       setLoading(false);
       setRefreshing(false);

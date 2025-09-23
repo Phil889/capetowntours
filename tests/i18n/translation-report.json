@@ -1,0 +1,294 @@
+{
+  "timestamp": "2025-08-24T12:38:18.522Z",
+  "summary": {
+    "totalLocales": 5,
+    "totalKeys": 317,
+    "overallCompletion": 98.23,
+    "passedLocales": 4,
+    "failedLocales": 0
+  },
+  "localeResults": [
+    {
+      "locale": "en",
+      "status": "pass",
+      "totalKeys": 317,
+      "missingKeys": [],
+      "emptyValues": [],
+      "issues": [
+        {
+          "type": "length_mismatch",
+          "key": "customTour.booking.emailRequired",
+          "message": "Translation is suspiciously short",
+          "severity": "medium"
+        },
+        {
+          "type": "invalid_format",
+          "key": "tour_detail.stop_number",
+          "message": "Contains translation artifact: {{",
+          "severity": "high"
+        },
+        {
+          "type": "invalid_format",
+          "key": "tour_detail.stop_number",
+          "message": "Contains translation artifact: }}",
+          "severity": "high"
+        },
+        {
+          "type": "invalid_format",
+          "key": "booking.reserve_spot_for_tour",
+          "message": "Contains translation artifact: {{",
+          "severity": "high"
+        },
+        {
+          "type": "invalid_format",
+          "key": "booking.reserve_spot_for_tour",
+          "message": "Contains translation artifact: }}",
+          "severity": "high"
+        }
+      ],
+      "completionPercentage": 99.05362776025235
+    },
+    {
+      "locale": "de",
+      "status": "pass",
+      "totalKeys": 317,
+      "missingKeys": [],
+      "emptyValues": [],
+      "issues": [
+        {
+          "type": "length_mismatch",
+          "key": "customTour.booking.emailRequired",
+          "message": "Translation is suspiciously short",
+          "severity": "medium"
+        },
+        {
+          "type": "invalid_format",
+          "key": "tour_detail.stop_number",
+          "message": "Contains translation artifact: {{",
+          "severity": "high"
+        },
+        {
+          "type": "invalid_format",
+          "key": "tour_detail.stop_number",
+          "message": "Contains translation artifact: }}",
+          "severity": "high"
+        },
+        {
+          "type": "invalid_format",
+          "key": "booking.reserve_spot_for_tour",
+          "message": "Contains translation artifact: {{",
+          "severity": "high"
+        },
+        {
+          "type": "invalid_format",
+          "key": "booking.reserve_spot_for_tour",
+          "message": "Contains translation artifact: }}",
+          "severity": "high"
+        }
+      ],
+      "completionPercentage": 99.05362776025235
+    },
+    {
+      "locale": "fr",
+      "status": "pass",
+      "totalKeys": 317,
+      "missingKeys": [],
+      "emptyValues": [],
+      "issues": [
+        {
+          "type": "length_mismatch",
+          "key": "customTour.booking.emailRequired",
+          "message": "Translation is suspiciously short",
+          "severity": "medium"
+        },
+        {
+          "type": "invalid_format",
+          "key": "tour_detail.stop_number",
+          "message": "Contains translation artifact: {{",
+          "severity": "high"
+        },
+        {
+          "type": "invalid_format",
+          "key": "tour_detail.stop_number",
+          "message": "Contains translation artifact: }}",
+          "severity": "high"
+        },
+        {
+          "type": "invalid_format",
+          "key": "booking.reserve_spot_for_tour",
+          "message": "Contains translation artifact: {{",
+          "severity": "high"
+        },
+        {
+          "type": "invalid_format",
+          "key": "booking.reserve_spot_for_tour",
+          "message": "Contains translation artifact: }}",
+          "severity": "high"
+        }
+      ],
+      "completionPercentage": 99.05362776025235
+    },
+    {
+      "locale": "es",
+      "status": "warning",
+      "totalKeys": 317,
+      "missingKeys": [],
+      "emptyValues": [],
+      "issues": [
+        {
+          "type": "invalid_format",
+          "key": "navigation.allTours",
+          "message": "Contains translation artifact: TODO",
+          "severity": "high"
+        },
+        {
+          "type": "invalid_format",
+          "key": "homepage.whyChooseUs.features.pricing.title",
+          "message": "Contains translation artifact: TODO",
+          "severity": "high"
+        },
+        {
+          "type": "invalid_format",
+          "key": "footer.nav.allTours",
+          "message": "Contains translation artifact: TODO",
+          "severity": "high"
+        },
+        {
+          "type": "invalid_format",
+          "key": "footer.legal.copyright",
+          "message": "Contains translation artifact: TODO",
+          "severity": "high"
+        },
+        {
+          "type": "invalid_format",
+          "key": "tours.safety.licensed.description",
+          "message": "Contains translation artifact: TODO",
+          "severity": "high"
+        },
+        {
+          "type": "invalid_format",
+          "key": "tours.valueProposition.cards.licensed.description",
+          "message": "Contains translation artifact: TODO",
+          "severity": "high"
+        },
+        {
+          "type": "invalid_format",
+          "key": "about.team.description",
+          "message": "Contains translation artifact: TODO",
+          "severity": "high"
+        },
+        {
+          "type": "invalid_format",
+          "key": "about.whyChoose.reasons.trusted",
+          "message": "Contains translation artifact: TODO",
+          "severity": "high"
+        },
+        {
+          "type": "invalid_format",
+          "key": "customTour.guestCounts.applyToAll",
+          "message": "Contains translation artifact: TODO",
+          "severity": "high"
+        },
+        {
+          "type": "invalid_format",
+          "key": "customTour.guestCounts.applyButton",
+          "message": "Contains translation artifact: TODO",
+          "severity": "high"
+        },
+        {
+          "type": "length_mismatch",
+          "key": "customTour.booking.emailRequired",
+          "message": "Translation is suspiciously short",
+          "severity": "medium"
+        },
+        {
+          "type": "invalid_format",
+          "key": "customTour.summary.allClear",
+          "message": "Contains translation artifact: TODO",
+          "severity": "high"
+        },
+        {
+          "type": "invalid_format",
+          "key": "customTour.messages.guestsApplied",
+          "message": "Contains translation artifact: TODO",
+          "severity": "high"
+        },
+        {
+          "type": "invalid_format",
+          "key": "tour_detail.stop_number",
+          "message": "Contains translation artifact: {{",
+          "severity": "high"
+        },
+        {
+          "type": "invalid_format",
+          "key": "tour_detail.stop_number",
+          "message": "Contains translation artifact: }}",
+          "severity": "high"
+        },
+        {
+          "type": "invalid_format",
+          "key": "booking.reserve_spot_for_tour",
+          "message": "Contains translation artifact: {{",
+          "severity": "high"
+        },
+        {
+          "type": "invalid_format",
+          "key": "booking.reserve_spot_for_tour",
+          "message": "Contains translation artifact: }}",
+          "severity": "high"
+        },
+        {
+          "type": "invalid_format",
+          "key": "booking.please_fill_required_fields",
+          "message": "Contains translation artifact: TODO",
+          "severity": "high"
+        }
+      ],
+      "completionPercentage": 94.95268138801262
+    },
+    {
+      "locale": "ar",
+      "status": "pass",
+      "totalKeys": 317,
+      "missingKeys": [],
+      "emptyValues": [],
+      "issues": [
+        {
+          "type": "length_mismatch",
+          "key": "customTour.booking.emailRequired",
+          "message": "Translation is suspiciously short",
+          "severity": "medium"
+        },
+        {
+          "type": "invalid_format",
+          "key": "tour_detail.stop_number",
+          "message": "Contains translation artifact: {{",
+          "severity": "high"
+        },
+        {
+          "type": "invalid_format",
+          "key": "tour_detail.stop_number",
+          "message": "Contains translation artifact: }}",
+          "severity": "high"
+        },
+        {
+          "type": "invalid_format",
+          "key": "booking.reserve_spot_for_tour",
+          "message": "Contains translation artifact: {{",
+          "severity": "high"
+        },
+        {
+          "type": "invalid_format",
+          "key": "booking.reserve_spot_for_tour",
+          "message": "Contains translation artifact: }}",
+          "severity": "high"
+        }
+      ],
+      "completionPercentage": 99.05362776025235
+    }
+  ],
+  "recommendations": [
+    "Review translations for es (80-95% completion)",
+    "Address 33 high-severity translation issues"
+  ]
+}

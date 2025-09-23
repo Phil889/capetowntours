@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { tourService } from '@/lib/tour-management/tour-service';
 import { TourFormData } from '@/types/tour-management';
+import { logError, logInfo } from '@/lib/error-logger';
 
 // GET - List tours with filters
 export async function GET(req: NextRequest) {
@@ -34,7 +35,13 @@ export async function GET(req: NextRequest) {
       pageSize,
     });
   } catch (error: any) {
-    console.error('Error fetching tours:', error);
+    logError('Error fetching tours from service', error, {
+      component: 'TourCRUDAPI',
+      function: 'GET',
+      action: 'fetch_tours',
+      page,
+      pageSize
+    });
     return NextResponse.json(
       { error: 'Failed to fetch tours' },
       { status: 500 }
@@ -69,7 +76,12 @@ export async function POST(req: NextRequest) {
       { status: 201 }
     );
   } catch (error: any) {
-    console.error('Error creating tour:', error);
+    logError('Error creating tour via service', error, {
+      component: 'TourCRUDAPI',
+      function: 'POST',
+      action: 'create_tour',
+      title: body.title
+    });
     return NextResponse.json(
       { error: 'Failed to create tour' },
       { status: 500 }
@@ -102,7 +114,12 @@ export async function PUT(req: NextRequest) {
 
     return NextResponse.json({ tour: result.tour });
   } catch (error: any) {
-    console.error('Error updating tour:', error);
+    logError('Error updating tour via service', error, {
+      component: 'TourCRUDAPI',
+      function: 'PUT',
+      action: 'update_tour',
+      tourId: id
+    });
     return NextResponse.json(
       { error: 'Failed to update tour' },
       { status: 500 }
@@ -135,7 +152,13 @@ export async function DELETE(req: NextRequest) {
 
     return NextResponse.json({ success: true });
   } catch (error: any) {
-    console.error('Error deleting tour:', error);
+    logError('Error deleting tour via service', error, {
+      component: 'TourCRUDAPI',
+      function: 'DELETE',
+      action: 'delete_tour',
+      tourId: id,
+      softDelete: soft
+    });
     return NextResponse.json(
       { error: 'Failed to delete tour' },
       { status: 500 }

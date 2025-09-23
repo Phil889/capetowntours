@@ -1,0 +1,51 @@
+[2025-08-24T21:04:16.219Z] INFO: ================================================================================
+[2025-08-24T21:04:16.222Z] INFO: STARTING FINAL MULTI-LANGUAGE TOUR REVIEWS INSERTION
+[2025-08-24T21:04:16.222Z] INFO: ================================================================================
+[2025-08-24T21:04:16.236Z] INFO: Supabase client initialized with corrected schema mapping
+[2025-08-24T21:04:16.237Z] INFO: 
+--- Processing EN Reviews ---
+[2025-08-24T21:04:16.238Z] INFO: Starting insertion for language: en
+[2025-08-24T21:04:16.239Z] INFO: Loaded 56 reviews for language: en
+[2025-08-24T21:04:16.779Z] INFO: Found 72 existing reviews for language: en
+[2025-08-24T21:04:17.042Z] INFO: 0 new reviews to insert for en (56 already exist)
+[2025-08-24T21:04:17.043Z] INFO: All reviews for en already exist in database
+[2025-08-24T21:04:19.046Z] INFO: 
+--- Processing DE Reviews ---
+[2025-08-24T21:04:19.046Z] INFO: Starting insertion for language: de
+[2025-08-24T21:04:19.047Z] INFO: Loaded 24 reviews for language: de
+[2025-08-24T21:04:19.310Z] INFO: Found 25 existing reviews for language: de
+[2025-08-24T21:04:19.611Z] INFO: 0 new reviews to insert for de (24 already exist)
+[2025-08-24T21:04:19.612Z] INFO: All reviews for de already exist in database
+[2025-08-24T21:04:21.619Z] INFO: 
+--- Processing FR Reviews ---
+[2025-08-24T21:04:21.619Z] INFO: Starting insertion for language: fr
+[2025-08-24T21:04:21.620Z] INFO: Loaded 24 reviews for language: fr
+[2025-08-24T21:04:21.874Z] INFO: Found 25 existing reviews for language: fr
+[2025-08-24T21:04:22.130Z] INFO: 0 new reviews to insert for fr (24 already exist)
+[2025-08-24T21:04:22.130Z] INFO: All reviews for fr already exist in database
+[2025-08-24T21:04:24.139Z] INFO: 
+--- Processing ES Reviews ---
+[2025-08-24T21:04:24.139Z] INFO: Starting insertion for language: es
+[2025-08-24T21:04:24.140Z] INFO: Loaded 10 reviews for language: es
+[2025-08-24T21:04:24.387Z] INFO: Found 11 existing reviews for language: es
+[2025-08-24T21:04:24.645Z] INFO: 0 new reviews to insert for es (10 already exist)
+[2025-08-24T21:04:24.646Z] INFO: All reviews for es already exist in database
+[2025-08-24T21:04:26.658Z] INFO: 
+--- Processing AR Reviews ---
+[2025-08-24T21:04:26.659Z] INFO: Starting insertion for language: ar
+[2025-08-24T21:04:26.660Z] INFO: Loaded 8 reviews for language: ar
+[2025-08-24T21:04:26.906Z] INFO: Found 8 existing reviews for language: ar
+[2025-08-24T21:04:27.168Z] INFO: 0 new reviews to insert for ar (8 already exist)
+[2025-08-24T21:04:27.169Z] INFO: All reviews for ar already exist in database
+[2025-08-24T21:04:29.170Z] INFO: 
+--- Final Data Validation ---
+[2025-08-24T21:04:29.171Z] INFO: Validating inserted data...
+[2025-08-24T21:04:30.640Z] INFO: Data validation completed
+[2025-08-24T21:04:30.641Z] INFO: 
+--- Creating Rollback Procedures ---
+[2025-08-24T21:04:30.642Z] INFO: Rollback procedures created: rollback-procedures.sql
+[2025-08-24T21:04:30.642Z] INFO: 
+--- Generating Final Report ---
+[2025-08-24T21:04:30.644Z] INFO: ================================================================================
+[2025-08-24T21:04:30.645Z] INFO: EXECUTION COMPLETED: 0 reviews inserted with 0 errors in 14 seconds
+[2025-08-24T21:04:30.645Z] INFO: ================================================================================

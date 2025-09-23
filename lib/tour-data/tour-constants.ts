@@ -43,14 +43,14 @@ export const TRUST_INDICATORS = {
 };
 
 /**
- * Popular tour slugs for static generation
+ * Popular tour slugs for static generation (updated with actual database slugs)
  */
 export const POPULAR_TOUR_SLUGS = [
-  "table-mountain-cable-car-tickets",
-  "cape-peninsula-tour",
-  "cape-winelands-tour",
-  "aquila-game-reserve-safari",
-  "robben-island-tour",
+  "inverdoorn-safari-tour",
+  "cape-town-skydive", 
+  "simon-s-town",
+  "chapman-s-peak-drive",
+  "table-mountain-cableway",
 ];
 
 /**

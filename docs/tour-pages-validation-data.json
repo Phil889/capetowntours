@@ -1,0 +1,2392 @@
+{
+  "timestamp": "2025-08-24T21:12:41.053Z",
+  "totalTours": 21,
+  "totalLanguages": 5,
+  "totalTests": 105,
+  "overallScore": 0,
+  "results": [
+    {
+      "tourSlug": "aquila-safari-tour",
+      "locale": "en",
+      "status": "FAIL",
+      "score": 0,
+      "metrics": {
+        "loadTime": 0,
+        "reviewsCount": 0,
+        "averageRating": 0,
+        "hasValidContent": false,
+        "hasLanguageSpecificContent": false,
+        "seoOptimized": false,
+        "performanceGrade": "A"
+      },
+      "issues": [
+        {
+          "type": "error",
+          "message": "Validation error: Missing Supabase environment variables",
+          "impact": "high"
+        }
+      ]
+    },
+    {
+      "tourSlug": "aquila-safari-tour",
+      "locale": "de",
+      "status": "FAIL",
+      "score": 0,
+      "metrics": {
+        "loadTime": 0,
+        "reviewsCount": 0,
+        "averageRating": 0,
+        "hasValidContent": false,
+        "hasLanguageSpecificContent": false,
+        "seoOptimized": false,
+        "performanceGrade": "A"
+      },
+      "issues": [
+        {
+          "type": "error",
+          "message": "Validation error: Missing Supabase environment variables",
+          "impact": "high"
+        }
+      ]
+    },
+    {
+      "tourSlug": "aquila-safari-tour",
+      "locale": "fr",
+      "status": "FAIL",
+      "score": 0,
+      "metrics": {
+        "loadTime": 0,
+        "reviewsCount": 0,
+        "averageRating": 0,
+        "hasValidContent": false,
+        "hasLanguageSpecificContent": false,
+        "seoOptimized": false,
+        "performanceGrade": "A"
+      },
+      "issues": [
+        {
+          "type": "error",
+          "message": "Validation error: Missing Supabase environment variables",
+          "impact": "high"
+        }
+      ]
+    },
+    {
+      "tourSlug": "aquila-safari-tour",
+      "locale": "es",
+      "status": "FAIL",
+      "score": 0,
+      "metrics": {
+        "loadTime": 0,
+        "reviewsCount": 0,
+        "averageRating": 0,
+        "hasValidContent": false,
+        "hasLanguageSpecificContent": false,
+        "seoOptimized": false,
+        "performanceGrade": "A"
+      },
+      "issues": [
+        {
+          "type": "error",
+          "message": "Validation error: Missing Supabase environment variables",
+          "impact": "high"
+        }
+      ]
+    },
+    {
+      "tourSlug": "aquila-safari-tour",
+      "locale": "ar",
+      "status": "FAIL",
+      "score": 0,
+      "metrics": {
+        "loadTime": 0,
+        "reviewsCount": 0,
+        "averageRating": 0,
+        "hasValidContent": false,
+        "hasLanguageSpecificContent": false,
+        "seoOptimized": false,
+        "performanceGrade": "A"
+      },
+      "issues": [
+        {
+          "type": "error",
+          "message": "Validation error: Missing Supabase environment variables",
+          "impact": "high"
+        }
+      ]
+    },
+    {
+      "tourSlug": "atlantis-sand-dunes-adventure",
+      "locale": "en",
+      "status": "FAIL",
+      "score": 0,
+      "metrics": {
+        "loadTime": 0,
+        "reviewsCount": 0,
+        "averageRating": 0,
+        "hasValidContent": false,
+        "hasLanguageSpecificContent": false,
+        "seoOptimized": false,
+        "performanceGrade": "A"
+      },
+      "issues": [
+        {
+          "type": "error",
+          "message": "Validation error: Missing Supabase environment variables",
+          "impact": "high"
+        }
+      ]
+    },
+    {
+      "tourSlug": "atlantis-sand-dunes-adventure",
+      "locale": "de",
+      "status": "FAIL",
+      "score": 0,
+      "metrics": {
+        "loadTime": 0,
+        "reviewsCount": 0,
+        "averageRating": 0,
+        "hasValidContent": false,
+        "hasLanguageSpecificContent": false,
+        "seoOptimized": false,
+        "performanceGrade": "A"
+      },
+      "issues": [
+        {
+          "type": "error",
+          "message": "Validation error: Missing Supabase environment variables",
+          "impact": "high"
+        }
+      ]
+    },
+    {
+      "tourSlug": "atlantis-sand-dunes-adventure",
+      "locale": "fr",
+      "status": "FAIL",
+      "score": 0,
+      "metrics": {
+        "loadTime": 0,
+        "reviewsCount": 0,
+        "averageRating": 0,
+        "hasValidContent": false,
+        "hasLanguageSpecificContent": false,
+        "seoOptimized": false,
+        "performanceGrade": "A"
+      },
+      "issues": [
+        {
+          "type": "error",
+          "message": "Validation error: Missing Supabase environment variables",
+          "impact": "high"
+        }
+      ]
+    },
+    {
+      "tourSlug": "atlantis-sand-dunes-adventure",
+      "locale": "es",
+      "status": "FAIL",
+      "score": 0,
+      "metrics": {
+        "loadTime": 0,
+        "reviewsCount": 0,
+        "averageRating": 0,
+        "hasValidContent": false,
+        "hasLanguageSpecificContent": false,
+        "seoOptimized": false,
+        "performanceGrade": "A"
+      },
+      "issues": [
+        {
+          "type": "error",
+          "message": "Validation error: Missing Supabase environment variables",
+          "impact": "high"
+        }
+      ]
+    },
+    {
+      "tourSlug": "atlantis-sand-dunes-adventure",
+      "locale": "ar",
+      "status": "FAIL",
+      "score": 0,
+      "metrics": {
+        "loadTime": 0,
+        "reviewsCount": 0,
+        "averageRating": 0,
+        "hasValidContent": false,
+        "hasLanguageSpecificContent": false,
+        "seoOptimized": false,
+        "performanceGrade": "A"
+      },
+      "issues": [
+        {
+          "type": "error",
+          "message": "Validation error: Missing Supabase environment variables",
+          "impact": "high"
+        }
+      ]
+    },
+    {
+      "tourSlug": "babylonstoren-wine-estate",
+      "locale": "en",
+      "status": "FAIL",
+      "score": 0,
+      "metrics": {
+        "loadTime": 0,
+        "reviewsCount": 0,
+        "averageRating": 0,
+        "hasValidContent": false,
+        "hasLanguageSpecificContent": false,
+        "seoOptimized": false,
+        "performanceGrade": "A"
+      },
+      "issues": [
+        {
+          "type": "error",
+          "message": "Validation error: Missing Supabase environment variables",
+          "impact": "high"
+        }
+      ]
+    },
+    {
+      "tourSlug": "babylonstoren-wine-estate",
+      "locale": "de",
+      "status": "FAIL",
+      "score": 0,
+      "metrics": {
+        "loadTime": 0,
+        "reviewsCount": 0,
+        "averageRating": 0,
+        "hasValidContent": false,
+        "hasLanguageSpecificContent": false,
+        "seoOptimized": false,
+        "performanceGrade": "A"
+      },
+      "issues": [
+        {
+          "type": "error",
+          "message": "Validation error: Missing Supabase environment variables",
+          "impact": "high"
+        }
+      ]
+    },
+    {
+      "tourSlug": "babylonstoren-wine-estate",
+      "locale": "fr",
+      "status": "FAIL",
+      "score": 0,
+      "metrics": {
+        "loadTime": 0,
+        "reviewsCount": 0,
+        "averageRating": 0,
+        "hasValidContent": false,
+        "hasLanguageSpecificContent": false,
+        "seoOptimized": false,
+        "performanceGrade": "A"
+      },
+      "issues": [
+        {
+          "type": "error",
+          "message": "Validation error: Missing Supabase environment variables",
+          "impact": "high"
+        }
+      ]
+    },
+    {
+      "tourSlug": "babylonstoren-wine-estate",
+      "locale": "es",
+      "status": "FAIL",
+      "score": 0,
+      "metrics": {
+        "loadTime": 0,
+        "reviewsCount": 0,
+        "averageRating": 0,
+        "hasValidContent": false,
+        "hasLanguageSpecificContent": false,
+        "seoOptimized": false,
+        "performanceGrade": "A"
+      },
+      "issues": [
+        {
+          "type": "error",
+          "message": "Validation error: Missing Supabase environment variables",
+          "impact": "high"
+        }
+      ]
+    },
+    {
+      "tourSlug": "babylonstoren-wine-estate",
+      "locale": "ar",
+      "status": "FAIL",
+      "score": 0,
+      "metrics": {
+        "loadTime": 0,
+        "reviewsCount": 0,
+        "averageRating": 0,
+        "hasValidContent": false,
+        "hasLanguageSpecificContent": false,
+        "seoOptimized": false,
+        "performanceGrade": "A"
+      },
+      "issues": [
+        {
+          "type": "error",
+          "message": "Validation error: Missing Supabase environment variables",
+          "impact": "high"
+        }
+      ]
+    },
+    {
+      "tourSlug": "bo-kaap-heritage-quarter",
+      "locale": "en",
+      "status": "FAIL",
+      "score": 0,
+      "metrics": {
+        "loadTime": 0,
+        "reviewsCount": 0,
+        "averageRating": 0,
+        "hasValidContent": false,
+        "hasLanguageSpecificContent": false,
+        "seoOptimized": false,
+        "performanceGrade": "A"
+      },
+      "issues": [
+        {
+          "type": "error",
+          "message": "Validation error: Missing Supabase environment variables",
+          "impact": "high"
+        }
+      ]
+    },
+    {
+      "tourSlug": "bo-kaap-heritage-quarter",
+      "locale": "de",
+      "status": "FAIL",
+      "score": 0,
+      "metrics": {
+        "loadTime": 0,
+        "reviewsCount": 0,
+        "averageRating": 0,
+        "hasValidContent": false,
+        "hasLanguageSpecificContent": false,
+        "seoOptimized": false,
+        "performanceGrade": "A"
+      },
+      "issues": [
+        {
+          "type": "error",
+          "message": "Validation error: Missing Supabase environment variables",
+          "impact": "high"
+        }
+      ]
+    },
+    {
+      "tourSlug": "bo-kaap-heritage-quarter",
+      "locale": "fr",
+      "status": "FAIL",
+      "score": 0,
+      "metrics": {
+        "loadTime": 0,
+        "reviewsCount": 0,
+        "averageRating": 0,
+        "hasValidContent": false,
+        "hasLanguageSpecificContent": false,
+        "seoOptimized": false,
+        "performanceGrade": "A"
+      },
+      "issues": [
+        {
+          "type": "error",
+          "message": "Validation error: Missing Supabase environment variables",
+          "impact": "high"
+        }
+      ]
+    },
+    {
+      "tourSlug": "bo-kaap-heritage-quarter",
+      "locale": "es",
+      "status": "FAIL",
+      "score": 0,
+      "metrics": {
+        "loadTime": 0,
+        "reviewsCount": 0,
+        "averageRating": 0,
+        "hasValidContent": false,
+        "hasLanguageSpecificContent": false,
+        "seoOptimized": false,
+        "performanceGrade": "A"
+      },
+      "issues": [
+        {
+          "type": "error",
+          "message": "Validation error: Missing Supabase environment variables",
+          "impact": "high"
+        }
+      ]
+    },
+    {
+      "tourSlug": "bo-kaap-heritage-quarter",
+      "locale": "ar",
+      "status": "FAIL",
+      "score": 0,
+      "metrics": {
+        "loadTime": 0,
+        "reviewsCount": 0,
+        "averageRating": 0,
+        "hasValidContent": false,
+        "hasLanguageSpecificContent": false,
+        "seoOptimized": false,
+        "performanceGrade": "A"
+      },
+      "issues": [
+        {
+          "type": "error",
+          "message": "Validation error: Missing Supabase environment variables",
+          "impact": "high"
+        }
+      ]
+    },
+    {
+      "tourSlug": "boulders-beach-penguin-colony",
+      "locale": "en",
+      "status": "FAIL",
+      "score": 0,
+      "metrics": {
+        "loadTime": 0,
+        "reviewsCount": 0,
+        "averageRating": 0,
+        "hasValidContent": false,
+        "hasLanguageSpecificContent": false,
+        "seoOptimized": false,
+        "performanceGrade": "A"
+      },
+      "issues": [
+        {
+          "type": "error",
+          "message": "Validation error: Missing Supabase environment variables",
+          "impact": "high"
+        }
+      ]
+    },
+    {
+      "tourSlug": "boulders-beach-penguin-colony",
+      "locale": "de",
+      "status": "FAIL",
+      "score": 0,
+      "metrics": {
+        "loadTime": 0,
+        "reviewsCount": 0,
+        "averageRating": 0,
+        "hasValidContent": false,
+        "hasLanguageSpecificContent": false,
+        "seoOptimized": false,
+        "performanceGrade": "A"
+      },
+      "issues": [
+        {
+          "type": "error",
+          "message": "Validation error: Missing Supabase environment variables",
+          "impact": "high"
+        }
+      ]
+    },
+    {
+      "tourSlug": "boulders-beach-penguin-colony",
+      "locale": "fr",
+      "status": "FAIL",
+      "score": 0,
+      "metrics": {
+        "loadTime": 0,
+        "reviewsCount": 0,
+        "averageRating": 0,
+        "hasValidContent": false,
+        "hasLanguageSpecificContent": false,
+        "seoOptimized": false,
+        "performanceGrade": "A"
+      },
+      "issues": [
+        {
+          "type": "error",
+          "message": "Validation error: Missing Supabase environment variables",
+          "impact": "high"
+        }
+      ]
+    },
+    {
+      "tourSlug": "boulders-beach-penguin-colony",
+      "locale": "es",
+      "status": "FAIL",
+      "score": 0,
+      "metrics": {
+        "loadTime": 0,
+        "reviewsCount": 0,
+        "averageRating": 0,
+        "hasValidContent": false,
+        "hasLanguageSpecificContent": false,
+        "seoOptimized": false,
+        "performanceGrade": "A"
+      },
+      "issues": [
+        {
+          "type": "error",
+          "message": "Validation error: Missing Supabase environment variables",
+          "impact": "high"
+        }
+      ]
+    },
+    {
+      "tourSlug": "boulders-beach-penguin-colony",
+      "locale": "ar",
+      "status": "FAIL",
+      "score": 0,
+      "metrics": {
+        "loadTime": 0,
+        "reviewsCount": 0,
+        "averageRating": 0,
+        "hasValidContent": false,
+        "hasLanguageSpecificContent": false,
+        "seoOptimized": false,
+        "performanceGrade": "A"
+      },
+      "issues": [
+        {
+          "type": "error",
+          "message": "Validation error: Missing Supabase environment variables",
+          "impact": "high"
+        }
+      ]
+    },
+    {
+      "tourSlug": "cape-of-good-hope",
+      "locale": "en",
+      "status": "FAIL",
+      "score": 0,
+      "metrics": {
+        "loadTime": 0,
+        "reviewsCount": 0,
+        "averageRating": 0,
+        "hasValidContent": false,
+        "hasLanguageSpecificContent": false,
+        "seoOptimized": false,
+        "performanceGrade": "A"
+      },
+      "issues": [
+        {
+          "type": "error",
+          "message": "Validation error: Missing Supabase environment variables",
+          "impact": "high"
+        }
+      ]
+    },
+    {
+      "tourSlug": "cape-of-good-hope",
+      "locale": "de",
+      "status": "FAIL",
+      "score": 0,
+      "metrics": {
+        "loadTime": 0,
+        "reviewsCount": 0,
+        "averageRating": 0,
+        "hasValidContent": false,
+        "hasLanguageSpecificContent": false,
+        "seoOptimized": false,
+        "performanceGrade": "A"
+      },
+      "issues": [
+        {
+          "type": "error",
+          "message": "Validation error: Missing Supabase environment variables",
+          "impact": "high"
+        }
+      ]
+    },
+    {
+      "tourSlug": "cape-of-good-hope",
+      "locale": "fr",
+      "status": "FAIL",
+      "score": 0,
+      "metrics": {
+        "loadTime": 0,
+        "reviewsCount": 0,
+        "averageRating": 0,
+        "hasValidContent": false,
+        "hasLanguageSpecificContent": false,
+        "seoOptimized": false,
+        "performanceGrade": "A"
+      },
+      "issues": [
+        {
+          "type": "error",
+          "message": "Validation error: Missing Supabase environment variables",
+          "impact": "high"
+        }
+      ]
+    },
+    {
+      "tourSlug": "cape-of-good-hope",
+      "locale": "es",
+      "status": "FAIL",
+      "score": 0,
+      "metrics": {
+        "loadTime": 0,
+        "reviewsCount": 0,
+        "averageRating": 0,
+        "hasValidContent": false,
+        "hasLanguageSpecificContent": false,
+        "seoOptimized": false,
+        "performanceGrade": "A"
+      },
+      "issues": [
+        {
+          "type": "error",
+          "message": "Validation error: Missing Supabase environment variables",
+          "impact": "high"
+        }
+      ]
+    },
+    {
+      "tourSlug": "cape-of-good-hope",
+      "locale": "ar",
+      "status": "FAIL",
+      "score": 0,
+      "metrics": {
+        "loadTime": 0,
+        "reviewsCount": 0,
+        "averageRating": 0,
+        "hasValidContent": false,
+        "hasLanguageSpecificContent": false,
+        "seoOptimized": false,
+        "performanceGrade": "A"
+      },
+      "issues": [
+        {
+          "type": "error",
+          "message": "Validation error: Missing Supabase environment variables",
+          "impact": "high"
+        }
+      ]
+    },
+    {
+      "tourSlug": "cape-point-lighthouse",
+      "locale": "en",
+      "status": "FAIL",
+      "score": 0,
+      "metrics": {
+        "loadTime": 0,
+        "reviewsCount": 0,
+        "averageRating": 0,
+        "hasValidContent": false,
+        "hasLanguageSpecificContent": false,
+        "seoOptimized": false,
+        "performanceGrade": "A"
+      },
+      "issues": [
+        {
+          "type": "error",
+          "message": "Validation error: Missing Supabase environment variables",
+          "impact": "high"
+        }
+      ]
+    },
+    {
+      "tourSlug": "cape-point-lighthouse",
+      "locale": "de",
+      "status": "FAIL",
+      "score": 0,
+      "metrics": {
+        "loadTime": 0,
+        "reviewsCount": 0,
+        "averageRating": 0,
+        "hasValidContent": false,
+        "hasLanguageSpecificContent": false,
+        "seoOptimized": false,
+        "performanceGrade": "A"
+      },
+      "issues": [
+        {
+          "type": "error",
+          "message": "Validation error: Missing Supabase environment variables",
+          "impact": "high"
+        }
+      ]
+    },
+    {
+      "tourSlug": "cape-point-lighthouse",
+      "locale": "fr",
+      "status": "FAIL",
+      "score": 0,
+      "metrics": {
+        "loadTime": 0,
+        "reviewsCount": 0,
+        "averageRating": 0,
+        "hasValidContent": false,
+        "hasLanguageSpecificContent": false,
+        "seoOptimized": false,
+        "performanceGrade": "A"
+      },
+      "issues": [
+        {
+          "type": "error",
+          "message": "Validation error: Missing Supabase environment variables",
+          "impact": "high"
+        }
+      ]
+    },
+    {
+      "tourSlug": "cape-point-lighthouse",
+      "locale": "es",
+      "status": "FAIL",
+      "score": 0,
+      "metrics": {
+        "loadTime": 0,
+        "reviewsCount": 0,
+        "averageRating": 0,
+        "hasValidContent": false,
+        "hasLanguageSpecificContent": false,
+        "seoOptimized": false,
+        "performanceGrade": "A"
+      },
+      "issues": [
+        {
+          "type": "error",
+          "message": "Validation error: Missing Supabase environment variables",
+          "impact": "high"
+        }
+      ]
+    },
+    {
+      "tourSlug": "cape-point-lighthouse",
+      "locale": "ar",
+      "status": "FAIL",
+      "score": 0,
+      "metrics": {
+        "loadTime": 0,
+        "reviewsCount": 0,
+        "averageRating": 0,
+        "hasValidContent": false,
+        "hasLanguageSpecificContent": false,
+        "seoOptimized": false,
+        "performanceGrade": "A"
+      },
+      "issues": [
+        {
+          "type": "error",
+          "message": "Validation error: Missing Supabase environment variables",
+          "impact": "high"
+        }
+      ]
+    },
+    {
+      "tourSlug": "cape-town-paragliding",
+      "locale": "en",
+      "status": "FAIL",
+      "score": 0,
+      "metrics": {
+        "loadTime": 0,
+        "reviewsCount": 0,
+        "averageRating": 0,
+        "hasValidContent": false,
+        "hasLanguageSpecificContent": false,
+        "seoOptimized": false,
+        "performanceGrade": "A"
+      },
+      "issues": [
+        {
+          "type": "error",
+          "message": "Validation error: Missing Supabase environment variables",
+          "impact": "high"
+        }
+      ]
+    },
+    {
+      "tourSlug": "cape-town-paragliding",
+      "locale": "de",
+      "status": "FAIL",
+      "score": 0,
+      "metrics": {
+        "loadTime": 0,
+        "reviewsCount": 0,
+        "averageRating": 0,
+        "hasValidContent": false,
+        "hasLanguageSpecificContent": false,
+        "seoOptimized": false,
+        "performanceGrade": "A"
+      },
+      "issues": [
+        {
+          "type": "error",
+          "message": "Validation error: Missing Supabase environment variables",
+          "impact": "high"
+        }
+      ]
+    },
+    {
+      "tourSlug": "cape-town-paragliding",
+      "locale": "fr",
+      "status": "FAIL",
+      "score": 0,
+      "metrics": {
+        "loadTime": 0,
+        "reviewsCount": 0,
+        "averageRating": 0,
+        "hasValidContent": false,
+        "hasLanguageSpecificContent": false,
+        "seoOptimized": false,
+        "performanceGrade": "A"
+      },
+      "issues": [
+        {
+          "type": "error",
+          "message": "Validation error: Missing Supabase environment variables",
+          "impact": "high"
+        }
+      ]
+    },
+    {
+      "tourSlug": "cape-town-paragliding",
+      "locale": "es",
+      "status": "FAIL",
+      "score": 0,
+      "metrics": {
+        "loadTime": 0,
+        "reviewsCount": 0,
+        "averageRating": 0,
+        "hasValidContent": false,
+        "hasLanguageSpecificContent": false,
+        "seoOptimized": false,
+        "performanceGrade": "A"
+      },
+      "issues": [
+        {
+          "type": "error",
+          "message": "Validation error: Missing Supabase environment variables",
+          "impact": "high"
+        }
+      ]
+    },
+    {
+      "tourSlug": "cape-town-paragliding",
+      "locale": "ar",
+      "status": "FAIL",
+      "score": 0,
+      "metrics": {
+        "loadTime": 0,
+        "reviewsCount": 0,
+        "averageRating": 0,
+        "hasValidContent": false,
+        "hasLanguageSpecificContent": false,
+        "seoOptimized": false,
+        "performanceGrade": "A"
+      },
+      "issues": [
+        {
+          "type": "error",
+          "message": "Validation error: Missing Supabase environment variables",
+          "impact": "high"
+        }
+      ]
+    },
+    {
+      "tourSlug": "cape-town-skydive",
+      "locale": "en",
+      "status": "FAIL",
+      "score": 0,
+      "metrics": {
+        "loadTime": 0,
+        "reviewsCount": 0,
+        "averageRating": 0,
+        "hasValidContent": false,
+        "hasLanguageSpecificContent": false,
+        "seoOptimized": false,
+        "performanceGrade": "A"
+      },
+      "issues": [
+        {
+          "type": "error",
+          "message": "Validation error: Missing Supabase environment variables",
+          "impact": "high"
+        }
+      ]
+    },
+    {
+      "tourSlug": "cape-town-skydive",
+      "locale": "de",
+      "status": "FAIL",
+      "score": 0,
+      "metrics": {
+        "loadTime": 0,
+        "reviewsCount": 0,
+        "averageRating": 0,
+        "hasValidContent": false,
+        "hasLanguageSpecificContent": false,
+        "seoOptimized": false,
+        "performanceGrade": "A"
+      },
+      "issues": [
+        {
+          "type": "error",
+          "message": "Validation error: Missing Supabase environment variables",
+          "impact": "high"
+        }
+      ]
+    },
+    {
+      "tourSlug": "cape-town-skydive",
+      "locale": "fr",
+      "status": "FAIL",
+      "score": 0,
+      "metrics": {
+        "loadTime": 0,
+        "reviewsCount": 0,
+        "averageRating": 0,
+        "hasValidContent": false,
+        "hasLanguageSpecificContent": false,
+        "seoOptimized": false,
+        "performanceGrade": "A"
+      },
+      "issues": [
+        {
+          "type": "error",
+          "message": "Validation error: Missing Supabase environment variables",
+          "impact": "high"
+        }
+      ]
+    },
+    {
+      "tourSlug": "cape-town-skydive",
+      "locale": "es",
+      "status": "FAIL",
+      "score": 0,
+      "metrics": {
+        "loadTime": 0,
+        "reviewsCount": 0,
+        "averageRating": 0,
+        "hasValidContent": false,
+        "hasLanguageSpecificContent": false,
+        "seoOptimized": false,
+        "performanceGrade": "A"
+      },
+      "issues": [
+        {
+          "type": "error",
+          "message": "Validation error: Missing Supabase environment variables",
+          "impact": "high"
+        }
+      ]
+    },
+    {
+      "tourSlug": "cape-town-skydive",
+      "locale": "ar",
+      "status": "FAIL",
+      "score": 0,
+      "metrics": {
+        "loadTime": 0,
+        "reviewsCount": 0,
+        "averageRating": 0,
+        "hasValidContent": false,
+        "hasLanguageSpecificContent": false,
+        "seoOptimized": false,
+        "performanceGrade": "A"
+      },
+      "issues": [
+        {
+          "type": "error",
+          "message": "Validation error: Missing Supabase environment variables",
+          "impact": "high"
+        }
+      ]
+    },
+    {
+      "tourSlug": "chapman-s-peak-drive",
+      "locale": "en",
+      "status": "FAIL",
+      "score": 0,
+      "metrics": {
+        "loadTime": 0,
+        "reviewsCount": 0,
+        "averageRating": 0,
+        "hasValidContent": false,
+        "hasLanguageSpecificContent": false,
+        "seoOptimized": false,
+        "performanceGrade": "A"
+      },
+      "issues": [
+        {
+          "type": "error",
+          "message": "Validation error: Missing Supabase environment variables",
+          "impact": "high"
+        }
+      ]
+    },
+    {
+      "tourSlug": "chapman-s-peak-drive",
+      "locale": "de",
+      "status": "FAIL",
+      "score": 0,
+      "metrics": {
+        "loadTime": 0,
+        "reviewsCount": 0,
+        "averageRating": 0,
+        "hasValidContent": false,
+        "hasLanguageSpecificContent": false,
+        "seoOptimized": false,
+        "performanceGrade": "A"
+      },
+      "issues": [
+        {
+          "type": "error",
+          "message": "Validation error: Missing Supabase environment variables",
+          "impact": "high"
+        }
+      ]
+    },
+    {
+      "tourSlug": "chapman-s-peak-drive",
+      "locale": "fr",
+      "status": "FAIL",
+      "score": 0,
+      "metrics": {
+        "loadTime": 0,
+        "reviewsCount": 0,
+        "averageRating": 0,
+        "hasValidContent": false,
+        "hasLanguageSpecificContent": false,
+        "seoOptimized": false,
+        "performanceGrade": "A"
+      },
+      "issues": [
+        {
+          "type": "error",
+          "message": "Validation error: Missing Supabase environment variables",
+          "impact": "high"
+        }
+      ]
+    },
+    {
+      "tourSlug": "chapman-s-peak-drive",
+      "locale": "es",
+      "status": "FAIL",
+      "score": 0,
+      "metrics": {
+        "loadTime": 0,
+        "reviewsCount": 0,
+        "averageRating": 0,
+        "hasValidContent": false,
+        "hasLanguageSpecificContent": false,
+        "seoOptimized": false,
+        "performanceGrade": "A"
+      },
+      "issues": [
+        {
+          "type": "error",
+          "message": "Validation error: Missing Supabase environment variables",
+          "impact": "high"
+        }
+      ]
+    },
+    {
+      "tourSlug": "chapman-s-peak-drive",
+      "locale": "ar",
+      "status": "FAIL",
+      "score": 0,
+      "metrics": {
+        "loadTime": 0,
+        "reviewsCount": 0,
+        "averageRating": 0,
+        "hasValidContent": false,
+        "hasLanguageSpecificContent": false,
+        "seoOptimized": false,
+        "performanceGrade": "A"
+      },
+      "issues": [
+        {
+          "type": "error",
+          "message": "Validation error: Missing Supabase environment variables",
+          "impact": "high"
+        }
+      ]
+    },
+    {
+      "tourSlug": "delaire-graff-estate",
+      "locale": "en",
+      "status": "FAIL",
+      "score": 0,
+      "metrics": {
+        "loadTime": 0,
+        "reviewsCount": 0,
+        "averageRating": 0,
+        "hasValidContent": false,
+        "hasLanguageSpecificContent": false,
+        "seoOptimized": false,
+        "performanceGrade": "A"
+      },
+      "issues": [
+        {
+          "type": "error",
+          "message": "Validation error: Missing Supabase environment variables",
+          "impact": "high"
+        }
+      ]
+    },
+    {
+      "tourSlug": "delaire-graff-estate",
+      "locale": "de",
+      "status": "FAIL",
+      "score": 0,
+      "metrics": {
+        "loadTime": 0,
+        "reviewsCount": 0,
+        "averageRating": 0,
+        "hasValidContent": false,
+        "hasLanguageSpecificContent": false,
+        "seoOptimized": false,
+        "performanceGrade": "A"
+      },
+      "issues": [
+        {
+          "type": "error",
+          "message": "Validation error: Missing Supabase environment variables",
+          "impact": "high"
+        }
+      ]
+    },
+    {
+      "tourSlug": "delaire-graff-estate",
+      "locale": "fr",
+      "status": "FAIL",
+      "score": 0,
+      "metrics": {
+        "loadTime": 0,
+        "reviewsCount": 0,
+        "averageRating": 0,
+        "hasValidContent": false,
+        "hasLanguageSpecificContent": false,
+        "seoOptimized": false,
+        "performanceGrade": "A"
+      },
+      "issues": [
+        {
+          "type": "error",
+          "message": "Validation error: Missing Supabase environment variables",
+          "impact": "high"
+        }
+      ]
+    },
+    {
+      "tourSlug": "delaire-graff-estate",
+      "locale": "es",
+      "status": "FAIL",
+      "score": 0,
+      "metrics": {
+        "loadTime": 0,
+        "reviewsCount": 0,
+        "averageRating": 0,
+        "hasValidContent": false,
+        "hasLanguageSpecificContent": false,
+        "seoOptimized": false,
+        "performanceGrade": "A"
+      },
+      "issues": [
+        {
+          "type": "error",
+          "message": "Validation error: Missing Supabase environment variables",
+          "impact": "high"
+        }
+      ]
+    },
+    {
+      "tourSlug": "delaire-graff-estate",
+      "locale": "ar",
+      "status": "FAIL",
+      "score": 0,
+      "metrics": {
+        "loadTime": 0,
+        "reviewsCount": 0,
+        "averageRating": 0,
+        "hasValidContent": false,
+        "hasLanguageSpecificContent": false,
+        "seoOptimized": false,
+        "performanceGrade": "A"
+      },
+      "issues": [
+        {
+          "type": "error",
+          "message": "Validation error: Missing Supabase environment variables",
+          "impact": "high"
+        }
+      ]
+    },
+    {
+      "tourSlug": "hermanus-whale-watching-tour",
+      "locale": "en",
+      "status": "FAIL",
+      "score": 0,
+      "metrics": {
+        "loadTime": 0,
+        "reviewsCount": 0,
+        "averageRating": 0,
+        "hasValidContent": false,
+        "hasLanguageSpecificContent": false,
+        "seoOptimized": false,
+        "performanceGrade": "A"
+      },
+      "issues": [
+        {
+          "type": "error",
+          "message": "Validation error: Missing Supabase environment variables",
+          "impact": "high"
+        }
+      ]
+    },
+    {
+      "tourSlug": "hermanus-whale-watching-tour",
+      "locale": "de",
+      "status": "FAIL",
+      "score": 0,
+      "metrics": {
+        "loadTime": 0,
+        "reviewsCount": 0,
+        "averageRating": 0,
+        "hasValidContent": false,
+        "hasLanguageSpecificContent": false,
+        "seoOptimized": false,
+        "performanceGrade": "A"
+      },
+      "issues": [
+        {
+          "type": "error",
+          "message": "Validation error: Missing Supabase environment variables",
+          "impact": "high"
+        }
+      ]
+    },
+    {
+      "tourSlug": "hermanus-whale-watching-tour",
+      "locale": "fr",
+      "status": "FAIL",
+      "score": 0,
+      "metrics": {
+        "loadTime": 0,
+        "reviewsCount": 0,
+        "averageRating": 0,
+        "hasValidContent": false,
+        "hasLanguageSpecificContent": false,
+        "seoOptimized": false,
+        "performanceGrade": "A"
+      },
+      "issues": [
+        {
+          "type": "error",
+          "message": "Validation error: Missing Supabase environment variables",
+          "impact": "high"
+        }
+      ]
+    },
+    {
+      "tourSlug": "hermanus-whale-watching-tour",
+      "locale": "es",
+      "status": "FAIL",
+      "score": 0,
+      "metrics": {
+        "loadTime": 0,
+        "reviewsCount": 0,
+        "averageRating": 0,
+        "hasValidContent": false,
+        "hasLanguageSpecificContent": false,
+        "seoOptimized": false,
+        "performanceGrade": "A"
+      },
+      "issues": [
+        {
+          "type": "error",
+          "message": "Validation error: Missing Supabase environment variables",
+          "impact": "high"
+        }
+      ]
+    },
+    {
+      "tourSlug": "hermanus-whale-watching-tour",
+      "locale": "ar",
+      "status": "FAIL",
+      "score": 0,
+      "metrics": {
+        "loadTime": 0,
+        "reviewsCount": 0,
+        "averageRating": 0,
+        "hasValidContent": false,
+        "hasLanguageSpecificContent": false,
+        "seoOptimized": false,
+        "performanceGrade": "A"
+      },
+      "issues": [
+        {
+          "type": "error",
+          "message": "Validation error: Missing Supabase environment variables",
+          "impact": "high"
+        }
+      ]
+    },
+    {
+      "tourSlug": "hout-bay-harbour",
+      "locale": "en",
+      "status": "FAIL",
+      "score": 0,
+      "metrics": {
+        "loadTime": 0,
+        "reviewsCount": 0,
+        "averageRating": 0,
+        "hasValidContent": false,
+        "hasLanguageSpecificContent": false,
+        "seoOptimized": false,
+        "performanceGrade": "A"
+      },
+      "issues": [
+        {
+          "type": "error",
+          "message": "Validation error: Missing Supabase environment variables",
+          "impact": "high"
+        }
+      ]
+    },
+    {
+      "tourSlug": "hout-bay-harbour",
+      "locale": "de",
+      "status": "FAIL",
+      "score": 0,
+      "metrics": {
+        "loadTime": 0,
+        "reviewsCount": 0,
+        "averageRating": 0,
+        "hasValidContent": false,
+        "hasLanguageSpecificContent": false,
+        "seoOptimized": false,
+        "performanceGrade": "A"
+      },
+      "issues": [
+        {
+          "type": "error",
+          "message": "Validation error: Missing Supabase environment variables",
+          "impact": "high"
+        }
+      ]
+    },
+    {
+      "tourSlug": "hout-bay-harbour",
+      "locale": "fr",
+      "status": "FAIL",
+      "score": 0,
+      "metrics": {
+        "loadTime": 0,
+        "reviewsCount": 0,
+        "averageRating": 0,
+        "hasValidContent": false,
+        "hasLanguageSpecificContent": false,
+        "seoOptimized": false,
+        "performanceGrade": "A"
+      },
+      "issues": [
+        {
+          "type": "error",
+          "message": "Validation error: Missing Supabase environment variables",
+          "impact": "high"
+        }
+      ]
+    },
+    {
+      "tourSlug": "hout-bay-harbour",
+      "locale": "es",
+      "status": "FAIL",
+      "score": 0,
+      "metrics": {
+        "loadTime": 0,
+        "reviewsCount": 0,
+        "averageRating": 0,
+        "hasValidContent": false,
+        "hasLanguageSpecificContent": false,
+        "seoOptimized": false,
+        "performanceGrade": "A"
+      },
+      "issues": [
+        {
+          "type": "error",
+          "message": "Validation error: Missing Supabase environment variables",
+          "impact": "high"
+        }
+      ]
+    },
+    {
+      "tourSlug": "hout-bay-harbour",
+      "locale": "ar",
+      "status": "FAIL",
+      "score": 0,
+      "metrics": {
+        "loadTime": 0,
+        "reviewsCount": 0,
+        "averageRating": 0,
+        "hasValidContent": false,
+        "hasLanguageSpecificContent": false,
+        "seoOptimized": false,
+        "performanceGrade": "A"
+      },
+      "issues": [
+        {
+          "type": "error",
+          "message": "Validation error: Missing Supabase environment variables",
+          "impact": "high"
+        }
+      ]
+    },
+    {
+      "tourSlug": "inverdoorn-safari-tour",
+      "locale": "en",
+      "status": "FAIL",
+      "score": 0,
+      "metrics": {
+        "loadTime": 0,
+        "reviewsCount": 0,
+        "averageRating": 0,
+        "hasValidContent": false,
+        "hasLanguageSpecificContent": false,
+        "seoOptimized": false,
+        "performanceGrade": "A"
+      },
+      "issues": [
+        {
+          "type": "error",
+          "message": "Validation error: Missing Supabase environment variables",
+          "impact": "high"
+        }
+      ]
+    },
+    {
+      "tourSlug": "inverdoorn-safari-tour",
+      "locale": "de",
+      "status": "FAIL",
+      "score": 0,
+      "metrics": {
+        "loadTime": 0,
+        "reviewsCount": 0,
+        "averageRating": 0,
+        "hasValidContent": false,
+        "hasLanguageSpecificContent": false,
+        "seoOptimized": false,
+        "performanceGrade": "A"
+      },
+      "issues": [
+        {
+          "type": "error",
+          "message": "Validation error: Missing Supabase environment variables",
+          "impact": "high"
+        }
+      ]
+    },
+    {
+      "tourSlug": "inverdoorn-safari-tour",
+      "locale": "fr",
+      "status": "FAIL",
+      "score": 0,
+      "metrics": {
+        "loadTime": 0,
+        "reviewsCount": 0,
+        "averageRating": 0,
+        "hasValidContent": false,
+        "hasLanguageSpecificContent": false,
+        "seoOptimized": false,
+        "performanceGrade": "A"
+      },
+      "issues": [
+        {
+          "type": "error",
+          "message": "Validation error: Missing Supabase environment variables",
+          "impact": "high"
+        }
+      ]
+    },
+    {
+      "tourSlug": "inverdoorn-safari-tour",
+      "locale": "es",
+      "status": "FAIL",
+      "score": 0,
+      "metrics": {
+        "loadTime": 0,
+        "reviewsCount": 0,
+        "averageRating": 0,
+        "hasValidContent": false,
+        "hasLanguageSpecificContent": false,
+        "seoOptimized": false,
+        "performanceGrade": "A"
+      },
+      "issues": [
+        {
+          "type": "error",
+          "message": "Validation error: Missing Supabase environment variables",
+          "impact": "high"
+        }
+      ]
+    },
+    {
+      "tourSlug": "inverdoorn-safari-tour",
+      "locale": "ar",
+      "status": "FAIL",
+      "score": 0,
+      "metrics": {
+        "loadTime": 0,
+        "reviewsCount": 0,
+        "averageRating": 0,
+        "hasValidContent": false,
+        "hasLanguageSpecificContent": false,
+        "seoOptimized": false,
+        "performanceGrade": "A"
+      },
+      "issues": [
+        {
+          "type": "error",
+          "message": "Validation error: Missing Supabase environment variables",
+          "impact": "high"
+        }
+      ]
+    },
+    {
+      "tourSlug": "maiden-s-cove",
+      "locale": "en",
+      "status": "FAIL",
+      "score": 0,
+      "metrics": {
+        "loadTime": 0,
+        "reviewsCount": 0,
+        "averageRating": 0,
+        "hasValidContent": false,
+        "hasLanguageSpecificContent": false,
+        "seoOptimized": false,
+        "performanceGrade": "A"
+      },
+      "issues": [
+        {
+          "type": "error",
+          "message": "Validation error: Missing Supabase environment variables",
+          "impact": "high"
+        }
+      ]
+    },
+    {
+      "tourSlug": "maiden-s-cove",
+      "locale": "de",
+      "status": "FAIL",
+      "score": 0,
+      "metrics": {
+        "loadTime": 0,
+        "reviewsCount": 0,
+        "averageRating": 0,
+        "hasValidContent": false,
+        "hasLanguageSpecificContent": false,
+        "seoOptimized": false,
+        "performanceGrade": "A"
+      },
+      "issues": [
+        {
+          "type": "error",
+          "message": "Validation error: Missing Supabase environment variables",
+          "impact": "high"
+        }
+      ]
+    },
+    {
+      "tourSlug": "maiden-s-cove",
+      "locale": "fr",
+      "status": "FAIL",
+      "score": 0,
+      "metrics": {
+        "loadTime": 0,
+        "reviewsCount": 0,
+        "averageRating": 0,
+        "hasValidContent": false,
+        "hasLanguageSpecificContent": false,
+        "seoOptimized": false,
+        "performanceGrade": "A"
+      },
+      "issues": [
+        {
+          "type": "error",
+          "message": "Validation error: Missing Supabase environment variables",
+          "impact": "high"
+        }
+      ]
+    },
+    {
+      "tourSlug": "maiden-s-cove",
+      "locale": "es",
+      "status": "FAIL",
+      "score": 0,
+      "metrics": {
+        "loadTime": 0,
+        "reviewsCount": 0,
+        "averageRating": 0,
+        "hasValidContent": false,
+        "hasLanguageSpecificContent": false,
+        "seoOptimized": false,
+        "performanceGrade": "A"
+      },
+      "issues": [
+        {
+          "type": "error",
+          "message": "Validation error: Missing Supabase environment variables",
+          "impact": "high"
+        }
+      ]
+    },
+    {
+      "tourSlug": "maiden-s-cove",
+      "locale": "ar",
+      "status": "FAIL",
+      "score": 0,
+      "metrics": {
+        "loadTime": 0,
+        "reviewsCount": 0,
+        "averageRating": 0,
+        "hasValidContent": false,
+        "hasLanguageSpecificContent": false,
+        "seoOptimized": false,
+        "performanceGrade": "A"
+      },
+      "issues": [
+        {
+          "type": "error",
+          "message": "Validation error: Missing Supabase environment variables",
+          "impact": "high"
+        }
+      ]
+    },
+    {
+      "tourSlug": "muizenberg-beach",
+      "locale": "en",
+      "status": "FAIL",
+      "score": 0,
+      "metrics": {
+        "loadTime": 0,
+        "reviewsCount": 0,
+        "averageRating": 0,
+        "hasValidContent": false,
+        "hasLanguageSpecificContent": false,
+        "seoOptimized": false,
+        "performanceGrade": "A"
+      },
+      "issues": [
+        {
+          "type": "error",
+          "message": "Validation error: Missing Supabase environment variables",
+          "impact": "high"
+        }
+      ]
+    },
+    {
+      "tourSlug": "muizenberg-beach",
+      "locale": "de",
+      "status": "FAIL",
+      "score": 0,
+      "metrics": {
+        "loadTime": 0,
+        "reviewsCount": 0,
+        "averageRating": 0,
+        "hasValidContent": false,
+        "hasLanguageSpecificContent": false,
+        "seoOptimized": false,
+        "performanceGrade": "A"
+      },
+      "issues": [
+        {
+          "type": "error",
+          "message": "Validation error: Missing Supabase environment variables",
+          "impact": "high"
+        }
+      ]
+    },
+    {
+      "tourSlug": "muizenberg-beach",
+      "locale": "fr",
+      "status": "FAIL",
+      "score": 0,
+      "metrics": {
+        "loadTime": 0,
+        "reviewsCount": 0,
+        "averageRating": 0,
+        "hasValidContent": false,
+        "hasLanguageSpecificContent": false,
+        "seoOptimized": false,
+        "performanceGrade": "A"
+      },
+      "issues": [
+        {
+          "type": "error",
+          "message": "Validation error: Missing Supabase environment variables",
+          "impact": "high"
+        }
+      ]
+    },
+    {
+      "tourSlug": "muizenberg-beach",
+      "locale": "es",
+      "status": "FAIL",
+      "score": 0,
+      "metrics": {
+        "loadTime": 0,
+        "reviewsCount": 0,
+        "averageRating": 0,
+        "hasValidContent": false,
+        "hasLanguageSpecificContent": false,
+        "seoOptimized": false,
+        "performanceGrade": "A"
+      },
+      "issues": [
+        {
+          "type": "error",
+          "message": "Validation error: Missing Supabase environment variables",
+          "impact": "high"
+        }
+      ]
+    },
+    {
+      "tourSlug": "muizenberg-beach",
+      "locale": "ar",
+      "status": "FAIL",
+      "score": 0,
+      "metrics": {
+        "loadTime": 0,
+        "reviewsCount": 0,
+        "averageRating": 0,
+        "hasValidContent": false,
+        "hasLanguageSpecificContent": false,
+        "seoOptimized": false,
+        "performanceGrade": "A"
+      },
+      "issues": [
+        {
+          "type": "error",
+          "message": "Validation error: Missing Supabase environment variables",
+          "impact": "high"
+        }
+      ]
+    },
+    {
+      "tourSlug": "sea-point-promenade",
+      "locale": "en",
+      "status": "FAIL",
+      "score": 0,
+      "metrics": {
+        "loadTime": 0,
+        "reviewsCount": 0,
+        "averageRating": 0,
+        "hasValidContent": false,
+        "hasLanguageSpecificContent": false,
+        "seoOptimized": false,
+        "performanceGrade": "A"
+      },
+      "issues": [
+        {
+          "type": "error",
+          "message": "Validation error: Missing Supabase environment variables",
+          "impact": "high"
+        }
+      ]
+    },
+    {
+      "tourSlug": "sea-point-promenade",
+      "locale": "de",
+      "status": "FAIL",
+      "score": 0,
+      "metrics": {
+        "loadTime": 0,
+        "reviewsCount": 0,
+        "averageRating": 0,
+        "hasValidContent": false,
+        "hasLanguageSpecificContent": false,
+        "seoOptimized": false,
+        "performanceGrade": "A"
+      },
+      "issues": [
+        {
+          "type": "error",
+          "message": "Validation error: Missing Supabase environment variables",
+          "impact": "high"
+        }
+      ]
+    },
+    {
+      "tourSlug": "sea-point-promenade",
+      "locale": "fr",
+      "status": "FAIL",
+      "score": 0,
+      "metrics": {
+        "loadTime": 0,
+        "reviewsCount": 0,
+        "averageRating": 0,
+        "hasValidContent": false,
+        "hasLanguageSpecificContent": false,
+        "seoOptimized": false,
+        "performanceGrade": "A"
+      },
+      "issues": [
+        {
+          "type": "error",
+          "message": "Validation error: Missing Supabase environment variables",
+          "impact": "high"
+        }
+      ]
+    },
+    {
+      "tourSlug": "sea-point-promenade",
+      "locale": "es",
+      "status": "FAIL",
+      "score": 0,
+      "metrics": {
+        "loadTime": 0,
+        "reviewsCount": 0,
+        "averageRating": 0,
+        "hasValidContent": false,
+        "hasLanguageSpecificContent": false,
+        "seoOptimized": false,
+        "performanceGrade": "A"
+      },
+      "issues": [
+        {
+          "type": "error",
+          "message": "Validation error: Missing Supabase environment variables",
+          "impact": "high"
+        }
+      ]
+    },
+    {
+      "tourSlug": "sea-point-promenade",
+      "locale": "ar",
+      "status": "FAIL",
+      "score": 0,
+      "metrics": {
+        "loadTime": 0,
+        "reviewsCount": 0,
+        "averageRating": 0,
+        "hasValidContent": false,
+        "hasLanguageSpecificContent": false,
+        "seoOptimized": false,
+        "performanceGrade": "A"
+      },
+      "issues": [
+        {
+          "type": "error",
+          "message": "Validation error: Missing Supabase environment variables",
+          "impact": "high"
+        }
+      ]
+    },
+    {
+      "tourSlug": "shark-cage-diving-gansbaai",
+      "locale": "en",
+      "status": "FAIL",
+      "score": 0,
+      "metrics": {
+        "loadTime": 0,
+        "reviewsCount": 0,
+        "averageRating": 0,
+        "hasValidContent": false,
+        "hasLanguageSpecificContent": false,
+        "seoOptimized": false,
+        "performanceGrade": "A"
+      },
+      "issues": [
+        {
+          "type": "error",
+          "message": "Validation error: Missing Supabase environment variables",
+          "impact": "high"
+        }
+      ]
+    },
+    {
+      "tourSlug": "shark-cage-diving-gansbaai",
+      "locale": "de",
+      "status": "FAIL",
+      "score": 0,
+      "metrics": {
+        "loadTime": 0,
+        "reviewsCount": 0,
+        "averageRating": 0,
+        "hasValidContent": false,
+        "hasLanguageSpecificContent": false,
+        "seoOptimized": false,
+        "performanceGrade": "A"
+      },
+      "issues": [
+        {
+          "type": "error",
+          "message": "Validation error: Missing Supabase environment variables",
+          "impact": "high"
+        }
+      ]
+    },
+    {
+      "tourSlug": "shark-cage-diving-gansbaai",
+      "locale": "fr",
+      "status": "FAIL",
+      "score": 0,
+      "metrics": {
+        "loadTime": 0,
+        "reviewsCount": 0,
+        "averageRating": 0,
+        "hasValidContent": false,
+        "hasLanguageSpecificContent": false,
+        "seoOptimized": false,
+        "performanceGrade": "A"
+      },
+      "issues": [
+        {
+          "type": "error",
+          "message": "Validation error: Missing Supabase environment variables",
+          "impact": "high"
+        }
+      ]
+    },
+    {
+      "tourSlug": "shark-cage-diving-gansbaai",
+      "locale": "es",
+      "status": "FAIL",
+      "score": 0,
+      "metrics": {
+        "loadTime": 0,
+        "reviewsCount": 0,
+        "averageRating": 0,
+        "hasValidContent": false,
+        "hasLanguageSpecificContent": false,
+        "seoOptimized": false,
+        "performanceGrade": "A"
+      },
+      "issues": [
+        {
+          "type": "error",
+          "message": "Validation error: Missing Supabase environment variables",
+          "impact": "high"
+        }
+      ]
+    },
+    {
+      "tourSlug": "shark-cage-diving-gansbaai",
+      "locale": "ar",
+      "status": "FAIL",
+      "score": 0,
+      "metrics": {
+        "loadTime": 0,
+        "reviewsCount": 0,
+        "averageRating": 0,
+        "hasValidContent": false,
+        "hasLanguageSpecificContent": false,
+        "seoOptimized": false,
+        "performanceGrade": "A"
+      },
+      "issues": [
+        {
+          "type": "error",
+          "message": "Validation error: Missing Supabase environment variables",
+          "impact": "high"
+        }
+      ]
+    },
+    {
+      "tourSlug": "simon-s-town",
+      "locale": "en",
+      "status": "FAIL",
+      "score": 0,
+      "metrics": {
+        "loadTime": 0,
+        "reviewsCount": 0,
+        "averageRating": 0,
+        "hasValidContent": false,
+        "hasLanguageSpecificContent": false,
+        "seoOptimized": false,
+        "performanceGrade": "A"
+      },
+      "issues": [
+        {
+          "type": "error",
+          "message": "Validation error: Missing Supabase environment variables",
+          "impact": "high"
+        }
+      ]
+    },
+    {
+      "tourSlug": "simon-s-town",
+      "locale": "de",
+      "status": "FAIL",
+      "score": 0,
+      "metrics": {
+        "loadTime": 0,
+        "reviewsCount": 0,
+        "averageRating": 0,
+        "hasValidContent": false,
+        "hasLanguageSpecificContent": false,
+        "seoOptimized": false,
+        "performanceGrade": "A"
+      },
+      "issues": [
+        {
+          "type": "error",
+          "message": "Validation error: Missing Supabase environment variables",
+          "impact": "high"
+        }
+      ]
+    },
+    {
+      "tourSlug": "simon-s-town",
+      "locale": "fr",
+      "status": "FAIL",
+      "score": 0,
+      "metrics": {
+        "loadTime": 0,
+        "reviewsCount": 0,
+        "averageRating": 0,
+        "hasValidContent": false,
+        "hasLanguageSpecificContent": false,
+        "seoOptimized": false,
+        "performanceGrade": "A"
+      },
+      "issues": [
+        {
+          "type": "error",
+          "message": "Validation error: Missing Supabase environment variables",
+          "impact": "high"
+        }
+      ]
+    },
+    {
+      "tourSlug": "simon-s-town",
+      "locale": "es",
+      "status": "FAIL",
+      "score": 0,
+      "metrics": {
+        "loadTime": 0,
+        "reviewsCount": 0,
+        "averageRating": 0,
+        "hasValidContent": false,
+        "hasLanguageSpecificContent": false,
+        "seoOptimized": false,
+        "performanceGrade": "A"
+      },
+      "issues": [
+        {
+          "type": "error",
+          "message": "Validation error: Missing Supabase environment variables",
+          "impact": "high"
+        }
+      ]
+    },
+    {
+      "tourSlug": "simon-s-town",
+      "locale": "ar",
+      "status": "FAIL",
+      "score": 0,
+      "metrics": {
+        "loadTime": 0,
+        "reviewsCount": 0,
+        "averageRating": 0,
+        "hasValidContent": false,
+        "hasLanguageSpecificContent": false,
+        "seoOptimized": false,
+        "performanceGrade": "A"
+      },
+      "issues": [
+        {
+          "type": "error",
+          "message": "Validation error: Missing Supabase environment variables",
+          "impact": "high"
+        }
+      ]
+    },
+    {
+      "tourSlug": "tokara-wine-estate",
+      "locale": "en",
+      "status": "FAIL",
+      "score": 0,
+      "metrics": {
+        "loadTime": 0,
+        "reviewsCount": 0,
+        "averageRating": 0,
+        "hasValidContent": false,
+        "hasLanguageSpecificContent": false,
+        "seoOptimized": false,
+        "performanceGrade": "A"
+      },
+      "issues": [
+        {
+          "type": "error",
+          "message": "Validation error: Missing Supabase environment variables",
+          "impact": "high"
+        }
+      ]
+    },
+    {
+      "tourSlug": "tokara-wine-estate",
+      "locale": "de",
+      "status": "FAIL",
+      "score": 0,
+      "metrics": {
+        "loadTime": 0,
+        "reviewsCount": 0,
+        "averageRating": 0,
+        "hasValidContent": false,
+        "hasLanguageSpecificContent": false,
+        "seoOptimized": false,
+        "performanceGrade": "A"
+      },
+      "issues": [
+        {
+          "type": "error",
+          "message": "Validation error: Missing Supabase environment variables",
+          "impact": "high"
+        }
+      ]
+    },
+    {
+      "tourSlug": "tokara-wine-estate",
+      "locale": "fr",
+      "status": "FAIL",
+      "score": 0,
+      "metrics": {
+        "loadTime": 0,
+        "reviewsCount": 0,
+        "averageRating": 0,
+        "hasValidContent": false,
+        "hasLanguageSpecificContent": false,
+        "seoOptimized": false,
+        "performanceGrade": "A"
+      },
+      "issues": [
+        {
+          "type": "error",
+          "message": "Validation error: Missing Supabase environment variables",
+          "impact": "high"
+        }
+      ]
+    },
+    {
+      "tourSlug": "tokara-wine-estate",
+      "locale": "es",
+      "status": "FAIL",
+      "score": 0,
+      "metrics": {
+        "loadTime": 0,
+        "reviewsCount": 0,
+        "averageRating": 0,
+        "hasValidContent": false,
+        "hasLanguageSpecificContent": false,
+        "seoOptimized": false,
+        "performanceGrade": "A"
+      },
+      "issues": [
+        {
+          "type": "error",
+          "message": "Validation error: Missing Supabase environment variables",
+          "impact": "high"
+        }
+      ]
+    },
+    {
+      "tourSlug": "tokara-wine-estate",
+      "locale": "ar",
+      "status": "FAIL",
+      "score": 0,
+      "metrics": {
+        "loadTime": 0,
+        "reviewsCount": 0,
+        "averageRating": 0,
+        "hasValidContent": false,
+        "hasLanguageSpecificContent": false,
+        "seoOptimized": false,
+        "performanceGrade": "A"
+      },
+      "issues": [
+        {
+          "type": "error",
+          "message": "Validation error: Missing Supabase environment variables",
+          "impact": "high"
+        }
+      ]
+    },
+    {
+      "tourSlug": "v-a-waterfront",
+      "locale": "en",
+      "status": "FAIL",
+      "score": 0,
+      "metrics": {
+        "loadTime": 0,
+        "reviewsCount": 0,
+        "averageRating": 0,
+        "hasValidContent": false,
+        "hasLanguageSpecificContent": false,
+        "seoOptimized": false,
+        "performanceGrade": "A"
+      },
+      "issues": [
+        {
+          "type": "error",
+          "message": "Validation error: Missing Supabase environment variables",
+          "impact": "high"
+        }
+      ]
+    },
+    {
+      "tourSlug": "v-a-waterfront",
+      "locale": "de",
+      "status": "FAIL",
+      "score": 0,
+      "metrics": {
+        "loadTime": 0,
+        "reviewsCount": 0,
+        "averageRating": 0,
+        "hasValidContent": false,
+        "hasLanguageSpecificContent": false,
+        "seoOptimized": false,
+        "performanceGrade": "A"
+      },
+      "issues": [
+        {
+          "type": "error",
+          "message": "Validation error: Missing Supabase environment variables",
+          "impact": "high"
+        }
+      ]
+    },
+    {
+      "tourSlug": "v-a-waterfront",
+      "locale": "fr",
+      "status": "FAIL",
+      "score": 0,
+      "metrics": {
+        "loadTime": 0,
+        "reviewsCount": 0,
+        "averageRating": 0,
+        "hasValidContent": false,
+        "hasLanguageSpecificContent": false,
+        "seoOptimized": false,
+        "performanceGrade": "A"
+      },
+      "issues": [
+        {
+          "type": "error",
+          "message": "Validation error: Missing Supabase environment variables",
+          "impact": "high"
+        }
+      ]
+    },
+    {
+      "tourSlug": "v-a-waterfront",
+      "locale": "es",
+      "status": "FAIL",
+      "score": 0,
+      "metrics": {
+        "loadTime": 0,
+        "reviewsCount": 0,
+        "averageRating": 0,
+        "hasValidContent": false,
+        "hasLanguageSpecificContent": false,
+        "seoOptimized": false,
+        "performanceGrade": "A"
+      },
+      "issues": [
+        {
+          "type": "error",
+          "message": "Validation error: Missing Supabase environment variables",
+          "impact": "high"
+        }
+      ]
+    },
+    {
+      "tourSlug": "v-a-waterfront",
+      "locale": "ar",
+      "status": "FAIL",
+      "score": 0,
+      "metrics": {
+        "loadTime": 0,
+        "reviewsCount": 0,
+        "averageRating": 0,
+        "hasValidContent": false,
+        "hasLanguageSpecificContent": false,
+        "seoOptimized": false,
+        "performanceGrade": "A"
+      },
+      "issues": [
+        {
+          "type": "error",
+          "message": "Validation error: Missing Supabase environment variables",
+          "impact": "high"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "statusDistribution": {
+      "PASS": 0,
+      "FAIL": 105,
+      "WARNING": 0
+    },
+    "languageScores": {
+      "en": 0,
+      "de": 0,
+      "fr": 0,
+      "es": 0,
+      "ar": 0
+    },
+    "tourScores": {
+      "aquila-safari-tour": 0,
+      "atlantis-sand-dunes-adventure": 0,
+      "babylonstoren-wine-estate": 0,
+      "bo-kaap-heritage-quarter": 0,
+      "boulders-beach-penguin-colony": 0,
+      "cape-of-good-hope": 0,
+      "cape-point-lighthouse": 0,
+      "cape-town-paragliding": 0,
+      "cape-town-skydive": 0,
+      "chapman-s-peak-drive": 0,
+      "delaire-graff-estate": 0,
+      "hermanus-whale-watching-tour": 0,
+      "hout-bay-harbour": 0,
+      "inverdoorn-safari-tour": 0,
+      "maiden-s-cove": 0,
+      "muizenberg-beach": 0,
+      "sea-point-promenade": 0,
+      "shark-cage-diving-gansbaai": 0,
+      "simon-s-town": 0,
+      "tokara-wine-estate": 0,
+      "v-a-waterfront": 0
+    },
+    "performanceMetrics": {
+      "averageLoadTime": 0,
+      "fastestTour": "aquila-safari-tour",
+      "slowestTour": "v-a-waterfront",
+      "reviewsCoverage": 0
+    },
+    "recommendations": [
+      "Improve en language reviews (current score: 0%)",
+      "Improve de language reviews (current score: 0%)",
+      "Improve fr language reviews (current score: 0%)",
+      "Improve es language reviews (current score: 0%)",
+      "Improve ar language reviews (current score: 0%)",
+      "Tour 'aquila-safari-tour' needs review improvements (current score: 0%)",
+      "Tour 'atlantis-sand-dunes-adventure' needs review improvements (current score: 0%)",
+      "Tour 'babylonstoren-wine-estate' needs review improvements (current score: 0%)",
+      "Tour 'bo-kaap-heritage-quarter' needs review improvements (current score: 0%)",
+      "Tour 'boulders-beach-penguin-colony' needs review improvements (current score: 0%)",
+      "Tour 'cape-of-good-hope' needs review improvements (current score: 0%)",
+      "Tour 'cape-point-lighthouse' needs review improvements (current score: 0%)",
+      "Tour 'cape-town-paragliding' needs review improvements (current score: 0%)",
+      "Tour 'cape-town-skydive' needs review improvements (current score: 0%)",
+      "Tour 'chapman-s-peak-drive' needs review improvements (current score: 0%)",
+      "Tour 'delaire-graff-estate' needs review improvements (current score: 0%)",
+      "Tour 'hermanus-whale-watching-tour' needs review improvements (current score: 0%)",
+      "Tour 'hout-bay-harbour' needs review improvements (current score: 0%)",
+      "Tour 'inverdoorn-safari-tour' needs review improvements (current score: 0%)",
+      "Tour 'maiden-s-cove' needs review improvements (current score: 0%)",
+      "Tour 'muizenberg-beach' needs review improvements (current score: 0%)",
+      "Tour 'sea-point-promenade' needs review improvements (current score: 0%)",
+      "Tour 'shark-cage-diving-gansbaai' needs review improvements (current score: 0%)",
+      "Tour 'simon-s-town' needs review improvements (current score: 0%)",
+      "Tour 'tokara-wine-estate' needs review improvements (current score: 0%)",
+      "Tour 'v-a-waterfront' needs review improvements (current score: 0%)",
+      "Improve reviews coverage (0% of tours have reviews)",
+      "Address common issue: Validation error: Missing Supabase environment variables (affects 105 test cases)"
+    ]
+  }
+}

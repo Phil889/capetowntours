@@ -1,0 +1,53 @@
+{
+  "homepage": {
+    "testimonials": {
+      "title": "Nehmen Sie nicht nur unser Wort",
+      "reviews": {
+        "sarah": {
+          "text": "Die beste Tour, auf der wir je waren! Unser Guide James war unglaublich wissensreich und machte die ganze Erfahrung unvergesslich. Die private Tour war jeden Cent wert.",
+          "author": "Sarah & Tom, Großbritannien"
+        },
+        "michael": {
+          "text": "Vom einfachen Buchungsprozess bis zur finalen Durchführung war alles reibungslos. Wir sahen die Big 5 und so viel mehr. Empfehle diese Firma wärmstens!",
+          "author": "Michael B, USA"
+        },
+        "anika": {
+          "text": "Eine wirklich magische Erfahrung. Die Liebe zum Detail und die persönlichen Akzente machten unsere Flitterwochen-Safari so besonders. Wir kommen wieder!",
+          "author": "Anika & Rohan, Indien"
+        }
+      }
+    },
+    "howItWorks": {
+      "title": "Ihr Abenteuer in 3 einfachen Schritten",
+      "tagline": "So funktioniert es",
+      "steps": {
+        "choose": {
+          "title": "Wählen Sie Ihr Abenteuer",
+          "description": "Durchstöbern Sie unsere kuratierten Signature-Touren oder erzählen Sie uns von Ihrer Traumreise."
+        },
+        "customize": {
+          "title": "Passen Sie Ihre Reise an",
+          "description": "Wir arbeiten mit Ihnen zusammen, um die Reiseroute, Aktivitäten und das Tempo nach Ihrem Geschmack zu gestalten."
+        },
+        "book": {
+          "title": "Buchen & Freuen Sie sich",
+          "description": "Sichern Sie sich Ihre Termine und machen Sie sich bereit für das private Kapstadt-Abenteuer Ihres Lebens!"
+        }
+      }
+    },
+    "categories": {
+      "title": "Finden Sie Ihren perfekten Rückzugsort",
+      "big5": "Big 5 Safaris",
+      "coastal": "Küsten- & Meerestouren",
+      "winelands": "Weinland & Kulinarisches"
+    }
+  },
+  "tour_detail": {
+    "tour_meeting_point": "Tour-Treffpunkt",
+    "city_atlantic_hotels": "Stadt- & Atlantikhotels",
+    "dec_feb_only": "Nur Dez - Feb; früh buchen",
+    "children_75_percent": "Kinder 4-11 Jahre zu 75%",
+    "step_up_vehicle": "Stufenfahrzeug; begrenzte Steigungen",
+    "refund_7_days": "Erstattung vor 7 Tagen"
+  }
+}

@@ -1,4 +1,5 @@
 // Analytics tracking utility for tour pages
+import { logError, logInfo } from '@/lib/error-logger';
 
 interface AnalyticsEvent {
   name: string;
@@ -167,7 +168,12 @@ class Analytics {
     if (!this.isEnabled) {
       // In development, log to console
       if (process.env.NODE_ENV === "development") {
-        console.log("[Analytics Event]", event);
+        logInfo('Analytics event tracked in development', {
+          component: 'Analytics',
+          function: 'track',
+          eventName: event.name,
+          action: 'development_tracking'
+        });
       }
       return;
     }
@@ -202,7 +208,12 @@ class Analytics {
         },
         body: JSON.stringify(event),
       }).catch((error) => {
-        console.error("Failed to send analytics:", error);
+        logError('Failed to send analytics event to custom endpoint', error, {
+          component: 'Analytics',
+          function: 'sendToService',
+          eventName: event.name,
+          action: 'custom_endpoint_send'
+        });
       });
     }
   }
@@ -223,7 +234,12 @@ class Analytics {
         },
         body: JSON.stringify({ events }),
       }).catch((error) => {
-        console.error("Failed to send analytics batch:", error);
+        logError('Failed to send analytics batch to endpoint', error, {
+          component: 'Analytics',
+          function: 'flushQueue',
+          eventCount: events.length,
+          action: 'batch_send_error'
+        });
         // Re-queue events on failure
         this.queue.unshift(...events);
       });

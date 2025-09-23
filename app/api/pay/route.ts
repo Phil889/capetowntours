@@ -42,7 +42,12 @@ export async function POST(req: NextRequest) {
       });
     } catch (e) {
       // Log but do not block payment
-      console.error("Failed to send confirmation email:", e);
+      logError('Failed to send confirmation email after custom itinerary payment', e, {
+        component: 'PaymentAPI',
+        function: 'POST',
+        customItineraryId,
+        action: 'confirmation_email_send'
+      });
     }
 
     return NextResponse.json({ booking: data });
@@ -68,7 +73,12 @@ export async function POST(req: NextRequest) {
       });
     } catch (e) {
       // Log but do not block payment
-      console.error("Failed to send confirmation email:", e);
+      logError('Failed to send confirmation email after booking payment', e, {
+        component: 'PaymentAPI',
+        function: 'POST',
+        bookingId,
+        action: 'confirmation_email_send'
+      });
     }
 
     return NextResponse.json({ booking: data });

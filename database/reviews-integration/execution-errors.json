@@ -1,0 +1,26 @@
+{"timestamp":"2025-08-24T20:59:25.314Z","message":"Batch 1 failed for en","error":{"message":"Could not find the 'guest_email' column of 'tour_reviews' in the schema cache"},"context":{}}
+{"timestamp":"2025-08-24T20:59:29.060Z","message":"Batch 2 failed for en","error":{"message":"Could not find the 'guest_email' column of 'tour_reviews' in the schema cache"},"context":{}}
+{"timestamp":"2025-08-24T20:59:34.615Z","message":"Batch 1 failed for de","error":{"message":"Could not find the 'guest_email' column of 'tour_reviews' in the schema cache"},"context":{}}
+{"timestamp":"2025-08-24T20:59:39.794Z","message":"Batch 1 failed for fr","error":{"message":"Could not find the 'guest_email' column of 'tour_reviews' in the schema cache"},"context":{}}
+{"timestamp":"2025-08-24T20:59:44.879Z","message":"Batch 1 failed for es","error":{"message":"Could not find the 'guest_email' column of 'tour_reviews' in the schema cache"},"context":{}}
+{"timestamp":"2025-08-24T20:59:50.040Z","message":"Batch 1 failed for ar","error":{"message":"Could not find the 'guest_email' column of 'tour_reviews' in the schema cache"},"context":{}}
+{"timestamp":"2025-08-24T20:59:52.332Z","message":"Data validation failed","error":{"message":"column tour_reviews.guest_name does not exist"},"context":{}}
+{"timestamp":"2025-08-24T20:59:52.333Z","message":"Critical system error","error":{"message":"column tour_reviews.guest_name does not exist"},"context":{}}
+{"timestamp":"2025-08-24T21:00:21.731Z","message":"Batch 1 failed for en","error":{"message":"invalid input syntax for type uuid: \"en-bb-001\""},"context":{}}
+{"timestamp":"2025-08-24T21:00:25.599Z","message":"Batch 2 failed for en","error":{"message":"invalid input syntax for type uuid: \"en-st-003\""},"context":{}}
+{"timestamp":"2025-08-24T21:00:31.218Z","message":"Batch 1 failed for de","error":{"message":"invalid input syntax for type uuid: \"de-bb-001\""},"context":{}}
+{"timestamp":"2025-08-24T21:00:36.471Z","message":"Batch 1 failed for fr","error":{"message":"invalid input syntax for type uuid: \"fr-bb-001\""},"context":{}}
+{"timestamp":"2025-08-24T21:00:41.788Z","message":"Batch 1 failed for es","error":{"message":"invalid input syntax for type uuid: \"es-bb-001\""},"context":{}}
+{"timestamp":"2025-08-24T21:00:47.387Z","message":"Batch 1 failed for ar","error":{"message":"invalid input syntax for type uuid: \"ar-bb-001\""},"context":{}}
+{"timestamp":"2025-08-24T21:01:44.882Z","message":"Failed to check existing reviews for en","error":{"message":"column tour_reviews.locale does not exist"},"context":{}}
+{"timestamp":"2025-08-24T21:01:44.883Z","message":"Critical error for language en","error":{"message":"column tour_reviews.locale does not exist"},"context":{}}
+{"timestamp":"2025-08-24T21:01:46.153Z","message":"Failed to check existing reviews for de","error":{"message":"column tour_reviews.locale does not exist"},"context":{}}
+{"timestamp":"2025-08-24T21:01:46.154Z","message":"Critical error for language de","error":{"message":"column tour_reviews.locale does not exist"},"context":{}}
+{"timestamp":"2025-08-24T21:01:47.403Z","message":"Failed to check existing reviews for fr","error":{"message":"column tour_reviews.locale does not exist"},"context":{}}
+{"timestamp":"2025-08-24T21:01:47.404Z","message":"Critical error for language fr","error":{"message":"column tour_reviews.locale does not exist"},"context":{}}
+{"timestamp":"2025-08-24T21:01:48.672Z","message":"Failed to check existing reviews for es","error":{"message":"column tour_reviews.locale does not exist"},"context":{}}
+{"timestamp":"2025-08-24T21:01:48.672Z","message":"Critical error for language es","error":{"message":"column tour_reviews.locale does not exist"},"context":{}}
+{"timestamp":"2025-08-24T21:01:50.235Z","message":"Failed to check existing reviews for ar","error":{"message":"column tour_reviews.locale does not exist"},"context":{}}
+{"timestamp":"2025-08-24T21:01:50.236Z","message":"Critical error for language ar","error":{"message":"column tour_reviews.locale does not exist"},"context":{}}
+{"timestamp":"2025-08-24T21:01:51.550Z","message":"Data validation failed","error":{"message":"column tour_reviews.locale does not exist"},"context":{}}
+{"timestamp":"2025-08-24T21:01:51.551Z","message":"Critical system error","error":{"message":"column tour_reviews.locale does not exist"},"context":{}}

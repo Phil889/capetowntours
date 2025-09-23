@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { X, Calendar, Users, Clock, MapPin } from "lucide-react";
 import PremiumBookingWidget from "./PremiumBookingWidget";
+import { useTranslations } from "@/lib/i18n/hooks";
 
 interface MobileBookingSheetProps {
   tourId: string;
@@ -13,10 +14,21 @@ interface MobileBookingSheetProps {
   departureTime?: string;
   pickup?: string;
   reviewSnippet?: string;
+  translations?: {
+    booking?: {
+      from?: string;
+      per_person?: string;
+      check_availability?: string;
+      max?: string;
+      book_your_tour?: string;
+    };
+  };
 }
 
 export default function MobileBookingSheet(props: MobileBookingSheetProps) {
+  const { translations } = props;
   const [isOpen, setIsOpen] = useState(false);
+  const { t } = useTranslations('booking');
 
   return (
     <>
@@ -25,10 +37,10 @@ export default function MobileBookingSheet(props: MobileBookingSheetProps) {
         <div className="px-4 py-3">
           <div className="flex items-center justify-between mb-2">
             <div>
-              <p className="text-sm text-gray-600">From</p>
+              <p className="text-sm text-gray-600">{translations?.booking?.from || t('from')}</p>
               <p className="text-2xl font-bold text-gray-900">
                 R{props.price.toLocaleString()}
-                <span className="text-sm font-normal text-gray-600 ml-1">per person</span>
+                <span className="text-sm font-normal text-gray-600 ml-1">{translations?.booking?.per_person || t('per_person')}</span>
               </p>
             </div>
             <button
@@ -36,7 +48,7 @@ export default function MobileBookingSheet(props: MobileBookingSheetProps) {
               className="px-6 py-3 bg-amber-600 text-white rounded-lg font-semibold hover:bg-amber-700 transition-colors shadow-md"
               aria-label="Open booking form"
             >
-              Check Availability
+              {translations?.booking?.check_availability || t('check_availability')}
             </button>
           </div>
           
@@ -51,7 +63,7 @@ export default function MobileBookingSheet(props: MobileBookingSheetProps) {
             {props.groupSize && (
               <div className="flex items-center gap-1 text-xs text-gray-600 bg-gray-100 px-2 py-1 rounded-full whitespace-nowrap">
                 <Users className="w-3 h-3" />
-                Max {props.groupSize}
+                {translations?.booking?.max || t('max')} {props.groupSize}
               </div>
             )}
             {props.pickup && (
@@ -68,14 +80,14 @@ export default function MobileBookingSheet(props: MobileBookingSheetProps) {
       {isOpen && (
         <>
           {/* Backdrop */}
-          <div 
+          <div
             className="lg:hidden fixed inset-0 bg-black bg-opacity-50 z-50"
             onClick={() => setIsOpen(false)}
             aria-hidden="true"
           />
           
           {/* Bottom sheet */}
-          <div 
+          <div
             className={`lg:hidden fixed bottom-0 left-0 right-0 z-50 bg-white rounded-t-3xl shadow-2xl transition-transform duration-300 ${
               isOpen ? 'translate-y-0' : 'translate-y-full'
             }`}
@@ -88,7 +100,7 @@ export default function MobileBookingSheet(props: MobileBookingSheetProps) {
             
             {/* Header */}
             <div className="flex items-center justify-between px-4 pb-2 border-b border-gray-200">
-              <h3 className="text-lg font-semibold text-gray-900">Book Your Tour</h3>
+              <h3 className="text-lg font-semibold text-gray-900">{translations?.booking?.book_your_tour || t('book_your_tour')}</h3>
               <button
                 onClick={() => setIsOpen(false)}
                 className="p-2 hover:bg-gray-100 rounded-full transition-colors"

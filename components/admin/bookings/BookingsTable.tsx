@@ -56,6 +56,7 @@ import {
 import { EnhancedBooking, BookingFilter } from "@/types/booking-management";
 import { format, formatDistanceToNow } from "date-fns";
 import { cn } from "@/lib/utils";
+import { logInfo } from "@/lib/error-logger";
 
 interface BookingsTableProps {
   bookings: EnhancedBooking[];
@@ -516,7 +517,12 @@ export default function BookingsTable({
                           if (data.success) {
                             alert(`Invoice generated successfully! Invoice #${data.data.invoice_number}`);
                             // You can open a PDF preview or download here
-                            console.log("Invoice data:", data.data);
+                            logInfo('Invoice generated successfully', {
+                              component: 'BookingsTable',
+                              function: 'generateInvoiceAction',
+                              bookingId: booking.id,
+                              invoiceData: data.data
+                            });
                           } else {
                             alert(`Error: ${data.error}`);
                           }

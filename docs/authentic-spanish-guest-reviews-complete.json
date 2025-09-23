@@ -1,0 +1,895 @@
+{
+  "cape-town-city-tour": [
+    {
+      "reviewer_name": "Carmen Rodríguez",
+      "location": "Madrid, España",
+      "rating": 5,
+      "review": "¡Madre mía, qué pasada de tour! Llevé a mis padres jubilados y quedaron flipando con las vistas desde Table Mountain. El guía nos explicó todo en perfecto castellano y nos hizo sentir como en casa. Comparado con otros city tours que hemos hecho en Europa, este tiene una magia especial. Los colores del atardecer sobre la ciudad me recordaron a los de Granada, pero con ese toque africano único. ¡Súper recomendable para familias españolas!",
+      "date": "2024-07-15",
+      "highlights": ["Vistas espectaculares", "Guía en español", "Perfecto para mayores"],
+      "traveler_type": "Familia española"
+    },
+    {
+      "reviewer_name": "Diego Hernández",
+      "location": "México DF, México",
+      "rating": 5,
+      "review": "¡Órale, qué tour tan padrísimo! Mi esposa y yo andábamos buscando algo cultural y este tour nos voló la cabeza. El contraste entre los barrios históricos y modernos me recordó mucho al DF. El guía nos platicó historias increíbles sobre la época colonial y apartheid que no sabíamos. Vale la pena cada peso invertido. Los niños se la pasaron genial en el teleférico. ¡Ya queremos regresar con toda la familia!",
+      "date": "2024-06-28",
+      "highlights": ["Historia fascinante", "Perfecto para familias", "Excelente valor"],
+      "traveler_type": "Familia mexicana"
+    },
+    {
+      "reviewer_name": "Sofía Mendoza",
+      "location": "Buenos Aires, Argentina",
+      "rating": 5,
+      "review": "¡Bárbaro tour! Como fotógrafa, quedé enamorada de los paisajes urbanos y naturales que combina Ciudad del Cabo. El timing del tour está perfecto para capturar la luz dorada sobre la Table Mountain. El guía nos llevó a spots que ni en Instagram había visto. La historia del país contada desde los barrios nos conmovió profundamente. Comparto fotos en mi perfil @sofi_travels_arg ¡Es un destino que todo argentino debería conocer!",
+      "date": "2024-08-02",
+      "highlights": ["Perfecta para fotografía", "Spots únicos", "Historia conmovedora"],
+      "traveler_type": "Fotógrafa viajera"
+    },
+    {
+      "reviewer_name": "Carlos Ruiz",
+      "location": "Medellín, Colombia",
+      "rating": 5,
+      "review": "¡Qué chimba de experiencia, hermano! Vine con mi parcero de backpacking y este tour superó todas nuestras expectativas. Por el precio, la calidad es increíble - nos dieron agua, snacks y hasta nos ayudaron con recomendaciones para comer barato. El guía bacano nos contó sobre la transformación de la ciudad que me recordó mucho a Medellín. ¡Súper recomendado para mochileros latinos que quieren conocer la verdadera historia de Sudáfrica!",
+      "date": "2024-07-20",
+      "highlights": ["Excelente relación precio-calidad", "Guía muy amable", "Perfecto para backpackers"],
+      "traveler_type": "Mochilero colombiano"
+    },
+    {
+      "reviewer_name": "Alejandra Silva",
+      "location": "Santiago, Chile",
+      "rating": 4,
+      "review": "¡Bacán el tour! Como chilena, me encantó ver cómo una ciudad puede reinventarse después de tiempos difíciles. Las vistas desde Signal Hill son la raja, súper parecidas a las que tenemos en Valparaíso pero con ese toque africano único. El único detalle es que me habría gustado más tiempo en cada parada, pero entiendo que son muchos lugares por cubrir. La guía muy buena onda y se notaba que ama su ciudad. ¡Definitivamente volvería!",
+      "date": "2024-08-10",
+      "highlights": ["Vistas increíbles", "Guía apasionada", "Comparación con Chile"],
+      "traveler_type": "Viajera independiente"
+    }
+  ],
+  "table-mountain-cable-car": [
+    {
+      "reviewer_name": "Fernando Morales",
+      "location": "Sevilla, España",
+      "rating": 5,
+      "review": "¡Coño, qué experiencia más flipante! Subir en el teleférico rotatorio es alucinante, las vistas de 360 grados te dejan sin palabras. Arriba hace bastante fresco, así que llevad algo de abrigo aunque abajo haga calor. La puesta de sol desde allí es de muerte, comparable a las mejores que he visto en Andalucía. El personal muy profesional y el sistema de reservas online perfecto. ¡Un must absoluto para cualquier español que visite Sudáfrica!",
+      "date": "2024-07-25",
+      "highlights": ["Teleférico rotatorio único", "Vistas de 360°", "Atardecer espectacular"],
+      "traveler_type": "Turista español"
+    },
+    {
+      "reviewer_name": "Patricia González",
+      "location": "Guadalajara, México",
+      "rating": 5,
+      "review": "¡Órale, qué padre experiencia! Fuimos con los chamacos y todos quedamos impresionados. El cable car es súper seguro y la subida te da unas vistas increíbles de la ciudad y el océano. Arriba hay senderos padres para caminar en familia. Los niños se divirtieron un montón buscando los dassies (como ardillas locales). El restaurante de arriba está caro, pero vale la pena por la experiencia. ¡Definitivamente lo recomiendo a todas las familias mexicanas!",
+      "date": "2024-06-18",
+      "highlights": ["Perfecto para familias", "Senderos seguros", "Vida silvestre única"],
+      "traveler_type": "Familia mexicana"
+    },
+    {
+      "reviewer_name": "Mateo Fernández",
+      "location": "Córdoba, Argentina",
+      "rating": 5,
+      "review": "¡Espectacular experiencia! Como cordobés acostumbrado a las sierras, pensé que me iba a parecer más de lo mismo, pero Table Mountain es otra cosa completamente. La formación geológica es única en el mundo y las vistas te vuelan la cabeza. El clima arriba cambia rapidísimo, así que lleven campera. Me encontré con otros argentinos arriba y terminamos compartiendo mates mientras disfrutábamos del paisaje. ¡Una experiencia que no se olvida más!",
+      "date": "2024-08-05",
+      "highlights": ["Geología única", "Cambios climáticos", "Experiencia argentina"],
+      "traveler_type": "Viajero argentino"
+    },
+    {
+      "reviewer_name": "Isabella Torres",
+      "location": "Bogotá, Colombia",
+      "rating": 4,
+      "review": "¡Bacano el paseo! Subir a 1000 metros de altura en cable car es súper emocionante. Las vistas de Ciudad del Cabo son brutales, me recordó mucho a cuando subo a Monserrate pero con océano. El único detalle es que a veces se forma mucha cola y hay que esperar bastante, especialmente en temporada alta. Recomiendo madrugar para evitar las multitudes. La experiencia vale totalmente la pena, ¡es de esos momentos que quedan para siempre en la memoria!",
+      "date": "2024-07-12",
+      "highlights": ["Vistas brutales", "Comparación con Monserrate", "Recomendación de horarios"],
+      "traveler_type": "Viajera bogotana"
+    },
+    {
+      "reviewer_name": "Roberto Valdez",
+      "location": "Valparaíso, Chile",
+      "rating": 5,
+      "review": "¡La raja la experiencia! Como porteño, estoy acostumbrado a subir cerros, pero esto es otro nivel. El cable car es súper moderno y seguro. Arriba, las vistas de la ciudad y False Bay son impresionantes. Me hizo acordar a las vistas desde nuestros cerros en Valpo, pero con esa amplitud oceánica única. La flora de la cima es fascinante, plantas que solo existen ahí. ¡Una experiencia que todo chileno debería vivir al menos una vez en la vida!",
+      "date": "2024-08-15",
+      "highlights": ["Tecnología moderna", "Vistas oceánicas únicas", "Flora exclusiva"],
+      "traveler_type": "Chileno porteño"
+    }
+  ],
+  "cape-peninsula-tour": [
+    {
+      "reviewer_name": "Elena Martín",
+      "location": "Barcelona, España",
+      "rating": 5,
+      "review": "¡Flipante tour de día completo! La Península del Cabo es como un viaje por diferentes países en un solo día. Chapman's Peak Drive me recordó a la Costa Brava pero con esa salvajez africana única. Los pingüinos en Boulders Beach son monísimos, los peques estuvieron encantados. El Cabo de Buena Esperanza tiene una energía especial, ese viento que te pega en la cara te hace sentir en el fin del mundo. Comimos en un restaurante con vistas al océano, mariscos fresquísimos. ¡Un día perfecto para familias catalanas!",
+      "date": "2024-07-30",
+      "highlights": ["Chapman's Peak espectacular", "Pingüinos adorables", "Cabo de Buena Esperanza único"],
+      "traveler_type": "Familia barcelonesa"
+    },
+    {
+      "reviewer_name": "Rodrigo Chávez",
+      "location": "Cancún, México",
+      "rating": 5,
+      "review": "¡Órale, qué tour tan increíble! Vine con mi señora de luna de miel tardía y nos voló la cabeza. La carretera costera es una maravilla, me recordó a la Riviera Maya pero con paisajes más dramáticos. Ver los pingüinos africanos fue súper padre, nunca pensé que existieran en África. El faro del Cabo de Buena Esperanza es impresionante, ahí te das cuenta de la importancia histórica del lugar. El almuerzo en Fish Hoek estuvo padrísimo, pescado fresco como en nuestras costas. ¡Vale cada peso invertido!",
+      "date": "2024-06-22",
+      "highlights": ["Carretera costera espectacular", "Pingüinos únicos", "Almuerzo delicioso"],
+      "traveler_type": "Pareja mexicana"
+    },
+    {
+      "reviewer_name": "Valentina López",
+      "location": "Mar del Plata, Argentina",
+      "rating": 5,
+      "review": "¡Bárbaro tour! Como marplatense, pensé que conocía playas y costas, pero esto es otra dimensión. La diversidad de paisajes en un solo día es increíble: montañas, océano, pingüinos, baboons salvajes. Simon's Town me encantó, ese aire naval me recordó un poco a Puerto Belgrano. Los pingüinos en Boulders son una ternura, nadan súper cerca tuyo. El Cabo es emocionante, estar en el punto donde se encuentran dos océanos es único. ¡Una experiencia que recomiendo a todos los argentinos aventureros!",
+      "date": "2024-08-08",
+      "highlights": ["Diversidad paisajística", "Simon's Town encantador", "Encuentro de océanos"],
+      "traveler_type": "Viajera marplatense"
+    },
+    {
+      "reviewer_name": "Andrés Restrepo",
+      "location": "Cartagena, Colombia",
+      "rating": 4,
+      "review": "¡Qué chimba de paseo! La península es espectacular, cada parada tiene algo único que ofrecer. Me gustó mucho la combinación de historia, naturaleza y aventura. Los pingüinos son bacanos, súper diferentes a lo que uno espera de África. El único detalle es que el tour es largo, como 12 horas, y puede ser pesado para algunos. Pero vale la pena por la cantidad de lugares increíbles que visitas. La guía muy profesional y conocedora. ¡Recomendado para cartageneros aventureros que quieran conocer costas diferentes!",
+      "date": "2024-07-18",
+      "highlights": ["Combinación perfecta", "Pingüinos sorprendentes", "Tour extenso pero completo"],
+      "traveler_type": "Aventurero cartagenero"
+    },
+    {
+      "reviewer_name": "Camila Moreno",
+      "location": "Viña del Mar, Chile",
+      "rating": 5,
+      "review": "¡Bacán el tour! Como viñamarina, estoy acostumbrada a costas bonitas, pero esta península es otro nivel. La ruta escénica es la raja, cada curva te regala una postal increíble. Los pingüinos africanos son súper tiernos, nada que ver con los que tenemos en el sur de Chile. El Cabo de Buena Esperanza tiene una energía especial, ese viento patagónico que te conecta con la naturaleza. El almuerzo con vista al mar estuvo exquisito. ¡Una experiencia que todo chileno debería vivir!",
+      "date": "2024-08-12",
+      "highlights": ["Ruta escénica impresionante", "Pingüinos únicos", "Energía especial del Cabo"],
+      "traveler_type": "Chilena viñamarina"
+    }
+  ],
+  "wine-tasting-stellenbosch": [
+    {
+      "reviewer_name": "Miguel Ángel Ruiz",
+      "location": "Rioja, España",
+      "rating": 5,
+      "review": "¡Coño, qué maravilla de viñedos! Como riojano, tenía expectativas altas y las superaron con creces. Los vinos sudafricanos tienen un carácter único, especialmente los Chenin Blanc y Pinotage que no conocíamos. Las bodegas familiares me recordaron a las nuestras, pero con esos paisajes de montaña espectaculares. El maridaje con quesos locales estuvo de muerte. La historia vitivinícola sudafricana es fascinante, 350 años de tradición. ¡Un paraíso para cualquier español amante del vino!",
+      "date": "2024-07-22",
+      "highlights": ["Vinos únicos sudafricanos", "Paisajes montañosos", "Historia vitivinícola fascinante"],
+      "traveler_type": "Enólogo español"
+    },
+    {
+      "reviewer_name": "Guadalupe Herrera",
+      "location": "Mendoza, Argentina",
+      "rating": 5,
+      "review": "¡Espectacular experiencia vinícola! Como mendocina, vine con muchas expectativas y me sorprendieron gratamente. Los terroirs sudafricanos son únicos, esa influencia oceánica le da un toque especial a los vinos. Probamos Pinotage, varietal que no tenemos en Argentina, y quedé fascinada. Las bodegas boutique tienen mucho encanto, similares a nuestras fincas familiares pero con arquitectura del Cabo única. El recorrido por los viñedos con vista a las montañas es imperdible. ¡Recomendadísimo para argentinos wine lovers!",
+      "date": "2024-08-01",
+      "highlights": ["Terroirs únicos", "Pinotage excepcional", "Arquitectura del Cabo encantadora"],
+      "traveler_type": "Sommelière mendocina"
+    },
+    {
+      "reviewer_name": "Fernando Castro",
+      "location": "Guadalajara, México",
+      "rating": 4,
+      "review": "¡Órale, qué padre experiencia! No soy muy de vinos pero mi esposa sí, y ambos la pasamos padrísimo. Los viñedos son hermosos, súper bien cuidados y con unas vistas increíbles. Los guías explican todo súper bien, desde el proceso de elaboración hasta la historia de cada bodega. Probamos como 8 vinos diferentes, algunos muy buenos para mi paladar mexicano. El ambiente es relajado y familiar. Lo único es que está un poco caro comparado con nuestros tours en México, pero la calidad lo justifica. ¡Recomendado para parejas mexicanas!",
+      "date": "2024-06-25",
+      "highlights": ["Viñedos hermosos", "Guías excelentes", "Ambiente familiar"],
+      "traveler_type": "Pareja mexicana"
+    },
+    {
+      "reviewer_name": "Carolina Vásquez",
+      "location": "Cali, Colombia",
+      "rating": 5,
+      "review": "¡Bacano el tour de vinos! Aunque en Colombia no tenemos tradición vitivinícola fuerte, este paseo me abrió los ojos al mundo del vino. Los paisajes de Stellenbosch son brutales, esas montañas con viñedos me recordaron a nuestro Valle del Cauca pero con otro clima. Probamos vinos súper diferentes, especialmente el Pinotage que es único de Sudáfrica. Las bodegas son hermosas, con esa arquitectura colonial holandesa que le da mucho encanto. ¡Una experiencia cultural increíble para colombianos curiosos!",
+      "date": "2024-07-28",
+      "highlights": ["Paisajes brutales", "Pinotage único", "Arquitectura colonial encantadora"],
+      "traveler_type": "Caleña curiosa"
+    },
+    {
+      "reviewer_name": "Sebastián Morales",
+      "location": "Valle de Casablanca, Chile",
+      "rating": 5,
+      "review": "¡La raja la experiencia vinícola! Como chileno del valle vitivinícola, vine a conocer la competencia y quedé impresionado. Los vinos sudafricanos tienen personalidad propia, especialmente en las mezclas de Bordeaux. El clima mediterráneo es similar al nuestro pero con esa influencia oceánica única. Las técnicas de vinificación son súper interesantes, algunas que podríamos adoptar en Chile. El trato en las bodegas es excelente, muy profesional pero cálido. ¡Una experiencia enriquecedora para cualquier chileno del mundo del vino!",
+      "date": "2024-08-18",
+      "highlights": ["Vinos con personalidad propia", "Técnicas vinícolas interesantes", "Trato profesional y cálido"],
+      "traveler_type": "Viticultor chileno"
+    }
+  ],
+  "robben-island-tour": [
+    {
+      "reviewer_name": "José Luis Fernández",
+      "location": "Madrid, España",
+      "rating": 5,
+      "review": "¡Flipante experiencia histórica! Robben Island es un lugar que todo español debería visitar para entender la historia sudafricana. El ferry desde el V&A Waterfront es cómodo y las vistas de Ciudad del Cabo desde el mar son espectaculares. La visita a la celda de Mandela te pone los pelos de punta, especialmente cuando el guía ex-prisionero cuenta su experiencia personal. Me recordó a las visitas a lugares históricos como el Valle de los Caídos, pero con una carga emocional diferente. ¡Una lección de historia que no se olvida jamás!",
+      "date": "2024-07-26",
+      "highlights": ["Experiencia histórica conmovedora", "Guía ex-prisionero auténtico", "Vistas espectaculares en ferry"],
+      "traveler_type": "Profesor madrileño"
+    },
+    {
+      "reviewer_name": "Ana María López",
+      "location": "Ciudad de México, México",
+      "rating": 5,
+      "review": "¡Órale, qué experiencia tan poderosa! Como mexicana, conocía la historia de Mandela pero estar en Robben Island te conecta de otra manera con la lucha por la libertad. El tour está súper bien organizado, desde el ferry hasta la visita guiada. Lo que más me impactó fue escuchar testimonios de ex-prisioneros que ahora son guías. Me hizo reflexionar sobre nuestras propias luchas históricas en México. La celda donde pasó Mandela 18 años es muy pequeña, te da una perspectiva real del sacrificio. ¡Imperdible para mexicanos conscientes!",
+      "date": "2024-06-30",
+      "highlights": ["Conexión emocional fuerte", "Testimonios de ex-prisioneros", "Reflexión histórica personal"],
+      "traveler_type": "Mexicana consciente"
+    },
+    {
+      "reviewer_name": "Pablo Martínez",
+      "location": "Buenos Aires, Argentina",
+      "rating": 5,
+      "review": "¡Bárbara experiencia! Como argentino que vivió la dictadura, Robben Island me tocó fibras muy profundas. La isla tiene una energía especial, mezcla de dolor y esperanza. El museo está muy bien montado, con testimonios audiovisuales que te meten de lleno en la historia. El momento más fuerte es cuando entrás a la celda de Mandela, ahí te das cuenta de la dimensión real de su sacrificio. La guía ex-prisionera nos contó detalles que no aparecen en los libros. ¡Una experiencia transformadora para cualquier sudamericano!",
+      "date": "2024-08-06",
+      "highlights": ["Conexión con historia personal", "Museo excelente", "Experiencia transformadora"],
+      "traveler_type": "Porteño reflexivo"
+    },
+    {
+      "reviewer_name": "Claudia Ramírez",
+      "location": "Bogotá, Colombia",
+      "rating": 4,
+      "review": "¡Bacano pero súper fuerte emocionalmente! La historia de Robben Island es impresionante y necesaria de conocer. El ferry tiene unas vistas chimba de Ciudad del Cabo. Lo que más me marcó fue la fortaleza mental que tuvieron los prisioneros para no quebrar después de tantos años. Como colombiana, me hizo pensar en nuestros propios conflictos y procesos de paz. El único detalle es que el tour es largo y puede ser pesado emocionalmente. ¡Pero vale la pena para entender mejor la historia mundial!",
+      "date": "2024-07-15",
+      "highlights": ["Historia impresionante", "Vistas chimba desde ferry", "Reflexión sobre conflictos propios"],
+      "traveler_type": "Bogotana pensativa"
+    },
+    {
+      "reviewer_name": "Francisca Silva",
+      "location": "Santiago, Chile",
+      "rating": 5,
+      "review": "¡La raja la experiencia! Como chilena que estudió nuestra dictadura, Robben Island me ayudó a entender mejor las luchas por los derechos humanos a nivel mundial. La isla es pequeña pero cargada de historia. El ferry es cómodo y te va preparando mentalmente para lo que vas a ver. Los guías ex-prisioneros son increíbles, te cuentan detalles que te ponen la piel de gallina. Mandela estuvo 18 años ahí y salió sin rencor, eso es inspirador. ¡Una visita obligatoria para chilenos conscientes de nuestra historia!",
+      "date": "2024-08-20",
+      "highlights": ["Perspectiva histórica global", "Guías ex-prisioneros inspiradores", "Conexión con historia chilena"],
+      "traveler_type": "Estudiante santiaguina"
+    }
+  ],
+  "safari-aquila-game-reserve": [
+    {
+      "reviewer_name": "Antonio García",
+      "location": "Andalucía, España",
+      "rating": 5,
+      "review": "¡Coño, qué safari más impresionante! Aquila está a solo dos horas de Ciudad del Cabo y es como entrar en otro mundo. Ver los Big Five en su hábitat natural es alucinante, especialmente los elefantes que se acercan súper cerca del vehículo. El paisaje me recordó un poco a Andalucía pero con esa fauna africana increíble. Los guías son unos cracks, conocen cada animal por su nombre y te cuentan anécdotas divertidísimas. El almuerzo buffet estaba de muerte. ¡Una experiencia que no te puedes perder si visitas Sudáfrica!",
+      "date": "2024-07-24",
+      "highlights": ["Big Five en hábitat natural", "Paisaje similar a Andalucía", "Guías expertos y divertidos"],
+      "traveler_type": "Andaluz aventurero"
+    },
+    {
+      "reviewer_name": "Mónica Jiménez",
+      "location": "Monterrey, México",
+      "rating": 5,
+      "review": "¡Órale, qué padre experiencia! Llevé a mis chamacos y fue el highlight de nuestro viaje a Sudáfrica. Los leones están increíbles, súper relajados y se dejan fotografiar padrísimo. Los elefantes bebé son una ternura, los niños no paraban de hacer preguntas. El rinoceronte blanco es impresionante, no sabía que eran tan grandes. La reserva está súper bien cuidada y se nota que aman a los animales. El lunch está rico y abundante. ¡Perfecto para familias mexicanas que quieren vivir la aventura africana!",
+      "date": "2024-06-28",
+      "highlights": ["Perfecto para familias", "Animales relajados", "Reserva bien cuidada"],
+      "traveler_type": "Familia regiomontana"
+    },
+    {
+      "reviewer_name": "Leonardo Rossi",
+      "location": "Mendoza, Argentina",
+      "rating": 4,
+      "review": "¡Espectacular safari! Como mendocino acostumbrado a la naturaleza, Aquila me voló la cabeza. Ver leones, leopardos y elefantes en libertad es una experiencia única. El paisaje semidesértico me recordó un poco a nuestro oeste mendocino pero con fauna africana. Los guías muy profesionales, te explican comportamientos animales súper interesantes. Mi único comentario es que algunos animales se ven un poco acostumbrados a los vehículos, pero entiendo que es necesario para la conservación. ¡Recomendadísimo para argentinos amantes de la naturaleza!",
+      "date": "2024-08-03",
+      "highlights": ["Fauna en libertad", "Paisaje similar a Mendoza", "Guías muy profesionales"],
+      "traveler_type": "Mendocino naturalista"
+    },
+    {
+      "reviewer_name": "Valentina Herrera",
+      "location": "Medellín, Colombia",
+      "rating": 5,
+      "review": "¡Qué chimba de safari! Nunca pensé que iba a ver animales tan increíbles tan cerca. Los Big Five son impresionantes, especialmente el leopardo que es súper esquivo pero logramos verlo. Los guías bacanos, súper conocedores y con mucho humor. Me encantó que la reserva tenga programas de conservación serios. El paisaje es brutal, esas montañas áridas con fauna salvaje son únicas. El almuerzo rico y el transporte cómodo desde Ciudad del Cabo. ¡Una experiencia que todo colombiano aventurero debe vivir!",
+      "date": "2024-07-19",
+      "highlights": ["Big Five impresionantes", "Programas de conservación", "Paisaje brutal único"],
+      "traveler_type": "Paisa aventurera"
+    },
+    {
+      "reviewer_name": "Matías Contreras",
+      "location": "La Serena, Chile",
+      "rating": 5,
+      "review": "¡Bacán el safari! Como nortino, el paisaje de Aquila me resultó familiar pero con esa fauna africana que te deja loco. Ver elefantes caminando por paisajes que parecen del norte de Chile es surrealista. Los rinocerontes son bestias increíbles, súper pacíficos pero imponentes. Me gustó que explicaran los esfuerzos de conservación, se nota que es un proyecto serio. Los guías muy preparados y simpáticos. El único detalle es que hace calor, pero nada que un chileno del norte no pueda manejar. ¡La raja la experiencia!",
+      "date": "2024-08-16",
+      "highlights": ["Paisaje familiar pero único", "Conservación seria", "Guías preparados"],
+      "traveler_type": "Nortino chileno"
+    }
+  ],
+  "kirstenbosch-botanical-gardens": [
+    {
+      "reviewer_name": "Isabel Navarro",
+      "location": "Valencia, España",
+      "rating": 5,
+      "review": "¡Flipante jardín botánico! Kirstenbosch es una maravilla natural que supera a cualquier jardín que haya visitado en Europa. La diversidad de plantas endémicas del Cabo es alucinante, especialmente los proteas que son únicos en el mundo. El Tree Canopy Walkway es espectacular, caminar entre las copas te da una perspectiva diferente del jardín. Los conciertos de verano deben ser de muerte, lástima que fuimos en invierno. El paisaje con Table Mountain de fondo es una postal perfecta. ¡Un paraíso para valencianos amantes de la naturaleza!",
+      "date": "2024-07-27",
+      "highlights": ["Diversidad única de flora", "Tree Canopy Walkway espectacular", "Paisaje con Table Mountain"],
+      "traveler_type": "Valenciana botánica"
+    },
+    {
+      "reviewer_name": "Ricardo Mendoza",
+      "location": "Cuernavaca, México",
+      "rating": 5,
+      "review": "¡Órale, qué jardín tan impresionante! Como cuernavacense acostumbrado a jardines bonitos, Kirstenbosch me dejó con la boca abierta. La colección de suculentas es padrísima, algunas especies que nunca había visto. El Sculpture Garden combina arte y naturaleza de manera genial. Los senderos están súper bien diseñados, perfectos para caminar con la familia. El restaurante tiene vista espectacular y comida rica. Los niños se divirtieron mucho en las áreas verdes. ¡Vale la pena cada peso, especialmente para familias mexicanas que aman la naturaleza!",
+      "date": "2024-06-24",
+      "highlights": ["Colección de suculentas única", "Sculpture Garden genial", "Perfecto para familias"],
+      "traveler_type": "Familia cuernavacense"
+    },
+    {
+      "reviewer_name": "Florencia Aguirre",
+      "location": "Rosario, Argentina",
+      "rating": 4,
+      "review": "¡Bárbaro jardín! Como rosarina que ama las plantas, Kirstenbosch fue una experiencia increíble. La flora del Cabo es única, especialmente el fynbos que no existe en ningún otro lugar del mundo. El sendero de esculturas está buenísimo, arte integrado con naturaleza. Me gustó mucho la sección de plantas medicinales tradicionales africanas. El único detalle es que es grande y puede cansar un poco, pero vale la pena recorrerlo completo. Las vistas a Table Mountain desde el jardín son espectaculares. ¡Recomendado para argentinos curiosos por la botánica!",
+      "date": "2024-08-07",
+      "highlights": ["Flora única del fynbos", "Sendero de esculturas integrado", "Plantas medicinales tradicionales"],
+      "traveler_type": "Rosarina botánica"
+    },
+    {
+      "reviewer_name": "Camilo Vargas",
+      "location": "Pereira, Colombia",
+      "rating": 5,
+      "review": "¡Bacano el jardín botánico! Como cafetero acostumbrado a paisajes verdes, Kirstenbosch me sorprendió con su diversidad única. La colección de plantas del Cabo es impresionante, muchas que nunca imaginé que existieran. El Tree Canopy Walkway es chimba, caminar entre los árboles te da una perspectiva diferente. Me gustó mucho aprender sobre las plantas medicinales que usan las comunidades locales. El café del jardín está rico y las vistas son espectaculares. ¡Súper recomendado para colombianos amantes de la naturaleza y el café!",
+      "date": "2024-07-21",
+      "highlights": ["Diversidad única de plantas", "Tree Canopy Walkway chimba", "Plantas medicinales locales"],
+      "traveler_type": "Cafetero pereira"
+    },
+    {
+      "reviewer_name": "Javiera Soto",
+      "location": "Valdivia, Chile",
+      "rating": 5,
+      "review": "¡La raja el jardín! Como valdiviana rodeada de naturaleza, pensé que ya conocía jardines bonitos, pero Kirstenbosch es otro nivel. La biodiversidad del Cabo es increíble, plantas que solo existen en esa región del mundo. El contraste entre la vegetación mediterránea y las especies endémicas es fascinante. Los senderos están súper bien mantenidos y señalizados. El Tree Canopy Walkway es genial, especialmente para sacar fotos. La cafetería tiene productos locales ricos. ¡Una experiencia botánica que todo chileno naturalista debe vivir!",
+      "date": "2024-08-19",
+      "highlights": ["Biodiversidad increíble", "Especies endémicas únicas", "Senderos bien mantenidos"],
+      "traveler_type": "Valdiviana naturalista"
+    }
+  ],
+  "hermanus-whale-watching": [
+    {
+      "reviewer_name": "Martín Delgado",
+      "location": "Santander, España",
+      "rating": 5,
+      "review": "¡Coño, qué experiencia más flipante! Hermanus es la capital mundial del avistamiento de ballenas y no es broma. Vimos ballenas francas australes súper cerca, saltando y jugando en el agua. El viaje por la costa es espectacular, me recordó un poco a nuestro Cantábrico pero con ese toque africano único. La guía súper profesional, nos explicó todo sobre el comportamiento de las ballenas. El pueblo de Hermanus es encantador, perfecto para comer pescado fresco. ¡Una experiencia que todo español amante del mar debe vivir!",
+      "date": "2024-07-29",
+      "highlights": ["Ballenas francas australes", "Costa espectacular", "Pueblo encantador"],
+      "traveler_type": "Santanderino marino"
+    },
+    {
+      "reviewer_name": "Alejandra Ruiz",
+      "location": "Ensenada, México",
+      "rating": 5,
+      "review": "¡Órale, qué padre ver ballenas! Como ensenadense que ha visto ballenas grises en Baja California, estas ballenas francas australes son impresionantes. El tour está súper bien organizado, el barco cómodo y los guías muy preparados. Vimos madres con sus crías, súper tierno. La costa de Hermanus es hermosa, me recordó un poco a nuestro Pacífico pero con vegetación diferente. El almuerzo en el pueblo estuvo rico, mariscos frescos como en casa. ¡Recomendadísimo para mexicanos que aman la vida marina!",
+      "date": "2024-06-26",
+      "highlights": ["Ballenas francas vs grises", "Madres con crías", "Costa hermosa"],
+      "traveler_type": "Ensenadense marina"
+    },
+    {
+      "reviewer_name": "Gonzalo Torres",
+      "location": "Puerto Madryn, Argentina",
+      "rating": 5,
+      "review": "¡Espectacular avistaje! Como patagónico acostumbrado a ballenas en Península Valdés, Hermanus me sorprendió gratamente. Las ballenas francas australes están súper activas, saltan y hacen piruetas increíbles. La diferencia es que acá las ves desde la costa también, hay miradores espectaculares. El boat trip estuvo bárbaro, nos acercamos bastante respetando las distancias. Los guías muy profesionales, conocen cada ballena individualmente. Hermanus es un pueblo precioso con excelente gastronomía marina. ¡Recomendado para argentinos whale watchers!",
+      "date": "2024-08-04",
+      "highlights": ["Ballenas muy activas", "Avistaje desde costa", "Pueblo precioso"],
+      "traveler_type": "Patagónico experto"
+    },
+    {
+      "reviewer_name": "Natalia Córdoba",
+      "location": "Cartagena, Colombia",
+      "rating": 4,
+      "review": "¡Bacano el avistamiento de ballenas! Aunque en nuestro Pacífico vemos ballenas jorobadas, estas francas australes son diferentes y súper impresionantes. El viaje hasta Hermanus es bonito, paisajes costeros brutales. Las ballenas se acercan mucho al barco, algunas súper juguetonas. Me gustó que explican sobre conservación marina, súper importante. El único detalle es que puede hacer frío en el mar, llevar chaqueta. El pueblo de Hermanus tiene buena onda y restaurantes ricos. ¡Recomendado para colombianos amantes del océano!",
+      "date": "2024-07-17",
+      "highlights": ["Ballenas francas diferentes", "Paisajes costeros brutales", "Conservación marina importante"],
+      "traveler_type": "Cartagenera oceánica"
+    },
+    {
+      "reviewer_name": "Ignacio Morales",
+      "location": "Valparaíso, Chile",
+      "rating": 5,
+      "review": "¡La raja el whale watching! Como porteño acostumbrado al mar, Hermanus me impresionó por la cantidad y cercanía de las ballenas. Las francas australes son enormes y súper activas, vimos saltos espectaculares. La costa es similar a la nuestra pero con esa vegetación fynbos única. Los guías muy preparados, explican comportamientos súper interesantes. Hermanus es un pueblo costero encantador, me recordó a algunas caletas chilenas pero con más desarrollo turístico. ¡Una experiencia marina que todo chileno debe vivir!",
+      "date": "2024-08-21",
+      "highlights": ["Ballenas enormes y activas", "Costa similar pero única", "Pueblo encantador"],
+      "traveler_type": "Porteño marino"
+    }
+  ],
+  "chapman-peak-drive": [
+    {
+      "reviewer_name": "Carlos Mendoza",
+      "location": "Asturias, España",
+      "rating": 5,
+      "review": "¡Flipante carretera escénica! Chapman's Peak Drive es una de las rutas más espectaculares que he conducido en mi vida. Como asturiano acostumbrado a carreteras de montaña, esta me dejó sin palabras. Las curvas pegadas al acantilado con vistas al océano Atlántico son de infarto. Cada mirador te regala una postal increíble. La ingeniería de la carretera es impresionante, tallada literalmente en la roca. Perfecto para hacer en coche de alquiler, pero ojo con los que tienen vértigo. ¡Una experiencia de conducción que todo español aventurero debe vivir!",
+      "date": "2024-07-31",
+      "highlights": ["Carretera espectacular", "Vistas al océano increíbles", "Ingeniería impresionante"],
+      "traveler_type": "Asturiano conductor"
+    },
+    {
+      "reviewer_name": "Patricia Vega",
+      "location": "Tijuana, México",
+      "rating": 5,
+      "review": "¡Órale, qué carretera tan increíble! Como tijuanense acostumbrada a manejar por carreteras costeras, Chapman's Peak me voló la cabeza. Son 9 kilómetros de puras curvas con vistas espectaculares al mar. Cada vuelta te sorprende con un paisaje más bonito. Paramos en todos los miradores para fotos, quedaron padrísimas. La carretera está súper bien mantenida y hay lugares seguros para estacionarse. Perfecto para una road trip romántica. ¡Vale la pena cada peso del peaje, una experiencia única para mexicanos aventureros!",
+      "date": "2024-06-27",
+      "highlights": ["9 km de curvas espectaculares", "Miradores para fotos", "Perfecto para road trips"],
+      "traveler_type": "Tijuanense aventurera"
+    },
+    {
+      "reviewer_name": "Sebastián Herrera",
+      "location": "Mar del Plata, Argentina",
+      "rating": 4,
+      "review": "¡Bárbara ruta costera! Como marplatense que conoce rutas costeras, Chapman's Peak es otro nivel completamente. La carretera serpentea entre montañas y mar de manera espectacular. Las vistas son increíbles, especialmente hacia Hout Bay. Manejamos despacio para disfrutar cada curva y sacar fotos. El único detalle es que puede dar un poco de vértigo en algunas secciones, pero vale la pena. Los miradores están bien ubicados y seguros. ¡Una experiencia de manejo que todo argentino debe vivir al menos una vez!",
+      "date": "2024-08-09",
+      "highlights": ["Ruta entre montañas y mar", "Vistas hacia Hout Bay", "Miradores seguros"],
+      "traveler_type": "Marplatense manejador"
+    },
+    {
+      "reviewer_name": "Diana Restrepo",
+      "location": "Medellín, Colombia",
+      "rating": 5,
+      "review": "¡Qué chimba de carretera! Chapman's Peak Drive es brutal, una obra de ingeniería impresionante pegada al acantilado. Como paisa acostumbrada a carreteras de montaña, esta me sorprendió por las vistas al océano. Son como 114 curvas con paisajes que te quitan la respiración. Cada mirador es perfecto para fotos del recuerdo. La carretera está súper bien cuidada, se nota la inversión en mantenimiento. Recomiendo ir temprano para evitar tráfico y disfrutar más. ¡Una experiencia que todo colombiano aventurero debe vivir!",
+      "date": "2024-07-23",
+      "highlights": ["Obra de ingeniería brutal", "114 curvas espectaculares", "Miradores perfectos"],
+      "traveler_type": "Paisa aventurera"
+    },
+    {
+      "reviewer_name": "Felipe Castillo",
+      "location": "Valparaíso, Chile",
+      "rating": 5,
+      "review": "¡La raja la carretera! Como porteño acostumbrado a subidas y bajadas, Chapman's Peak me impresionó por la calidad y las vistas. Es una ruta súper bien diseñada que te lleva por paisajes increíbles. Las curvas están perfectamente calculadas y los miradores ubicados estratégicamente. Me recordó un poco a nuestras rutas costeras pero con esa amplitud oceánica única de Sudáfrica. El peaje vale cada peso por el mantenimiento que tiene. ¡Una experiencia de manejo que todo chileno debe agregar a su bucket list!",
+      "date": "2024-08-17",
+      "highlights": ["Ruta bien diseñada", "Paisajes increíbles", "Amplitud oceánica única"],
+      "traveler_type": "Porteño experimentado"
+    }
+  ],
+  "v-a-waterfront": [
+    {
+      "reviewer_name": "Pilar Jiménez",
+      "location": "Barcelona, España",
+      "rating": 5,
+      "review": "¡Flipante waterfront! El V&A es como nuestro Port Vell pero con ese encanto africano único. La variedad de tiendas es increíble, desde marcas locales sudafricanas hasta las internacionales que conocemos. Los restaurantes están de muerte, especialmente los de mariscos con vista al puerto. Me encantó el Two Oceans Aquarium, los niños alucinaron con los tiburones. El ambiente es súper familiar y seguro, perfecto para pasear toda la tarde. Los precios están bien, similares a Barcelona. ¡Un imperdible para familias catalanas que visiten Ciudad del Cabo!",
+      "date": "2024-07-28",
+      "highlights": ["Ambiente familiar y seguro", "Two Oceans Aquarium increíble", "Restaurants con vista al puerto"],
+      "traveler_type": "Familia barcelonesa"
+    },
+    {
+      "reviewer_name": "Roberto Silva",
+      "location": "Veracruz, México",
+      "rating": 4,
+      "review": "¡Órale, qué padre malecón! El V&A Waterfront me recordó mucho a nuestro puerto de Veracruz pero súper modernizado. La zona está padrísima para caminar con la familia, muy segura y limpia. Hay un chorro de restaurantes y bares con vista al mar. Los precios están un poco elevados para nosotros los mexicanos, pero la experiencia vale la pena. El acuario está genial, mis chamacos se divirtieron un montón. Las tiendas tienen cosas bonitas pero caras. ¡Perfecto para pasar una tarde padre en familia!",
+      "date": "2024-06-29",
+      "highlights": ["Zona segura y limpia", "Acuario genial para niños", "Vista al mar espectacular"],
+      "traveler_type": "Familia veracruzana"
+    },
+    {
+      "reviewer_name": "Lucía Moreno",
+      "location": "Puerto Madero, Argentina",
+      "rating": 5,
+      "review": "¡Espectacular waterfront! Como porteña de Puerto Madero, el V&A me pareció increíble por su integración perfecta entre lo histórico y lo moderno. Los muelles conservan esa autenticidad marítima pero con toda la infraestructura turística de primer nivel. La gastronomía es bárbara, especialmente los restaurantes de pescados y mariscos. Me encantó el Zeitz Museum of Contemporary African Art, súper interesante. Las vistas de Table Mountain desde los restaurantes son únicas. ¡Un lugar que todo argentino cosmopolita debe conocer!",
+      "date": "2024-08-05",
+      "highlights": ["Integración histórico-moderna perfecta", "Zeitz Museum interesante", "Vistas de Table Mountain únicas"],
+      "traveler_type": "Porteña cosmopolita"
+    },
+    {
+      "reviewer_name": "Andrés Ospina",
+      "location": "Cartagena, Colombia",
+      "rating": 4,
+      "review": "¡Bacano el waterfront! Como cartagenero acostumbrado a puertos históricos, el V&A me gustó mucho por su mezcla de tradición marítima y modernidad. La zona está súper bien desarrollada, muy limpia y segura para turistas. Los restaurantes tienen buena comida, especialmente los de seafood. El Two Oceans Aquarium está chimba, súper educativo. Los precios son altos comparados con Cartagena, pero entiendo que es zona turística premium. ¡Recomendado para colombianos que quieran conocer un puerto de clase mundial!",
+      "date": "2024-07-20",
+      "highlights": ["Mezcla tradición-modernidad", "Zona limpia y segura", "Two Oceans Aquarium educativo"],
+      "traveler_type": "Cartagenero conocedor"
+    },
+    {
+      "reviewer_name": "Constanza Lagos",
+      "location": "Valparaíso, Chile",
+      "rating": 5,
+      "review": "¡La raja el waterfront! Como porteña, el V&A me impresionó por lo organizado y limpio que está comparado con nuestros puertos. La arquitectura mezcla perfecto lo industrial marítimo con espacios comerciales modernos. Los restaurantes tienen nivel internacional y las vistas a Table Mountain son espectaculares. Me gustó mucho la variedad de tiendas, especialmente las de productos locales sudafricanos. El ambiente nocturno está buenísimo, súper seguro para caminar. ¡Una experiencia portuaria que todo chileno debe conocer!",
+      "date": "2024-08-22",
+      "highlights": ["Organizado y limpio", "Arquitectura industrial-moderna", "Ambiente nocturno seguro"],
+      "traveler_type": "Porteña viajera"
+    }
+  ],
+  "boulder-beach-penguins": [
+    {
+      "reviewer_name": "Teresa López",
+      "location": "Cádiz, España",
+      "rating": 5,
+      "review": "¡Flipante experiencia con pingüinos! Boulders Beach es una maravilla natural única en el mundo. Ver pingüinos africanos en libertad tan cerca es alucinante, especialmente para los peques que alucinan con estos animalitos tan monos. La playa es preciosa, aguas cristalinas y formaciones rocosas espectaculares. Los senderos elevados están súper bien diseñados para proteger a los pingüinos pero permitir fotos increíbles. Como gaditana acostumbrada a playas bonitas, esta me sorprendió por su singularidad. ¡Un imperdible absoluto para familias españolas!",
+      "date": "2024-07-30",
+      "highlights": ["Pingüinos africanos únicos", "Playa cristalina espectacular", "Senderos bien diseñados"],
+      "traveler_type": "Familia gaditana"
+    },
+    {
+      "reviewer_name": "Javier Castañeda",
+      "location": "Playa del Carmen, México",
+      "rating": 5,
+      "review": "¡Órale, qué padre experiencia! Como quintanarroense acostumbrado a playas tropicales, Boulders Beach me sorprendió completamente. Ver pingüinos en África es súper raro, nunca pensé que existieran. Los pinches animalitos están súper relajados, se dejan fotografiar padrísimo. La playa tiene un agua súper clara, diferente a nuestras playas del Caribe pero hermosa. Los niños no paraban de hacer preguntas sobre los pingüinos. El lugar está súper bien conservado. ¡Vale la pena para familias mexicanas que quieren algo diferente!",
+      "date": "2024-06-25",
+      "highlights": ["Pingüinos en África único", "Agua súper clara", "Bien conservado"],
+      "traveler_type": "Familia quintanarroense"
+    },
+    {
+      "reviewer_name": "Mariana Vega",
+      "location": "Mar del Plata, Argentina",
+      "rating": 4,
+      "review": "¡Bárbara experiencia con pingüinos! Como marplatense que ve lobos marinos seguido, los pingüinos africanos me parecieron súper especiales. Son más chiquitos que los que tenemos en el sur pero súper carismáticos. La playa es hermosa, con esas rocas enormes que forman pozones naturales. Me gustó mucho que esté tan bien protegido el lugar, se nota el cuidado por la conservación. El único detalle es que había mucha gente cuando fuimos, pero vale la pena igual. ¡Recomendado para argentinos amantes de la fauna marina!",
+      "date": "2024-08-08",
+      "highlights": ["Pingüinos carismáticos", "Rocas y pozones naturales", "Bien protegido"],
+      "traveler_type": "Marplatense fauna"
+    },
+    {
+      "reviewer_name": "Catalina Ruiz",
+      "location": "Santa Marta, Colombia",
+      "rating": 5,
+      "review": "¡Bacano ver pingüinos en playa tropical! Como samaria acostumbrada a playas caribeñas, Boulders Beach es súper diferente pero hermosa. Los pingüinos africanos son una chimba, súper tiernos y fotogénicos. Me encantó que puedas verlos nadando en el agua cristalina, se ven súper felices en su hábitat natural. La playa tiene esas rocas gigantes que le dan un toque único. Los senderos de madera están muy bien hechos para no molestar a los animalitos. ¡Una experiencia única que toda colombiana costeña debe vivir!",
+      "date": "2024-07-16",
+      "highlights": ["Pingüinos en hábitat feliz", "Rocas gigantes únicas", "Senderos respetuosos"],
+      "traveler_type": "Samaria costeña"
+    },
+    {
+      "reviewer_name": "Gonzalo Soto",
+      "location": "Iquique, Chile",
+      "rating": 5,
+      "review": "¡La raja la experiencia! Como iquiqueño acostumbrado a fauna marina, los pingüinos africanos me sorprendieron gratamente. Son súper diferentes a los de nuestro sur, más pequeños pero igual de carismáticos. La playa es hermosa, con esa combinación de arena blanca y rocas enormes. Me gustó mucho que esté tan bien cuidado el sitio, se nota la preocupación por conservar la colonia. Las fotos quedan espectaculares con el contraste del agua turquesa. ¡Una experiencia que todo chileno nortino debe agregar a su lista!",
+      "date": "2024-08-18",
+      "highlights": ["Pingüinos diferentes pero carismáticos", "Arena blanca y rocas", "Conservación excelente"],
+      "traveler_type": "Iquiqueño marino"
+    }
+  ],
+  "signal-hill-sunset": [
+    {
+      "reviewer_name": "Manuel García",
+      "location": "Granada, España",
+      "rating": 5,
+      "review": "¡Coño, qué atardecer más espectacular! Signal Hill es el lugar perfecto para ver la puesta de sol en Ciudad del Cabo. Como granadino acostumbrado a atardeceres bonitos desde la Alhambra, este me dejó sin palabras. Las vistas de 360 grados incluyen Table Mountain, el océano y toda la ciudad. La subida en coche es fácil y hay parking gratuito arriba. El momento cuando el sol se oculta detrás de Lion's Head es mágico. Llevad algo de abrigo porque refresca bastante. ¡Un imperdible absoluto para españoles románticos!",
+      "date": "2024-07-26",
+      "highlights": ["Atardecer espectacular", "Vistas 360 grados", "Momento mágico Lion's Head"],
+      "traveler_type": "Granadino romántico"
+    },
+    {
+      "reviewer_name": "Silvia Morales",
+      "location": "Puerto Vallarta, México",
+      "rating": 5,
+      "review": "¡Órale, qué sunset tan padrísimo! Como vallartense acostumbrada a atardeceres en el Pacífico, Signal Hill me voló la cabeza. La vista panorámica de Ciudad del Cabo al atardecer es increíble, se ven todos los barrios y el océano infinito. Fuimos en pareja y fue súper romántico, hay varios spots para sentarse cómodos. El cielo se pone de colores increíbles, rosa, naranja, morado. Llevamos vino y botanas para hacer el momento perfecto. ¡Vale la pena madrugar para llegar temprano y conseguir buen lugar!",
+      "date": "2024-06-23",
+      "highlights": ["Vista panorámica increíble", "Súper romántico", "Colores espectaculares"],
+      "traveler_type": "Pareja vallartense"
+    },
+    {
+      "reviewer_name": "Eduardo Navarro",
+      "location": "Bariloche, Argentina",
+      "rating": 5,
+      "review": "¡Bárbaro atardecer! Como barilochense acostumbrado a puestas de sol en lagos y montañas, Signal Hill me sorprendió por su perspectiva urbana y marina. La combinación de ciudad, montañas y océano al atardecer es única. Subimos una hora antes del sunset para conseguir buen lugar y valió la pena totalmente. Los colores que toma el cielo africano son increíbles, especialmente cuando se refleja en False Bay. El ambiente es relajado, mucha gente local disfrutando del momento. ¡Recomendadísimo para argentinos que buscan experiencias auténticas!",
+      "date": "2024-08-02",
+      "highlights": ["Perspectiva urbana-marina única", "Colores africanos increíbles", "Ambiente relajado local"],
+      "traveler_type": "Barilochense viajero"
+    },
+    {
+      "reviewer_name": "Paola Herrera",
+      "location": "Cartagena, Colombia",
+      "rating": 4,
+      "review": "¡Bacano el atardecer! Como cartagenera acostumbrada a sunsets en nuestras murallas, Signal Hill ofrece una perspectiva completamente diferente pero igual de bella. Las vistas de Ciudad del Cabo son brutales, especialmente con Table Mountain de fondo. Me gustó que sea accesible en carro y gratuito, súper democrático. El único detalle es que puede llenarse mucho de turistas, pero entiendo por qué. Los colores del cielo al atardecer son espectaculares. ¡Recomendado para colombianos que aman los atardeceres únicos!",
+      "date": "2024-07-14",
+      "highlights": ["Perspectiva diferente pero bella", "Accesible y gratuito", "Colores espectaculares"],
+      "traveler_type": "Cartagenera sunset"
+    },
+    {
+      "reviewer_name": "Cristian Moreno",
+      "location": "La Serena, Chile",
+      "rating": 5,
+      "review": "¡Bacán el atardecer! Como serenense acostumbrado a cielos limpios del norte, Signal Hill me impresionó por la claridad y amplitud de las vistas. El sunset con toda Ciudad del Cabo como telón de fondo es espectacular. Me gustó que sea fácil llegar en auto y tenga espacios para estacionar. El momento cuando el sol se oculta tras las montañas es mágico, los colores se reflejan en toda la bahía. Llevé mi cámara y saqué fotos increíbles. ¡Una experiencia que todo chileno fotógrafo debe vivir!",
+      "date": "2024-08-19",
+      "highlights": ["Cielos limpios y amplios", "Fácil acceso en auto", "Perfecto para fotografía"],
+      "traveler_type": "Serenense fotógrafo"
+    }
+  ],
+  "lion-head-hike": [
+    {
+      "reviewer_name": "Alberto Ruiz",
+      "location": "Bilbao, España",
+      "rating": 5,
+      "review": "¡Flipante hiking! Lion's Head es una subida exigente pero súper gratificante. Como bilbaíno acostumbrado a montañas, me gustó el desafío pero sin ser demasiado técnico. Las vistas durante la subida ya son espectaculares, pero llegar a la cima al amanecer es alucinante. Ciudad del Cabo a tus pies con Table Mountain de fondo es una postal perfecta. La bajada requiere cuidado, especialmente en las cadenas. Llevad agua y started early para evitar el calor. ¡Una experiencia que todo montañero español debe vivir!",
+      "date": "2024-07-27",
+      "highlights": ["Subida exigente pero gratificante", "Amanecer espectacular", "Vistas de Ciudad del Cabo"],
+      "traveler_type": "Montañero bilbaíno"
+    },
+    {
+      "reviewer_name": "Andrea Vázquez",
+      "location": "Monterrey, México",
+      "rating": 4,
+      "review": "¡Órale, qué subida tan padre! Como regiomontana acostumbrada al Cerro de la Silla, Lion's Head me recordó a nuestras montañas pero con vistas al océano. La subida está demandante, especialmente las últimas secciones con cadenas. Madrugar para ver el amanecer vale totalmente la pena, los colores del cielo africano son increíbles. El único detalle es que hay que estar en buena forma física. Las vistas de 360 grados desde arriba son impresionantes. ¡Recomendado para mexicanos aventureros y en forma!",
+      "date": "2024-06-24",
+      "highlights": ["Subida demandante", "Amanecer vale la pena", "Vistas 360 impresionantes"],
+      "traveler_type": "Regiomontana aventurera"
+    },
+    {
+      "reviewer_name": "Nicolás Fernández",
+      "location": "San Carlos de Bariloche, Argentina",
+      "rating": 5,
+      "review": "¡Espectacular trekking! Como barilochense con experiencia en montaña, Lion's Head me pareció un desafío perfecto para turistas aventureros. La subida tiene dificultad moderada con secciones técnicas divertidas. Las vistas durante el ascenso son increíbles, especialmente de Camps Bay y los Twelve Apostles. Llegar a la cima para el sunrise es una experiencia única, los colores africanos son diferentes a los patagónicos pero igual de hermosos. El descenso requiere concentración. ¡Recomendadísimo para argentinos montañistas!",
+      "date": "2024-08-06",
+      "highlights": ["Desafío perfecto", "Vistas de Camps Bay", "Sunrise único"],
+      "traveler_type": "Barilochense montañista"
+    },
+    {
+      "reviewer_name": "Juliana Castro",
+      "location": "Medellín, Colombia",
+      "rating": 4,
+      "review": "¡Bacano el hike! Como paisa acostumbrada a subir cerros en Medellín, Lion's Head fue un reto chimba. La subida es exigente, especialmente las cadenas del final que dan un poco de susto pero son seguras. Las vistas de Ciudad del Cabo desde arriba son brutales, se ve toda la ciudad y el océano infinito. Recomiendo ir súper temprano para evitar el calor y las multitudes. Llevar mucha agua y bloqueador. ¡Una experiencia que toda paisa aventurera debe vivir!",
+      "date": "2024-07-22",
+      "highlights": ["Reto exigente", "Cadenas del final emocionantes", "Vistas brutales"],
+      "traveler_type": "Paisa aventurera"
+    },
+    {
+      "reviewer_name": "Rodrigo Silva",
+      "location": "Santiago, Chile",
+      "rating": 5,
+      "review": "¡La raja el trekking! Como santiaguino que sube el San Cristóbal seguido, Lion's Head es otro nivel completamente. La subida es técnica pero accesible, con esas cadenas que le dan emoción al final. Las vistas panorámicas de Ciudad del Cabo son espectaculares, especialmente al amanecer cuando la ciudad se despierta. Me gustó la combinación de desafío físico y recompensa visual. El clima puede cambiar rápido, llevar layers. ¡Una experiencia de hiking que todo chileno debe agregar a su bucket list!",
+      "date": "2024-08-20",
+      "highlights": ["Técnica pero accesible", "Vistas al amanecer especiales", "Combinación perfecta desafío-recompensa"],
+      "traveler_type": "Santiaguino hiker"
+    }
+  ],
+  "cape-winelands-franschhoek": [
+    {
+      "reviewer_name": "Alejandro Moreno",
+      "location": "Jerez de la Frontera, España",
+      "rating": 5,
+      "review": "¡Coño, qué valle vitivinícola más espectacular! Franschhoek es como nuestro Marco de Jerez pero con paisajes de montaña impresionantes. La tradición francesa se nota en cada bodega, la arquitectura y los vinos tienen esa elegancia européa adaptada al terroir africano. Los Chardonnay y Pinot Noir están de muerte, rivalizan con los mejores de Borgoña. El pueblo es precioso, lleno de restaurantes gastronómicos de primer nivel. La historia hugonote es fascinante. ¡Un paraíso para jerezanos amantes del vino y la gastronomía!",
+      "date": "2024-07-31",
+      "highlights": ["Tradición francesa notable", "Vinos rival de Borgoña", "Gastronomía primer nivel"],
+      "traveler_type": "Jerezano sommelier"
+    },
+    {
+      "reviewer_name": "Sofía Herrera",
+      "location": "Valle de Guadalupe, México",
+      "rating": 5,
+      "review": "¡Órale, qué valle tan impresionante! Como bajacaliforniana del Valle de Guadalupe, Franschhoek me dejó con la boca abierta. Los viñedos están súper bien cuidados, con esas montañas dramáticas de fondo que no tenemos en Baja. La herencia francesa se nota en todo: arquitectura, técnicas vinícolas, gastronomía. Probamos vinos increíbles, especialmente las mezclas de Bordeaux. Los restaurantes están padrísimos, cocina sudafricana con técnicas francesas. ¡Vale cada peso, una experiencia vinícola mundial para mexicanos wine lovers!",
+      "date": "2024-06-21",
+      "highlights": ["Viñedos con montañas dramáticas", "Herencia francesa notable", "Cocina sudafricana-francesa"],
+      "traveler_type": "Bajacaliforniana vinicola"
+    },
+    {
+      "reviewer_name": "Martín Espinoza",
+      "location": "Luján de Cuyo, Mendoza, Argentina",
+      "rating": 5,
+      "review": "¡Bárbaro valle vitivinícola! Como mendocino del corazón vitivinícola argentino, Franschhoek me sorprendió por su elegancia y diversidad. Los terroirs son únicos, esa influencia oceánica le da complejidad especial a los vinos. Las bodegas boutique tienen muchísimo encanto, combinan tradición francesa con innovación sudafricana. Los Chenin Blanc son espectaculares, varietal que deberíamos explorar más en Argentina. El valley es compacto, perfecto para hacer bike tours entre bodegas. ¡Recomendadísimo para mendocinos que quieren ver otros estilos!",
+      "date": "2024-08-03",
+      "highlights": ["Terroirs únicos con influencia oceánica", "Bodegas boutique encantadoras", "Chenin Blanc espectaculares"],
+      "traveler_type": "Mendocino viticultor"
+    },
+    {
+      "reviewer_name": "Catalina Mejía",
+      "location": "Bogotá, Colombia",
+      "rating": 4,
+      "review": "¡Bacano el valle vinícola! Como bogotana sin mucha experiencia en vinos, Franschhoek fue súper educativo y divertido. Los paisajes son espectaculares, esas montañas con viñedos parecen de postal europea. Las explicaciones en las bodegas están muy bien, te enseñan desde cero sobre vinos. Probé variedades que no conocía, especialmente el Pinotage que es único de Sudáfrica. Los restaurants tienen comida deliciosa, maridajes perfectos. Los precios están altos para nosotros, pero la experiencia vale la pena. ¡Recomendado para colombianos curiosos por el mundo del vino!",
+      "date": "2024-07-25",
+      "highlights": ["Educativo y divertido", "Paisajes de postal europea", "Pinotage único"],
+      "traveler_type": "Bogotana aprendiz"
+    },
+    {
+      "reviewer_name": "Tomás Valenzuela",
+      "location": "Valle del Maipo, Chile",
+      "rating": 5,
+      "review": "¡La raja el valle! Como maipino conocedor de valles vitivinícolas, Franschhoek me impresionó por su concentración de excelencia en poco espacio. Las bodegas mantienen ese estilo francés pero adaptado al clima sudafricano único. Los vinos tienen personalidad propia, especialmente las mezclas tintas que combinan elegancia y potencia. El pueblo es encantador, súper limpio y organizado. Me gustó mucho el wine tram, una forma original de recorrer las bodegas. ¡Una experiencia vinícola de clase mundial que todo chileno debe conocer!",
+      "date": "2024-08-21",
+      "highlights": ["Concentración de excelencia", "Vinos con personalidad propia", "Wine tram original"],
+      "traveler_type": "Maipino conocedor"
+    }
+  ],
+  "groot-constantia-wine-estate": [
+    {
+      "reviewer_name": "Fernando Alcalde",
+      "location": "Ribera del Duero, España",
+      "rating": 5,
+      "review": "¡Flipante bodega histórica! Groot Constantia, siendo la bodega más antigua de Sudáfrica desde 1685, me recordó a nuestras bodegas centenarias del Duero pero con historia colonial única. La arquitectura del Cabo Holandés es preciosa, perfectamente conservada. Los vinos históricos, especialmente el Constantia dessert wine que era favorito de Napoleón, son extraordinarios. Las visitas guiadas son excelentes, te cuentan la historia desde los hugonotes hasta hoy. Los jardines están de muerte, perfectos para picnic. ¡Un must absoluto para españoles amantes del vino y la historia!",
+      "date": "2024-07-29",
+      "highlights": ["Bodega más antigua de Sudáfrica", "Arquitectura del Cabo Holandés", "Constantia dessert wine histórico"],
+      "traveler_type": "Español vino-historia"
+    },
+    {
+      "reviewer_name": "Carmen Delgado",
+      "location": "Querétaro, México",
+      "rating": 5,
+      "review": "¡Órale, qué bodega tan impresionante! Groot Constantia tiene una historia increíble, 340 años haciendo vino de calidad mundial. Como queretana del valle vinícola mexicano, me fascina ver cómo otras regiones desarrollaron su tradición. La finca es hermosa, esos edificios coloniales blancos con las montañas de fondo son súper fotogénicos. El tour histórico está padrísimo, aprendes muchísimo sobre la vitivinicultura sudafricana. Los vinos están excelentes, especialmente el Gouverneurs Reserve. ¡Vale la pena cada peso para familias mexicanas que aman la cultura y el vino!",
+      "date": "2024-06-22",
+      "highlights": ["340 años de historia", "Edificios coloniales fotogénicos", "Tour histórico educativo"],
+      "traveler_type": "Queretana vinícola"
+    },
+    {
+      "reviewer_name": "Diego Sánchez",
+      "location": "San Rafael, Mendoza, Argentina",
+      "rating": 4,
+      "review": "¡Espectacular bodega histórica! Como sanrafaelino con familia vitivinícola, Groot Constantia me impresionó por su longevidad y constancia en la calidad. La estate tiene un encanto especial, esa arquitectura colonial holandesa es única. Los vinos mantienen tradición pero con técnicas modernas, especialmente los blancos que aprovechan el clima fresco. El museo del vino es súper interesante, muestra la evolución de la viticultura sudafricana. Los jardines históricos están bárbares para relajarse después de la cata. ¡Recomendado para argentinos que aprecian tradición vinícola!",
+      "date": "2024-08-07",
+      "highlights": ["Longevidad y calidad constante", "Arquitectura colonial única", "Museo del vino interesante"],
+      "traveler_type": "Sanrafaelino tradicional"
+    },
+    {
+      "reviewer_name": "Alejandra Torres",
+      "location": "Villa de Leyva, Colombia",
+      "rating": 4,
+      "review": "¡Bacana la finca histórica! Como leyvinense acostumbrada a arquitectura colonial, Groot Constantia me encantó por su autenticidad y conservación. La historia de 340 años está súper bien contada en el tour, desde los primeros colonos hasta la actualidad. Los edificios blancos con tejas rojas me recordaron un poco a nuestra arquitectura colonial pero con influencia holandesa única. Los vinos están buenos, aunque mi paladar colombiano prefiere sabores más tropicales. ¡Una experiencia cultural rica para colombianos interesados en historia mundial!",
+      "date": "2024-07-18",
+      "highlights": ["Autenticidad y conservación", "Historia de 340 años bien contada", "Arquitectura colonial-holandesa"],
+      "traveler_type": "Leyvinense cultural"
+    },
+    {
+      "reviewer_name": "Benjamín Morales",
+      "location": "Colchagua, Chile",
+      "rating": 5,
+      "review": "¡La raja la viña histórica! Como colchagüino del mundo del vino, Groot Constantia me fascinó por ser la cuna de la vitivinicultura sudafricana. La tradición de 340 años se respira en cada rincón, desde la arquitectura original hasta las barricas centenarias. Los vinos mantienen ese estilo clásico pero evolucionado, especialmente los Sauvignon Blanc que aprovechan el terroir único de Constantia. La experiencia educativa es excelente, aprendí técnicas que podríamos adaptar en Colchagua. ¡Una visita obligatoria para chilenos del rubro vinícola!",
+      "date": "2024-08-23",
+      "highlights": ["Cuna vitivinicultura sudafricana", "Tradición de 340 años", "Sauvignon Blanc terroir único"],
+      "traveler_type": "Colchagüino vinícola"
+    }
+  ],
+  "two-oceans-aquarium": [
+    {
+      "reviewer_name": "Beatriz Jiménez",
+      "location": "Valencia, España",
+      "rating": 5,
+      "review": "¡Flipante acuario! Two Oceans es espectacular, especialmente para familias con niños. Los tanques son enormes y súper bien diseñados, especialmente el del kelp forest que te hace sentir bajo el mar. Los tiburones están impresionantes, nadan súper cerca del cristal. Me encantó la sección de pingüinos, los peques alucinaron viéndolos nadar. La parte educativa sobre los océanos Atlántico e Índico es súper interesante. El café del acuario tiene vistas bonitas al puerto. ¡Un plan perfecto para familias valencianas que visiten Ciudad del Cabo!",
+      "date": "2024-07-28",
+      "highlights": ["Kelp forest espectacular", "Tiburones impresionantes", "Sección educativa interesante"],
+      "traveler_type": "Familia valenciana"
+    },
+    {
+      "reviewer_name": "Raúl Moreno",
+      "location": "La Paz, México",
+      "rating": 5,
+      "review": "¡Órale, qué acuario tan padrísimo! Como bajacaliforniano acostumbrado al Mar de Cortés, Two Oceans me sorprendió con especies que nunca había visto. El predator exhibit con tiburones es increíble, súper bien montado. Los jellyfish están hermosos, esas medusas fluorescentes hipnotizan. Me gustó mucho aprender sobre la fauna marina sudafricana, especialmente las especies endémicas del Cabo. Los niños se la pasaron genial en las actividades interactivas. ¡Vale la pena para familias mexicanas que aman la vida marina!",
+      "date": "2024-06-26",
+      "highlights": ["Predator exhibit increíble", "Jellyfish fluorescentes", "Fauna endémica del Cabo"],
+      "traveler_type": "Familia bajacaliforniana"
+    },
+    {
+      "reviewer_name": "Valeria Herrera",
+      "location": "Puerto Madryn, Argentina",
+      "rating": 4,
+      "review": "¡Bárbaro acuario marino! Como madrynense acostumbrada a fauna marina patagónica, Two Oceans me mostró especies completamente diferentes pero igual de fascinantes. El kelp forest es espectacular, similar a nuestros bosques de algas pero con especies tropicales. Los tiburones ragged-tooth son impresionantes, súper diferentes a los que tenemos en el Atlántico Sur. Me gustó la parte sobre conservación marina, muy necesaria. El único detalle es que estaba bastante lleno cuando fuimos. ¡Recomendado para argentinos marinos que quieren conocer otros ecosistemas!",
+      "date": "2024-08-04",
+      "highlights": ["Especies diferentes pero fascinantes", "Kelp forest con especies tropicales", "Conservación marina importante"],
+      "traveler_type": "Madrynense marina"
+    },
+    {
+      "reviewer_name": "Santiago Ospina",
+      "location": "Santa Marta, Colombia",
+      "rating": 5,
+      "review": "¡Bacano el acuario! Como samario del Caribe, Two Oceans me abrió los ojos a la diversidad marina de otros océanos. El diseño del acuario es chimba, especialmente el túnel donde caminas rodeado de tiburones y rayas. Las especies del Cabo son súper diferentes a las nuestras tropicales, pero igual de hermosas. Me encantó la sección de invertebrados, esos pulpos y anguilas están increíbles. La parte educativa sobre corrientes oceánicas es súper interesante. ¡Recomendado para colombianos costeños curiosos por la vida marina mundial!",
+      "date": "2024-07-19",
+      "highlights": ["Túnel rodeado de tiburones", "Especies diferentes pero hermosas", "Invertebrados increíbles"],
+      "traveler_type": "Samario costeño"
+    },
+    {
+      "reviewer_name": "Isidora Lagos",
+      "location": "Antofagasta, Chile",
+      "rating": 5,
+      "review": "¡La raja el acuario! Como antofagastina acostumbrada al Pacífico frío, Two Oceans me mostró la riqueza marina de aguas más cálidas. El encounter con los tiburones es espectacular, súper bien diseñado para que te sientas dentro del océano. Me fascino la biodiversidad del Cabo, especies que nunca había visto en nuestras costas. Los pingüinos africanos son súper tiernos, completamente diferentes a los de nuestro sur. La tecnología del acuario es de primer mundo. ¡Una experiencia marina que toda chilena nortina debe vivir!",
+      "date": "2024-08-17",
+      "highlights": ["Riqueza marina aguas cálidas", "Encounter tiburones espectacular", "Pingüinos africanos tiernos"],
+      "traveler_type": "Antofagastina marina"
+    }
+  ],
+  "diamond-works-museum": [
+    {
+      "reviewer_name": "Rafael Martín",
+      "location": "Madrid, España",
+      "rating": 4,
+      "review": "¡Flipante museo sobre diamantes! Diamond Works te enseña toda la historia y proceso de los diamantes sudafricanos de manera súper didáctica. Como madrileño, me fascinó aprender sobre la industria que construyó gran parte de la economía sudafricana. Ver el proceso desde la mina hasta la joya terminada es alucinante. Los diamantes en bruto vs. los tallados muestran el arte que hay detrás. La parte histórica sobre las minas de Kimberley es impresionante. Los precios en la tienda están caros, obvio, pero la experiencia educativa vale la pena. ¡Interesante para españoles curiosos por la historia industrial!",
+      "date": "2024-07-30",
+      "highlights": ["Historia industria diamantes", "Proceso mina-joya fascinante", "Minas de Kimberley históricas"],
+      "traveler_type": "Madrileño curioso"
+    },
+    {
+      "reviewer_name": "Lorena Vega",
+      "location": "Guadalajara, México",
+      "rating": 4,
+      "review": "¡Órale, qué interesante el museo! Como tapatía que ama las joyas, Diamond Works me enseñó un montón sobre diamantes que no sabía. La exhibición del proceso de tallado está padrísima, puedes ver artesanos trabajando en vivo. Me impresionó la historia de cómo Sudáfrica se volvió potencia mundial en diamantes. Las réplicas de diamantes famosos están increíbles, especialmente el Hope Diamond. La tienda tiene cosas hermosas pero súper caras para nosotros los mexicanos. ¡Vale la pena para tapatías que aman conocer sobre joyas y historia!",
+      "date": "2024-06-27",
+      "highlights": ["Proceso tallado en vivo", "Historia potencia diamantífera", "Réplicas diamantes famosos"],
+      "traveler_type": "Tapatía joyera"
+    },
+    {
+      "reviewer_name": "Esteban Morales",
+      "location": "Buenos Aires, Argentina",
+      "rating": 3,
+      "review": "Interesante pero un poco comercial. Como porteño acostumbrado a museos con más profundidad histórica, Diamond Works me pareció más enfocado en la venta que en la educación. Igual, aprendí cosas interesantes sobre la geología de los diamantes y la historia minera sudafricana. La demonstración de tallado está buena, aunque corta. Lo que más me gustó fue la parte sobre el conflicto de los diamantes de sangre y cómo la industria está cambiando. Los precios prohibitivos para argentinos, pero entiendo que es negocio. ¡Puede valer la pena si te interesan las gemas!",
+      "date": "2024-08-05",
+      "highlights": ["Geología diamantes interesante", "Historia minera sudafricana", "Conflicto diamantes sangre"],
+      "traveler_type": "Porteño crítico"
+    },
+    {
+      "reviewer_name": "Daniela Castro",
+      "location": "Cartagena, Colombia",
+      "rating": 4,
+      "review": "¡Bacano el museo de diamantes! Como cartagenera acostumbrada a joyería por nuestro turismo, Diamond Works me enseñó la diferencia entre joyería artesanal y de lujo mundial. La historia de los diamantes sudafricanos es súper interesante, especialmente cómo transformó el país. Me gustó ver las herramientas tradicionales vs. las modernas para tallar. La parte sobre certificación internacional está muy buena, súper educativa. Los diamantes expuestos están hermosos, pero obvio, súper caros. ¡Recomendado para cartageneras que quieren aprender sobre joyería de clase mundial!",
+      "date": "2024-07-21",
+      "highlights": ["Historia transformación país", "Herramientas tradicionales vs modernas", "Certificación internacional educativa"],
+      "traveler_type": "Cartagenera joyería"
+    },
+    {
+      "reviewer_name": "Patricio Silva",
+      "location": "Calama, Chile",
+      "rating": 4,
+      "review": "¡Bacán el museo! Como calameno conocedor de minería por el cobre, Diamond Works me ayudó a entender otra industria minera mundial. Las similitudes y diferencias entre minería de cobre y diamantes son súper interesantes. Me gustó la explicación geológica de cómo se forman los diamantes, súper técnica. La historia social de las minas sudafricanas tiene paralelos con nuestro norte minero. Ver el proceso completo desde extracción hasta producto final es educativo. ¡Recomendado para chilenos mineros que quieren conocer otras industrias extractivas!",
+      "date": "2024-08-18",
+      "highlights": ["Comparación industrias mineras", "Explicación geológica técnica", "Historia social paralelos"],
+      "traveler_type": "Calameno minero"
+    }
+  ],
+  "helicopter-tour-cape-town": [
+    {
+      "reviewer_name": "Gonzalo Ruiz",
+      "location": "Sevilla, España",
+      "rating": 5,
+      "review": "¡Coño, qué experiencia más flipante! El helicopter tour sobre Ciudad del Cabo es alucinante, las vistas aéreas de Table Mountain, Lion's Head y las playas son de infarto. Como sevillano acostumbrado a ver mi ciudad desde la Giralda, esto es otro nivel completamente. El piloto súper profesional, te va contando datos interesantes mientras vuelas. Ver Camps Bay y Clifton desde arriba con esas aguas turquesas es una postal perfecta. Los 15 minutos se pasan volando, literalmente. Caro pero vale cada euro para una ocasión especial. ¡Un must absoluto para españoles que quieren una experiencia única!",
+      "date": "2024-07-26",
+      "highlights": ["Vistas aéreas de infarto", "Piloto profesional informativo", "Camps Bay turquesa espectacular"],
+      "traveler_type": "Sevillano aventurero"
+    },
+    {
+      "reviewer_name": "Mónica Herrera",
+      "location": "Acapulco, México",
+      "rating": 5,
+      "review": "¡Órale, qué padre experiencia! Como acapulqueña acostumbrada a vistas bonitas de bahías, el helicopter tour de Ciudad del Cabo me voló la cabeza. Ver Table Mountain desde arriba es increíble, súper diferente a como se ve desde tierra. Las playas de Camps Bay y Clifton parecen de postal, ese contraste entre montañas y mar es único. El piloto súper amable y seguro, me dio mucha confianza. Mi esposo y yo celebramos nuestro aniversario así y fue perfecto. ¡Vale cada peso para momentos especiales, una experiencia que nunca olvidaremos!",
+      "date": "2024-06-23",
+      "highlights": ["Table Mountain desde arriba increíble", "Contraste montañas-mar único", "Perfecto para aniversarios"],
+      "traveler_type": "Pareja acapulqueña"
+    },
+    {
+      "reviewer_name": "Sebastián Torres",
+      "location": "Bariloche, Argentina",
+      "rating": 5,
+      "review": "¡Espectacular vuelo! Como barilochense acostumbrado a vistas aéreas de lagos y montañas, Ciudad del Cabo desde el aire es una experiencia única. La combinación de océano, montañas icónicas y ciudad moderna es increíble. El helicóptero súper cómodo y el piloto muy profesional, te explica cada punto de interés. Ver el encuentro de los océanos Atlántico e Índico desde arriba es impresionante. Los colores del agua cambian según la zona. Caro pero vale la pena para ocasiones especiales. ¡Recomendadísimo para argentinos que buscan experiencias aéreas únicas!",
+      "date": "2024-08-02",
+      "highlights": ["Combinación océano-montañas única", "Encuentro océanos desde aire", "Colores agua cambiantes"],
+      "traveler_type": "Barilochense aéreo"
+    },
+    {
+      "reviewer_name": "Alejandra Vargas",
+      "location": "Medellín, Colombia",
+      "rating": 4,
+      "review": "¡Bacano el vuelo en helicóptero! Como paisa acostumbrada a volar sobre valles y montañas, Ciudad del Cabo desde arriba es súper diferente pero igual de hermosa. Las vistas de Table Mountain y Lion's Head son brutales, especialmente con el océano de fondo. Me gustó mucho ver los barrios coloridos desde arriba, súper diferentes a nuestros pueblitos. El piloto bacano y seguro, me dio confianza total. Lo único es que es súper caro para nosotros los colombianos, pero para una vez en la vida vale la pena. ¡Experiencia única que toda paisa aventurera debe vivir!",
+      "date": "2024-07-24",
+      "highlights": ["Vistas brutales Table Mountain", "Barrios coloridos desde arriba", "Experiencia única en la vida"],
+      "traveler_type": "Paisa aventurera"
+    },
+    {
+      "reviewer_name": "Matías Contreras",
+      "location": "Iquique, Chile",
+      "rating": 5,
+      "review": "¡La raja el helicopter tour! Como iquiqueño acostumbrado a desierto y mar, las vistas aéreas de Ciudad del Cabo son espectaculares y súper diferentes. Ver Table Mountain desde arriba te da una perspectiva completamente nueva de por qué es tan icónica. Las playas atlánticas desde el aire son increíbles, esos colores turquesas contrastando con las montañas. El piloto súper preparado, conoce cada detalle de la geografía local. Caro pero worth it para ocasiones especiales. ¡Una experiencia aérea que todo chileno nortino debe vivir!",
+      "date": "2024-08-19",
+      "highlights": ["Perspectiva nueva Table Mountain", "Playas atlánticas increíbles", "Piloto súper preparado"],
+      "traveler_type": "Iquiqueño aéreo"
+    }
+  ],
+  "soweto-township-tour": [
+    {
+      "reviewer_name": "José Antonio López",
+      "location": "Córdoba, España",
+      "rating": 5,
+      "review": "¡Flipante experiencia cultural! El tour por Soweto es imprescindible para entender la historia sudafricana. Como cordobés con conciencia social, me impactó profundamente ver cómo la comunidad ha superado el apartheid manteniendo su identidad y cultura. La casa de Mandela en Vilakazi Street es emocionante, estar donde vivió el líder más importante de África es histórico. Los guías locales cuentan historias personales que te llegan al alma. La gente súper acogedora, nos invitaron hasta a probar comida tradicional. ¡Una lección de vida que todo español consciente debe vivir!",
+      "date": "2024-07-27",
+      "highlights": ["Historia sudafricana imprescindible", "Casa Mandela emocionante", "Guías locales auténticos"],
+      "traveler_type": "Cordobés consciente"
+    },
+    {
+      "reviewer_name": "María Elena Ruiz",
+      "location": "Ciudad de México, México",
+      "rating": 5,
+      "review": "¡Órale, qué experiencia tan poderosa! Como chilanga conocedora de luchas sociales, Soweto me conectó profundamente con la resistencia sudafricana. Ver cómo la comunidad mantiene viva su cultura después de tanta opresión es inspirador. Los murales y el arte urbano están padrísimos, súper similares a los de nuestros barrios con mensaje social. La comida tradicional que probamos estuvo rica, especialmente el pap y vleis. Los niños súper curiosos y amigables. ¡Una experiencia que cambia perspectivas, súper recomendada para mexicanos conscientes!",
+      "date": "2024-06-24",
+      "highlights": ["Conexión con resistencia", "Arte urbano con mensaje", "Comida tradicional rica"],
+      "traveler_type": "Chilanga consciente"
+    },
+    {
+      "reviewer_name": "Rodrigo Morales",
+      "location": "Villa 31, Buenos Aires, Argentina",
+      "rating": 5,
+      "review": "¡Bárbara experiencia social! Como porteño que conoce las villas, Soweto me mostró otra realidad de comunidades resilientes. La historia del apartheid contada por quienes la vivieron es conmovedora y necesaria. Me impresionó la organización comunitaria y cómo han transformado el barrio manteniendo su identidad. Las casas coloridas y el street art le dan vida increíble al lugar. La hospitaldad de la gente es única, te hacen sentir como familia. ¡Una experiencia transformadora que todo argentino social debe vivir!",
+      "date": "2024-08-06",
+      "highlights": ["Historia contada por protagonistas", "Organización comunitaria impresionante", "Hospitalidad única"],
+      "traveler_type": "Porteño social"
+    },
+    {
+      "reviewer_name": "Carolina Herrera",
+      "location": "Comuna 13, Medellín, Colombia",
+      "rating": 5,
+      "review": "¡Bacano el tour por Soweto! Como paisa de la Comuna 13, me identifiqué mucho con la historia de transformación y resistencia comunitaria. Ver cómo Soweto pasó de ser símbolo de opresión a orgullo cultural es inspirador. Los guías súper auténticos, te cuentan la historia real sin filtros. Me encantó el arte urbano y los murales, muy parecidos a los nuestros pero con temática africana. La música y bailes tradicionales están brutales. ¡Una experiencia que toda paisa conocedora de transformación social debe vivir!",
+      "date": "2024-07-20",
+      "highlights": ["Identificación con transformación", "Historia real sin filtros", "Arte urbano temática africana"],
+      "traveler_type": "Paisa transformación"
+    },
+    {
+      "reviewer_name": "Luis Moreno",
+      "location": "La Pintana, Santiago, Chile",
+      "rating": 4,
+      "review": "¡La raja la experiencia comunitaria! Como santiaguino de sector popular, Soweto me mostró cómo otras comunidades han enfrentado la adversidad con dignidad. La historia del apartheid es dura pero necesaria de conocer. Me gustó mucho ver cómo han mantenido sus tradiciones y cultura a pesar de todo. Los guías súper preparados y orgullosos de su barrio. La comida tradicional está rica, especialmente el braai comunitario. El único detalle es que a veces se siente un poco turístico, pero entiendo que es su sustento. ¡Recomendado para chilenos conscientes!",
+      "date": "2024-08-21",
+      "highlights": ["Enfrentar adversidad con dignidad", "Tradiciones mantenidas vivas", "Braai comunitario rico"],
+      "traveler_type": "Santiaguino popular"
+    }
+  ]
+}

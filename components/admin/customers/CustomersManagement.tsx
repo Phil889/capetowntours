@@ -80,6 +80,7 @@ import {
 } from "lucide-react";
 import { format, formatDistanceToNow } from "date-fns";
 import { cn } from "@/lib/utils";
+import { logError } from "@/lib/error-logger";
 
 interface Customer {
   id: string;
@@ -162,7 +163,13 @@ export default function CustomersManagement() {
         setCustomers(transformedCustomers);
       }
     } catch (error) {
-      console.error("Failed to fetch customers:", error);
+      logError('Failed to fetch customers', error as Error, {
+        component: 'CustomersManagement',
+        function: 'fetchCustomers',
+        searchTerm,
+        filterTier,
+        filterStatus
+      });
     } finally {
       setLoading(false);
     }

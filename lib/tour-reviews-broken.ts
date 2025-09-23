@@ -62,12 +62,12 @@ export const tourReviews: Record<string, Review[]> = {
     },
     {
       id: "3",
-      name: "Maria Garcia",
-      location: "Barcelona, Spain",
+      name: "Patricia y Roberto Mendoza",
+      location: "Valencia, España",
       flag: "🇪🇸",
-      date: "2 weeks ago",
+      date: "2 semanas",
       rating: 5,
-      text: "¡Boschendal es el paraíso! This historic Franschhoek wine estate offers an unforgettable South African wine experience. The setting is absolutely stunning - 17th century Cape Dutch architecture surrounded by vineyards, gardens, and mountains. We started with a cellar tour learning about their traditional and modern winemaking techniques. The wine tasting was comprehensive - their MCC sparkling wines are exceptional, particularly the Blanc de Blancs. The still wines showcase the diversity of Franschhoek terroir - elegant Chardonnays, complex Cabernet Sauvignons, and beautiful Rhône-style blends. The food experience was outstanding - we chose the harvest table lunch featuring seasonal produce from their organic gardens. The charcuterie and cheese platters paired with estate wines were perfect. The estate spans over 1,600 hectares with hiking trails, mountain biking routes, and picnic spots. The rose garden is Instagram-perfect, especially in spring (September-November). We learned about their sustainable farming practices, water conservation, and social responsibility programs. The farm shop offers wonderful local products - we bought olive oil, honey, preserves, and several bottles of wine. The staff was incredibly welcoming and knowledgeable. Located just 45 minutes from Cape Town, it's perfect for a day trip. Combine with other Franschhoek attractions for the ultimate wine country experience!"
+      text: "¡Una experiencia vinícola que nos emocionó profundamente! Como familia española, apreciamos la tradición y Boschendal nos conquistó con su historia de 300 años. Los viñedos nos recordaron nuestras tierras valencianas, pero con esa magia africana especial. El almuerzo en familia bajo los robles centenarios fue mágico - nuestros hijos jugaron mientras degustamos vinos excepcionales. La hospitalidad sudafricana nos tocó el corazón. Los vinos espumosos rivalizan con nuestros mejores cavas. Compramos varias botellas para compartir en casa con nuestros seres queridos. ¡Volveremos con toda la familia extendida!"
     }
   ],
 
@@ -93,12 +93,12 @@ export const tourReviews: Record<string, Review[]> = {
     },
     {
       id: "3",
-      name: "Ahmed Hassan",
-      location: "Dubai, UAE",
+      name: "خالد وآمنة الشامسي",
+      location: "أبو ظبي، الإمارات",
       flag: "🇦🇪",
-      date: "2 weeks ago",
+      date: "أسبوعان",
       rating: 5,
-      text: "Exceptional luxury safari experience at Aquila Private Game Reserve! Coming from the UAE, we have high standards for hospitality, and Aquila exceeded every expectation. This 10,000-hectare Big 5 conservancy in the Karoo offers world-class wildlife viewing combined with 5-star amenities. The game drives were phenomenal - we saw massive elephants up close, witnessed lions stalking prey, observed a leopard with her cubs, and watched rhinos wallowing in mud. Our expert ranger used tracking skills passed down through generations, identifying spoor, explaining animal behavior, and sharing conservation stories. The 4x4 safari vehicles are comfortable with blankets for cool mornings. Beyond the Big 5, we encountered cheetahs, hippos, crocodiles, giraffes, and over 20 antelope species. The birdwatching was excellent with African fish eagles, martial eagles, and colorful bee-eaters. The luxury lodge offers premium accommodation with African-themed décor, spa treatments, and gourmet dining. The traditional boma dinner under the stars with African drumming was magical. We appreciated learning about their anti-poaching units, community upliftment programs, and wildlife rehabilitation center. The reserve is completely malaria-free and offers various safari options including horseback safaris, quad bike adventures, and overnight experiences. Located close to Cape Town, it's perfect for combining with wine tours and city sightseeing. Truly world-class African safari experience!"
+      text: "سفاري استثنائي يليق بمعايير الضيافة العربية الأصيلة. كعائلة إماراتية معتادة على الفخامة، تجاوزت أكويلا كل توقعاتنا. الدليل السياحي احترم تقاليدنا وسهّل لنا أوقات الصلاة. رأينا الأسود وهي تصطاد - مشهد يذكرنا بقوة الطبيعة كما خلقها الله. وجبة العشاء التقليدية تحت النجوم كانت تجربة عائلية رائعة. الأطفال استمتعوا برؤية الزرافات والفيلة عن قرب. خدمة راقية وضيافة حقيقية في قلب البرية الأفريقية. تجربة عائلية مثالية نوصي بها لكل العائلات العربية."
     }
   ],
 
@@ -114,12 +114,12 @@ export const tourReviews: Record<string, Review[]> = {
     },
     {
       id: "2",
-      name: "Carlos Silva",
-      location: "São Paulo, Brazil",
-      flag: "🇧🇷",
-      date: "1 week ago",
+      name: "Alejandro y Sofía Herrera",
+      location: "Medellín, Colombia",
+      flag: "🇨🇴",
+      date: "1 semana",
       rating: 5,
-      text: "Experiência fantástica at Inverdoorn Game Reserve! This family-friendly safari destination near Cape Town exceeded all expectations. Located in the Klein Karoo region, the reserve offers diverse wildlife viewing in a malaria-free environment perfect for children. The kids were thrilled with the giraffe feeding experience - getting up close to these gentle giants was unforgettable. We saw the rare white lions, part of their specialized breeding program for this endangered genetic variant. The Big 5 game drive was successful - elephants crossing right in front of our vehicle, rhinos with babies, buffalo herds, and lions resting after a kill. Our ranger was excellent with children, explaining animal tracks, dung identification (kids loved this!), and African folklore. The cheetah education center was fascinating - learning about the world's fastest land animal and conservation efforts. We spotted hippos, crocodiles, zebras, wildebeest, and various antelope species. The Karoo landscape with its unique succulent plants and dramatic mountains provided stunning backdrops. The traditional South African braai lunch was delicious with options for all dietary requirements. The facilities included a pool where kids could swim between game drives. The reserve's commitment to conservation education was impressive. Compared to distant Kruger National Park, Inverdoorn offers convenience without compromising wildlife viewing. Perfect for families wanting an authentic African safari experience!"
+      text: "¡Una aventura familiar extraordinaria que superó nuestros sueños! Como familia latina, valoramos mucho compartir experiencias especiales y este safari nos unió más. Los niños gritaban de emoción al ver los leones blancos - algo único en el mundo. El guía habló en español con nosotros, contándonos historias fascinantes sobre cada animal. La comida estuvo deliciosa y respetaron nuestras preferencias alimentarias. Los pequeños se divirtieron muchísimo alimentando las jirafas y nadando en la piscina. El paisaje del Karoo nos recordó las montañas colombianas. Una experiencia que atesoraremos para siempre y que recomendamos a todas las familias hispanohablantes. ¡Queremos regresar pronto!"
     },
     {
       id: "3",
@@ -216,9 +216,12 @@ export const tourReviews: Record<string, Review[]> = {
     },
     {
       id: "3",
-      name: "Fatima Al-Rashid",
-      location: "Kuwait City, Kuwait",
+      name: "نوال وأحمد الكندري",
+      location: "الكويت، دولة الكويت",
       flag: "🇰🇼",
-      date: "2 weeks ago",
+      date: "أسبوعان",
       rating: 5,
-      text: "Cape Point National Park surpassed all expectations - truly one of Earth's most spectacular locations! This UNESCO World Heritage Site at Africa's southwestern tip offers unparalleled natural beauty, rich biodiversity, and fascinating maritime history. The drive through the Cape Peninsula is unforgettable - Chapman's Peak Drive's engineering marvel hugging cliffsides, Noordhoek Beach's 8km pristine coastline, and charming coastal villages. The reserve's 7,750 hectares protect unique Cape Floral Kingdom vegetation - we saw king proteas, rare orchids, and colorful ericas among 1,100 plant species. The Flying Dutchman Funicular (named after the ghost ship legend) whisked us to the old lighthouse at 238m elevation - the panoramic views were absolutely stunning! The symbolic significance of Cape of Good Hope, where Portuguese navigator Dias proved the sea route to India was possible, adds historical weight to the natural beauty. We spotted numerous antelope species including large eland, elegant bontebok, and endemic Cape grysbok. The chacma baboon troops were entertaining but respectfully observe
+      text: "رحلة إلى أقاصي القارة الأفريقية فاقت كل التوقعات. كعائلة كويتية نحب استكشاف عجائب الله في الأرض، وكان رأس الرجاء الصالح مكاناً مهيباً حقاً. القيادة عبر شبه الجزيرة كانت مليئة بالمناظر الخلابة. المحمية تضم أكثر من ألف نوع من النباتات النادرة - شاهدنا زهور البروتيا الملكية الرائعة. الصعود بالقطار المعلق إلى المنارة القديمة كان مثيراً والمناظر البانورامية كانت ساحرة. شاهدنا نقطة التقاء المحيطين الأطلسي والهندي - مشهد يذكرنا بعظمة الخالق. تنظيم ممتاز واحترام لقيمنا الثقافية. تجربة عائلية مميزة نوصي بها."
+    }
+  ]
+};

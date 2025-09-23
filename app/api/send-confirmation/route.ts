@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { Resend } from "resend";
+import { logError, logInfo } from '@/lib/error-logger';
 
 const resend = new Resend(process.env.RESEND_API_KEY);
 
@@ -13,7 +14,11 @@ async function sendEmail(to: string, subject: string, html: string) {
     });
     return true;
   } catch (error) {
-    console.error("Failed to send confirmation email:", error);
+    logError('Failed to send confirmation email', error, {
+      component: 'SendConfirmationAPI',
+      function: 'sendEmail',
+      action: 'email_send'
+    });
     return false;
   }
 }

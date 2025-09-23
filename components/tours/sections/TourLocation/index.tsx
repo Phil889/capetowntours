@@ -5,12 +5,25 @@ import { getTourImages, getLocationInfo } from '@/lib/tour-utils';
 import { Compass, MapPin, Clock, Users, Navigation, Calendar, Info } from 'lucide-react';
 import InteractiveMapLink from '@/components/tours/InteractiveMapLink';
 import styles from '@/styles/tour-detail.module.css';
+import { useTranslations } from '@/lib/i18n/hooks';
 
 interface TourLocationProps {
   tour: Tour;
+  translations?: {
+    tour_location?: string;
+    departure?: string;
+    pickup?: string;
+    getting_there?: string;
+    duration?: string;
+    meeting_point?: string;
+    pickup_included?: string;
+    self_drive?: string;
+    details_after_booking?: string;
+  };
 }
 
-export default function TourLocation({ tour }: TourLocationProps) {
+export default function TourLocation({ tour, translations }: TourLocationProps) {
+  const { t } = useTranslations('tour_detail');
   const locationInfo = getLocationInfo(tour);
 
   return (
@@ -19,7 +32,7 @@ export default function TourLocation({ tour }: TourLocationProps) {
         <div className={styles.sectionIcon} aria-hidden="true">
           <Compass className="w-4 h-4" />
         </div>
-        Tour Location
+        {translations?.tour_location || t('tour_location')}
       </h2>
       
       <div className="bg-gradient-to-br from-amber-50 to-orange-50 rounded-xl p-6 border border-amber-200">
@@ -38,19 +51,19 @@ export default function TourLocation({ tour }: TourLocationProps) {
               <div className="flex items-center gap-2">
                 <Clock className="w-4 h-4 text-amber-600" aria-hidden="true" />
                 <span className="text-gray-600">
-                  Departure: {locationInfo.departureTime}
+                  {translations?.departure || t('departure')}: {locationInfo.departureTime}
                 </span>
               </div>
               <div className="flex items-center gap-2">
                 <Users className="w-4 h-4 text-amber-600" aria-hidden="true" />
                 <span className="text-gray-600">
-                  Pickup: {locationInfo.pickup}
+                  {translations?.pickup || t('pickup')}: {locationInfo.pickup}
                 </span>
               </div>
             </div>
             
             <div className="mt-4">
-              <InteractiveMapLink 
+              <InteractiveMapLink
                 mapsQuery={locationInfo.mapsQuery}
                 tourSlug={tour.slug}
               />
@@ -63,26 +76,26 @@ export default function TourLocation({ tour }: TourLocationProps) {
         <div className="bg-white rounded-lg p-4 border border-gray-200">
           <div className="flex items-center gap-2 mb-2">
             <Navigation className="w-5 h-5 text-amber-600" aria-hidden="true" />
-            <h4 className="font-semibold text-gray-800">Getting There</h4>
+            <h4 className="font-semibold text-gray-800">{translations?.getting_there || t('getting_there')}</h4>
           </div>
           <p className="text-sm text-gray-600">
-            {tour.pickup ? "Free hotel pickup included" : "Self-drive or arrange transport"}
+            {tour.pickup ? (translations?.pickup_included || t('pickup_included')) : (translations?.self_drive || t('self_drive'))}
           </p>
         </div>
         <div className="bg-white rounded-lg p-4 border border-gray-200">
           <div className="flex items-center gap-2 mb-2">
             <Calendar className="w-5 h-5 text-amber-600" aria-hidden="true" />
-            <h4 className="font-semibold text-gray-800">Duration</h4>
+            <h4 className="font-semibold text-gray-800">{translations?.duration || t('duration')}</h4>
           </div>
           <p className="text-sm text-gray-600">{locationInfo.duration}</p>
         </div>
         <div className="bg-white rounded-lg p-4 border border-gray-200">
           <div className="flex items-center gap-2 mb-2">
             <Info className="w-5 h-5 text-amber-600" aria-hidden="true" />
-            <h4 className="font-semibold text-gray-800">Meeting Point</h4>
+            <h4 className="font-semibold text-gray-800">{translations?.meeting_point || t('meeting_point')}</h4>
           </div>
           <p className="text-sm text-gray-600">
-            {tour.pickup || "Details provided after booking"}
+            {tour.pickup || (translations?.details_after_booking || t('details_after_booking'))}
           </p>
         </div>
       </div>

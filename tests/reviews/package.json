@@ -1,0 +1,58 @@
+{
+  "name": "tour-reviews-testing-suite",
+  "version": "1.0.0",
+  "description": "Comprehensive testing suite for tour reviews system across all 105 tour pages",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "test:database": "jest database-integrity.test.ts --verbose",
+    "test:comprehensive": "jest tour-reviews-comprehensive.test.ts --verbose",
+    "test:performance": "jest performance-benchmark.test.ts --verbose",
+    "test:display": "jest page-display.test.ts --verbose",
+    "test:all": "node automated-validation-runner.ts",
+    "test:debug": "jest --verbose --detectOpenHandles --forceExit",
+    "test:ci": "jest --ci --coverage --watchAll=false",
+    "validate": "node automated-validation-runner.ts",
+    "reports": "open reports/test-report.html"
+  },
+  "keywords": [
+    "testing",
+    "tour-reviews",
+    "validation",
+    "quality-assurance",
+    "performance",
+    "multilingual",
+    "e2e"
+  ],
+  "dependencies": {
+    "@testing-library/jest-dom": "^6.1.0",
+    "@testing-library/react": "^14.0.0",
+    "@testing-library/user-event": "^14.5.0",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "jest-junit": "^16.0.0",
+    "jest-html-reporters": "^3.1.0",
+    "next": "^14.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.0",
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  },
+  "jest": {
+    "testEnvironment": "jsdom",
+    "setupFilesAfterEnv": ["<rootDir>/jest.setup.js"],
+    "testTimeout": 120000,
+    "verbose": true,
+    "collectCoverage": true,
+    "coverageDirectory": "./coverage",
+    "coverageReporters": ["text", "lcov", "html", "json-summary"],
+    "testMatch": ["**/*.test.ts", "**/*.test.tsx"],
+    "moduleNameMapping": {
+      "^@/(.*)$": "<rootDir>/../../$1"
+    }
+  }
+}

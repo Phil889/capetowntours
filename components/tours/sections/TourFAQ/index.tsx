@@ -5,6 +5,7 @@ import dynamic from 'next/dynamic';
 import { Tour } from '@/types/tour-detail';
 import { HelpCircle } from 'lucide-react';
 import styles from '@/styles/tour-detail.module.css';
+import { useTranslations } from '@/lib/i18n/hooks';
 
 const FAQAccordion = dynamic(
   () => import('@/components/tours/FAQAccordion'),
@@ -27,6 +28,8 @@ interface TourFAQProps {
 }
 
 export default function TourFAQ({ tour }: TourFAQProps) {
+  const { t } = useTranslations('tour_detail');
+
   if (!tour.faqs || tour.faqs.length === 0) {
     return null;
   }
@@ -37,7 +40,7 @@ export default function TourFAQ({ tour }: TourFAQProps) {
         <div className={styles.sectionIcon} aria-hidden="true">
           <HelpCircle className="w-4 h-4" />
         </div>
-        Frequently Asked Questions
+        {t('frequently_asked_questions')}
       </h2>
       <Suspense fallback={
         <div className="animate-pulse">

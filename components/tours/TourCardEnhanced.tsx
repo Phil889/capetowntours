@@ -6,9 +6,20 @@ import { Clock, Users } from 'lucide-react';
 
 interface TourCardProps {
   tour: Tour;
+  translations: {
+    tours: {
+      tourCard: {
+        day: string;
+        days: string;
+        max: string;
+        perPerson: string;
+        viewDetails: string;
+      };
+    };
+  };
 }
 
-export default function TourCardEnhanced({ tour }: TourCardProps) {
+export default function TourCardEnhanced({ tour, translations }: TourCardProps) {
   return (
     <Link
       href={`/tours/${tour.slug}`}
@@ -56,14 +67,14 @@ export default function TourCardEnhanced({ tour }: TourCardProps) {
             <div className="flex items-center gap-1">
               <Clock className="w-4 h-4" />
               <span>
-                {tour.duration_days} {tour.duration_days === 1 ? 'day' : 'days'}
+                {tour.duration_days} {tour.duration_days === 1 ? (translations.tours.tourCard.day || 'day') : (translations.tours.tourCard.days || 'days')}
               </span>
             </div>
           )}
           {tour.max_group_size && (
             <div className="flex items-center gap-1">
               <Users className="w-4 h-4" />
-              <span>Max {tour.max_group_size}</span>
+              <span>{translations.tours.tourCard.max || 'Max'} {tour.max_group_size}</span>
             </div>
           )}
         </div>
@@ -74,13 +85,13 @@ export default function TourCardEnhanced({ tour }: TourCardProps) {
             <span className="text-2xl font-bold text-green-700">
               {formatPrice(tour.price, tour.currency)}
             </span>
-            <span className="text-sm text-gray-500 ml-1">per person</span>
+            <span className="text-sm text-gray-500 ml-1">{translations.tours.tourCard.perPerson || 'per person'}</span>
           </div>
           <button
             className="px-4 py-2 bg-brand-primary text-white rounded-lg font-semibold hover:bg-brand-primary/90 transition-colors text-sm"
             tabIndex={-1}
           >
-            View Details
+            {translations.tours.tourCard.viewDetails || 'View Details'}
           </button>
         </div>
       </div>

@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import { ChevronLeft, ChevronRight, X, ZoomIn, Play, Award, Clock, Users, MapPin } from "lucide-react";
 import styles from "@/styles/tour-detail.module.css";
+import { useTranslations } from '@/lib/i18n/hooks';
 
 interface TourHeroGalleryProps {
   title: string;
@@ -12,14 +13,22 @@ interface TourHeroGalleryProps {
     value: string;
   }[];
   videoUrl?: string;
+  translations?: {
+    best_seller?: string;
+    verified_tour?: string;
+    rating?: string;
+    guest_favorite?: string;
+  };
 }
 
 export default function TourHeroGallery({ 
   title, 
   images = [], 
   badges = [],
-  videoUrl 
+  videoUrl,
+  translations 
 }: TourHeroGalleryProps) {
+  const { t } = useTranslations('badges');
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const [isFullscreen, setIsFullscreen] = useState(false);
   const [showVideo, setShowVideo] = useState(false);
@@ -45,13 +54,19 @@ export default function TourHeroGallery({
     document.body.style.overflow = 'unset';
   };
 
-  // Default badges if none provided
-  const defaultBadges = badges.length > 0 ? badges : [
-    { icon: <Award className="w-4 h-4" />, label: "Best", value: "Seller" },
-    { icon: <Clock className="w-4 h-4" />, label: "Instant", value: "Confirmation" },
-    { icon: <Users className="w-4 h-4" />, label: "Small", value: "Groups" },
-    { icon: <MapPin className="w-4 h-4" />, label: "Hotel", value: "Pickup" }
+  // Create translated badges - use server-side translations if available, fallback to client-side
+  const translatedBadges = [
+    { icon: <Award className="w-4 h-4" />, text: translations?.best_seller || t('best_seller') },
+    { icon: <Clock className="w-4 h-4" />, text: translations?.verified_tour || t('verified_tour') },
+    { icon: <Users className="w-4 h-4" />, text: "4.9 " + (translations?.rating || t('rating')) },
+    { icon: <MapPin className="w-4 h-4" />, text: translations?.guest_favorite || t('guest_favorite') }
   ];
+
+  // Use provided badges or default translated ones
+  const displayBadges = badges.length > 0 ? badges.map(badge => ({
+    icon: badge.icon,
+    text: `${badge.label} ${badge.value}` // Keep original format for custom badges
+  })) : translatedBadges;
 
   return (
     <>
@@ -122,10 +137,10 @@ export default function TourHeroGallery({
           <div className={styles.heroContent}>
             <h1 className={styles.heroTitle}>{title}</h1>
             <div className={styles.heroBadges}>
-              {defaultBadges.map((badge, index) => (
+              {displayBadges.map((badge, index) => (
                 <div key={index} className={styles.heroBadge}>
                   {badge.icon}
-                  <span>{badge.label} {badge.value}</span>
+                  <span>{badge.text}</span>
                 </div>
               ))}
             </div>

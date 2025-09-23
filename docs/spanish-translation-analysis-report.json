@@ -1,0 +1,18 @@
+{
+  "summary": {
+    "englishKeyCount": 342,
+    "spanishKeyCount": 342,
+    "germanKeyCount": 342,
+    "frenchKeyCount": 342,
+    "arabicKeyCount": 342,
+    "missingInSpanishCount": 0,
+    "spanishCompletionPercentage": "100.00"
+  },
+  "missingKeys": [],
+  "keysOnlyInSpanish": [],
+  "inconsistencies": {
+    "germanExtra": [],
+    "frenchExtra": [],
+    "arabicExtra": []
+  }
+}

@@ -1,0 +1,156 @@
+[2025-08-24T20:59:18.170Z] INFO: ============================================================
+[2025-08-24T20:59:18.174Z] INFO: STARTING MULTI-LANGUAGE TOUR REVIEWS DATABASE INSERTION
+[2025-08-24T20:59:18.174Z] INFO: ============================================================
+[2025-08-24T20:59:18.188Z] INFO: Supabase client initialized
+[2025-08-24T20:59:18.189Z] INFO: 
+--- Processing EN Reviews ---
+[2025-08-24T20:59:18.190Z] INFO: Starting insertion for language: en
+[2025-08-24T20:59:18.191Z] INFO: Loaded 56 reviews for language: en
+[2025-08-24T20:59:20.237Z] INFO: Found 72 existing reviews for language: en
+[2025-08-24T20:59:20.903Z] INFO: 56 new reviews to insert for en (0 already exist)
+[2025-08-24T20:59:20.904Z] INFO: Inserting batch 1 for en: 50 reviews
+[2025-08-24T20:59:21.715Z] INFO: Batch 1 for en failed (attempt 1), retrying...
+[2025-08-24T20:59:23.018Z] INFO: Batch 1 for en failed (attempt 2), retrying...
+[2025-08-24T20:59:25.315Z] INFO: Inserting batch 2 for en: 6 reviews
+[2025-08-24T20:59:25.560Z] INFO: Batch 2 for en failed (attempt 1), retrying...
+[2025-08-24T20:59:26.827Z] INFO: Batch 2 for en failed (attempt 2), retrying...
+[2025-08-24T20:59:29.061Z] INFO: Completed en: 0 reviews inserted in 11s
+[2025-08-24T20:59:30.074Z] INFO: 
+--- Processing DE Reviews ---
+[2025-08-24T20:59:30.075Z] INFO: Starting insertion for language: de
+[2025-08-24T20:59:30.076Z] INFO: Loaded 24 reviews for language: de
+[2025-08-24T20:59:30.689Z] INFO: Found 25 existing reviews for language: de
+[2025-08-24T20:59:30.909Z] INFO: 24 new reviews to insert for de (0 already exist)
+[2025-08-24T20:59:30.909Z] INFO: Inserting batch 1 for de: 24 reviews
+[2025-08-24T20:59:31.139Z] INFO: Batch 1 for de failed (attempt 1), retrying...
+[2025-08-24T20:59:32.377Z] INFO: Batch 1 for de failed (attempt 2), retrying...
+[2025-08-24T20:59:34.616Z] INFO: Completed de: 0 reviews inserted in 5s
+[2025-08-24T20:59:35.618Z] INFO: 
+--- Processing FR Reviews ---
+[2025-08-24T20:59:35.619Z] INFO: Starting insertion for language: fr
+[2025-08-24T20:59:35.620Z] INFO: Loaded 24 reviews for language: fr
+[2025-08-24T20:59:35.825Z] INFO: Found 25 existing reviews for language: fr
+[2025-08-24T20:59:36.037Z] INFO: 24 new reviews to insert for fr (0 already exist)
+[2025-08-24T20:59:36.037Z] INFO: Inserting batch 1 for fr: 24 reviews
+[2025-08-24T20:59:36.282Z] INFO: Batch 1 for fr failed (attempt 1), retrying...
+[2025-08-24T20:59:37.528Z] INFO: Batch 1 for fr failed (attempt 2), retrying...
+[2025-08-24T20:59:39.795Z] INFO: Completed fr: 0 reviews inserted in 4s
+[2025-08-24T20:59:40.803Z] INFO: 
+--- Processing ES Reviews ---
+[2025-08-24T20:59:40.804Z] INFO: Starting insertion for language: es
+[2025-08-24T20:59:40.805Z] INFO: Loaded 10 reviews for language: es
+[2025-08-24T20:59:41.006Z] INFO: Found 11 existing reviews for language: es
+[2025-08-24T20:59:41.213Z] INFO: 10 new reviews to insert for es (0 already exist)
+[2025-08-24T20:59:41.213Z] INFO: Inserting batch 1 for es: 10 reviews
+[2025-08-24T20:59:41.421Z] INFO: Batch 1 for es failed (attempt 1), retrying...
+[2025-08-24T20:59:42.644Z] INFO: Batch 1 for es failed (attempt 2), retrying...
+[2025-08-24T20:59:44.880Z] INFO: Completed es: 0 reviews inserted in 4s
+[2025-08-24T20:59:45.890Z] INFO: 
+--- Processing AR Reviews ---
+[2025-08-24T20:59:45.890Z] INFO: Starting insertion for language: ar
+[2025-08-24T20:59:45.891Z] INFO: Loaded 8 reviews for language: ar
+[2025-08-24T20:59:46.102Z] INFO: Found 8 existing reviews for language: ar
+[2025-08-24T20:59:46.316Z] INFO: 8 new reviews to insert for ar (0 already exist)
+[2025-08-24T20:59:46.316Z] INFO: Inserting batch 1 for ar: 8 reviews
+[2025-08-24T20:59:46.522Z] INFO: Batch 1 for ar failed (attempt 1), retrying...
+[2025-08-24T20:59:47.746Z] INFO: Batch 1 for ar failed (attempt 2), retrying...
+[2025-08-24T20:59:50.040Z] INFO: Completed ar: 0 reviews inserted in 4s
+[2025-08-24T20:59:51.047Z] INFO: 
+--- Validating Data Integrity ---
+[2025-08-24T20:59:51.048Z] INFO: Validating inserted data...
+[2025-08-24T21:00:16.119Z] INFO: ============================================================
+[2025-08-24T21:00:16.122Z] INFO: STARTING MULTI-LANGUAGE TOUR REVIEWS DATABASE INSERTION
+[2025-08-24T21:00:16.122Z] INFO: ============================================================
+[2025-08-24T21:00:16.137Z] INFO: Supabase client initialized
+[2025-08-24T21:00:16.138Z] INFO: 
+--- Processing EN Reviews ---
+[2025-08-24T21:00:16.138Z] INFO: Starting insertion for language: en
+[2025-08-24T21:00:16.139Z] INFO: Loaded 56 reviews for language: en
+[2025-08-24T21:00:16.785Z] INFO: Found 72 existing reviews for language: en
+[2025-08-24T21:00:17.357Z] INFO: 56 new reviews to insert for en (0 already exist)
+[2025-08-24T21:00:17.358Z] INFO: Inserting batch 1 for en: 50 reviews
+[2025-08-24T21:00:17.661Z] INFO: Batch 1 for en failed (attempt 1), retrying...
+[2025-08-24T21:00:18.972Z] INFO: Batch 1 for en failed (attempt 2), retrying...
+[2025-08-24T21:00:21.732Z] INFO: Inserting batch 2 for en: 6 reviews
+[2025-08-24T21:00:22.149Z] INFO: Batch 2 for en failed (attempt 1), retrying...
+[2025-08-24T21:00:23.377Z] INFO: Batch 2 for en failed (attempt 2), retrying...
+[2025-08-24T21:00:25.600Z] INFO: Completed en: 0 reviews inserted in 9s
+[2025-08-24T21:00:26.606Z] INFO: 
+--- Processing DE Reviews ---
+[2025-08-24T21:00:26.606Z] INFO: Starting insertion for language: de
+[2025-08-24T21:00:26.607Z] INFO: Loaded 24 reviews for language: de
+[2025-08-24T21:00:26.817Z] INFO: Found 25 existing reviews for language: de
+[2025-08-24T21:00:27.042Z] INFO: 24 new reviews to insert for de (0 already exist)
+[2025-08-24T21:00:27.043Z] INFO: Inserting batch 1 for de: 24 reviews
+[2025-08-24T21:00:27.313Z] INFO: Batch 1 for de failed (attempt 1), retrying...
+[2025-08-24T21:00:28.627Z] INFO: Batch 1 for de failed (attempt 2), retrying...
+[2025-08-24T21:00:31.219Z] INFO: Completed de: 0 reviews inserted in 5s
+[2025-08-24T21:00:32.232Z] INFO: 
+--- Processing FR Reviews ---
+[2025-08-24T21:00:32.232Z] INFO: Starting insertion for language: fr
+[2025-08-24T21:00:32.233Z] INFO: Loaded 24 reviews for language: fr
+[2025-08-24T21:00:32.443Z] INFO: Found 25 existing reviews for language: fr
+[2025-08-24T21:00:32.659Z] INFO: 24 new reviews to insert for fr (0 already exist)
+[2025-08-24T21:00:32.660Z] INFO: Inserting batch 1 for fr: 24 reviews
+[2025-08-24T21:00:32.946Z] INFO: Batch 1 for fr failed (attempt 1), retrying...
+[2025-08-24T21:00:34.216Z] INFO: Batch 1 for fr failed (attempt 2), retrying...
+[2025-08-24T21:00:36.472Z] INFO: Completed fr: 0 reviews inserted in 4s
+[2025-08-24T21:00:37.475Z] INFO: 
+--- Processing ES Reviews ---
+[2025-08-24T21:00:37.476Z] INFO: Starting insertion for language: es
+[2025-08-24T21:00:37.477Z] INFO: Loaded 10 reviews for language: es
+[2025-08-24T21:00:37.879Z] INFO: Found 11 existing reviews for language: es
+[2025-08-24T21:00:38.087Z] INFO: 10 new reviews to insert for es (0 already exist)
+[2025-08-24T21:00:38.088Z] INFO: Inserting batch 1 for es: 10 reviews
+[2025-08-24T21:00:38.309Z] INFO: Batch 1 for es failed (attempt 1), retrying...
+[2025-08-24T21:00:39.539Z] INFO: Batch 1 for es failed (attempt 2), retrying...
+[2025-08-24T21:00:41.788Z] INFO: Completed es: 0 reviews inserted in 4s
+[2025-08-24T21:00:42.797Z] INFO: 
+--- Processing AR Reviews ---
+[2025-08-24T21:00:42.798Z] INFO: Starting insertion for language: ar
+[2025-08-24T21:00:42.799Z] INFO: Loaded 8 reviews for language: ar
+[2025-08-24T21:00:43.245Z] INFO: Found 8 existing reviews for language: ar
+[2025-08-24T21:00:43.691Z] INFO: 8 new reviews to insert for ar (0 already exist)
+[2025-08-24T21:00:43.692Z] INFO: Inserting batch 1 for ar: 8 reviews
+[2025-08-24T21:00:43.911Z] INFO: Batch 1 for ar failed (attempt 1), retrying...
+[2025-08-24T21:00:45.152Z] INFO: Batch 1 for ar failed (attempt 2), retrying...
+[2025-08-24T21:00:47.388Z] INFO: Completed ar: 0 reviews inserted in 5s
+[2025-08-24T21:00:48.392Z] INFO: 
+--- Validating Data Integrity ---
+[2025-08-24T21:00:48.393Z] INFO: Validating inserted data...
+[2025-08-24T21:00:50.085Z] INFO: Data validation completed
+[2025-08-24T21:00:50.086Z] INFO: 
+--- Creating Rollback Procedures ---
+[2025-08-24T21:00:50.087Z] INFO: Rollback procedure created: rollback-reviews-insertion.sql
+[2025-08-24T21:00:50.087Z] INFO: 
+--- Generating Execution Report ---
+[2025-08-24T21:00:50.089Z] INFO: ============================================================
+[2025-08-24T21:00:50.090Z] INFO: EXECUTION COMPLETED: 0 reviews inserted with 6 errors in 34 seconds
+[2025-08-24T21:00:50.090Z] INFO: ============================================================
+[2025-08-24T21:01:43.689Z] INFO: ============================================================
+[2025-08-24T21:01:43.692Z] INFO: STARTING MULTI-LANGUAGE TOUR REVIEWS DATABASE INSERTION
+[2025-08-24T21:01:43.692Z] INFO: ============================================================
+[2025-08-24T21:01:43.707Z] INFO: Supabase client initialized
+[2025-08-24T21:01:43.708Z] INFO: 
+--- Processing EN Reviews ---
+[2025-08-24T21:01:43.709Z] INFO: Starting insertion for language: en
+[2025-08-24T21:01:43.710Z] INFO: Loaded 56 reviews for language: en
+[2025-08-24T21:01:45.894Z] INFO: 
+--- Processing DE Reviews ---
+[2025-08-24T21:01:45.895Z] INFO: Starting insertion for language: de
+[2025-08-24T21:01:45.896Z] INFO: Loaded 24 reviews for language: de
+[2025-08-24T21:01:47.156Z] INFO: 
+--- Processing FR Reviews ---
+[2025-08-24T21:01:47.156Z] INFO: Starting insertion for language: fr
+[2025-08-24T21:01:47.157Z] INFO: Loaded 24 reviews for language: fr
+[2025-08-24T21:01:48.420Z] INFO: 
+--- Processing ES Reviews ---
+[2025-08-24T21:01:48.421Z] INFO: Starting insertion for language: es
+[2025-08-24T21:01:48.422Z] INFO: Loaded 10 reviews for language: es
+[2025-08-24T21:01:49.686Z] INFO: 
+--- Processing AR Reviews ---
+[2025-08-24T21:01:49.686Z] INFO: Starting insertion for language: ar
+[2025-08-24T21:01:49.687Z] INFO: Loaded 8 reviews for language: ar
+[2025-08-24T21:01:51.237Z] INFO: 
+--- Validating Data Integrity ---
+[2025-08-24T21:01:51.238Z] INFO: Validating inserted data...

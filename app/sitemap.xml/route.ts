@@ -12,39 +12,93 @@ export async function GET() {
     .from("tours")
     .select("slug,updated_at");
 
-  const staticPages = [
+  // Supported locales
+  const locales = ['en', 'de', 'fr', 'es', 'ar'];
+
+  // Pages that are now in [locale] structure
+  const localizedPages = [
     "",
     "about",
     "contact",
     "faq",
+    "tours",
+  ];
+
+  // Pages that remain in root structure
+  const staticPages = [
     "privacy-policy",
     "terms-of-service",
-    "tours",
     "safari-tours",
     "cape-town-tours/table-mountain-tours",
   ];
 
-  let urls = staticPages.map(
-    (page) => `
+  let urls: string[] = [];
+
+  // Generate URLs for localized pages
+  locales.forEach(locale => {
+    localizedPages.forEach(page => {
+      // Set priority based on page importance
+      let priority = "0.8";
+      let changefreq = "weekly";
+      
+      if (page === "") {
+        priority = "1.0"; // Homepage highest priority
+        changefreq = "daily";
+      } else if (page === "tours") {
+        priority = "0.9"; // Tours page high priority
+        changefreq = "daily";
+      }
+
+      // Generate URL with locale prefix (except for English)
+      const urlPath = locale === 'en' ? page : `${locale}/${page}`;
+      const fullUrl = page === "" ? (locale === 'en' ? baseUrl : `${baseUrl}/${locale}`) : `${baseUrl}/${urlPath}`;
+      
+      urls.push(`
+        <url>
+          <loc>${fullUrl}</loc>
+          <lastmod>${new Date().toISOString()}</lastmod>
+          <changefreq>${changefreq}</changefreq>
+          <priority>${priority}</priority>
+        </url>
+      `);
+    });
+  });
+
+  // Generate URLs for static pages (non-localized)
+  staticPages.forEach(page => {
+    let priority = "0.8";
+    let changefreq = "weekly";
+    
+    if (page.startsWith("safari-tours") || page.startsWith("cape-town-tours")) {
+      priority = "0.9"; // High-value landing pages
+      changefreq = "weekly";
+    }
+    
+    urls.push(`
       <url>
         <loc>${baseUrl}/${page}</loc>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
+        <lastmod>${new Date().toISOString()}</lastmod>
+        <changefreq>${changefreq}</changefreq>
+        <priority>${priority}</priority>
       </url>
-    `
-  );
+    `);
+  });
 
+  // Generate URLs for tours (localized)
   if (data) {
-    urls = urls.concat(
-      data.map((tour: any) => `
-        <url>
-          <loc>${baseUrl}/tours/${tour.slug}</loc>
-          <changefreq>weekly</changefreq>
-          <priority>0.9</priority>
-          ${tour.updated_at ? `<lastmod>${new Date(tour.updated_at).toISOString()}</lastmod>` : ""}
-        </url>
-      `)
-    );
+    locales.forEach(locale => {
+      data.forEach((tour: any) => {
+        const urlPath = locale === 'en' ? `tours/${tour.slug}` : `${locale}/tours/${tour.slug}`;
+        urls.push(`
+          <url>
+            <loc>${baseUrl}/${urlPath}</loc>
+            <changefreq>weekly</changefreq>
+            <priority>0.9</priority>
+            ${tour.updated_at ? `<lastmod>${new Date(tour.updated_at).toISOString()}</lastmod>` : ""}
+          </url>
+        `);
+      });
+    });
   }
 
   const sitemap = `<?xml version="1.0" encoding="UTF-8"?>

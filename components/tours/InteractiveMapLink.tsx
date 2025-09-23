@@ -1,6 +1,7 @@
 "use client";
 
 import { MapPin } from "lucide-react";
+import { useTranslations } from '@/lib/i18n/hooks';
 
 interface InteractiveMapLinkProps {
   mapsQuery: string;
@@ -8,6 +9,7 @@ interface InteractiveMapLinkProps {
 }
 
 export default function InteractiveMapLink({ mapsQuery, tourSlug }: InteractiveMapLinkProps) {
+  const { t } = useTranslations('tour_detail');
   const handleClick = () => {
     if (typeof window !== 'undefined' && 'gtag' in window) {
       (window as any).gtag('event', 'map_view', {
@@ -26,7 +28,7 @@ export default function InteractiveMapLink({ mapsQuery, tourSlug }: InteractiveM
       onClick={handleClick}
     >
       <MapPin className="w-4 h-4" aria-hidden="true" />
-      View on Google Maps
+      {t('view_on_google_maps')}
     </a>
   );
 }

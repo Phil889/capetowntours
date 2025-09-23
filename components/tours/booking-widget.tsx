@@ -7,14 +7,51 @@ import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Alert, AlertDescription } from "@/components/ui/alert";
+import { useTranslations } from "@/lib/i18n/hooks";
+import { logError, logInfo } from "@/lib/error-logger";
 
 type BookingWidgetProps = {
   tourId: string;
   price: string | number;
   tourName?: string;
+  translations?: {
+    booking?: {
+      book_your_tour?: string;
+      reserve_spot_for_tour?: string;
+      reserve_spot_today?: string;
+      tour_date?: string;
+      guests?: string;
+      full_name?: string;
+      name_placeholder?: string;
+      email_address?: string;
+      email_placeholder?: string;
+      phone_number?: string;
+      phone_placeholder?: string;
+      phone_help_text?: string;
+      pickup_location?: string;
+      pickup_placeholder?: string;
+      pickup_help_text?: string;
+      special_requirements?: string;
+      special_requirements_placeholder?: string;
+      price_per_person?: string;
+      total_amount?: string;
+      payment_on_pickup?: string;
+      no_advance_payment?: string;
+      processing_booking?: string;
+      book_now_pay_pickup?: string;
+      instant_confirmation?: string;
+      free_cancellation?: string;
+      best_price_guarantee?: string;
+      secure_information?: string;
+      please_fill_required_fields?: string;
+      booking_confirmed_redirecting?: string;
+    };
+  };
 };
 
-export default function BookingWidget({ tourId, price, tourName }: BookingWidgetProps) {
+export default function BookingWidget({ tourId, price, tourName, translations }: BookingWidgetProps) {
+  const { t } = useTranslations('booking');
+  
   const [formData, setFormData] = useState({
     date: "",
     guests: 1,
@@ -53,7 +90,7 @@ export default function BookingWidget({ tourId, price, tourName }: BookingWidget
     try {
       // Validate required fields
       if (!formData.date || !formData.guest_email || formData.guests < 1) {
-        throw new Error("Please fill in all required fields");
+        throw new Error(t('please_fill_required_fields'));
       }
 
       // Send booking request to API
@@ -72,10 +109,16 @@ export default function BookingWidget({ tourId, price, tourName }: BookingWidget
       }
       
       const data = await res.json();
-      console.log("Booking API response:", data);
+      
+      logInfo('Booking API response received', {
+        component: 'BookingWidget',
+        function: 'handleSubmit',
+        tourId,
+        responseData: data
+      });
       
       // Show success message briefly before redirect
-      setSuccess("Booking confirmed! Redirecting to confirmation page...");
+      setSuccess(translations?.booking?.booking_confirmed_redirecting || t('booking_confirmed_redirecting'));
       
       // Redirect to booking confirmation page
       setTimeout(() => {
@@ -100,10 +143,10 @@ export default function BookingWidget({ tourId, price, tourName }: BookingWidget
       <CardHeader>
         <CardTitle className="flex items-center gap-2">
           <Calendar className="w-5 h-5 text-green-600" />
-          Book Your Tour
+          {translations?.booking?.book_your_tour || t('book_your_tour')}
         </CardTitle>
         <CardDescription>
-          {tourName ? `Reserve your spot for ${tourName}` : 'Reserve your spot today'}
+          {tourName ? (translations?.booking?.reserve_spot_for_tour || t('reserve_spot_for_tour', { tourName })) : (translations?.booking?.reserve_spot_today || t('reserve_spot_today'))}
         </CardDescription>
       </CardHeader>
       <CardContent>
@@ -113,7 +156,7 @@ export default function BookingWidget({ tourId, price, tourName }: BookingWidget
             <div className="space-y-2">
               <Label htmlFor="date" className="flex items-center gap-1">
                 <Calendar className="w-4 h-4" />
-                Tour Date *
+                {translations?.booking?.tour_date || t('tour_date')} *
               </Label>
               <Input
                 id="date"
@@ -129,7 +172,7 @@ export default function BookingWidget({ tourId, price, tourName }: BookingWidget
             <div className="space-y-2">
               <Label htmlFor="guests" className="flex items-center gap-1">
                 <Users className="w-4 h-4" />
-                Guests *
+                {t('guests')} *
               </Label>
               <Input
                 id="guests"
@@ -148,13 +191,13 @@ export default function BookingWidget({ tourId, price, tourName }: BookingWidget
           {/* Name Field */}
           <div className="space-y-2">
             <Label htmlFor="guest_name">
-              Full Name
+              {translations?.booking?.full_name || t('full_name')}
             </Label>
             <Input
               id="guest_name"
               name="guest_name"
               type="text"
-              placeholder="John Doe"
+              placeholder={translations?.booking?.name_placeholder || t('name_placeholder')}
               value={formData.guest_name}
               onChange={handleInputChange}
               className="w-full"
@@ -165,13 +208,13 @@ export default function BookingWidget({ tourId, price, tourName }: BookingWidget
           <div className="space-y-2">
             <Label htmlFor="guest_email" className="flex items-center gap-1">
               <Mail className="w-4 h-4" />
-              Email Address *
+              {translations?.booking?.email_address || t('email_address')} *
             </Label>
             <Input
               id="guest_email"
               name="guest_email"
               type="email"
-              placeholder="your@email.com"
+              placeholder={translations?.booking?.email_placeholder || t('email_placeholder')}
               value={formData.guest_email}
               onChange={handleInputChange}
               required
@@ -183,48 +226,48 @@ export default function BookingWidget({ tourId, price, tourName }: BookingWidget
           <div className="space-y-2">
             <Label htmlFor="guest_phone" className="flex items-center gap-1">
               <Phone className="w-4 h-4" />
-              Phone Number
+              {translations?.booking?.phone_number || t('phone_number')}
             </Label>
             <Input
               id="guest_phone"
               name="guest_phone"
               type="tel"
-              placeholder="+27 12 345 6789"
+              placeholder={translations?.booking?.phone_placeholder || t('phone_placeholder')}
               value={formData.guest_phone}
               onChange={handleInputChange}
               className="w-full"
             />
-            <p className="text-xs text-gray-500">Include country code for international numbers</p>
+            <p className="text-xs text-gray-500">{translations?.booking?.phone_help_text || t('phone_help_text')}</p>
           </div>
 
           {/* Pickup Location */}
           <div className="space-y-2">
             <Label htmlFor="pickup_location" className="flex items-center gap-1">
               <MapPin className="w-4 h-4" />
-              Pickup Location
+              {translations?.booking?.pickup_location || t('pickup_location')}
             </Label>
             <Input
               id="pickup_location"
               name="pickup_location"
               type="text"
-              placeholder="Your hotel name or address"
+              placeholder={translations?.booking?.pickup_placeholder || t('pickup_placeholder')}
               value={formData.pickup_location}
               onChange={handleInputChange}
               className="w-full"
             />
-            <p className="text-xs text-gray-500">We offer free pickup from most Cape Town hotels</p>
+            <p className="text-xs text-gray-500">{translations?.booking?.pickup_help_text || t('pickup_help_text')}</p>
           </div>
 
           {/* Special Requirements */}
           <div className="space-y-2">
             <Label htmlFor="special_requirements" className="flex items-center gap-1">
               <FileText className="w-4 h-4" />
-              Special Requirements
+              {translations?.booking?.special_requirements || t('special_requirements')}
             </Label>
             <Textarea
               id="special_requirements"
               name="special_requirements"
-              placeholder="Any dietary restrictions, accessibility needs, or special requests?"
+              placeholder={translations?.booking?.special_requirements_placeholder || t('special_requirements_placeholder')}
               value={formData.special_requirements}
               onChange={handleInputChange}
               rows={3}
@@ -235,16 +278,16 @@ export default function BookingWidget({ tourId, price, tourName }: BookingWidget
           {/* Price Display */}
           <div className="bg-gray-50 rounded-lg p-4 space-y-2">
             <div className="flex justify-between items-center">
-              <span className="text-gray-600">Price per person:</span>
+              <span className="text-gray-600">{translations?.booking?.price_per_person || t('price_per_person')}:</span>
               <span className="font-medium">R{typeof price === 'number' ? price : price}</span>
             </div>
             <div className="flex justify-between items-center text-lg font-bold">
-              <span>Total Amount:</span>
+              <span>{translations?.booking?.total_amount || t('total_amount')}:</span>
               <span className="text-green-600">R{calculateTotal()}</span>
             </div>
             <Alert className="mt-2 bg-blue-50 border-blue-200">
               <AlertDescription className="text-sm text-blue-800">
-                💰 <strong>Payment on pickup</strong> - No advance payment required!
+                💰 <strong>{translations?.booking?.payment_on_pickup || t('payment_on_pickup')}</strong> - {translations?.booking?.no_advance_payment || t('no_advance_payment')}!
               </AlertDescription>
             </Alert>
           </div>
@@ -268,19 +311,19 @@ export default function BookingWidget({ tourId, price, tourName }: BookingWidget
           )}
 
           {/* Submit Button */}
-          <Button 
-            type="submit" 
+          <Button
+            type="submit"
             className="w-full bg-green-600 hover:bg-green-700 text-white"
             disabled={loading}
           >
             {loading ? (
               <>
                 <Loader2 className="mr-2 h-4 w-4 animate-spin" />
-                Processing Booking...
+                {translations?.booking?.processing_booking || t('processing_booking')}...
               </>
             ) : (
               <>
-                Book Now - Pay on Pickup
+                {translations?.booking?.book_now_pay_pickup || t('book_now_pay_pickup')}
               </>
             )}
           </Button>
@@ -288,10 +331,10 @@ export default function BookingWidget({ tourId, price, tourName }: BookingWidget
           {/* Trust Badges */}
           <div className="pt-4 space-y-2 text-center">
             <p className="text-xs text-gray-500">
-              ✓ Instant confirmation • ✓ Free cancellation • ✓ Best price guarantee
+              ✓ {translations?.booking?.instant_confirmation || t('instant_confirmation')} • ✓ {translations?.booking?.free_cancellation || t('free_cancellation')} • ✓ {translations?.booking?.best_price_guarantee || t('best_price_guarantee')}
             </p>
             <p className="text-xs text-gray-500">
-              🔒 Your information is secure and will never be shared
+              🔒 {translations?.booking?.secure_information || t('secure_information')}
             </p>
           </div>
         </form>

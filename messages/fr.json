@@ -1,0 +1,620 @@
+{
+  "navigation": {
+    "tours": "Tours",
+    "customTours": "Tours Personnalisés",
+    "about": "À Propos",
+    "contact": "Contact",
+    "bookNow": "Réserver Maintenant",
+    "home": "Accueil",
+    "allTours": "Tous les Tours",
+    "faq": "FAQ"
+  },
+  "header": {
+    "logoAlt": "Logo de Cape Town Safari Tours",
+    "siteName": "Cape Town Safari Tours",
+    "tagline": "Expériences Safari Premium",
+    "nav": {
+      "tours": "Tours",
+      "customTours": "Tours Personnalisés",
+      "about": "À Propos",
+      "contact": "Contact",
+      "customToursMobile": "Personnalisé"
+    },
+    "trustBadges": {
+      "bestChoice": "Meilleur Choix de Safari",
+      "ecoCertified": "Certifié Écologique",
+      "trustedSeller": "Vendeur de Confiance"
+    },
+    "bookNow": "Réserver Maintenant",
+    "callUsTitle": "Appelez-nous pour réserver votre safari"
+  },
+  "homepage": {
+    "hero": {
+      "title": "Cape Town Safari Tours: #1 Expériences Safari Privées & Luxueuses",
+      "subtitle": "Aventures inoubliables, sélectionnées par des experts locaux. Découvrez les meilleurs safaris, tours viticoles et voyages culturels en Afrique du Sud—garanti.",
+      "cta": "Découvrir les Tours & Safaris les Mieux Notés"
+    },
+    "signatureSafaris": {
+      "title": "Nos Safaris Signature",
+      "subtitle": "Commencez votre aventure avec l'un de nos tours les plus populaires, faits à la main. Chacun est une expérience privée, conçue pour créer des souvenirs qui durent toute une vie."
+    },
+    "whyChooseUs": {
+      "title": "La Différence Cape Town Safari Tours",
+      "subtitle": "Nous ne sommes pas juste une autre compagnie de tours. Nous sommes des experts locaux dédiés à créer votre aventure privée parfaite.",
+      "tagline": "Pourquoi Nous Choisir",
+      "features": {
+        "private": {
+          "title": "Vraiment Privé & Personnalisable",
+          "description": "Votre tour, votre rythme. Pas d'étrangers, juste votre groupe. Nous adaptons chaque détail à vos intérêts."
+        },
+        "expert": {
+          "title": "Guides Locaux Experts",
+          "description": "Nos guides sont vos conteurs personnels et experts de la faune, nés et élevés au Cap."
+        },
+        "pricing": {
+          "title": "Prix Tout Inclus et Transparents",
+          "description": "Pas de frais cachés ou de surprises. Le prix que vous voyez est le prix que vous payez pour votre expérience complète."
+        },
+        "comfort": {
+          "title": "Confort Moderne & Sécurité",
+          "description": "Voyagez dans notre flotte moderne, climatisée et impeccablement entretenue pour votre confort et sécurité."
+        }
+      },
+      "trustBadge": "Approuvé par 10 000+ voyageurs"
+    },
+    "testimonials": {
+      "title": "Ne Prenez Pas Seulement Notre Parole",
+      "reviews": {
+        "sarah": {
+          "text": "La meilleure excursion que nous ayons jamais faite ! Notre guide James était incroyablement compétent et a rendu toute l'expérience inoubliable. L'excursion privée valait chaque centime.",
+          "author": "Sarah & Tom, Royaume-Uni"
+        },
+        "michael": {
+          "text": "Du processus de réservation facile à la livraison finale, tout s'est déroulé sans accroc. Nous avons vu les Big 5 et bien plus encore. Je recommande vivement cette entreprise !",
+          "author": "Michael B, États-Unis"
+        },
+        "anika": {
+          "text": "Une expérience vraiment magique. L'attention aux détails et les touches personnelles ont rendu notre safari de lune de miel si spécial. Nous reviendrons !",
+          "author": "Anika & Rohan, Inde"
+        }
+      }
+    },
+    "howItWorks": {
+      "title": "Votre Aventure en 3 Étapes Simples",
+      "tagline": "Comment Ça Marche",
+      "steps": {
+        "choose": {
+          "title": "Choisissez Votre Aventure",
+          "description": "Parcourez nos tours signature curatés ou dites-nous votre voyage de rêve."
+        },
+        "customize": {
+          "title": "Personnalisez Votre Voyage",
+          "description": "Nous travaillerons avec vous pour adapter l'itinéraire, les activités et le rythme à votre goût."
+        },
+        "book": {
+          "title": "Réservez & Préparez-vous à l'Excitation",
+          "description": "Sécurisez vos dates et préparez-vous pour l'aventure privée du Cap de votre vie !"
+        }
+      }
+    },
+    "categories": {
+      "title": "Trouvez Votre Évasion Parfaite",
+      "big5": "Safaris Big 5",
+      "coastal": "Côtier & Maritime",
+      "winelands": "Vignobles & Culinaire"
+    },
+    "cta": {
+      "title": "Submergé par les options?",
+      "subtitle": "Laissez nos experts safari créer un itinéraire personnalisé juste pour vous. Dites-nous votre rêve, et nous le rendrons réalité.",
+      "button": "Obtenir un Itinéraire Personnalisé Gratuit"
+    }
+  },
+  "footer": {
+    "tagline": "Votre aventure, parfaitement conçue. Découvrez le cœur sauvage de l'Afrique avec des experts locaux de confiance.",
+    "newsletter": {
+      "title": "Recevez des Offres Exclusives",
+      "placeholder": "Entrez votre email",
+      "button": "S'abonner"
+    },
+    "nav": {
+      "home": "Accueil",
+      "about": "À Propos",
+      "allTours": "Tous les Tours",
+      "faq": "FAQ",
+      "contact": "Contact"
+    },
+    "sections": {
+      "navigate": "Navigation",
+      "topExperiences": "Meilleures Expériences",
+      "connect": "Connectez-vous avec nous"
+    },
+    "experiences": {
+      "big5Safaris": "Safaris Big 5",
+      "privateWineTours": "Tours Viticoles Privés",
+      "sharkCageDiving": "Plongée en Cage avec les Requins",
+      "gardenRoute": "Route des Jardins"
+    },
+    "connect": {
+      "whatsapp": "WhatsApp",
+      "email": "Envoyez-nous un email"
+    },
+    "legal": {
+      "logoAlt": "Logo de Cape Town Safari Tours",
+      "copyright": "Cape Town Safari Tours. Tous droits réservés.",
+      "privacyPolicy": "Politique de Confidentialité",
+      "termsOfService": "Conditions d'Utilisation"
+    }
+  },
+  "meta": {
+    "default": {
+      "title": "Cape Town Safari Tours | #1 Tours Safari Privés & Vins 2025",
+      "description": "Découvrez les meilleurs tours safari privés du Cap, dégustations de vins et aventures Big 5. Noté 4,9★ avec 2 847+ clients satisfaits. Réservez votre tour de luxe aujourd'hui!"
+    }
+  },
+  "tours": {
+    "meta": {
+      "title": "Cape Town Safari Tours | Meilleurs Tours Privés et Safaris de Luxe 2025",
+      "description": "Découvrez les tours privés et safaris de luxe #1 du Cap. Lauréat du Certificat d'Excellence TripAdvisor. Petits groupes, guides experts, garantie du meilleur prix."
+    },
+    "hero": {
+      "title": "Tours Privés et Safaris de Luxe #1 du Cap",
+      "subtitle": "Aventures inoubliables, sélectionnées par des experts locaux. Découvrez les meilleurs safaris, tours viticoles et voyages culturels en Afrique du Sud—garanti.",
+      "cta": "Découvrir les Tours et Safaris les Mieux Notés"
+    },
+    "valueProposition": {
+      "title": "Pourquoi Choisir Cape Town Safari Tours ?",
+      "subtitle": "Découvrez le summum du luxe et de l'aventure avec notre sélection soigneusement choisie de tours et safaris premium.",
+      "cards": {
+        "licensed": {
+          "title": "Entièrement Licencié et Assuré",
+          "description": "Voyagez en toute tranquillité en sachant que tous nos tours sont entièrement licenciés et assurés pour votre sécurité et votre protection."
+        },
+        "flexible": {
+          "title": "Réservation et Annulation Flexibles",
+          "description": "Annulation gratuite jusqu'à 24 heures avant votre tour. Options réservez maintenant et payez plus tard disponibles."
+        },
+        "guides": {
+          "title": "Guides Experts Locaux",
+          "description": "Nos guides locaux passionnés partagent des connaissances privilégiées et des histoires qui donnent vie à l'histoire et à la culture du Cap."
+        },
+        "rated": {
+          "title": "Expériences Notées 5 Étoiles",
+          "description": "Constamment notées 5 étoiles sur TripAdvisor et Google Reviews par des milliers de voyageurs satisfaits."
+        },
+        "private": {
+          "title": "Tours en Petits Groupes et Privés",
+          "description": "Profitez d'expériences intimes avec de petits groupes ou des tours complètement privés adaptés à vos préférences."
+        },
+        "guarantee": {
+          "title": "Garantie du Meilleur Prix",
+          "description": "Vous trouvez un prix plus bas ? Nous l'égalerons et vous donnerons 10% de réduction. C'est notre promesse envers vous."
+        }
+      }
+    },
+    "tourCard": {
+      "day": "jour",
+      "days": "jours",
+      "max": "Max",
+      "perPerson": "par personne",
+      "viewDetails": "Voir les Détails"
+    },
+    "featuredTitle": "Tours et Safaris Vedettes les Mieux Notés",
+    "noTours": {
+      "title": "Aucun tour disponible",
+      "description": "Nous mettons actuellement à jour notre catalogue de tours. Revenez bientôt ou contactez-nous pour des arrangements de tours personnalisés."
+    },
+    "cta": {
+      "title": "Vous ne trouvez pas ce que vous cherchez ?",
+      "subtitle": "Créez votre aventure parfaite au Cap avec notre service de planification de tours personnalisé",
+      "customTour": "Planifier un Tour Personnalisé"
+    },
+    "safety": {
+      "title": "Votre Sécurité et Satisfaction Garanties",
+      "licensed": {
+        "title": "Entièrement Licencié et Assuré",
+        "description": "Tous les tours respectent les réglementations touristiques sud-africaines"
+      },
+      "guarantee": {
+        "title": "Garantie de Satisfaction 100%",
+        "description": "Pas satisfait ? Obtenez un remboursement complet, sans questions"
+      },
+      "award": {
+        "title": "Service Primé",
+        "description": "Certificat d'Excellence TripAdvisor 5 années consécutives"
+      }
+    }
+  },
+  "site": {
+    "name": "Cape Town Safari Tours"
+  },
+  "about": {
+    "meta": {
+      "title": "À Propos de Cape Town Safari Tours",
+      "description": "Découvrez Cape Town Safari Tours - une entreprise locale dédiée à créer des aventures privées inoubliables en Afrique du Sud."
+    },
+    "title": "À Propos de Cape Town Safari Tours",
+    "intro": {
+      "companyName": "Cape Town Safari Tours",
+      "description": "est une entreprise locale dédiée à créer des aventures privées inoubliables en Afrique du Sud. Notre mission est de connecter les voyageurs avec la magie de l'Afrique à travers des expériences de luxe expertement conçues."
+    },
+    "story": {
+      "title": "Notre Histoire",
+      "content": "Fondée par des locaux passionnés avec des décennies d'expérience dans le tourisme et la faune, nous croyons que chaque voyage devrait être aussi unique que le voyageur. Nous avons commencé avec une idée simple : offrir des tours vraiment privés et personnalisables qui vont au-delà de l'ordinaire."
+    },
+    "values": {
+      "title": "Nos Valeurs",
+      "authenticity": {
+        "title": "Authenticité :",
+        "description": "Nous présentons la vraie Afrique du Sud, de sa beauté sauvage à ses cultures vibrantes."
+      },
+      "exclusivity": {
+        "title": "Exclusivité :",
+        "description": "Chaque tour est privé, sur mesure et jamais partagé avec des étrangers."
+      },
+      "sustainability": {
+        "title": "Durabilité :",
+        "description": "Nous soutenons les pratiques écologiques et les communautés locales."
+      },
+      "excellence": {
+        "title": "Excellence :",
+        "description": "Nos guides sont des experts, des conteurs et des hôtes passionnés."
+      }
+    },
+    "team": {
+      "title": "Rencontrez Notre Équipe",
+      "description": "Notre équipe est composée de spécialistes de la faune, de connaisseurs de vin, de chercheurs d'aventure et d'ambassadeurs culturels—tous unis par l'amour de l'Afrique et un engagement envers un service exceptionnel.",
+      "members": {
+        "james": {
+          "name": "James :",
+          "role": "Guide safari et expert de la faune"
+        },
+        "lindiwe": {
+          "name": "Lindiwe :",
+          "role": "Guide culturelle et historienne"
+        },
+        "michael": {
+          "name": "Michael :",
+          "role": "Spécialiste vin et culinaire"
+        },
+        "sarah": {
+          "name": "Sarah :",
+          "role": "Responsable de l'expérience client"
+        }
+      }
+    },
+    "whyChoose": {
+      "title": "Pourquoi Nous Choisir ?",
+      "reasons": {
+        "private": "Tours de luxe 100% privés—jamais d'étrangers.",
+        "handpicked": "Expériences sélectionnées, des safaris Big 5 aux tours viticoles gastronomiques.",
+        "transparent": "Prix transparents, pas de frais cachés.",
+        "trusted": "Approuvé par des milliers de voyageurs dans le monde."
+      }
+    },
+    "closing": {
+      "joinUs": "Rejoignez-nous",
+      "description": "pour l'aventure de votre vie. Découvrez l'Afrique à votre façon—avec Cape Town Safari Tours."
+    }
+  },
+  "contact": {
+    "meta": {
+      "title": "Contactez-nous - Cape Town Safari Tours",
+      "description": "Contactez Cape Town Safari Tours. Planifiez votre safari de rêve, posez des questions ou demandez un devis personnalisé. Notre équipe est là pour vous aider !"
+    },
+    "title": "Contactez-nous",
+    "subtitle": "Vous avez une question, besoin d'un devis personnalisé ou voulez planifier votre safari de rêve ? Notre équipe est là pour vous aider !",
+    "form": {
+      "name": "Nom",
+      "namePlaceholder": "Votre Nom",
+      "email": "Email",
+      "emailPlaceholder": "vous@email.com",
+      "message": "Message",
+      "messagePlaceholder": "Comment pouvons-nous vous aider ?",
+      "submit": "Envoyer le Message"
+    },
+    "info": {
+      "email": "Email",
+      "phone": "Téléphone",
+      "address": "Adresse"
+    }
+  },
+  "customTour": {
+    "meta": {
+      "title": "Planificateur de Tours Personnalisés - Cape Town Safari Tours",
+      "description": "Créez votre aventure parfaite au Cap avec notre service de planification de tours personnalisés. Sélectionnez des tours, personnalisez votre emploi du temps et réservez votre itinéraire personnalisé."
+    },
+    "title": "Créez Votre Package de Tours Personnalisé",
+    "subtitle": "Construisez votre aventure parfaite au Cap en sélectionnant et planifiant des tours sur plusieurs jours",
+    "error": "Échec du chargement des tours",
+    "toolbar": {
+      "searchPlaceholder": "Rechercher des tours...",
+      "list": "Liste",
+      "calendar": "Calendrier",
+      "addDay": "Ajouter un Jour",
+      "groupByDate": "Grouper par date",
+      "share": "Partager",
+      "export": "Exporter",
+      "import": "Importer",
+      "print": "Imprimer",
+      "bookNow": "Réserver Maintenant - Paiement à la Prise en Charge"
+    },
+    "dragAndDrop": {
+      "dragToStart": "Glissez les tours ici pour commencer à construire votre itinéraire.",
+      "dragToReorder": "Glisser pour réorganiser"
+    },
+    "dayCard": {
+      "setDate": "Définir la date",
+      "autoSchedule": "Planification automatique",
+      "conflicts": "conflit",
+      "conflictsPlural": "conflits"
+    },
+    "tourItem": {
+      "perPerson": "par personne",
+      "date": "Date",
+      "time": "Heure",
+      "pickDate": "Choisir une date",
+      "guests": "Invités",
+      "adults": "Adultes",
+      "children": "Enfants",
+      "infants": "Bébés <3",
+      "infantsFree": "Les bébés de moins de 3 ans sont gratuits.",
+      "notes": "Notes",
+      "notesPlaceholder": "Prise en charge, langue, régime alimentaire...",
+      "remove": "Supprimer"
+    },
+    "guestCounts": {
+      "applyToAll": "Appliquer le nombre d'invités à tous les articles.",
+      "applyButton": "Appliquer à Tous"
+    },
+    "calendar": {
+      "more": "de plus"
+    },
+    "booking": {
+      "title": "Finaliser Votre Réservation",
+      "guestInfo": "Informations sur les Invités",
+      "fullName": "Nom Complet",
+      "fullNamePlaceholder": "Jean Dupont",
+      "email": "Adresse Email",
+      "emailRequired": "*",
+      "emailPlaceholder": "votre@email.com",
+      "phone": "Numéro de Téléphone",
+      "phonePlaceholder": "+33 1 23 45 67 89",
+      "phoneNote": "Inclure l'indicatif du pays pour les numéros internationaux",
+      "pickup": "Lieu de Prise en Charge",
+      "pickupPlaceholder": "Nom de votre hôtel ou adresse",
+      "pickupNote": "Nous offrons une prise en charge gratuite depuis la plupart des hôtels du Cap",
+      "requirements": "Exigences Spéciales",
+      "requirementsPlaceholder": "Restrictions alimentaires, besoins d'accessibilité ou demandes spéciales ?",
+      "paymentInfo": "Informations de Paiement",
+      "totalPackage": "Package Total :",
+      "paymentNote": "💰 Paiement à la prise en charge - Aucun paiement anticipé requis !",
+      "trustBadges": "✓ Confirmation instantanée • ✓ Annulation gratuite • ✓ Garantie du meilleur prix",
+      "securityNote": "🔒 Vos informations sont sécurisées et ne seront jamais partagées",
+      "cancel": "Annuler",
+      "confirm": "Confirmer la Réservation",
+      "processing": "Traitement en cours..."
+    },
+    "summary": {
+      "total": "Total :",
+      "allClear": "Tout est clair — aucun chevauchement.",
+      "conflictsWarning": "conflit au total",
+      "conflictsWarningPlural": "conflits au total",
+      "adjustTimes": "Ajustez les heures pour résoudre."
+    },
+    "messages": {
+      "planRestored": "Plan restauré depuis le lien",
+      "linkCopied": "Lien partageable copié",
+      "linkError": "Impossible de copier le lien",
+      "autoScheduled": "Planifié automatiquement",
+      "addedTo": "Ajouté à",
+      "groupedByDates": "Groupé par dates",
+      "guestsApplied": "Nombre d'invités appliqué à tous les articles",
+      "exportedClipboard": "JSON de l'itinéraire copié dans le presse-papiers",
+      "exportedICS": "ICS exporté",
+      "imported": "Itinéraire importé",
+      "importError": "JSON invalide :",
+      "bookingConfirmed": "Réservation confirmée ! Redirection vers la page de confirmation...",
+      "bookingFailed": "Échec de la réservation. Veuillez réessayer."
+    },
+    "noTours": "Aucun tour trouvé."
+  },
+  "tour_detail": {
+    "about_this_experience": "À Propos de Cette Expérience",
+    "your_journey": "Votre Voyage",
+    "stop_number": "Arrêt {{number}}",
+    "inclusions_exclusions": "Inclus et Exclusions",
+    "whats_included": "Ce Qui Est Inclus",
+    "not_included": "Non Inclus",
+    "important_information": "Informations Importantes",
+    "seasonal_notes": "Notes Saisonnières",
+    "child_policy": "Politique Enfants",
+    "accessibility": "Accessibilité",
+    "cancellation_policy": "Politique d'Annulation",
+    "tour_highlights": "Points Forts du Tour",
+    "tour_location": "Lieu du Tour",
+    "getting_there": "Comment S'y Rendre",
+    "duration": "Durée",
+    "meeting_point": "Point de Rencontre",
+    "pickup_included": "Prise en charge gratuite à l'hôtel incluse",
+    "self_drive": "Conduire soi-même ou organiser le transport",
+    "details_after_booking": "Détails fournis après réservation",
+    "departure": "Départ",
+    "pickup": "Prise en charge",
+    "frequently_asked_questions": "Questions Fréquemment Posées",
+    "view_on_google_maps": "Voir sur Google Maps",
+    "tour_meeting_point": "Point de Rencontre du Tour",
+    "city_atlantic_hotels": "Hôtels Ville & Atlantique",
+    "dec_feb_only": "Déc - Fév seulement ; réservez tôt",
+    "children_75_percent": "Enfants 4-11 ans à 75%",
+    "step_up_vehicle": "Véhicule à marche ; pentes limitées",
+    "refund_7_days": "Remboursement avant 7 jours"
+  },
+  "badges": {
+    "best_seller": "Best-seller",
+    "verified_tour": "Tour Vérifiée",
+    "rating": "Évaluation",
+    "guest_favorite": "Favori des Invités"
+  },
+  "trust_indicators": {
+    "guest_rating": "Évaluation des Invités",
+    "verified_reviews": "Avis Vérifiés",
+    "happy_guests": "Invités Satisfaits",
+    "tour_operator": "Tour-Opérateur"
+  },
+  "accessibility": {
+    "skip_to_content": "Aller au contenu principal",
+    "home": "Accueil",
+    "tours": "Tours",
+    "javascript_required": "JavaScript est requis pour la réservation en ligne.",
+    "call_to_book": "Appelez pour réserver : +27 21 424 5215"
+  },
+  "faq": {
+    "meta": {
+      "title": "Questions Fréquemment Posées - Cape Town Safari Tours",
+      "description": "Trouvez des réponses aux questions courantes sur Cape Town Safari Tours. Apprenez-en plus sur nos tours privés, le processus de réservation, les prix et plus encore."
+    },
+    "title": "Questions Fréquemment Posées",
+    "questions": [
+      {
+        "question": "Quels types de tours offrez-vous ?",
+        "answer": "Nous offrons des safaris privés, des tours viticoles, des aventures côtières, des expériences culturelles et des itinéraires entièrement personnalisés à travers l'Afrique du Sud."
+      },
+      {
+        "question": "Vos tours sont-ils privés ou en groupe ?",
+        "answer": "Tous nos tours sont 100% privés—juste vous et votre groupe, sans étrangers."
+      },
+      {
+        "question": "Comment réserver un tour ?",
+        "answer": "Vous pouvez réserver directement sur notre site web, par email ou par téléphone. Notre équipe est heureuse d'aider avec les demandes personnalisées."
+      },
+      {
+        "question": "Puis-je personnaliser mon itinéraire ?",
+        "answer": "Absolument ! Chaque tour est adapté à vos intérêts, votre rythme et vos préférences. Dites-nous votre voyage de rêve et nous le réaliserons."
+      },
+      {
+        "question": "Qu'est-ce qui est inclus dans le prix du tour ?",
+        "answer": "Nos prix sont tout inclus : guide privé, transport, frais d'entrée et la plupart des repas. Toute exclusion sera clairement listée."
+      },
+      {
+        "question": "Y a-t-il des frais cachés ?",
+        "answer": "Non. Nous croyons en la transparence des prix. Le prix que vous voyez est le prix que vous payez."
+      },
+      {
+        "question": "Quels modes de paiement acceptez-vous ?",
+        "answer": "Nous acceptons les cartes de crédit, EFT et autres options de paiement sécurisées. Tous les paiements sont traités de manière sécurisée."
+      },
+      {
+        "question": "Un acompte est-il requis ?",
+        "answer": "Le paiement complet est généralement requis pour confirmer votre réservation. Pour les tours personnalisés ou de grands groupes, un acompte peut être arrangé."
+      },
+      {
+        "question": "Quelle est votre politique d'annulation ?",
+        "answer": "Les annulations faites 30+ jours avant le tour reçoivent un remboursement complet. Voir nos Conditions d'Utilisation pour les détails."
+      },
+      {
+        "question": "Que se passe-t-il si le temps est mauvais ?",
+        "answer": "Nous surveillons les conditions de près et ajusterons l'itinéraire pour votre sécurité et plaisir. Des activités alternatives ou une reprogrammation peuvent être offertes."
+      },
+      {
+        "question": "Vos guides sont-ils certifiés ?",
+        "answer": "Oui. Tous les guides sont expérimentés, certifiés et des experts locaux passionnés."
+      },
+      {
+        "question": "L'assurance voyage est-elle requise ?",
+        "answer": "Nous recommandons fortement une assurance voyage complète pour tous les clients."
+      },
+      {
+        "question": "Pouvez-vous accommoder les restrictions alimentaires ?",
+        "answer": "Oui, veuillez nous faire savoir vos besoins alimentaires à l'avance et nous nous assurerons que vous soyez bien pris en charge."
+      },
+      {
+        "question": "Offrez-vous des transferts d'aéroport ?",
+        "answer": "Oui, des transferts d'aéroport privés peuvent être arrangés dans le cadre de votre forfait tour."
+      },
+      {
+        "question": "Vos véhicules sont-ils sûrs et confortables ?",
+        "answer": "Notre flotte est moderne, climatisée et méticuleusement entretenue pour votre confort et sécurité."
+      },
+      {
+        "question": "L'entreprise est-elle écologique ?",
+        "answer": "Nous sommes engagés dans le tourisme durable et soutenons des partenaires certifiés écologiques et les communautés locales."
+      },
+      {
+        "question": "Puis-je réserver à la dernière minute ?",
+        "answer": "Nous faisons de notre mieux pour accommoder les réservations de dernière minute, selon la disponibilité. Contactez-nous pour les demandes urgentes."
+      },
+      {
+        "question": "Comment vous contacter en cas d'urgence ?",
+        "answer": "Vous recevrez un numéro de contact d'urgence 24/7 avec votre confirmation de réservation."
+      },
+      {
+        "question": "Offrez-vous des tours pour les familles avec enfants ?",
+        "answer": "Oui ! Nous accueillons les familles et pouvons adapter les activités pour tous les âges."
+      },
+      {
+        "question": "Quelles langues parlent vos guides ?",
+        "answer": "Nos guides parlent anglais et plusieurs autres langues. Faites-nous savoir votre préférence lors de la réservation."
+      },
+      {
+        "question": "Pouvez-vous aider avec les occasions spéciales (lunes de miel, anniversaires) ?",
+        "answer": "Absolument ! Nous aimons rendre vos moments spéciaux inoubliables—dites-nous simplement vos plans."
+      },
+      {
+        "question": "Combien de temps à l'avance devrais-je réserver ?",
+        "answer": "Nous recommandons de réserver le plus tôt possible, surtout pour les hautes saisons, mais nous sommes heureux d'aider avec les demandes de dernière minute aussi."
+      }
+    ],
+    "contactPrompt": "Vous avez encore des questions ?",
+    "contactLink": "Contactez-nous",
+    "contactSuffix": "et notre équipe sera heureuse de vous aider !"
+  },
+  "book_your_tour": "Réservez Votre Tour",
+  "reserve_spot_for_tour": "Réservez Votre Place",
+  "booking": {
+    "book_your_tour": "Réservez Votre Tour",
+    "reserve_spot_for_tour": "Réservez votre place pour {{tourName}}",
+    "reserve_spot_today": "Réservez votre place aujourd'hui",
+    "tour_date": "Date du Tour",
+    "guests": "Invités",
+    "full_name": "Nom Complet",
+    "name_placeholder": "Votre nom complet",
+    "email_address": "Adresse Email",
+    "email_placeholder": "votre@email.com",
+    "phone_number": "Numéro de Téléphone",
+    "phone_placeholder": "+33 1 23 45 67 89",
+    "phone_help_text": "Inclure l'indicatif du pays pour les numéros internationaux",
+    "pickup_location": "Lieu de Prise en Charge",
+    "pickup_placeholder": "Nom de votre hôtel ou adresse",
+    "pickup_help_text": "Nous offrons une prise en charge gratuite depuis la plupart des hôtels du Cap",
+    "special_requirements": "Exigences Spéciales",
+    "special_requirements_placeholder": "Restrictions alimentaires, besoins d'accessibilité ou demandes spéciales ?",
+    "price_per_person": "Prix par personne",
+    "total_amount": "Montant Total",
+    "payment_on_pickup": "Paiement à la prise en charge",
+    "no_advance_payment": "Aucun paiement anticipé requis",
+    "processing_booking": "Traitement de la réservation",
+    "book_now_pay_pickup": "Réserver Maintenant - Payer à la Prise en Charge",
+    "instant_confirmation": "Confirmation instantanée",
+    "free_cancellation": "Annulation gratuite",
+    "best_price_guarantee": "Garantie du meilleur prix",
+    "people_viewing_now": "personnes regardent maintenant",
+    "booked_today": "réservé aujourd'hui",
+    "max_group_size": "Taille max du groupe",
+    "top_rated": "Mieux noté",
+    "verified_operator": "Vérifié",
+    "operator": "Opérateur",
+    "rating": "Note",
+    "chat_with_us": "Chattez avec nous",
+    "call_us": "Appelez-nous",
+    "free_cancellation_24h": "Annulation gratuite jusqu'à 24 heures",
+    "recent_guest_review": "Avis récent d'un client",
+    "secure_information": "Vos informations sont sécurisées et ne seront jamais partagées",
+    "please_fill_required_fields": "Veuillez remplir tous les champs obligatoires",
+    "booking_confirmed_redirecting": "Réservation confirmée ! Redirection vers la page de confirmation...",
+    "from": "À partir de",
+    "per_person": "par personne",
+    "check_availability": "Vérifier la Disponibilité",
+    "max": "Max",
+    "confirm": "Confirmer la Réservation"
+  }
+}

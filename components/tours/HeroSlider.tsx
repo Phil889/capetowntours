@@ -19,7 +19,19 @@ const slides = [
   },
 ];
 
-export default function HeroSlider() {
+interface HeroSliderProps {
+  translations: {
+    tours: {
+      hero: {
+        title: string;
+        subtitle: string;
+        cta: string;
+      };
+    };
+  };
+}
+
+export default function HeroSlider({ translations }: HeroSliderProps) {
   const [currentSlide, setCurrentSlide] = useState(0);
 
   useEffect(() => {
@@ -64,16 +76,16 @@ export default function HeroSlider() {
       {/* Content */}
       <div className="relative z-20 max-w-6xl mx-auto flex flex-col items-center text-center min-h-screen justify-center px-4">
         <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold mb-6 text-white drop-shadow-lg tracking-tight">
-          Cape Town&apos;s #1 Private Tours &amp; Luxury Safaris
+          {translations.tours.hero.title || "Cape Town's #1 Private Tours & Luxury Safaris"}
         </h1>
         <p className="text-xl sm:text-2xl md:text-3xl text-white/90 mb-8 max-w-3xl font-medium">
-          Unforgettable adventures, handpicked by local experts. Experience the best safaris, wine tours, and cultural journeys in South Africa—guaranteed.
+          {translations.tours.hero.subtitle || "Unforgettable adventures, handpicked by local experts. Experience the best safaris, wine tours, and cultural journeys in South Africa—guaranteed."}
         </p>
         <Link
           href="#tours"
           className="inline-block px-8 sm:px-12 py-4 sm:py-5 bg-white/20 border border-white/40 text-white rounded-full font-bold text-xl sm:text-2xl shadow-xl backdrop-blur-md hover:bg-white/30 transition-all hover:scale-105"
         >
-          Explore Top Rated Tours &amp; Safaris
+          {translations.tours.hero.cta || "Explore Top Rated Tours & Safaris"}
         </Link>
 
         {/* Slide indicators */}
